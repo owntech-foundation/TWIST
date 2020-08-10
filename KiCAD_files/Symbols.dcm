@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMC1100
+D ±250-mV input  Fixed gain:8 (0.5%Accuracy) Fully-Differential Isolation Amplifier
+F https://www.ti.com/lit/ds/symlink/amc1100.pdf?ts=1597048467257&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP AMC1311
+D High-Impedance,2-V Input, Fixed gain:1 - Reinforced Isolated Amplifiers
+F https://www.ti.com/lit/ds/symlink/amc1311.pdf?ts=1597049043074&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+#End Doc Library
