@@ -1,4 +1,4 @@
-18676917885435021
+18683314730688021
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50785,7 +50785,7 @@ emi filter
 5
 5
 Footprints
-Board outline
+Board_outline
 
 
 0
@@ -50838,8 +50838,36 @@ Driver_stage_outline
 
 
 0
-7
-4
+13
+9
+Footprints
+Driver_stage_outline_inputs
+
+
+0
+13
+9
+Footprints
+Driver_stage_outline_outputs
+
+
+0
+10
+10
+Footprints
+Measurment_stage_outline_inputs
+
+
+0
+16
+13
+Footprints
+Measurment_stage_outline_outputs
+
+
+0
+22
+15
 Footprints
 Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal
 Molex PicoBlade series connector, 53261-0471 (http://www.molex.com/pdm_docs/sd/532610271_sd.pdf), generated with kicad-footprint-generator

@@ -402,87 +402,6 @@ $EndComp
 Wire Wire Line
 	4350 4750 4250 4750
 Connection ~ 4250 4750
-$Comp
-L power:GNDREF #PWR0120
-U 1 1 5EA372DD
-P 8150 2450
-AR Path="/5EA372DD" Ref="#PWR0120"  Part="1" 
-AR Path="/5E9944F3/5EA372DD" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR0120" H 8150 2200 50  0001 C CNN
-F 1 "GNDREF" H 8155 2277 50  0000 C CNN
-F 2 "" H 8150 2450 50  0001 C CNN
-F 3 "" H 8150 2450 50  0001 C CNN
-	1    8150 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 2350 8150 2350
-Wire Wire Line
-	8150 2350 8150 2450
-$Comp
-L power:+15V #PWR0121
-U 1 1 5EA372E5
-P 8050 1900
-AR Path="/5EA372E5" Ref="#PWR0121"  Part="1" 
-AR Path="/5E9944F3/5EA372E5" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0121" H 8050 1750 50  0001 C CNN
-F 1 "+15V" H 8065 2073 50  0000 C CNN
-F 2 "" H 8050 1900 50  0001 C CNN
-F 3 "" H 8050 1900 50  0001 C CNN
-	1    8050 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 1950 8050 1950
-Wire Wire Line
-	8050 1950 8050 1900
-$Comp
-L Regulator_Switching:NMA1505SC U1
-U 1 1 5EA372ED
-P 9000 2150
-AR Path="/5EA372ED" Ref="U1"  Part="1" 
-AR Path="/5E9944F3/5EA372ED" Ref="U4"  Part="1" 
-F 0 "U1" H 9000 2617 50  0000 C CNN
-F 1 "NMA1505SC" H 9000 2526 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_muRata_NMAxxxxSC_THT" H 9000 1800 50  0001 C CIN
-F 3 "http://power.murata.com/data/power/ncl/kdc_nma.pdf" H 9000 2150 50  0001 C CNN
-	1    9000 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0123
-U 1 1 5EA372F4
-P 9950 2400
-AR Path="/5EA372F4" Ref="#PWR0123"  Part="1" 
-AR Path="/5E9944F3/5EA372F4" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0123" H 9950 2150 50  0001 C CNN
-F 1 "GNDD" H 9954 2245 50  0000 C CNN
-F 2 "" H 9950 2400 50  0001 C CNN
-F 3 "" H 9950 2400 50  0001 C CNN
-	1    9950 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5C #PWR0124
-U 1 1 5EA372FA
-P 9900 1900
-AR Path="/5EA372FA" Ref="#PWR0124"  Part="1" 
-AR Path="/5E9944F3/5EA372FA" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0124" H 9900 1750 50  0001 C CNN
-F 1 "+5C" H 9915 2073 50  0000 C CNN
-F 2 "" H 9900 1900 50  0001 C CNN
-F 3 "" H 9900 1900 50  0001 C CNN
-	1    9900 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 1900 9900 1950
-Wire Wire Line
-	9900 1950 9500 1950
-Wire Wire Line
-	9950 2400 9500 2400
-Wire Wire Line
-	9500 2400 9500 2350
 Wire Wire Line
 	1750 5900 2000 5900
 Wire Wire Line
@@ -506,47 +425,6 @@ Connection ~ 4000 7100
 Wire Wire Line
 	4300 7400 4300 7100
 Connection ~ 4300 7100
-$Comp
-L Device:D_TVS D1
-U 1 1 5EE910DC
-P 8600 1300
-F 0 "D1" H 8600 1516 50  0000 C CNN
-F 1 "D_TVS" H 8600 1425 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB" H 8600 1300 50  0001 C CNN
-F 3 "~" H 8600 1300 50  0001 C CNN
-	1    8600 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR0127
-U 1 1 5EE99814
-P 9000 1300
-AR Path="/5EE99814" Ref="#PWR0127"  Part="1" 
-AR Path="/5E9944F3/5EE99814" Ref="#PWR04"  Part="1" 
-F 0 "#PWR0127" H 9000 1050 50  0001 C CNN
-F 1 "GNDREF" H 9005 1127 50  0000 C CNN
-F 2 "" H 9000 1300 50  0001 C CNN
-F 3 "" H 9000 1300 50  0001 C CNN
-	1    9000 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+15V #PWR0128
-U 1 1 5EEA159C
-P 8250 1300
-AR Path="/5EEA159C" Ref="#PWR0128"  Part="1" 
-AR Path="/5E9944F3/5EEA159C" Ref="#PWR03"  Part="1" 
-F 0 "#PWR0128" H 8250 1150 50  0001 C CNN
-F 1 "+15V" H 8265 1473 50  0000 C CNN
-F 2 "" H 8250 1300 50  0001 C CNN
-F 3 "" H 8250 1300 50  0001 C CNN
-	1    8250 1300
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	8750 1300 9000 1300
-Wire Wire Line
-	8450 1300 8250 1300
 Text Label 4350 9400 0    50   ~ 0
 Neutral_GND_cmd
 $Comp
@@ -1086,17 +964,6 @@ Text Label 10850 5700 0    50   ~ 0
 PWM_H2
 Text Label 10850 6300 0    50   ~ 0
 PWM_L2
-$Comp
-L Driver-rescue:Board_outline-symbols J1
-U 1 1 5F2E793C
-P 2100 2050
-F 0 "J1" H 2150 3455 50  0000 C CNN
-F 1 "Board_outline" H 2150 3364 50  0000 C CNN
-F 2 "Footprints:Board outline" H 2150 3273 50  0000 C CNN
-F 3 "" H 2350 1100 50  0001 C CNN
-	1    2100 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 6300 10850 6300
 Wire Wire Line
@@ -1245,28 +1112,26 @@ Wire Wire Line
 Wire Wire Line
 	5800 2050 5200 2050
 Text Label 5200 1850 0    50   ~ 0
-PWM_H2
+PWM_H2_D
 Wire Wire Line
 	5800 1850 5200 1850
 Text Label 5200 1950 0    50   ~ 0
-PWM_L2
+PWM_L2_D
 Wire Wire Line
 	5800 1950 5200 1950
 $Comp
 L power:GNDD #PWR0113
 U 1 1 5F3B0E5E
-P 5750 1750
+P 5800 1750
 AR Path="/5F3B0E5E" Ref="#PWR0113"  Part="1" 
 AR Path="/5E9944F3/5F3B0E5E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0113" H 5750 1500 50  0001 C CNN
-F 1 "GNDD" H 5754 1595 50  0000 C CNN
-F 2 "" H 5750 1750 50  0001 C CNN
-F 3 "" H 5750 1750 50  0001 C CNN
-	1    5750 1750
+F 0 "#PWR0113" H 5800 1500 50  0001 C CNN
+F 1 "GNDD" H 5804 1595 50  0000 C CNN
+F 2 "" H 5800 1750 50  0001 C CNN
+F 3 "" H 5800 1750 50  0001 C CNN
+	1    5800 1750
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5800 1750 5750 1750
 $Comp
 L power:GNDD #PWR0114
 U 1 1 5F3BDD75
@@ -1283,11 +1148,11 @@ $EndComp
 Wire Wire Line
 	5800 1250 5750 1250
 Text Label 5200 1350 0    50   ~ 0
-PWM_H1
+PWM_H1_D
 Wire Wire Line
 	5800 1350 5200 1350
 Text Label 5200 1450 0    50   ~ 0
-PWM_L1
+PWM_L1_D
 Wire Wire Line
 	5800 1450 5200 1450
 Wire Wire Line
@@ -1321,9 +1186,9 @@ F 3 "" H 7850 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6650 5900 0    50   ~ 0
-PWM_H2
+PWM_H2_D
 Text Label 6650 6000 0    50   ~ 0
-PWM_L2
+PWM_L2_D
 Wire Wire Line
 	2000 5550 2000 5700
 Wire Wire Line
@@ -1331,7 +1196,74 @@ Wire Wire Line
 Wire Wire Line
 	1200 6000 1550 6000
 Text Label 1200 5900 0    50   ~ 0
-PWM_H1
+PWM_H1_D
 Text Label 1200 6000 0    50   ~ 0
-PWM_L1
+PWM_L1_D
+$Comp
+L power:+5C #PWR0117
+U 1 1 5F48BDEB
+P 5650 1550
+AR Path="/5F48BDEB" Ref="#PWR0117"  Part="1" 
+AR Path="/5E9944F3/5F48BDEB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0117" H 5650 1400 50  0001 C CNN
+F 1 "+5C" H 5665 1723 50  0000 C CNN
+F 2 "" H 5650 1550 50  0001 C CNN
+F 3 "" H 5650 1550 50  0001 C CNN
+	1    5650 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5C #PWR0118
+U 1 1 5F491752
+P 5650 2150
+AR Path="/5F491752" Ref="#PWR0118"  Part="1" 
+AR Path="/5E9944F3/5F491752" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0118" H 5650 2000 50  0001 C CNN
+F 1 "+5C" H 5665 2323 50  0000 C CNN
+F 2 "" H 5650 2150 50  0001 C CNN
+F 3 "" H 5650 2150 50  0001 C CNN
+	1    5650 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 1550 5800 1550
+Wire Wire Line
+	5800 2150 5650 2150
+$Comp
+L Symbols:Driver_stage_outline_inputs J2
+U 1 1 5F45EA71
+P 6700 1600
+F 0 "J2" H 6725 2215 50  0000 C CNN
+F 1 "Driver_stage_outline_inputs" H 6725 2124 50  0000 C CNN
+F 2 "Footprints:Driver_stage_outline_inputs" H 6700 1600 50  0001 C CNN
+F 3 "" H 6700 1600 50  0001 C CNN
+	1    6700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Symbols:Driver_stage_outline_outputs J1
+U 1 1 5F4686E6
+P 2100 2050
+F 0 "J1" H 2208 3455 50  0000 C CNN
+F 1 "Driver_stage_outline_outputs" H 2208 3364 50  0000 C CNN
+F 2 "Footprints:Driver_stage_outline_outputs" H 2208 3273 50  0000 C CNN
+F 3 "" H 2350 1100 50  0001 C CNN
+	1    2100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0119
+U 1 1 5F469FCE
+P 3800 1750
+AR Path="/5F469FCE" Ref="#PWR0119"  Part="1" 
+AR Path="/5E9944F3/5F469FCE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0119" H 3800 1500 50  0001 C CNN
+F 1 "GNDREF" H 3805 1577 50  0000 C CNN
+F 2 "" H 3800 1750 50  0001 C CNN
+F 3 "" H 3800 1750 50  0001 C CNN
+	1    3800 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1750 3200 1750
 $EndSCHEMATC
