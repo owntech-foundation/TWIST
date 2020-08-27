@@ -1,4 +1,4 @@
-18683314730688021
+18686511807686021
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50789,7 +50789,7 @@ Board_outline
 
 
 0
-26
+28
 25
 Footprints
 C_0805_2012Metric
@@ -50859,8 +50859,8 @@ Measurment_stage_outline_inputs
 
 
 0
-16
-13
+18
+12
 Footprints
 Measurment_stage_outline_outputs
 
@@ -51008,6 +51008,20 @@ SOT-23
 0
 3
 3
+Footprints
+ST_NUCLEO-F401RE
+
+
+0
+108
+108
+Footprints
+Shield_nucleo_outline
+
+
+0
+27
+13
 Footprints
 TO-252-2
 TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
