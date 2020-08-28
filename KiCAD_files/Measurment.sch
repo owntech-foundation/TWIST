@@ -2112,28 +2112,6 @@ $EndComp
 Wire Wire Line
 	12300 4000 12000 4000
 $Comp
-L Symbols:Measurment_stage_outline_signal_inputs J2
-U 1 1 606625D3
-P 13250 2050
-F 0 "J2" H 14278 2041 50  0000 L CNN
-F 1 "Measurment_stage_outline_signal_inputs" H 14278 1950 50  0000 L CNN
-F 2 "Footprints:Measurment_stage_outline_inputs" H 14278 1859 50  0000 L CNN
-F 3 "" H 12950 3450 50  0001 C CNN
-	1    13250 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Symbols:Measurment_stage_outline_outputs J1
-U 1 1 60677086
-P 13150 4300
-F 0 "J1" H 13200 4965 50  0000 C CNN
-F 1 "Measurment_stage_outline_outputs" H 13200 4874 50  0000 C CNN
-F 2 "Footprints:Measurment_stage_outline_outputs" H 12950 5050 50  0001 C CNN
-F 3 "" H 12950 5050 50  0001 C CNN
-	1    13150 4300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5F47C92F
 P 1450 6000
@@ -2170,4 +2148,39 @@ F 3 "" H 950 6100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	950  6100 1250 6100
+$Comp
+L Symbols:Measurment_stage_outline_signal_inputs J2
+U 1 1 5F4F5FF7
+P 13250 2050
+F 0 "J2" H 13300 3455 50  0000 C CNN
+F 1 "Measurment_stage_outline_signal_inputs" H 13300 3364 50  0000 C CNN
+F 2 "Footprints:Measurment_stage_outline_inputs" H 13300 3273 50  0000 C CNN
+F 3 "" H 12950 3450 50  0001 C CNN
+	1    13250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Symbols:Measurment_stage_outline_outputs J1
+U 1 1 5F50BB94
+P 13150 4300
+F 0 "J1" H 13200 4965 50  0000 C CNN
+F 1 "Measurment_stage_outline_outputs" H 13200 4874 50  0000 C CNN
+F 2 "Footprints:Measurment_stage_outline_outputs" H 12950 5050 50  0001 C CNN
+F 3 "" H 12950 5050 50  0001 C CNN
+	1    13150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0144
+U 1 1 5F4A4B12
+P 14500 1000
+F 0 "#PWR0144" H 14500 750 50  0001 C CNN
+F 1 "GNDREF" H 14505 827 50  0000 C CNN
+F 2 "" H 14500 1000 50  0001 C CNN
+F 3 "" H 14500 1000 50  0001 C CNN
+	1    14500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14500 1000 14350 1000
 $EndSCHEMATC

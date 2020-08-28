@@ -252,19 +252,6 @@ F 3 "" H 2000 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2000 6200 2000 6350
-$Comp
-L power:+5C #PWR0110
-U 1 1 5EA37204
-P 2550 5600
-AR Path="/5EA37204" Ref="#PWR0110"  Part="1" 
-AR Path="/5E9944F3/5EA37204" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0110" H 2550 5450 50  0001 C CNN
-F 1 "+5C" H 2565 5773 50  0000 C CNN
-F 2 "" H 2550 5600 50  0001 C CNN
-F 3 "" H 2550 5600 50  0001 C CNN
-	1    2550 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2550 5600 2850 5600
 $Comp
@@ -312,19 +299,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 6700 2550 6700
 Connection ~ 2400 6700
-$Comp
-L power:+5C #PWR0111
-U 1 1 5EA37224
-P 2550 7100
-AR Path="/5EA37224" Ref="#PWR0111"  Part="1" 
-AR Path="/5E9944F3/5EA37224" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0111" H 2550 6950 50  0001 C CNN
-F 1 "+5C" H 2565 7273 50  0000 C CNN
-F 2 "" H 2550 7100 50  0001 C CNN
-F 3 "" H 2550 7100 50  0001 C CNN
-	1    2550 7100
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	2400 6900 2550 6900
 Connection ~ 2550 6900
@@ -386,22 +360,6 @@ Wire Wire Line
 Connection ~ 2700 6300
 Wire Wire Line
 	2550 6400 2550 6700
-$Comp
-L Device:D_Schottky_AKA D_Boot1
-U 1 1 5EA37288
-P 4250 4950
-AR Path="/5EA37288" Ref="D_Boot1"  Part="1" 
-AR Path="/5E9944F3/5EA37288" Ref="D_Boot1"  Part="1" 
-F 0 "D_Boot1" V 4321 5091 50  0000 L CNN
-F 1 "D_Schottky_AKA" V 4230 5091 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 4250 4950 50  0001 C CNN
-F 3 "~" H 4250 4950 50  0001 C CNN
-	1    4250 4950
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	4350 4750 4250 4750
-Connection ~ 4250 4750
 Wire Wire Line
 	1750 5900 2000 5900
 Wire Wire Line
@@ -781,19 +739,6 @@ F 3 "" H 7450 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 6200 7450 6350
-$Comp
-L power:+5C #PWR0141
-U 1 1 5F2CDD56
-P 8000 5600
-AR Path="/5F2CDD56" Ref="#PWR0141"  Part="1" 
-AR Path="/5E9944F3/5F2CDD56" Ref="#PWR0154"  Part="1" 
-F 0 "#PWR0141" H 8000 5450 50  0001 C CNN
-F 1 "+5C" H 8015 5773 50  0000 C CNN
-F 2 "" H 8000 5600 50  0001 C CNN
-F 3 "" H 8000 5600 50  0001 C CNN
-	1    8000 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 5600 8300 5600
 $Comp
@@ -841,19 +786,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 6700 8000 6700
 Connection ~ 7850 6700
-$Comp
-L power:+5C #PWR0142
-U 1 1 5F2CDD73
-P 8000 7100
-AR Path="/5F2CDD73" Ref="#PWR0142"  Part="1" 
-AR Path="/5E9944F3/5F2CDD73" Ref="#PWR0158"  Part="1" 
-F 0 "#PWR0142" H 8000 6950 50  0001 C CNN
-F 1 "+5C" H 8015 7273 50  0000 C CNN
-F 2 "" H 8000 7100 50  0001 C CNN
-F 3 "" H 8000 7100 50  0001 C CNN
-	1    8000 7100
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	7850 6900 8000 6900
 Connection ~ 8000 6900
@@ -919,22 +851,6 @@ Wire Wire Line
 Connection ~ 8150 6300
 Wire Wire Line
 	8000 6400 8000 6700
-$Comp
-L Device:D_Schottky_AKA D_Boot2
-U 1 1 5F2CDDA0
-P 9700 4950
-AR Path="/5F2CDDA0" Ref="D_Boot2"  Part="1" 
-AR Path="/5E9944F3/5F2CDDA0" Ref="D_Boot2"  Part="1" 
-F 0 "D_Boot2" V 9771 5091 50  0000 L CNN
-F 1 "D_Schottky_AKA" V 9680 5091 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 9700 4950 50  0001 C CNN
-F 3 "~" H 9700 4950 50  0001 C CNN
-	1    9700 4950
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	9800 4750 9700 4750
-Connection ~ 9700 4750
 Wire Wire Line
 	7200 5900 7450 5900
 Wire Wire Line
@@ -1005,8 +921,6 @@ Wire Wire Line
 	10850 5800 10500 5800
 Connection ~ 10500 5800
 Wire Wire Line
-	9700 5100 9700 5150
-Wire Wire Line
 	10500 5250 10500 5150
 Wire Wire Line
 	10500 5150 9950 5150
@@ -1018,8 +932,6 @@ Wire Wire Line
 Connection ~ 9950 5150
 Wire Wire Line
 	9950 5150 9700 5150
-Wire Wire Line
-	4250 5100 4250 5200
 Connection ~ 4250 5200
 Wire Wire Line
 	4250 5200 4250 5600
@@ -1199,32 +1111,6 @@ Text Label 1200 5900 0    50   ~ 0
 PWM_H1_D
 Text Label 1200 6000 0    50   ~ 0
 PWM_L1_D
-$Comp
-L power:+5C #PWR0117
-U 1 1 5F48BDEB
-P 5650 1550
-AR Path="/5F48BDEB" Ref="#PWR0117"  Part="1" 
-AR Path="/5E9944F3/5F48BDEB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0117" H 5650 1400 50  0001 C CNN
-F 1 "+5C" H 5665 1723 50  0000 C CNN
-F 2 "" H 5650 1550 50  0001 C CNN
-F 3 "" H 5650 1550 50  0001 C CNN
-	1    5650 1550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5C #PWR0118
-U 1 1 5F491752
-P 5650 2150
-AR Path="/5F491752" Ref="#PWR0118"  Part="1" 
-AR Path="/5E9944F3/5F491752" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0118" H 5650 2000 50  0001 C CNN
-F 1 "+5C" H 5665 2323 50  0000 C CNN
-F 2 "" H 5650 2150 50  0001 C CNN
-F 3 "" H 5650 2150 50  0001 C CNN
-	1    5650 2150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5650 1550 5800 1550
 Wire Wire Line
@@ -1266,4 +1152,96 @@ F 3 "" H 3800 1750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 1750 3200 1750
+$Comp
+L power:+5VD #PWR0110
+U 1 1 5F4DF8B9
+P 5650 1550
+F 0 "#PWR0110" H 5650 1400 50  0001 C CNN
+F 1 "+5VD" V 5665 1678 50  0000 L CNN
+F 2 "" H 5650 1550 50  0001 C CNN
+F 3 "" H 5650 1550 50  0001 C CNN
+	1    5650 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5VD #PWR0111
+U 1 1 5F4E05F4
+P 5650 2150
+F 0 "#PWR0111" H 5650 2000 50  0001 C CNN
+F 1 "+5VD" V 5665 2278 50  0000 L CNN
+F 2 "" H 5650 2150 50  0001 C CNN
+F 3 "" H 5650 2150 50  0001 C CNN
+	1    5650 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5VD #PWR0117
+U 1 1 5F4FEB42
+P 2550 5600
+F 0 "#PWR0117" H 2550 5450 50  0001 C CNN
+F 1 "+5VD" V 2565 5728 50  0000 L CNN
+F 2 "" H 2550 5600 50  0001 C CNN
+F 3 "" H 2550 5600 50  0001 C CNN
+	1    2550 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5VD #PWR0118
+U 1 1 5F518358
+P 8000 5600
+F 0 "#PWR0118" H 8000 5450 50  0001 C CNN
+F 1 "+5VD" V 8015 5728 50  0000 L CNN
+F 2 "" H 8000 5600 50  0001 C CNN
+F 3 "" H 8000 5600 50  0001 C CNN
+	1    8000 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5VD #PWR0120
+U 1 1 5F5294F8
+P 8000 7100
+F 0 "#PWR0120" H 8000 6950 50  0001 C CNN
+F 1 "+5VD" V 8015 7228 50  0000 L CNN
+F 2 "" H 8000 7100 50  0001 C CNN
+F 3 "" H 8000 7100 50  0001 C CNN
+	1    8000 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5VD #PWR0121
+U 1 1 5F535163
+P 2550 7100
+F 0 "#PWR0121" H 2550 6950 50  0001 C CNN
+F 1 "+5VD" V 2565 7228 50  0000 L CNN
+F 2 "" H 2550 7100 50  0001 C CNN
+F 3 "" H 2550 7100 50  0001 C CNN
+	1    2550 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D_boot1
+U 1 1 5F53F341
+P 4250 4900
+F 0 "D_boot1" V 4296 4820 50  0000 R CNN
+F 1 "D_Schottky" V 4205 4820 50  0000 R CNN
+F 2 "Diode_SMD:D_SMB" H 4250 4900 50  0001 C CNN
+F 3 "~" H 4250 4900 50  0001 C CNN
+	1    4250 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 5050 4250 5200
+$Comp
+L Device:D_Schottky D_boot2
+U 1 1 5F566B39
+P 9700 4900
+F 0 "D_boot2" V 9746 4820 50  0000 R CNN
+F 1 "D_Schottky" V 9655 4820 50  0000 R CNN
+F 2 "Diode_SMD:D_SMB" H 9700 4900 50  0001 C CNN
+F 3 "~" H 9700 4900 50  0001 C CNN
+	1    9700 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9700 5050 9700 5150
 $EndSCHEMATC

@@ -419,11 +419,9 @@ Wire Wire Line
 	15450 2100 15450 3050
 Wire Wire Line
 	3750 9500 3900 9500
-Wire Wire Line
-	3200 3700 3500 3700
 Connection ~ 3500 3700
 Wire Wire Line
-	3500 3700 3850 3700
+	3500 3700 3950 3700
 Wire Wire Line
 	9150 4500 10050 4500
 Connection ~ 10950 2100
@@ -444,9 +442,9 @@ AR Path="/5E91AAF4/5EAD2879" Ref="C?"  Part="1"
 AR Path="/5E86B783/5EAD2879" Ref="C?"  Part="1" 
 AR Path="/5E99427A/5EAD2879" Ref="C25"  Part="1" 
 F 0 "C13" H 10165 2746 50  0000 L CNN
-F 1 "100nF" H 10165 2655 50  0000 L CNN
+F 1 "4.7uF" H 10165 2655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 10088 2550 50  0001 C CNN
-F 3 "~" H 10050 2700 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 10050 2700 50  0001 C CNN
 	1    10050 2700
 	1    0    0    -1  
 $EndComp
@@ -454,173 +452,8 @@ Wire Wire Line
 	10050 2550 10050 2100
 Wire Wire Line
 	10950 2550 10950 2100
-$Comp
-L Device:C C17
-U 1 1 5EACF28F
-P 10950 2700
-AR Path="/5EACF28F" Ref="C17"  Part="1" 
-AR Path="/5E91AAF4/5EACF28F" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5EACF28F" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5EACF28F" Ref="C26"  Part="1" 
-F 0 "C17" H 11065 2746 50  0000 L CNN
-F 1 "100nF" H 11065 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 10988 2550 50  0001 C CNN
-F 3 "~" H 10950 2700 50  0001 C CNN
-	1    10950 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10500 2550 10500 2100
-$Comp
-L Device:C C15
-U 1 1 5EA3ACCC
-P 10500 2700
-AR Path="/5EA3ACCC" Ref="C15"  Part="1" 
-AR Path="/5E91AAF4/5EA3ACCC" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5EA3ACCC" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5EA3ACCC" Ref="C23"  Part="1" 
-F 0 "C15" H 10615 2746 50  0000 L CNN
-F 1 "100nF" H 10615 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 10538 2550 50  0001 C CNN
-F 3 "~" H 10500 2700 50  0001 C CNN
-	1    10500 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C19
-U 1 1 5F1F0E38
-P 11350 2700
-AR Path="/5F1F0E38" Ref="C19"  Part="1" 
-AR Path="/5E91AAF4/5F1F0E38" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F1F0E38" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F1F0E38" Ref="C34"  Part="1" 
-F 0 "C19" H 11465 2746 50  0000 L CNN
-F 1 "100nF" H 11465 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 11388 2550 50  0001 C CNN
-F 3 "~" H 11350 2700 50  0001 C CNN
-	1    11350 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C25
-U 1 1 5F1F0E3E
-P 12250 2700
-AR Path="/5F1F0E3E" Ref="C25"  Part="1" 
-AR Path="/5E91AAF4/5F1F0E3E" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F1F0E3E" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F1F0E3E" Ref="C38"  Part="1" 
-F 0 "C25" H 12365 2746 50  0000 L CNN
-F 1 "100nF" H 12365 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 12288 2550 50  0001 C CNN
-F 3 "~" H 12250 2700 50  0001 C CNN
-	1    12250 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C21
-U 1 1 5F1F0E44
-P 11800 2700
-AR Path="/5F1F0E44" Ref="C21"  Part="1" 
-AR Path="/5E91AAF4/5F1F0E44" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F1F0E44" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F1F0E44" Ref="C36"  Part="1" 
-F 0 "C21" H 11915 2746 50  0000 L CNN
-F 1 "100nF" H 11915 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 11838 2550 50  0001 C CNN
-F 3 "~" H 11800 2700 50  0001 C CNN
-	1    11800 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C14
-U 1 1 5F1F9A11
-P 10050 3900
-AR Path="/5F1F9A11" Ref="C14"  Part="1" 
-AR Path="/5E91AAF4/5F1F9A11" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F1F9A11" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F1F9A11" Ref="C31"  Part="1" 
-F 0 "C14" H 10165 3946 50  0000 L CNN
-F 1 "100nF" H 10165 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 10088 3750 50  0001 C CNN
-F 3 "~" H 10050 3900 50  0001 C CNN
-	1    10050 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C18
-U 1 1 5F1F9A17
-P 10950 3900
-AR Path="/5F1F9A17" Ref="C18"  Part="1" 
-AR Path="/5E91AAF4/5F1F9A17" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F1F9A17" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F1F9A17" Ref="C33"  Part="1" 
-F 0 "C18" H 11065 3946 50  0000 L CNN
-F 1 "100nF" H 11065 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 10988 3750 50  0001 C CNN
-F 3 "~" H 10950 3900 50  0001 C CNN
-	1    10950 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C16
-U 1 1 5F1F9A1D
-P 10500 3900
-AR Path="/5F1F9A1D" Ref="C16"  Part="1" 
-AR Path="/5E91AAF4/5F1F9A1D" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F1F9A1D" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F1F9A1D" Ref="C32"  Part="1" 
-F 0 "C16" H 10615 3946 50  0000 L CNN
-F 1 "100nF" H 10615 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 10538 3750 50  0001 C CNN
-F 3 "~" H 10500 3900 50  0001 C CNN
-	1    10500 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C20
-U 1 1 5F1F9A23
-P 11350 3900
-AR Path="/5F1F9A23" Ref="C20"  Part="1" 
-AR Path="/5E91AAF4/5F1F9A23" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F1F9A23" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F1F9A23" Ref="C35"  Part="1" 
-F 0 "C20" H 11465 3946 50  0000 L CNN
-F 1 "100nF" H 11465 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 11388 3750 50  0001 C CNN
-F 3 "~" H 11350 3900 50  0001 C CNN
-	1    11350 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C26
-U 1 1 5F1F9A29
-P 12250 3900
-AR Path="/5F1F9A29" Ref="C26"  Part="1" 
-AR Path="/5E91AAF4/5F1F9A29" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F1F9A29" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F1F9A29" Ref="C39"  Part="1" 
-F 0 "C26" H 12365 3946 50  0000 L CNN
-F 1 "100nF" H 12365 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 12288 3750 50  0001 C CNN
-F 3 "~" H 12250 3900 50  0001 C CNN
-	1    12250 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C23
-U 1 1 5F1F9A2F
-P 11800 3900
-AR Path="/5F1F9A2F" Ref="C23"  Part="1" 
-AR Path="/5E91AAF4/5F1F9A2F" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F1F9A2F" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F1F9A2F" Ref="C37"  Part="1" 
-F 0 "C23" H 11915 3946 50  0000 L CNN
-F 1 "100nF" H 11915 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 11838 3750 50  0001 C CNN
-F 3 "~" H 11800 3900 50  0001 C CNN
-	1    11800 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11350 2550 11350 2100
 Connection ~ 11350 2100
@@ -841,68 +674,16 @@ $EndComp
 Wire Wire Line
 	4250 5300 4250 6350
 Wire Wire Line
-	3500 5550 3750 5550
-Connection ~ 3500 5550
+	3500 6550 3950 6550
+Connection ~ 3500 6550
 Wire Wire Line
-	3250 5550 3500 5550
+	3050 6550 3500 6550
 Wire Wire Line
-	3500 6200 3750 6200
-Connection ~ 3500 6200
+	3500 6350 3500 6550
 Wire Wire Line
-	3250 6200 3500 6200
+	3050 6350 3050 6550
 Wire Wire Line
-	3500 5850 3500 6200
-$Comp
-L Device:C C8
-U 1 1 5F461442
-P 3500 5700
-AR Path="/5F461442" Ref="C8"  Part="1" 
-AR Path="/5E91AAF4/5F461442" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F461442" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F461442" Ref="C9"  Part="1" 
-F 0 "C8" H 3615 5746 50  0000 L CNN
-F 1 "100nF" H 3615 5655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3538 5550 50  0001 C CNN
-F 3 "~" H 3500 5700 50  0001 C CNN
-	1    3500 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 5850 3250 6200
-$Comp
-L Device:C C6
-U 1 1 5F46143B
-P 3250 5700
-AR Path="/5F46143B" Ref="C6"  Part="1" 
-AR Path="/5E91AAF4/5F46143B" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F46143B" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F46143B" Ref="C8"  Part="1" 
-F 0 "C6" H 3365 5746 50  0000 L CNN
-F 1 "100nF" H 3365 5655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3288 5550 50  0001 C CNN
-F 3 "~" H 3250 5700 50  0001 C CNN
-	1    3250 5700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 5850 3750 6200
-Wire Wire Line
-	3500 5550 3500 5300
-$Comp
-L Device:C C10
-U 1 1 5F4613FC
-P 3750 5700
-AR Path="/5F4613FC" Ref="C10"  Part="1" 
-AR Path="/5E91AAF4/5F4613FC" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F4613FC" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F4613FC" Ref="C10"  Part="1" 
-F 0 "C10" H 3865 5746 50  0000 L CNN
-F 1 "100nF" H 3865 5655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3788 5550 50  0001 C CNN
-F 3 "~" H 3750 5700 50  0001 C CNN
-	1    3750 5700
-	-1   0    0    -1  
-$EndComp
+	3950 6350 3950 6550
 Text Label 3900 5300 0    50   ~ 0
 V_In2
 $Comp
@@ -1262,66 +1043,14 @@ Wire Wire Line
 Wire Wire Line
 	3500 3700 3500 4300
 Wire Wire Line
-	3500 6200 3500 7550
+	3500 6550 3500 7550
 Wire Wire Line
 	2850 7550 3500 7550
-Connection ~ 3500 5300
-Wire Wire Line
-	3500 5300 2850 5300
-Wire Wire Line
-	3500 5300 4250 5300
 Connection ~ 2500 4300
 Wire Wire Line
-	3850 3200 3850 3700
-Wire Wire Line
-	3200 3200 3200 3700
-$Comp
-L Device:C C3
-U 1 1 5F08B67F
-P 3200 3050
-AR Path="/5F08B67F" Ref="C3"  Part="1" 
-AR Path="/5E91AAF4/5F08B67F" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F08B67F" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F08B67F" Ref="C27"  Part="1" 
-F 0 "C3" H 3315 3096 50  0000 L CNN
-F 1 "100nF" H 3315 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3238 2900 50  0001 C CNN
-F 3 "~" H 3200 3050 50  0001 C CNN
-	1    3200 3050
-	-1   0    0    -1  
-$EndComp
+	3950 3200 3950 3700
 Wire Wire Line
 	3500 3200 3500 3700
-$Comp
-L Device:C C7
-U 1 1 5F08B686
-P 3500 3050
-AR Path="/5F08B686" Ref="C7"  Part="1" 
-AR Path="/5E91AAF4/5F08B686" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5F08B686" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5F08B686" Ref="C28"  Part="1" 
-F 0 "C7" H 3615 3096 50  0000 L CNN
-F 1 "100nF" H 3615 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3538 2900 50  0001 C CNN
-F 3 "~" H 3500 3050 50  0001 C CNN
-	1    3500 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5EA6B03B
-P 3850 3050
-AR Path="/5EA6B03B" Ref="C9"  Part="1" 
-AR Path="/5E91AAF4/5EA6B03B" Ref="C?"  Part="1" 
-AR Path="/5E86B783/5EA6B03B" Ref="C?"  Part="1" 
-AR Path="/5E99427A/5EA6B03B" Ref="C3"  Part="1" 
-F 0 "C9" H 3965 3096 50  0000 L CNN
-F 1 "100nF" H 3965 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3888 2900 50  0001 C CNN
-F 3 "~" H 3850 3050 50  0001 C CNN
-	1    3850 3050
-	-1   0    0    -1  
-$EndComp
 Connection ~ 6950 5900
 Wire Wire Line
 	6950 5900 6500 5900
@@ -1862,9 +1591,9 @@ Connection ~ 14200 4150
 Wire Wire Line
 	2500 2150 3500 2150
 Wire Wire Line
-	3850 2900 3850 2300
+	3950 2900 3950 2300
 Wire Wire Line
-	3850 2300 3500 2300
+	3950 2300 3500 2300
 Wire Wire Line
 	3500 2300 3500 2150
 Connection ~ 3500 2150
@@ -1873,10 +1602,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 2900 3500 2300
 Connection ~ 3500 2300
-Wire Wire Line
-	3200 2300 3200 2900
-Wire Wire Line
-	3200 2300 3500 2300
 Connection ~ 2150 4300
 $Comp
 L Device:R R_GL2
@@ -1959,4 +1684,285 @@ F 3 "" H 8450 8450 50  0001 C CNN
 	1    8200 9400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C15
+U 1 1 5F6E9BF7
+P 10500 2700
+AR Path="/5F6E9BF7" Ref="C15"  Part="1" 
+AR Path="/5E91AAF4/5F6E9BF7" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F6E9BF7" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F6E9BF7" Ref="C?"  Part="1" 
+F 0 "C15" H 10615 2746 50  0000 L CNN
+F 1 "4.7uF" H 10615 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10538 2550 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 10500 2700 50  0001 C CNN
+	1    10500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5F701CFC
+P 10950 2700
+AR Path="/5F701CFC" Ref="C17"  Part="1" 
+AR Path="/5E91AAF4/5F701CFC" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F701CFC" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F701CFC" Ref="C?"  Part="1" 
+F 0 "C17" H 11065 2746 50  0000 L CNN
+F 1 "4.7uF" H 11065 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10988 2550 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 10950 2700 50  0001 C CNN
+	1    10950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5F719DF1
+P 11350 2700
+AR Path="/5F719DF1" Ref="C19"  Part="1" 
+AR Path="/5E91AAF4/5F719DF1" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F719DF1" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F719DF1" Ref="C?"  Part="1" 
+F 0 "C19" H 11465 2746 50  0000 L CNN
+F 1 "4.7uF" H 11465 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 11388 2550 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 11350 2700 50  0001 C CNN
+	1    11350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5F731F99
+P 11800 2700
+AR Path="/5F731F99" Ref="C21"  Part="1" 
+AR Path="/5E91AAF4/5F731F99" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F731F99" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F731F99" Ref="C?"  Part="1" 
+F 0 "C21" H 11915 2746 50  0000 L CNN
+F 1 "4.7uF" H 11915 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 11838 2550 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 11800 2700 50  0001 C CNN
+	1    11800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C25
+U 1 1 5F749FBA
+P 12250 2700
+AR Path="/5F749FBA" Ref="C25"  Part="1" 
+AR Path="/5E91AAF4/5F749FBA" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F749FBA" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F749FBA" Ref="C?"  Part="1" 
+F 0 "C25" H 12365 2746 50  0000 L CNN
+F 1 "4.7uF" H 12365 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 12288 2550 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 12250 2700 50  0001 C CNN
+	1    12250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5F798F0D
+P 10050 3900
+AR Path="/5F798F0D" Ref="C14"  Part="1" 
+AR Path="/5E91AAF4/5F798F0D" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F798F0D" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F798F0D" Ref="C?"  Part="1" 
+F 0 "C14" H 10165 3946 50  0000 L CNN
+F 1 "4.7uF" H 10165 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10088 3750 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 10050 3900 50  0001 C CNN
+	1    10050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5F7B0FF2
+P 10500 3900
+AR Path="/5F7B0FF2" Ref="C16"  Part="1" 
+AR Path="/5E91AAF4/5F7B0FF2" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F7B0FF2" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F7B0FF2" Ref="C?"  Part="1" 
+F 0 "C16" H 10615 3946 50  0000 L CNN
+F 1 "4.7uF" H 10615 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10538 3750 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 10500 3900 50  0001 C CNN
+	1    10500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5F7C90F5
+P 10950 3900
+AR Path="/5F7C90F5" Ref="C18"  Part="1" 
+AR Path="/5E91AAF4/5F7C90F5" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F7C90F5" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F7C90F5" Ref="C?"  Part="1" 
+F 0 "C18" H 11065 3946 50  0000 L CNN
+F 1 "4.7uF" H 11065 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10988 3750 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 10950 3900 50  0001 C CNN
+	1    10950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5F7E1128
+P 11350 3900
+AR Path="/5F7E1128" Ref="C20"  Part="1" 
+AR Path="/5E91AAF4/5F7E1128" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F7E1128" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F7E1128" Ref="C?"  Part="1" 
+F 0 "C20" H 11465 3946 50  0000 L CNN
+F 1 "4.7uF" H 11465 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 11388 3750 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 11350 3900 50  0001 C CNN
+	1    11350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C23
+U 1 1 5F7F9272
+P 11800 3900
+AR Path="/5F7F9272" Ref="C23"  Part="1" 
+AR Path="/5E91AAF4/5F7F9272" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F7F9272" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F7F9272" Ref="C?"  Part="1" 
+F 0 "C23" H 11915 3946 50  0000 L CNN
+F 1 "4.7uF" H 11915 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 11838 3750 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 11800 3900 50  0001 C CNN
+	1    11800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 5F811350
+P 12250 3900
+AR Path="/5F811350" Ref="C26"  Part="1" 
+AR Path="/5E91AAF4/5F811350" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F811350" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F811350" Ref="C?"  Part="1" 
+F 0 "C26" H 12365 3946 50  0000 L CNN
+F 1 "4.7uF" H 12365 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 12288 3750 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 12250 3900 50  0001 C CNN
+	1    12250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5F8805C4
+P 3500 3050
+AR Path="/5F8805C4" Ref="C7"  Part="1" 
+AR Path="/5E91AAF4/5F8805C4" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F8805C4" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F8805C4" Ref="C?"  Part="1" 
+F 0 "C7" H 3615 3096 50  0000 L CNN
+F 1 "4.7uF" H 3615 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3538 2900 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 3500 3050 50  0001 C CNN
+	1    3500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5F8985C2
+P 3950 3050
+AR Path="/5F8985C2" Ref="C9"  Part="1" 
+AR Path="/5E91AAF4/5F8985C2" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F8985C2" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F8985C2" Ref="C?"  Part="1" 
+F 0 "C9" H 4065 3096 50  0000 L CNN
+F 1 "4.7uF" H 4065 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3988 2900 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 3950 3050 50  0001 C CNN
+	1    3950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5300 3500 5300
+$Comp
+L Device:C C6
+U 1 1 5F8E4CE5
+P 3050 6200
+AR Path="/5F8E4CE5" Ref="C6"  Part="1" 
+AR Path="/5E91AAF4/5F8E4CE5" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F8E4CE5" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F8E4CE5" Ref="C?"  Part="1" 
+F 0 "C6" H 3165 6246 50  0000 L CNN
+F 1 "4.7uF" H 3165 6155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3088 6050 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 3050 6200 50  0001 C CNN
+	1    3050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5F8FC0CE
+P 3500 6200
+AR Path="/5F8FC0CE" Ref="C8"  Part="1" 
+AR Path="/5E91AAF4/5F8FC0CE" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F8FC0CE" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F8FC0CE" Ref="C?"  Part="1" 
+F 0 "C8" H 3615 6246 50  0000 L CNN
+F 1 "4.7uF" H 3615 6155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3538 6050 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 3500 6200 50  0001 C CNN
+	1    3500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5F913455
+P 3950 6200
+AR Path="/5F913455" Ref="C10"  Part="1" 
+AR Path="/5E91AAF4/5F913455" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F913455" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F913455" Ref="C?"  Part="1" 
+F 0 "C10" H 4065 6246 50  0000 L CNN
+F 1 "4.7uF" H 4065 6155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3988 6050 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 3950 6200 50  0001 C CNN
+	1    3950 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6050 3950 5650
+Wire Wire Line
+	3950 5650 3500 5650
+Wire Wire Line
+	3500 5650 3500 6050
+Wire Wire Line
+	3050 6050 3050 5650
+Wire Wire Line
+	3050 5650 3500 5650
+Connection ~ 3500 5650
+Wire Wire Line
+	3500 5650 3500 5300
+Connection ~ 3500 5300
+Wire Wire Line
+	3500 5300 4250 5300
+$Comp
+L Device:C C3
+U 1 1 5F8685F8
+P 3050 3050
+AR Path="/5F8685F8" Ref="C3"  Part="1" 
+AR Path="/5E91AAF4/5F8685F8" Ref="C?"  Part="1" 
+AR Path="/5E86B783/5F8685F8" Ref="C?"  Part="1" 
+AR Path="/5E99427A/5F8685F8" Ref="C?"  Part="1" 
+F 0 "C3" H 3165 3096 50  0000 L CNN
+F 1 "4.7uF" H 3165 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3088 2900 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 3050 3050 50  0001 C CNN
+	1    3050 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2300 3500 2300
+Wire Wire Line
+	3050 2300 3050 2900
+Wire Wire Line
+	3050 3200 3050 3700
+Wire Wire Line
+	3050 3700 3500 3700
 $EndSCHEMATC
