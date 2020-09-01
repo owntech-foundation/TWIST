@@ -604,7 +604,7 @@ P 1800 2150
 F 0 "F1" V 1575 2150 50  0000 C CNN
 F 1 "Polyfuse RKEF500" V 1666 2150 50  0000 C CNN
 F 2 "Footprints:RKEF500" H 1850 1950 50  0001 L CNN
-F 3 "~" H 1800 2150 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rkef500_product_specification.pdf.pdf" H 1800 2150 50  0001 C CNN
 	1    1800 2150
 	0    1    1    0   
 $EndComp
@@ -615,7 +615,7 @@ P 1800 2500
 F 0 "F2" V 1575 2500 50  0000 C CNN
 F 1 "Polyfuse RKEF500" V 1666 2500 50  0000 C CNN
 F 2 "Footprints:RKEF500" H 1850 2300 50  0001 L CNN
-F 3 "~" H 1800 2500 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rkef500_product_specification.pdf.pdf" H 1800 2500 50  0001 C CNN
 	1    1800 2500
 	0    1    1    0   
 $EndComp
@@ -656,7 +656,7 @@ P 1850 5650
 F 0 "F4" V 1625 5650 50  0000 C CNN
 F 1 "Polyfuse RKEF500" V 1716 5650 50  0000 C CNN
 F 2 "Footprints:RKEF500" H 1900 5450 50  0001 L CNN
-F 3 "~" H 1850 5650 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rkef500_product_specification.pdf.pdf" H 1850 5650 50  0001 C CNN
 	1    1850 5650
 	0    1    1    0   
 $EndComp
@@ -667,7 +667,7 @@ P 1850 5300
 F 0 "F3" V 1625 5300 50  0000 C CNN
 F 1 "Polyfuse RKEF500" V 1716 5300 50  0000 C CNN
 F 2 "Footprints:RKEF500" H 1900 5100 50  0001 L CNN
-F 3 "~" H 1850 5300 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/product_specifications/resettable_ptcs/littelfuse_ptc_rkef500_product_specification.pdf.pdf" H 1850 5300 50  0001 C CNN
 	1    1850 5300
 	0    1    1    0   
 $EndComp
