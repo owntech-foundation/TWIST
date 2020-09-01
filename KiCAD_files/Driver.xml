@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jal/Documents/OwnTech/1leg/KiCAD_files/Driver.sch</source>
+    <date>mar. 01 sept. 2020 18:14:57</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~86~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>https://redmine.laas.fr/laas/owntech-5-phase-board.git</company>
+        <rev/>
+        <date>20/04/15</date>
+        <source>Driver.sch</source>
+        <comment number="1" value="ALINEI"/>
+        <comment number="2" value="VILLA"/>
+        <comment number="3" value="VILLA"/>
+        <comment number="4" value="PREL"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>UCC21222DR</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ucc21222.pdf</datasheet>
+      <libsource lib="Driver_FET" part="UCC21520DW" description="Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA37157</tstamp>
+    </comp>
+    <comp ref="RBoot1">
+      <value>2.2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA37173</tstamp>
+    </comp>
+    <comp ref="CBoot1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA37183</tstamp>
+    </comp>
+    <comp ref="C_VDDB1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA371A3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA371B8</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA371BF</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>33pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA371DA</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>33pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA371E3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA3720B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>33pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA37212</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA37219</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA37236</tstamp>
+    </comp>
+    <comp ref="C_VDDB2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA06D1F</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>SFH617A-2X009T</value>
+      <footprint>Package_DIP:DIP-4_W7.62mm_SMDSocket_SmallPads</footprint>
+      <datasheet>http://www.vishay.com/docs/83740/sfh617a.pdf</datasheet>
+      <libsource lib="Isolator" part="SFH617A-2X009T" description="Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, SMD PDIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBEB52C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBFD9F2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC17146</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>UCC21222DR</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ucc21222.pdf</datasheet>
+      <libsource lib="Driver_FET" part="UCC21520DW" description="Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDCCA</tstamp>
+    </comp>
+    <comp ref="RBoot2">
+      <value>2.2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDCE5</tstamp>
+    </comp>
+    <comp ref="CBoot3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDCF4</tstamp>
+    </comp>
+    <comp ref="C_VDDB3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDD13</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDD27</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDD2D</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>33pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDD34</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>33pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDD3C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDD5D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>33pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDD63</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDD69</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDD85</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDD95</tstamp>
+    </comp>
+    <comp ref="C_VDDB4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDDAB</tstamp>
+    </comp>
+    <comp ref="CBoot4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2CDDB5</tstamp>
+    </comp>
+    <comp ref="CBoot2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA191EA</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Driver_stage_outline_inputs</value>
+      <footprint>Footprints:Driver_stage_outline_inputs</footprint>
+      <libsource lib="Symbols" part="Driver_stage_outline_inputs" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F45EA71</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Driver_stage_outline_outputs</value>
+      <footprint>Footprints:Driver_stage_outline_outputs</footprint>
+      <libsource lib="Symbols" part="Driver_stage_outline_outputs" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4686E6</tstamp>
+    </comp>
+    <comp ref="D_boot1">
+      <value>STTH4R02U</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stth4r02.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F53F341</tstamp>
+    </comp>
+    <comp ref="D_boot2">
+      <value>STTH4R02U</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stth4r02.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F566B39</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA3727C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_FET" part="UCC21520DW">
+      <aliases>
+        <alias>UCC21520ADW</alias>
+      </aliases>
+      <description>Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ucc21520.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">UCC21520DW</field>
+        <field name="Footprint">Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INA" type="input"/>
+        <pin num="2" name="INB" type="input"/>
+        <pin num="3" name="VCCI" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DIS" type="input"/>
+        <pin num="6" name="DT" type="passive"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="VCCI" type="passive"/>
+        <pin num="9" name="VSSB" type="power_in"/>
+        <pin num="10" name="OUTB" type="output"/>
+        <pin num="11" name="VDDB" type="power_in"/>
+        <pin num="12" name="NC" type="NotConnected"/>
+        <pin num="13" name="NC" type="NotConnected"/>
+        <pin num="14" name="VSSA" type="power_in"/>
+        <pin num="15" name="OUTA" type="output"/>
+        <pin num="16" name="VDDA" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="SFH617A-2X009T">
+      <aliases>
+        <alias>SFH617A-2X019T</alias>
+      </aliases>
+      <description>Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, SMD PDIP-4</description>
+      <docs>http://www.vishay.com/docs/83740/sfh617a.pdf</docs>
+      <footprints>
+        <fp>SMDIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SFH617A-2X009T</field>
+        <field name="Footprint">Package_DIP:SMDIP-4_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Symbols" part="Driver_stage_outline_inputs">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Driver_stage_outline_inputs</field>
+        <field name="Footprint">Footprints:Driver_stage_outline_inputs</field>
+      </fields>
+      <pins>
+        <pin num="1" name="15V" type="power_in"/>
+        <pin num="2" name="GNDREF" type="power_in"/>
+        <pin num="3" name="PWM_H1" type="input"/>
+        <pin num="4" name="PWM_L1" type="input"/>
+        <pin num="5" name="PWM_H2" type="input"/>
+        <pin num="6" name="PWM_L2" type="input"/>
+        <pin num="7" name="N_GND_CMD" type="input"/>
+        <pin num="8" name="+5VD" type="power_in"/>
+        <pin num="9" name="DGND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Symbols" part="Driver_stage_outline_outputs">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Driver_stage_outline_outputs</field>
+        <field name="Footprint">Footprints:Driver_stage_outline_outputs</field>
+      </fields>
+      <pins>
+        <pin num="19" name="GND" type="BiDi"/>
+        <pin num="20" name="PWM_L2" type="output"/>
+        <pin num="21" name="SW_Node2" type="input"/>
+        <pin num="22" name="PWM_H2" type="output"/>
+        <pin num="23" name="GND" type="BiDi"/>
+        <pin num="24" name="PWM_L1" type="output"/>
+        <pin num="25" name="SW_Node1" type="input"/>
+        <pin num="26" name="PWM_H1" type="output"/>
+        <pin num="27" name="Neutral_GND_cmd" type="output"/>
+        <pin num="28" name="GND" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Driver_FET">
+      <uri>/usr/share/kicad/library/Driver_FET.lib</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/usr/share/kicad/library/Isolator.lib</uri>
+    </library>
+    <library logical="Symbols">
+      <uri>/home/jal/Documents/OwnTech/1leg/KiCAD_files/Symbols.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SW_Node2">
+      <node ref="CBoot3" pin="2"/>
+      <node ref="J1" pin="21"/>
+      <node ref="CBoot4" pin="2"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="2" name="/PWM_L2">
+      <node ref="U4" pin="10"/>
+      <node ref="J1" pin="20"/>
+    </net>
+    <net code="3" name="/PWM_H2">
+      <node ref="J1" pin="22"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="4" name="/PWM_H1">
+      <node ref="J1" pin="26"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="5" name="Net-(CBoot1-Pad1)">
+      <node ref="D_boot1" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="CBoot1" pin="1"/>
+      <node ref="CBoot2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(CBoot3-Pad1)">
+      <node ref="CBoot4" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="D_boot2" pin="1"/>
+      <node ref="CBoot3" pin="1"/>
+    </net>
+    <net code="7" name="GNDD">
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J2" pin="9"/>
+      <node ref="J2" pin="9"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="11" name="/Neutral_GND_cmd">
+      <node ref="U12" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J1" pin="27"/>
+    </net>
+    <net code="12" name="/PWM_L1">
+      <node ref="J1" pin="24"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="13" name="GNDREF">
+      <node ref="R5" pin="2"/>
+      <node ref="C_VDDB2" pin="2"/>
+      <node ref="C_VDDB1" pin="2"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U4" pin="9"/>
+      <node ref="C_VDDB4" pin="2"/>
+      <node ref="C_VDDB3" pin="2"/>
+      <node ref="J1" pin="19"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="28"/>
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="14" name="/N_GND_cmd">
+      <node ref="U12" pin="1"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="15" name="/PWM_L2_D">
+      <node ref="J2" pin="6"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="16" name="/PWM_H2_D">
+      <node ref="J2" pin="5"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C5-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="18" name="Net-(D_boot1-Pad2)">
+      <node ref="RBoot1" pin="1"/>
+      <node ref="D_boot1" pin="2"/>
+    </net>
+    <net code="19" name="+15V">
+      <node ref="C_VDDB4" pin="1"/>
+      <node ref="C_VDDB3" pin="1"/>
+      <node ref="RBoot1" pin="2"/>
+      <node ref="C_VDDB2" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="RBoot2" pin="2"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U3" pin="11"/>
+      <node ref="C_VDDB1" pin="1"/>
+      <node ref="U12" pin="4"/>
+    </net>
+    <net code="20" name="/PWM_L1_D">
+      <node ref="R2" pin="1"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="21" name="/PWM_H1_D">
+      <node ref="R1" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="22" name="+5VD">
+      <node ref="J2" pin="8"/>
+      <node ref="J2" pin="8"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="23" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="24" name="/SW_Node1">
+      <node ref="U3" pin="14"/>
+      <node ref="CBoot2" pin="2"/>
+      <node ref="J1" pin="25"/>
+      <node ref="CBoot1" pin="2"/>
+    </net>
+    <net code="25" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="26" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="27" name="Net-(C2-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C1-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(D_boot2-Pad2)">
+      <node ref="RBoot2" pin="1"/>
+      <node ref="D_boot2" pin="2"/>
+    </net>
+    <net code="30" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="31" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="32" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="33" name="Net-(U4-Pad12)">
+      <node ref="U4" pin="12"/>
+    </net>
+  </nets>
+</export>
