@@ -26,7 +26,7 @@
   (tbtext %K (name text11:Text) (pos 109.0002 4.600199999999973))
   (line (name segm11:Line) (start 110.0002 14.00019999999998) (end 2.000200000000007 14.00019999999998))
   (tbtext "Size: %Z" (name text12:Text) (pos 109.0002 10.90019999999998))
-  (tbtext "Licensed under\nCERN-OHL-W V2.0\n" (name text13:Text) (pos 42.00220000000002 20.00719999999998) (font (linewidth 0.3)))
+  (tbtext "Licensed under\nCERN-OHL-S V2.0\n" (name text13:Text) (pos 42.002 20.007) (font (linewidth 0.3)))
   (tbtext %C9 (name text14:Text) (pos 14.00220000000002 63.00719999999998))
   (tbtext %C8 (name text15:Text) (pos 36.50220000000002 63.00719999999998))
   (tbtext %C7 (name text16:Text) (pos 59.50220000000002 63.00719999999998))
