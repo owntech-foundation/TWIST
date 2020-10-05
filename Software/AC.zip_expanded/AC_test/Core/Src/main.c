@@ -194,25 +194,6 @@ int main(void)
 
   HAL_TIM_Base_Start_IT(&htim3);		//STARTING THE INTERUPT ROUTINE AFTER ALL INITIALISATIONS
 
- void  HAL_TIM_PeriodElapsedCallback(&htim3)		//INTERUPT ROUTINE RUNNING AT 10kHz UPDATING THE REFERENCE BASED ON THE LOOKUP TABLE
-  {
-
-ref= Vdc * SineTable[i];
-i++;
-
-if (i==100)
-{
-	HAL_HRTIM_WaveformOutputStop(&hhrtim1, HRTIM_OUTPUT_TA1 | HRTIM_OUTPUT_TA2);
-	HAL_HRTIM_WaveformOutputStart(&hhrtim1 , HRTIM_OUTPUT_TB1 | HRTIM_OUTPUT_TB2);
-}
-if (i==200)
-{
-	HAL_HRTIM_WaveformOutputStop(&hhrtim1, HRTIM_OUTPUT_TB1 | HRTIM_OUTPUT_TB2);
-	HAL_HRTIM_WaveformOutputStart(&hhrtim1 , HRTIM_OUTPUT_TA1 | HRTIM_OUTPUT_TA2);
-	i =0;
-}
-
-  }
 
 
   /* USER CODE END 2 */
@@ -562,7 +543,7 @@ static void MX_HRTIM1_Init(void)
   {
     Error_Handler();
   }
-  pCompareCfg.CompareValue = dutyA;
+  pCompareCfg.CompareValue = duty;
   if (HAL_HRTIM_WaveformCompareConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_A, HRTIM_COMPAREUNIT_1, &pCompareCfg) != HAL_OK)
   {
     Error_Handler();
@@ -799,6 +780,25 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void  HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)		//INTERUPT ROUTINE RUNNING AT 10kHz UPDATING THE REFERENCE BASED ON THE LOOKUP TABLE
+ {
+
+ref= Vdc * SineTable[i];
+i++;
+
+if (i==100)
+{
+	HAL_HRTIM_WaveformOutputStop(&hhrtim1, HRTIM_OUTPUT_TA1 | HRTIM_OUTPUT_TA2);
+	HAL_HRTIM_WaveformOutputStart(&hhrtim1 , HRTIM_OUTPUT_TB1 | HRTIM_OUTPUT_TB2);
+}
+if (i==200)
+{
+	HAL_HRTIM_WaveformOutputStop(&hhrtim1, HRTIM_OUTPUT_TB1 | HRTIM_OUTPUT_TB2);
+	HAL_HRTIM_WaveformOutputStart(&hhrtim1 , HRTIM_OUTPUT_TA1 | HRTIM_OUTPUT_TA2);
+	i =0;
+}
+
+ }
 
 /* USER CODE END 4 */
 
