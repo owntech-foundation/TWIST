@@ -1,10 +1,10 @@
-20:53:56 **** Incremental Build of configuration Debug for project AC_test ****
+11:45:44 **** Incremental Build of configuration Debug for project AC_test ****
 make -j8 all 
 arm-none-eabi-size   AC_test.elf 
    text	   data	    bss	    dec	    hex	filename
-  27436	    872	   2576	  30884	   78a4	AC_test.elf
+  27172	    872	   2520	  30564	   7764	AC_test.elf
 Finished building: default.size.stdout
  
 
-20:53:56 Build Finished. 0 errors, 0 warnings. (took 162ms)
+11:45:44 Build Finished. 0 errors, 0 warnings. (took 167ms)
 

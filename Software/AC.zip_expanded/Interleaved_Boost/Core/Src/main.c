@@ -88,8 +88,8 @@ SPI_HandleTypeDef hspi1;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-int i=0;
-float32_t ref=20;
+
+float32_t ref=14;
 float32_t error_pid;
 float32_t rslt_pid;
 float32_t Kpgain = 0.00000235;		//PID Gains are determined through a simulink simulation of the system.
@@ -108,8 +108,7 @@ float32_t GainADC1[4];
 float32_t GainADC2[3];
 float32_t offsetADC1[4] = {1460, 1650, 1700, 0};
 float32_t offsetADC2[3] = {1990, 1980, 1980};
-uint16_t dutyA= 80;
-uint16_t dutyB= 80;
+uint16_t duty= 80;
 float32_t pwm=32;
 
 
@@ -215,24 +214,22 @@ int main(void)
 
 	  if (pwm > HIGH_DUTY)										//SATURATION CONDITIONS TO AVOID DIVERGENCE.
 	  {
-		  dutyA = HIGH_DUTY;
-		  dutyB = HIGH_DUTY;
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, dutyA);
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, dutyB);
+		  duty = HIGH_DUTY;
+		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, duty);
+		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, duty);
 	  }
 	  else if (pwm < LOW_DUTY)
 	  {
-		  dutyA = LOW_DUTY;
-		  dutyB = LOW_DUTY;
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, dutyA);
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, dutyB);
+		  duty = LOW_DUTY;
+
+		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, duty);
+		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, duty);
 	  }
 	  else
 	  {
-		  dutyA = (uint16_t)pwm;
-		  dutyB = (uint16_t)pwm;
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, dutyA);
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, dutyB);
+		  duty = (uint16_t)pwm;
+		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, duty);
+		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, duty);
 	  }
 
 //	HAL_HRTIM_SoftwareUpdate(&hhrtim1, HRTIM_TIMERUPDATE_A | HRTIM_TIMERUPDATE_B);
@@ -538,7 +535,7 @@ static void MX_HRTIM1_Init(void)
   {
     Error_Handler();
   }
-  pCompareCfg.CompareValue = dutyA;
+  pCompareCfg.CompareValue = duty;
   if (HAL_HRTIM_WaveformCompareConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_A, HRTIM_COMPAREUNIT_1, &pCompareCfg) != HAL_OK)
   {
     Error_Handler();
