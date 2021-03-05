@@ -93,6 +93,7 @@ float32_t SineTable[200] = {0.028269683170316,0.056511467576382,0.08469748198666
 							//THE SINE TABLE CONTAINS VALUE BETWEEN 0 and 0.9. IT IS |sin(x)| FOR X € [0,2pi] SO IT CONTAINS ONLY POSITIVE VALUES
 							//THE NEGATIVE PART OF THE SIGNAL COMES FROM THE INVERSION OF TIMERB WITH RESPECT TO TIMER A IN HRTIM CONFIG. SEE .IOC FILE TO SEE THE CONFIG.
 float32_t ref;
+float32_t refB;
 float32_t Vdc = 20; 		//TO BE REPLACED WITH ADC SENSING
 float32_t error_pidA;
 float32_t error_pidB;
@@ -224,43 +225,69 @@ int main(void)
 	  arm_sub_f32(convertADC2, offsetADC2, raw_offsetADC2, 3);
 	  arm_mult_f32(raw_offsetADC1, GainADC1, ValuesADC1, 4);
 	  arm_mult_f32(raw_offsetADC2, GainADC2, ValuesADC2, 3);
-	  arm_sub_f32(&ref, &ValuesADC2[0], &error_pidA,1);	 //CALCULATING THE ERROR BASED ON THE REFERENCE FOR LEGA
-	  arm_sub_f32(&ref, &ValuesADC2[1], &error_pidB,1);	 //CALCULATING THE ERROR BASED ON THE REFERENCE FOR LEGB
-	  rslt_pidA = arm_pid_f32(&PID_A, 0.01*error_pidA);		//PID CALCULATIONS FOR LEGA
-	  rslt_pidB = arm_pid_f32(&PID_B, 0.01*error_pidB);		//PID CALCULATIONS FOR LEGB
-	  pwmA = PWM_RESOLUTION*rslt_pidA;  //PID OUTPUT CONDITIONNING
-	  pwmB = PWM_RESOLUTION*rslt_pidB;
 
-	  if (pwmA > HIGH_DUTY)										//SATURATION CONDITIONS TO AVOID DIVERGENCE.
-	  {
-		  dutyA = HIGH_DUTY;
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, dutyA);
-	  }
-	  else if (pwmA < LOW_DUTY)
-	  {
-		  dutyA = LOW_DUTY;
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, dutyA);
-	  }
+	  //refB=-ref;
 
-	  else if (pwmB > HIGH_DUTY)
-	  {
-		  dutyB = HIGH_DUTY;
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, dutyB);
-	  }
+	  pwmA = 320-(PWM_RESOLUTION*ref/ValuesADC2[2]);  //PID OUTPUT CONDITIONNING
+	  pwmB = 320-(PWM_RESOLUTION*ref/ValuesADC2[2]);
 
-	  else if (pwmB < LOW_DUTY)
+	  if (i<100)
 	  {
-		  dutyB = LOW_DUTY;
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, dutyB);
-	  }
-	  else
-	  {
-		  dutyA = (uint16_t)pwmA;
-		  dutyB = (uint16_t)pwmB;
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, dutyA);
-		  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, dutyB);
+		  arm_sub_f32(&ref, &ValuesADC2[0], &error_pidA,1);	 		//CALCULATING THE ERROR BASED ON THE REFERENCE FOR LEGA
+		  rslt_pidA = arm_pid_f32(&PID_A, 0.01*error_pidA); 		//PID CALCULATIONS FOR LEGA
+		  if (rslt_pidA<0)
+		  {
+			  rslt_pidA=-rslt_pidA;
+
+		  }
+//		  pwmA = 320-(PWM_RESOLUTION*rslt_pidA);
+
+		  if (pwmA > HIGH_DUTY)										//SATURATION CONDITIONS TO AVOID DIVERGENCE.
+		  {
+			  dutyA = HIGH_DUTY;
+			  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, dutyA);
+		  }
+		  else if (pwmA < 3)
+		  {
+			  dutyA = 3;
+			  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, dutyA);
+		  }
+		  else
+		  {
+			  dutyA = (uint16_t)pwmA;
+			  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, dutyA);
+		  }
+
 	  }
 
+	  if (i>100)
+	  {
+		  arm_sub_f32(&ref, &ValuesADC2[1], &error_pidB,1);	 	//CALCULATING THE ERROR BASED ON THE REFERENCE FOR LEGB
+		  rslt_pidB = arm_pid_f32(&PID_B, 0.01*error_pidB);		//PID CALCULATIONS FOR LEGB
+		  if (rslt_pidB<0)
+			  {
+				  rslt_pidB=-rslt_pidB;
+
+			  }
+//		  pwmB = 320-(PWM_RESOLUTION*rslt_pidB);
+
+		  if (pwmB > HIGH_DUTY)
+		  {
+			  dutyB = HIGH_DUTY;
+			  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, dutyB);
+		  }
+		  else if (pwmB < 3)
+		  {
+			  dutyB = 3;
+			  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, dutyB);
+		  }
+		  else
+		  {
+			  dutyB = (uint16_t)pwmB;
+			  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, dutyB);
+		  }
+
+	  }
 //	HAL_HRTIM_SoftwareUpdate(&hhrtim1, HRTIM_TIMERUPDATE_A | HRTIM_TIMERUPDATE_B);
 
     /* USER CODE END WHILE */
@@ -559,12 +586,11 @@ static void MX_HRTIM1_Init(void)
   pTimerCfg.DMASrcAddress = 0x0;
   pTimerCfg.DMADstAddress = 0x0;
   pTimerCfg.DMASize = 0x1;
-  pTimerCfg.ResetTrigger = HRTIM_TIMRESETTRIGGER_MASTER_CMP2;
   if (HAL_HRTIM_WaveformTimerConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_B, &pTimerCfg) != HAL_OK)
   {
     Error_Handler();
   }
-  pCompareCfg.CompareValue = dutyA;
+  pCompareCfg.CompareValue = 80;
   if (HAL_HRTIM_WaveformCompareConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_A, HRTIM_COMPAREUNIT_1, &pCompareCfg) != HAL_OK)
   {
     Error_Handler();
@@ -598,18 +624,16 @@ static void MX_HRTIM1_Init(void)
   {
     Error_Handler();
   }
-  pOutputCfg.SetSource = HRTIM_OUTPUTSET_TIMPER;
-  pOutputCfg.ResetSource = HRTIM_OUTPUTRESET_TIMCMP1;
   if (HAL_HRTIM_WaveformOutputConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_B, HRTIM_OUTPUT_TB1, &pOutputCfg) != HAL_OK)
   {
     Error_Handler();
   }
   pOutputCfg.SetSource = HRTIM_OUTPUTSET_NONE;
+  pOutputCfg.ResetSource = HRTIM_OUTPUTRESET_TIMCMP1;
   if (HAL_HRTIM_WaveformOutputConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_A, HRTIM_OUTPUT_TA2, &pOutputCfg) != HAL_OK)
   {
     Error_Handler();
   }
-  pOutputCfg.ResetSource = HRTIM_OUTPUTRESET_TIMPER;
   if (HAL_HRTIM_WaveformOutputConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_B, HRTIM_OUTPUT_TB2, &pOutputCfg) != HAL_OK)
   {
     Error_Handler();
@@ -618,7 +642,6 @@ static void MX_HRTIM1_Init(void)
   {
     Error_Handler();
   }
-  pCompareCfg.CompareValue = 80;
   if (HAL_HRTIM_WaveformCompareConfig(&hhrtim1, HRTIM_TIMERINDEX_TIMER_B, HRTIM_COMPAREUNIT_1, &pCompareCfg) != HAL_OK)
   {
     Error_Handler();
@@ -774,12 +797,14 @@ if (i==100)					//FOR x = pi WE SWITCH THE OUTPUT FROM TIMER A TO TIMER B, AND W
 							//TIMER B IS INVERTED WITH RESPECT TO TIMER A. THIS GENERATE THE NEGATIVE PART OF THE OUTPUT SIGNAL.
 {
 	HAL_HRTIM_WaveformOutputStop(&hhrtim1, HRTIM_OUTPUT_TA1 | HRTIM_OUTPUT_TA2);
-	HAL_HRTIM_WaveformOutputStart(&hhrtim1 , HRTIM_OUTPUT_TB1 | HRTIM_OUTPUT_TB2);
+	  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X0, HRTIM_COMPAREUNIT_1, 0);
+	HAL_HRTIM_WaveformOutputStart(&hhrtim1 , HRTIM_OUTPUT_TB1 | HRTIM_OUTPUT_TB2 |HRTIM_OUTPUT_TA2);
 }
 if (i==200)					//AT THE END OF THE LOOKUP TABLE, WE SWITCH BACK TO TIMER A AND WE KILL TIMER B
 {
 	HAL_HRTIM_WaveformOutputStop(&hhrtim1, HRTIM_OUTPUT_TB1 | HRTIM_OUTPUT_TB2);
-	HAL_HRTIM_WaveformOutputStart(&hhrtim1 , HRTIM_OUTPUT_TA1 | HRTIM_OUTPUT_TA2);
+	  __HAL_HRTIM_SETCOMPARE(&hhrtim1, 0X1, HRTIM_COMPAREUNIT_1, 0);
+	HAL_HRTIM_WaveformOutputStart(&hhrtim1 , HRTIM_OUTPUT_TA1 | HRTIM_OUTPUT_TA2 | HRTIM_OUTPUT_TB2);
 	i =0;
 }
 

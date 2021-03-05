@@ -17,4 +17,8 @@
 			<item value="/home/jal/Documents/OwnTech/1leg/Software/AC.zip"/>
 		</list>
 	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="558"/>
+		<item key="DIALOG_Y_ORIGIN" value="272"/>
+	</section>
 </section>

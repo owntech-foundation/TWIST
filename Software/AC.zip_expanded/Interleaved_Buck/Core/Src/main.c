@@ -88,7 +88,7 @@ SPI_HandleTypeDef hspi1;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-float32_t ref = 8;
+float32_t ref = 15;
 float32_t error_pid;
 float32_t rslt_pid;
 float32_t Kpgain = -0.00000235;		//PID Gains are determined through a simulink simulation of the system.

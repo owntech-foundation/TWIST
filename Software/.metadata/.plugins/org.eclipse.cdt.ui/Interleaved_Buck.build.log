@@ -1,4 +1,4 @@
-16:27:08 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+16:58:05 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
 make -j8 all 
 arm-none-eabi-size   Interleaved_Buck.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   Interleaved_Buck.elf
 Finished building: default.size.stdout
  
 
-16:27:08 Build Finished. 0 errors, 0 warnings. (took 172ms)
+16:58:06 Build Finished. 0 errors, 0 warnings. (took 162ms)
 

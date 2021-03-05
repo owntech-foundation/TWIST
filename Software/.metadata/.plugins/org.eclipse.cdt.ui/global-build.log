@@ -1,4 +1,32 @@
-11:42:34 **** Incremental Build of configuration Debug for project AC_test ****
+18:27:15 **** Incremental Build of configuration Debug for project AC_test ****
+make -j8 all 
+arm-none-eabi-size   AC_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27292	    872	   2528	  30692	   77e4	AC_test.elf
+Finished building: default.size.stdout
+ 
+18:27:24 **** Incremental Build of configuration Debug for project AC_test ****
+make -j8 all 
+arm-none-eabi-size   AC_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27292	    872	   2528	  30692	   77e4	AC_test.elf
+Finished building: default.size.stdout
+ 
+18:28:52 **** Incremental Build of configuration Debug for project AC_test ****
+make -j8 all 
+arm-none-eabi-size   AC_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27292	    872	   2528	  30692	   77e4	AC_test.elf
+Finished building: default.size.stdout
+ 
+18:31:44 **** Incremental Build of configuration Debug for project AC_test ****
+make -j8 all 
+arm-none-eabi-size   AC_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27292	    872	   2528	  30692	   77e4	AC_test.elf
+Finished building: default.size.stdout
+ 
+18:33:22 **** Incremental Build of configuration Debug for project AC_test ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F334x8 -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -I/home/jal/Documents/CMSIS/CMSIS_5-5.4.0/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "AC_test.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"/home/jal/Documents/OwnTech/1leg/Software/AC.zip_expanded/AC_test/STM32F334R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AC_test.map" -Wl,--gc-sections -static -L"../Lib" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -8,21 +36,29 @@ arm-none-eabi-objdump -h -S  AC_test.elf  > "AC_test.list"
 arm-none-eabi-objcopy  -O binary  AC_test.elf  "AC_test.bin"
 arm-none-eabi-size   AC_test.elf 
    text	   data	    bss	    dec	    hex	filename
-  27172	    872	   2520	  30564	   7764	AC_test.elf
+  27312	    872	   2528	  30712	   77f8	AC_test.elf
 Finished building: default.size.stdout
  
 Finished building: AC_test.bin
  
 Finished building: AC_test.list
  
-11:45:44 **** Incremental Build of configuration Debug for project AC_test ****
+15:15:10 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
 make -j8 all 
-arm-none-eabi-size   AC_test.elf 
+arm-none-eabi-size   Interleaved_Buck.elf 
    text	   data	    bss	    dec	    hex	filename
-  27172	    872	   2520	  30564	   7764	AC_test.elf
+  24980	     68	   2508	  27556	   6ba4	Interleaved_Buck.elf
 Finished building: default.size.stdout
  
-16:25:29 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+15:17:18 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F334x8 -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -I/home/jal/Documents/CMSIS/CMSIS_5-5.4.0/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:94:24: error: expected ',' or ';' before numeric constant
+ float32_t Kpgain = -0. 00000235;  //PID Gains are determined through a simulink simulation of the system.
+                        ^~~~~~~~
+make: *** [Core/Src/subdir.mk:33: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+15:17:44 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F334x8 -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -I/home/jal/Documents/CMSIS/CMSIS_5-5.4.0/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "Interleaved_Buck.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"/home/jal/Documents/OwnTech/1leg/Software/AC.zip_expanded/Interleaved_Buck/STM32F334R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Interleaved_Buck.map" -Wl,--gc-sections -static -L"../Lib" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -39,7 +75,56 @@ Finished building: Interleaved_Buck.bin
  
 Finished building: Interleaved_Buck.list
  
-16:27:08 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+15:18:41 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+make -j8 all 
+arm-none-eabi-size   Interleaved_Buck.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24980	     68	   2508	  27556	   6ba4	Interleaved_Buck.elf
+Finished building: default.size.stdout
+ 
+15:22:54 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+make -j8 all 
+arm-none-eabi-size   Interleaved_Buck.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24980	     68	   2508	  27556	   6ba4	Interleaved_Buck.elf
+Finished building: default.size.stdout
+ 
+15:52:34 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+make -j8 all 
+arm-none-eabi-size   Interleaved_Buck.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24980	     68	   2508	  27556	   6ba4	Interleaved_Buck.elf
+Finished building: default.size.stdout
+ 
+15:54:07 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+make -j8 all 
+arm-none-eabi-size   Interleaved_Buck.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24980	     68	   2508	  27556	   6ba4	Interleaved_Buck.elf
+Finished building: default.size.stdout
+ 
+15:55:23 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+make -j8 all 
+arm-none-eabi-size   Interleaved_Buck.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24980	     68	   2508	  27556	   6ba4	Interleaved_Buck.elf
+Finished building: default.size.stdout
+ 
+16:19:18 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+make -j8 all 
+arm-none-eabi-size   Interleaved_Buck.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24980	     68	   2508	  27556	   6ba4	Interleaved_Buck.elf
+Finished building: default.size.stdout
+ 
+16:22:02 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
+make -j8 all 
+arm-none-eabi-size   Interleaved_Buck.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24980	     68	   2508	  27556	   6ba4	Interleaved_Buck.elf
+Finished building: default.size.stdout
+ 
+16:58:05 **** Incremental Build of configuration Debug for project Interleaved_Buck ****
 make -j8 all 
 arm-none-eabi-size   Interleaved_Buck.elf 
    text	   data	    bss	    dec	    hex	filename

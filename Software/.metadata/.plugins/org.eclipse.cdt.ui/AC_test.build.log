@@ -1,10 +1,20 @@
-11:45:44 **** Incremental Build of configuration Debug for project AC_test ****
+18:33:22 **** Incremental Build of configuration Debug for project AC_test ****
 make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F334x8 -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -I/home/jal/Documents/CMSIS/CMSIS_5-5.4.0/CMSIS/DSP/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "AC_test.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"/home/jal/Documents/OwnTech/1leg/Software/AC.zip_expanded/AC_test/STM32F334R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AC_test.map" -Wl,--gc-sections -static -L"../Lib" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: AC_test.elf
+ 
+arm-none-eabi-objdump -h -S  AC_test.elf  > "AC_test.list"
+arm-none-eabi-objcopy  -O binary  AC_test.elf  "AC_test.bin"
 arm-none-eabi-size   AC_test.elf 
    text	   data	    bss	    dec	    hex	filename
-  27172	    872	   2520	  30564	   7764	AC_test.elf
+  27312	    872	   2528	  30712	   77f8	AC_test.elf
 Finished building: default.size.stdout
  
+Finished building: AC_test.bin
+ 
+Finished building: AC_test.list
+ 
 
-11:45:44 Build Finished. 0 errors, 0 warnings. (took 167ms)
+18:33:22 Build Finished. 0 errors, 0 warnings. (took 565ms)
 

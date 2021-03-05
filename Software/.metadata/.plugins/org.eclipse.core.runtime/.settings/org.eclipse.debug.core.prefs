@@ -4,4 +4,4 @@
 //org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.postmortemLaunchType=org.eclipse.cdt.dsf.gdb.launch.coreCLaunch,debug,;
 //org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.remoteApplicationLaunchType=org.eclipse.rse.remotecdt.dsf.debug,debug,;
 eclipse.preferences.version=1
-prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="ref"/>\n<expression enabled\="true" text\="ValuesADC2"/>\n</watchExpressions>\n
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="ref"/>\n<expression enabled\="true" text\="ValuesADC2"/>\n<expression enabled\="true" text\="error_pidA"/>\n<expression enabled\="true" text\="error_pidB"/>\n<expression enabled\="true" text\="rslt_pidA"/>\n<expression enabled\="true" text\="pwmA"/>\n<expression enabled\="true" text\="dutyA"/>\n<expression enabled\="true" text\="ValuesADC1"/>\n</watchExpressions>\n
