@@ -1,4 +1,4 @@
-(module Board_outline (layer F.Cu) (tedit 5F4FD7DC)
+(module Board_outline (layer F.Cu) (tedit 60478824)
   (fp_text reference REF** (at 8.5 -5 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -327,64 +327,69 @@
   (pad 13 thru_hole oval (at 41.54 61 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 28 thru_hole rect (at 12.5 2.5) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 28 thru_hole oval (at 12.5 5.04) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
-    (offset (xyz 11.5 -16 0))
+  (model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TLW-102-06-T-S(0.3).stp"
+    (offset (xyz 10.25 -16 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 90 180 0))
   )
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
-    (offset (xyz 23 -16 0))
+  (model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TLW-102-06-T-S(0.3).stp"
+    (offset (xyz 21.75 -16 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 90 180 0))
   )
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
-    (offset (xyz 88 -39 0))
+  (model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TLW-102-06-T-S(0.3).stp"
+    (offset (xyz 88 -40.25 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 180 90))
   )
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
-    (offset (xyz 67 -49.5 0))
+  (model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TLW-102-06-T-S(0.3).stp"
+    (offset (xyz 65.75 -49.5 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 90 180 0))
   )
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
-    (offset (xyz 53.5 -49.5 0))
+  (model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TLW-102-06-T-S(0.3).stp"
+    (offset (xyz 52.25 -49.5 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 90 180 0))
   )
-  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-102-17-G-S.stp
-    (offset (xyz 40 -61 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
-  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-102-17-G-S.stp
-    (offset (xyz 87 -61 0))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-102-14-T-S.stp
+    (offset (xyz 40.25 -61 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-102-17-G-S.stp
-    (offset (xyz 65.5 -9 0))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-102-14-T-S.stp
+    (offset (xyz 86.75 -61 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-102-14-T-S.stp
+    (offset (xyz 65.5 -8.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
-  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-103-17-G-S.stp
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-103-14-T-S.stp
     (offset (xyz 56.5 -14 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-103-17-G-S.stp
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-103-14-T-S.stp
     (offset (xyz 88 -50.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
-  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-104-17-G-S.stp
-    (offset (xyz 39 -49 0))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-104-14-T-S.stp
+    (offset (xyz 39 -48.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
-  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-102-17-G-S.stp
-    (offset (xyz 12.5 -4 0))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-102-14-T-S.stp
+    (offset (xyz 12.5 -3.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
+  )
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/Power.ste
+    (offset (xyz -42 42 -1.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

@@ -1,4 +1,4 @@
-(module Measurment_stage_outline_inputs (layer F.Cu) (tedit 5F4FDAB1)
+(module Measurment_stage_outline_inputs (layer F.Cu) (tedit 60478DFD)
   (fp_text reference REF** (at 8.5 -5 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -195,39 +195,39 @@
   (pad 3 thru_hole oval (at 88 53.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 20 thru_hole rect (at 12.5 2.5) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 20 thru_hole oval (at 12.5 5.04) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl
-    (offset (xyz 65.5 -7.5 -1.6))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/SSW-102-01-T-S.stp
+    (offset (xyz 65.5 -8.75 -1.6))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
+    (rotate (xyz -90 180 90))
   )
-  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl
-    (offset (xyz 41.5 -61 -1.6))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/SSW-102-01-T-S.stp
+    (offset (xyz 40.25 -61 -1.6))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 90))
+    (rotate (xyz 90 0 0))
   )
-  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl
-    (offset (xyz 85.5 -61 -1.6))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/SSW-102-01-T-S.stp
+    (offset (xyz 86.75 -61 -1.6))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 -90))
+    (rotate (xyz 90 0 0))
   )
-  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step
-    (offset (xyz 59 -14 -1.6))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/SSW-103-01-T-S.stp
+    (offset (xyz 56.5 -14 -1.6))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 90))
+    (rotate (xyz -90 180 0))
   )
-  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step
-    (offset (xyz 88 -48 -1.6))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/SSW-103-01-T-S.stp
+    (offset (xyz 88 -50.5 -1.6))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
+    (rotate (xyz -90 180 90))
   )
-  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step
-    (offset (xyz 39 -45 -1.6))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/SSW-104-01-T-S.stp
+    (offset (xyz 39 -48.85 -1.6))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
+    (rotate (xyz 90 0 90))
   )
-  (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.wrl
-    (offset (xyz 12.5 -2.5 -1.6))
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/SSW-102-01-T-S.stp
+    (offset (xyz 12.5 -3.75 -1.6))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 -180 0))
+    (rotate (xyz 90 0 90))
   )
 )

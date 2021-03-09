@@ -1,4 +1,4 @@
-(module Driver_stage_outline_inputs (layer F.Cu) (tedit 5F50D553)
+(module Driver_stage_outline_inputs (layer F.Cu) (tedit 604793A4)
   (fp_text reference REF** (at -1.5 -2.5 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -104,17 +104,17 @@
   (pad 3 thru_hole oval (at 15.04 39.5 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 9 thru_hole rect (at 12.5 39.5 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 8 thru_hole oval (at 20.12 39.5 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-104-17-G-S.stp
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-104-14-T-S.stp
     (offset (xyz 16.5 -39.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-    (offset (xyz 34.5 -32 0))
+  (model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TLW-104-06-T-S(0.3).stp"
+    (offset (xyz 34.5 -35.75 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 90))
   )
-  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-105-17-G-S.stp
+  (model ${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/TSW-105-14-T-S.stp
     (offset (xyz 54 -19.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
