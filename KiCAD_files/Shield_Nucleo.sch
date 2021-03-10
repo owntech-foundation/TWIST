@@ -105,9 +105,9 @@ $EndComp
 Wire Wire Line
 	3150 1900 2950 1900
 Text Label 900  3700 0    50   ~ 0
-I1_low
-Text Label 900  3800 0    50   ~ 0
 I2_low
+Text Label 900  3800 0    50   ~ 0
+I1_low
 Text Label 900  3900 0    50   ~ 0
 I_high
 Text Label 900  4000 0    50   ~ 0
@@ -194,10 +194,6 @@ Text Label 900  4200 0    50   ~ 0
 SPI3_SCK
 Wire Wire Line
 	1350 4200 900  4200
-Text Label 6550 2150 0    50   ~ 0
-Temp
-Wire Wire Line
-	6500 2150 6550 2150
 Text Label 900  2900 0    50   ~ 0
 EEPROM_HOLD
 Wire Wire Line
@@ -514,9 +510,9 @@ Wire Wire Line
 Wire Wire Line
 	900  4100 1350 4100
 Text Label 900  4300 0    50   ~ 0
-HRTIM_EEV1
-Text Label 900  4100 0    50   ~ 0
 HRTIM_EEV2
+Text Label 900  4100 0    50   ~ 0
+HRTIM_EEV1
 Wire Wire Line
 	1350 4300 900  4300
 Text Label 12200 2450 0    50   ~ 0
@@ -617,7 +613,7 @@ $EndComp
 Text Label 9600 7150 0    50   ~ 0
 GND_CAN
 Wire Wire Line
-	9600 7300 9600 7150
+	9600 7300 9600 7250
 $Comp
 L power:GNDD #PWR0107
 U 1 1 60779D49
@@ -688,7 +684,7 @@ Wire Wire Line
 	8500 8250 8750 8250
 Connection ~ 8500 7950
 Wire Wire Line
-	8500 7300 8500 7150
+	8500 7300 8500 7250
 Wire Wire Line
 	8950 7950 9150 7950
 Wire Wire Line
@@ -1022,17 +1018,6 @@ F 1 "TestPoint" V 4550 4800 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4750 4350 50  0001 C CNN
 F 3 "~" H 4750 4350 50  0001 C CNN
 	1    4550 4350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP8
-U 1 1 60B83B04
-P 4550 4250
-F 0 "TP8" V 4550 4500 50  0000 L CNN
-F 1 "TestPoint" V 4550 4700 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4750 4250 50  0001 C CNN
-F 3 "~" H 4750 4250 50  0001 C CNN
-	1    4550 4250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1419,4 +1404,113 @@ Wire Wire Line
 	11300 2550 11100 2550
 Text Label 11300 2550 0    50   ~ 0
 E5V
+Text Label 4550 3250 0    50   ~ 0
+Temp
+Wire Wire Line
+	5100 3250 4550 3250
+Text Label 800  3200 0    50   ~ 0
+HRTIM1_FLT2
+Wire Wire Line
+	800  3200 1350 3200
+Text Notes 1850 3400 0    50   ~ 0
+Validated\nLuiz - 10/03/21\n
+$Comp
+L Connector:TestPoint TP8
+U 1 1 60B83B04
+P 4550 4250
+F 0 "TP8" V 4550 4500 50  0000 L CNN
+F 1 "TestPoint" V 4550 4700 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4750 4250 50  0001 C CNN
+F 3 "~" H 4750 4250 50  0001 C CNN
+	1    4550 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 3400 1000 3400
+$Comp
+L Connector:TestPoint TP31
+U 1 1 604EF68A
+P 1000 3400
+F 0 "TP31" V 1050 3450 50  0000 L CNN
+F 1 "TestPoint" V 1000 3850 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 1200 3400 50  0001 C CNN
+F 3 "~" H 1200 3400 50  0001 C CNN
+	1    1000 3400
+	0    -1   -1   0   
+$EndComp
+Text Label 1050 3400 0    50   ~ 0
+ADC3_XTR
+Wire Wire Line
+	6500 2150 7050 2150
+$Comp
+L Connector:TestPoint TP32
+U 1 1 6052DEB7
+P 7050 2150
+F 0 "TP32" V 7050 2350 50  0000 L CNN
+F 1 "TestPoint" V 7050 2600 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 7250 2150 50  0001 C CNN
+F 3 "~" H 7250 2150 50  0001 C CNN
+	1    7050 2150
+	0    1    1    0   
+$EndComp
+Text Label 7000 2150 2    50   ~ 0
+ADC4_XTR
+Text Notes 5600 3400 0    50   ~ 0
+Validated\nLuiz - 10/03/21\n
+Text Notes 11950 9100 0    50   ~ 0
+01/03/21
+Text Notes 13150 9100 0    50   ~ 0
+ALINEI
+Text Notes 14050 9100 0    50   ~ 0
+VILLA
+Text Notes 14850 9100 0    50   ~ 0
+ALINEI
+Text Notes 15650 9100 0    50   ~ 0
+PREL
+Text Notes 11850 6800 0    50   ~ 0
+Corrected some pins on U1A and U1B. \nAdded test points 31 and 32 for the extra ADC pins available. \nAdded test points 33 and 34 for the Vbus_CAN and GND_CAN.\nChanged temp to PB1 (ADC3-IN1).
+$Comp
+L Connector:TestPoint TP33
+U 1 1 605B7E24
+P 8350 7200
+F 0 "TP33" H 8300 7400 50  0000 L CNN
+F 1 "TestPoint" V 8350 7650 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 8550 7200 50  0001 C CNN
+F 3 "~" H 8550 7200 50  0001 C CNN
+	1    8350 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP34
+U 1 1 605B839A
+P 9450 7200
+F 0 "TP34" H 9400 7400 50  0000 L CNN
+F 1 "TestPoint" V 9450 7650 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9650 7200 50  0001 C CNN
+F 3 "~" H 9650 7200 50  0001 C CNN
+	1    9450 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 7200 8350 7250
+Wire Wire Line
+	8350 7250 8500 7250
+Connection ~ 8500 7250
+Wire Wire Line
+	8500 7250 8500 7150
+Wire Wire Line
+	9450 7200 9450 7250
+Wire Wire Line
+	9450 7250 9600 7250
+Connection ~ 9600 7250
+Wire Wire Line
+	9600 7250 9600 7150
+Text Notes 6650 7100 0    50   ~ 0
+Validated\nLuiz - 10/03/21\n
+Text Notes 2950 7250 0    50   ~ 0
+Validated\nLuiz - 10/03/21\n
+Text Notes 2600 10150 0    50   ~ 0
+Validated\nLuiz - 10/03/21\n
+Text Notes 11200 5800 0    50   ~ 0
+Validated\nLuiz - 10/03/21\n
 $EndSCHEMATC
