@@ -594,7 +594,7 @@ U 1 1 6072210F
 P 8850 7950
 F 0 "F1" V 9055 7950 50  0000 C CNN
 F 1 "Polyfuse_Small" V 8964 7950 50  0000 C CNN
-F 2 "" H 8900 7750 50  0001 L CNN
+F 2 "Fuse:Fuse_Littelfuse-LVR125" H 8900 7750 50  0001 L CNN
 F 3 "~" H 8850 7950 50  0001 C CNN
 	1    8850 7950
 	0    -1   -1   0   
@@ -605,7 +605,7 @@ U 1 1 60722BE6
 P 8850 8250
 F 0 "F2" V 8645 8250 50  0000 C CNN
 F 1 "Polyfuse_Small" V 8736 8250 50  0000 C CNN
-F 2 "" H 8900 8050 50  0001 L CNN
+F 2 "Fuse:Fuse_Littelfuse-LVR125" H 8900 8050 50  0001 L CNN
 F 3 "~" H 8850 8250 50  0001 C CNN
 	1    8850 8250
 	0    1    1    0   
@@ -1462,10 +1462,10 @@ Wire Wire Line
 Wire Wire Line
 	6500 2150 6750 2150
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP32
 U 1 1 6075AFB6
 P 8200 7150
-F 0 "TP?" H 8250 7200 50  0000 L CNN
+F 0 "TP32" H 8250 7200 50  0000 L CNN
 F 1 "TestPoint" V 8200 7600 50  0001 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 8400 7150 50  0001 C CNN
 F 3 "~" H 8400 7150 50  0001 C CNN
@@ -1473,10 +1473,10 @@ F 3 "~" H 8400 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP33
 U 1 1 60765C2E
 P 9350 7150
-F 0 "TP?" H 9400 7200 50  0000 L CNN
+F 0 "TP33" H 9400 7200 50  0000 L CNN
 F 1 "TestPoint" V 9350 7600 50  0001 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 9550 7150 50  0001 C CNN
 F 3 "~" H 9550 7150 50  0001 C CNN

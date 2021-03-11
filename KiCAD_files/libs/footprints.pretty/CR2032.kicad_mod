@@ -1,4 +1,4 @@
-(module CR2032 (layer F.Cu) (tedit 6049F8F3)
+(module CR2032 (layer F.Cu) (tedit 604A2740)
   (fp_text reference B? (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
