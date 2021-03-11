@@ -95,7 +95,7 @@ U 1 1 5F31325B
 P 4500 1700
 F 0 "U2" H 4500 2365 50  0000 C CNN
 F 1 "AMC1100" H 4500 2274 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm" H 4500 1450 50  0001 C CNN
+F 2 "Footprints:SOIC-8_7.5x5.85mm_P1.27mm" H 4500 1450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/amc1100.pdf?ts=1597048467257&ref_url=https%253A%252F%252Fwww.google.com%252F" H 4500 1450 50  0001 C CNN
 	1    4500 1700
 	1    0    0    -1  
@@ -106,7 +106,7 @@ U 1 1 5F3137FA
 P 4500 2950
 F 0 "U3" H 4500 3615 50  0000 C CNN
 F 1 "AMC1100" H 4500 3524 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm" H 4500 2700 50  0001 C CNN
+F 2 "Footprints:SOIC-8_7.5x5.85mm_P1.27mm" H 4500 2700 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/amc1100.pdf?ts=1597048467257&ref_url=https%253A%252F%252Fwww.google.com%252F" H 4500 2700 50  0001 C CNN
 	1    4500 2950
 	1    0    0    -1  
@@ -117,7 +117,7 @@ U 1 1 5F313EF4
 P 4500 4650
 F 0 "U4" H 4500 5315 50  0000 C CNN
 F 1 "AMC1311" H 4500 5224 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_7.5x5.85mm_P1.27mm" H 4500 4400 50  0001 C CNN
+F 2 "Footprints:SOIC-8_7.5x5.85mm_P1.27mm" H 4500 4400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/amc1311.pdf?ts=1597049043074&ref_url=https%253A%252F%252Fwww.google.com%252F" H 4500 4400 50  0001 C CNN
 	1    4500 4650
 	1    0    0    -1  

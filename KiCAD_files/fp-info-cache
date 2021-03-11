@@ -1,4 +1,4 @@
-19035948333048021
+19039190387235021
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50890,6 +50890,13 @@ Board_outline
 28
 26
 Footprints
+CR2032
+
+
+0
+2
+2
+Footprints
 C_0805_2012Metric
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 capacitor
@@ -51079,6 +51086,13 @@ SOIC SO
 8
 8
 Footprints
+SOIC-8_7.5x5.85mm_P1.27mm
+SOIC, 8 Pin (http://www.ti.com/lit/ml/mpds382b/mpds382b.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Footprints
 SOIC-14_3.9x8.7mm_P1.27mm
 SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
@@ -51125,8 +51139,8 @@ ST_NUCLEO-G474
 
 
 0
-76
-76
+112
+110
 Footprints
 Shield_nucleo_outline
 
