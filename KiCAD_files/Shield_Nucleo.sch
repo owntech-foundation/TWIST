@@ -194,10 +194,10 @@ Text Label 900  4200 0    50   ~ 0
 SPI3_SCK
 Wire Wire Line
 	1350 4200 900  4200
-Text Label 6550 2150 0    50   ~ 0
+Text Label 5050 3250 2    50   ~ 0
 Temp
 Wire Wire Line
-	6500 2150 6550 2150
+	5100 3250 5050 3250
 Text Label 900  2900 0    50   ~ 0
 EEPROM_HOLD
 Wire Wire Line
@@ -508,13 +508,13 @@ Wire Wire Line
 Wire Wire Line
 	1350 3500 900  3500
 Wire Wire Line
-	900  4100 1350 4100
-Text Label 900  4300 0    50   ~ 0
-HRTIM_EEV1
+	900  4300 1350 4300
 Text Label 900  4100 0    50   ~ 0
+HRTIM_EEV1
+Text Label 900  4300 0    50   ~ 0
 HRTIM_EEV2
 Wire Wire Line
-	1350 4300 900  4300
+	1350 4100 900  4100
 Text Label 12200 2450 0    50   ~ 0
 I1_low
 Wire Wire Line
@@ -613,7 +613,7 @@ $EndComp
 Text Label 9600 7150 0    50   ~ 0
 GND_CAN
 Wire Wire Line
-	9600 7300 9600 7150
+	9600 7300 9600 7200
 $Comp
 L power:GNDD #PWR0107
 U 1 1 60779D49
@@ -684,7 +684,7 @@ Wire Wire Line
 	8500 8250 8750 8250
 Connection ~ 8500 7950
 Wire Wire Line
-	8500 7300 8500 7150
+	8500 7300 8500 7200
 Wire Wire Line
 	8950 7950 9150 7950
 Wire Wire Line
@@ -1449,4 +1449,52 @@ F 3 "~" H 5550 5150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 5150 5350 5300
+Text Label 800  3200 0    50   ~ 0
+HRTIM1_FLT2
+Wire Wire Line
+	800  3200 1350 3200
+Text Label 6750 2150 0    50   ~ 0
+ADC4_XTRA
+Text Label 900  3400 0    50   ~ 0
+ADC3_XTRA
+Wire Wire Line
+	900  3400 1350 3400
+Wire Wire Line
+	6500 2150 6750 2150
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6075AFB6
+P 8200 7150
+F 0 "TP?" H 8250 7200 50  0000 L CNN
+F 1 "TestPoint" V 8200 7600 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 8400 7150 50  0001 C CNN
+F 3 "~" H 8400 7150 50  0001 C CNN
+	1    8200 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60765C2E
+P 9350 7150
+F 0 "TP?" H 9400 7200 50  0000 L CNN
+F 1 "TestPoint" V 9350 7600 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm" H 9550 7150 50  0001 C CNN
+F 3 "~" H 9550 7150 50  0001 C CNN
+	1    9350 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 7200 8500 7200
+Connection ~ 8500 7200
+Wire Wire Line
+	8500 7200 8500 7150
+Wire Wire Line
+	9350 7200 9600 7200
+Connection ~ 9600 7200
+Wire Wire Line
+	9600 7200 9600 7150
+Wire Wire Line
+	9350 7150 9350 7200
+Wire Wire Line
+	8200 7150 8200 7200
 $EndSCHEMATC
