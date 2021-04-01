@@ -10,10 +10,8 @@ D High-Impedance,2-V Input, Fixed gain:1 - Reinforced Isolated Amplifiers
 F https://www.ti.com/lit/ds/symlink/amc1311.pdf?ts=1597049043074&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
-$CMP STM32F446RCTx
-D ARM Cortex-M4 MCU, 256KB flash, 128KB RAM, 180MHz, 1.8-3.6V, 50 GPIO, LQFP-64
-K ARM Cortex-M4 STM32F4 STM32F446
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf
+$CMP PQDE6W-Q110-S5-D
+D Isolated DC/DC 6W, 5V output, 40-160VDC input 1200mA
 $ENDCMP
 #
 $CMP STM32F446RETx
@@ -25,7 +23,7 @@ $ENDCMP
 $CMP STM32G474RE
 D ARM Cortex-M4 MCU, 256KB flash, 128KB RAM, 180MHz, 1.8-3.6V, 50 GPIO, LQFP-64
 K ARM Cortex-M4 STM32F4 STM32F446
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf
+F https://www.st.com/resource/en/datasheet/stm32g474re.pdf
 $ENDCMP
 #
 #End Doc Library
