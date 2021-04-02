@@ -45,6 +45,19 @@ X 4 4 -400 -100 200 R 59 59 1 1 U
 ENDDRAW
 ENDDEF
 #
+# 3D_Footprint
+#
+DEF 3D_Footprint 3D 0 40 Y Y 1 F N
+F0 "3D" 0 0 50 H I C CNN
+F1 "3D_Footprint" 0 -100 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 50 0 0 0 "3D footprint" Normal 0 C C
+S -400 150 400 -200 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # AMC1100
 #
 DEF AMC1100 U 0 40 Y Y 1 F N
