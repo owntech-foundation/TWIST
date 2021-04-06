@@ -3508,4 +3508,45 @@ Wire Notes Line
 	15300 12200 18275 12200
 Text Notes 15375 13750 0    50   ~ 0
 Thermal jumpers connecting the mosfets and diode\nto the heatsink with electrical insulation
+$Comp
+L Connector_Generic:Conn_01x01 J34
+U 1 1 607307F0
+P 10800 12300
+F 0 "J34" H 10875 12200 50  0000 R CNN
+F 1 "Conn_01x01" V 10673 12212 50  0001 R CNN
+F 2 "Footprints:0906_millmax" H 10800 12300 50  0001 C CNN
+F 3 "~" H 10800 12300 50  0001 C CNN
+	1    10800 12300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11000 12300 11125 12300
+Text Label 11125 12300 0    50   ~ 0
+N
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 607307F8
+P 10800 12025
+F 0 "J3" H 10875 11925 50  0000 R CNN
+F 1 "Conn_01x01" V 10673 11937 50  0001 R CNN
+F 2 "Footprints:0906_millmax" H 10800 12025 50  0001 C CNN
+F 3 "~" H 10800 12025 50  0001 C CNN
+	1    10800 12025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11125 12000 11125 12025
+Wire Wire Line
+	11125 12025 11000 12025
+$Comp
+L power:+5V #PWR03
+U 1 1 607D5F0C
+P 11125 12000
+F 0 "#PWR03" H 11125 11850 50  0001 C CNN
+F 1 "+5V" H 11140 12173 50  0000 C CNN
+F 2 "" H 11125 12000 50  0001 C CNN
+F 3 "" H 11125 12000 50  0001 C CNN
+	1    11125 12000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
