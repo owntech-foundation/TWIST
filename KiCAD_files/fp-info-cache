@@ -1,4 +1,4 @@
-19051154118735021
+19054395118381021
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50887,8 +50887,8 @@ Footprints
 
 
 0
-38
-1
+30
+30
 Footprints
 0906_millmax
 
@@ -50980,6 +50980,13 @@ Driver_stage_outline_outputs
 0
 10
 10
+Footprints
+Fuse_holder_omni_blok
+
+
+0
+2
+2
 Footprints
 Measurment_stage_outline_inputs
 
@@ -51218,6 +51225,13 @@ ethernet_RJE721881411
 0
 14
 13
+Footprints
+mounting_holes
+
+
+0
+0
+0
 Fuse
 Fuse_0402_1005Metric
 Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
