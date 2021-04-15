@@ -4058,15 +4058,15 @@ Wire Notes Line
 Wire Notes Line
 	6125 3800 8750 3800
 $Comp
-L Symbols:RFM-0505s U?
+L Symbols:RFM-0505s U8
 U 1 1 60E32218
 P 14600 8375
-F 0 "U?" H 14600 8840 50  0000 C CNN
+F 0 "U8" H 14600 8840 50  0000 C CNN
 F 1 "RFM-0505s" H 14600 8749 50  0000 C CNN
 F 2 "Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxx3C_THT" H 14600 8725 50  0001 C CNN
 F 3 "" H 14600 8725 50  0001 C CNN
 	1    14600 8375
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	13700 8225 13900 8225
@@ -4089,15 +4089,15 @@ Connection ~ 13900 8225
 Wire Wire Line
 	13900 8225 14100 8225
 $Comp
-L Symbols:RFM-0505s U?
+L Symbols:RFM-0505s U9
 U 1 1 6145CAC6
 P 14600 9350
-F 0 "U?" H 14600 9815 50  0000 C CNN
+F 0 "U9" H 14600 9815 50  0000 C CNN
 F 1 "RFM-0505s" H 14600 9724 50  0000 C CNN
 F 2 "Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxx3C_THT" H 14600 9700 50  0001 C CNN
 F 3 "" H 14600 9700 50  0001 C CNN
 	1    14600 9350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	13900 9550 14150 9550
