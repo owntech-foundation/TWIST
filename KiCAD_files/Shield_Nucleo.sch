@@ -825,54 +825,32 @@ Wire Wire Line
 	8625 7075 8625 7125
 Wire Wire Line
 	7475 7075 7475 7125
-$Comp
-L Connector:Conn_01x04_Male J5
-U 1 1 605189A2
-P 7400 5800
-F 0 "J5" H 7200 5575 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 7475 5475 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7400 5800 50  0001 C CNN
-F 3 "~" H 7400 5800 50  0001 C CNN
-	1    7400 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 6051B580
-P 7450 5175
-F 0 "J4" H 7175 5050 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 7450 4950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7450 5175 50  0001 C CNN
-F 3 "~" H 7450 5175 50  0001 C CNN
-	1    7450 5175
-	1    0    0    -1  
-$EndComp
-Text Label 7750 5175 0    50   ~ 0
+Text Label 7700 5200 0    50   ~ 0
 USART1_TX
 Wire Wire Line
-	7750 5175 7650 5175
-Text Label 7750 5275 0    50   ~ 0
+	7700 5200 7600 5200
+Text Label 7700 5300 0    50   ~ 0
 USART1_RX
 Wire Wire Line
-	7750 5275 7650 5275
-Text Label 7750 5800 0    50   ~ 0
+	7700 5300 7600 5300
+Text Label 7750 5875 0    50   ~ 0
 SPI3_MOSI
-Text Label 7750 5700 0    50   ~ 0
+Text Label 7750 5775 0    50   ~ 0
 SPI3_MISO
-Text Label 7750 5900 0    50   ~ 0
+Text Label 7750 5975 0    50   ~ 0
 SPI3_SCK
 Wire Wire Line
-	7750 5900 7600 5900
+	7750 5975 7600 5975
 Text Label 5025 2675 2    50   ~ 0
 SPI3_CS
-Text Label 7750 6000 0    50   ~ 0
+Text Label 7750 6075 0    50   ~ 0
 SPI3_CS2
 Wire Wire Line
-	7750 6000 7600 6000
+	7750 6075 7600 6075
 Wire Wire Line
-	7750 5800 7600 5800
+	7750 5875 7600 5875
 Wire Wire Line
-	7750 5700 7600 5700
+	7750 5775 7600 5775
 Text Label 2450 4275 0    50   ~ 0
 SPI3_CS2
 Wire Wire Line
@@ -4109,4 +4087,52 @@ Wire Wire Line
 	15050 9550 15175 9550
 Wire Wire Line
 	13900 9150 14150 9150
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 607EEA57
+P 7400 5200
+F 0 "J4" H 7450 5025 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7725 4925 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7400 5200 50  0001 C CNN
+F 3 "~" H 7400 5200 50  0001 C CNN
+	1    7400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR044
+U 1 1 608E5E39
+P 8125 5100
+F 0 "#PWR044" H 8125 4850 50  0001 C CNN
+F 1 "GNDD" H 8129 4945 50  0000 C CNN
+F 2 "" H 8125 5100 50  0001 C CNN
+F 3 "" H 8125 5100 50  0001 C CNN
+	1    8125 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 5100 8125 5100
+$Comp
+L Connector:Conn_01x05_Male J5
+U 1 1 609DAEDF
+P 7400 5975
+F 0 "J5" H 7425 5675 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 7725 5575 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7400 5975 50  0001 C CNN
+F 3 "~" H 7400 5975 50  0001 C CNN
+	1    7400 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR043
+U 1 1 60A7F5F6
+P 7750 6175
+F 0 "#PWR043" H 7750 5925 50  0001 C CNN
+F 1 "GNDD" V 7750 5950 50  0000 C CNN
+F 2 "" H 7750 6175 50  0001 C CNN
+F 3 "" H 7750 6175 50  0001 C CNN
+	1    7750 6175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 6175 7750 6175
 $EndSCHEMATC
