@@ -3496,14 +3496,14 @@ Wire Notes Line
 Text Notes 15075 15525 0    50   ~ 0
 Go to the driver stage
 Wire Notes Line
-	18650 7050 18650 10250
+	18650 7050 18650 9800
 Wire Notes Line
-	18650 10250 21625 10250
+	18650 9800 21625 9800
 Wire Notes Line
-	21625 10250 21625 7050
+	21625 9800 21625 7050
 Wire Notes Line
 	18650 7050 21625 7050
-Text Notes 18725 10150 0    50   ~ 0
+Text Notes 18725 9700 0    50   ~ 0
 Thermal jumpers connecting the mosfets and diode\nto the heatsink with electrical insulation
 $Comp
 L Connector_Generic:Conn_01x01 J34
@@ -3639,12 +3639,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 61DFFD6E
-P 20925 10050
-F 0 "H1" H 21025 10096 50  0000 L CNN
-F 1 "MountingHole" H 21025 10005 50  0000 L CNN
-F 2 "Footprints:mounting_holes" H 20925 10050 50  0001 C CNN
-F 3 "~" H 20925 10050 50  0001 C CNN
-	1    20925 10050
+P 20925 9600
+F 0 "H1" H 21025 9646 50  0000 L CNN
+F 1 "MountingHole" H 21025 9555 50  0000 L CNN
+F 2 "Footprints:mounting_holes" H 20925 9600 50  0001 C CNN
+F 3 "~" H 20925 9600 50  0001 C CNN
+	1    20925 9600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3860,4 +3860,63 @@ Wire Wire Line
 	20075 8975 20075 9175
 Wire Wire Line
 	20075 8800 20075 8975
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6098CB23
+P 10825 10700
+F 0 "H2" H 10925 10749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10925 10658 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 10825 10700 50  0001 C CNN
+F 3 "~" H 10825 10700 50  0001 C CNN
+	1    10825 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 609911D2
+P 11125 10550
+F 0 "H3" H 11225 10599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 11225 10508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 11125 10550 50  0001 C CNN
+F 3 "~" H 11125 10550 50  0001 C CNN
+	1    11125 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 609DD5CE
+P 11425 10400
+F 0 "H4" H 11525 10449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 11525 10358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 11425 10400 50  0001 C CNN
+F 3 "~" H 11425 10400 50  0001 C CNN
+	1    11425 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10825 11050 11125 11050
+Wire Wire Line
+	11125 11050 11125 10650
+Wire Wire Line
+	11425 11050 11425 10500
+Connection ~ 11125 11050
+Wire Wire Line
+	11125 11050 11425 11050
+Wire Wire Line
+	10825 11050 10700 11050
+Text Label 10700 11050 2    50   ~ 0
+DGND
+Connection ~ 10825 11050
+Wire Wire Line
+	10825 10800 10825 11050
+Text Notes 10325 11200 0    50   ~ 0
+M2.5 pad Holes for EMI shield for measurements\n
+Wire Notes Line
+	10275 10125 10275 11250
+Wire Notes Line
+	10275 11250 12250 11250
+Wire Notes Line
+	12250 11250 12250 10125
+Wire Notes Line
+	12250 10125 10275 10125
 $EndSCHEMATC
