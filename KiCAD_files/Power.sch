@@ -1989,7 +1989,7 @@ U 1 1 605D63F7
 P 3375 13075
 F 0 "U6" H 2950 12625 50  0000 C CNN
 F 1 "AMC1100" H 2975 12525 50  0000 C CNN
-F 2 "Footprints:SOIC-8_7.5x5.85mm_P1.27mm" H 3375 12825 50  0001 C CNN
+F 2 "Footprints:SOP-8_6.62x9.15mm_P2.54mm" H 3375 12825 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/amc1100.pdf?ts=1597048467257&ref_url=https%253A%252F%252Fwww.google.com%252F" H 3375 12825 50  0001 C CNN
 	1    3375 13075
 	1    0    0    -1  
@@ -2000,7 +2000,7 @@ U 1 1 605DB554
 P 3375 11300
 F 0 "U7" H 2950 10825 50  0000 C CNN
 F 1 "AMC1100" H 2975 10750 50  0000 C CNN
-F 2 "Footprints:SOIC-8_7.5x5.85mm_P1.27mm" H 3375 11050 50  0001 C CNN
+F 2 "Footprints:SOP-8_6.62x9.15mm_P2.54mm" H 3375 11050 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/amc1100.pdf?ts=1597048467257&ref_url=https%253A%252F%252Fwww.google.com%252F" H 3375 11050 50  0001 C CNN
 	1    3375 11300
 	1    0    0    -1  

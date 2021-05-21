@@ -1,4 +1,4 @@
-19294878603441613
+19296498909851582
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51155,6 +51155,13 @@ SOIC SO
 0
 16
 16
+Footprints
+SOP-8_6.62x9.15mm_P2.54mm
+SOP, 8 Pin (http://www.ti.com/lit/ds/symlink/iso1050.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+8
+8
 Footprints
 SOT-23
 SOT-23, Standard
