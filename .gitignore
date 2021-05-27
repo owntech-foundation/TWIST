@@ -1,3 +1,4 @@
 **/*.bak
 **/*.sch-bak
 **/*.err
+KiCAD_files/fp-info-cache
