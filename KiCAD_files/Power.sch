@@ -24,7 +24,8 @@ AR Path="/5E99427A/5E9DBB6F" Ref="Q1"  Part="1"
 F 0 "Q1" H 8705 3021 50  0000 L CNN
 F 1 "IPD200N15N3" H 8705 2930 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 8700 2900 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irfr4615pbf.pdf?fileId=5546d462533600a40153563231ce20f4" H 8300 3275 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD200N15N3%20G-DS-v02_07-EN.pdf?fileId=5546d4624fb7fef2014ff59238932dbf" H 8300 3275 50  0001 L CNN
+F 4 "IPD200N15N3GATMA1" H 8500 2975 50  0001 C CNN "manf#"
 	1    8500 2975
 	1    0    0    -1  
 $EndComp
@@ -79,7 +80,8 @@ AR Path="/5E99427A/5E9DBBAD" Ref="Q2"  Part="1"
 F 0 "Q2" H 8705 4171 50  0000 L CNN
 F 1 "IPD200N15N3" H 8705 4080 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 8700 4050 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irfr4615pbf.pdf?fileId=5546d462533600a40153563231ce20f4" H 8300 4425 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD200N15N3%20G-DS-v02_07-EN.pdf?fileId=5546d4624fb7fef2014ff59238932dbf" H 8300 4425 50  0001 L CNN
+F 4 "IPD200N15N3GATMA1" H 8500 4125 50  0001 C CNN "manf#"
 	1    8500 4125
 	1    0    0    -1  
 $EndComp
@@ -91,6 +93,7 @@ F 0 "R2" V 7557 4125 50  0000 C CNN
 F 1 "2,2" V 7466 4125 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7280 4125 50  0001 C CNN
 F 3 "~" H 7350 4125 50  0001 C CNN
+F 4 "CR0805AF/-2R20EAS" H 7350 4125 50  0001 C CNN "manf#"
 	1    7350 4125
 	0    -1   -1   0   
 $EndComp
@@ -102,6 +105,7 @@ F 0 "R1" V 7557 2975 50  0000 C CNN
 F 1 "2,2" V 7466 2975 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7280 2975 50  0001 C CNN
 F 3 "~" H 7350 2975 50  0001 C CNN
+F 4 "CR0805AF/-2R20EAS" H 7350 2975 50  0001 C CNN "manf#"
 	1    7350 2975
 	0    -1   -1   0   
 $EndComp
@@ -113,6 +117,7 @@ F 0 "R32" H 8100 4375 50  0000 R CNN
 F 1 "1k" H 8100 4475 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7780 4425 50  0001 C CNN
 F 3 "~" H 7850 4425 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 7850 4425 50  0001 C CNN "manf#"
 	1    7850 4425
 	-1   0    0    1   
 $EndComp
@@ -147,6 +152,7 @@ F 0 "Rs1" H 9434 2921 50  0000 L CNN
 F 1 "R_Small" H 9434 2830 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9375 2875 50  0001 C CNN
 F 3 "~" H 9375 2875 50  0001 C CNN
+F 4 "x" H 9375 2875 50  0001 C CNN "DNP"
 	1    9375 2875
 	1    0    0    -1  
 $EndComp
@@ -158,6 +164,7 @@ F 0 "Rs2" H 9434 3721 50  0000 L CNN
 F 1 "R_Small" H 9434 3630 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9375 3675 50  0001 C CNN
 F 3 "~" H 9375 3675 50  0001 C CNN
+F 4 "x" H 9375 3675 50  0001 C CNN "DNP"
 	1    9375 3675
 	1    0    0    -1  
 $EndComp
@@ -169,6 +176,8 @@ F 0 "Cs2" H 9467 4071 50  0000 L CNN
 F 1 "C_Small" H 9467 3980 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9375 4025 50  0001 C CNN
 F 3 "~" H 9375 4025 50  0001 C CNN
+F 4 "" H 9375 4025 50  0001 C CNN "manf#"
+F 5 "x" H 9375 4025 50  0001 C CNN "DNP"
 	1    9375 4025
 	1    0    0    -1  
 $EndComp
@@ -180,6 +189,8 @@ F 0 "Cs1" H 9467 3221 50  0000 L CNN
 F 1 "C_Small" H 9467 3130 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9375 3175 50  0001 C CNN
 F 3 "~" H 9375 3175 50  0001 C CNN
+F 4 "" H 9375 3175 50  0001 C CNN "manf#"
+F 5 "x" H 9375 3175 50  0001 C CNN "DNP"
 	1    9375 3175
 	1    0    0    -1  
 $EndComp
@@ -211,9 +222,10 @@ L Device:D_Schottky_AKA D_H1
 U 1 1 5E9DBC26
 P 10125 2925
 F 0 "D_H1" V 10104 3066 50  0000 L CNN
-F 1 "STTH1002C" V 10195 3066 50  0000 L CNN
+F 1 "STTH1002CB" V 10195 3066 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 10125 2925 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stth1002c.pdf" H 10125 2925 50  0001 C CNN
+F 4 "STTH1002CB" H 10125 2925 50  0001 C CNN "manf#"
 	1    10125 2925
 	0    1    1    0   
 $EndComp
@@ -222,9 +234,10 @@ L Device:D_Schottky_AKA D_L1
 U 1 1 5E9DBC2D
 P 10125 3975
 F 0 "D_L1" V 10104 4116 50  0000 L CNN
-F 1 "STTH1002C" V 10195 4116 50  0000 L CNN
+F 1 "STTH1002CB" V 10195 4116 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 10125 3975 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stth1002c.pdf" H 10125 3975 50  0001 C CNN
+F 4 "STTH1002CB" H 10125 3975 50  0001 C CNN "manf#"
 	1    10125 3975
 	0    1    1    0   
 $EndComp
@@ -242,6 +255,7 @@ F 0 "U3" V 14450 675 50  0000 C CNN
 F 1 "ACS712xLCTR-20A" V 14375 975 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 14725 1325 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 14625 1675 50  0001 C CNN
+F 4 "ACS712ELCTR-20A-T" H 14625 1675 50  0001 C CNN "manf#"
 	1    14625 1675
 	0    1    -1   0   
 $EndComp
@@ -257,6 +271,7 @@ F 0 "C2" H 5617 3046 50  0000 L CNN
 F 1 "100nF" H 5617 2955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5525 3000 50  0001 C CNN
 F 3 "~" H 5525 3000 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 5525 3000 50  0001 C CNN "manf#"
 	1    5525 3000
 	1    0    0    1   
 $EndComp
@@ -268,6 +283,7 @@ F 0 "C5" H 14267 1396 50  0000 L CNN
 F 1 "1nF" H 14267 1305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 14175 1350 50  0001 C CNN
 F 3 "~" H 14175 1350 50  0001 C CNN
+F 4 "885382207004" H 14175 1350 50  0001 C CNN "manf#"
 	1    14175 1350
 	-1   0    0    1   
 $EndComp
@@ -314,6 +330,7 @@ F 0 "D3" H 7350 3941 50  0000 C CNN
 F 1 "STPS0520Z" H 7350 3850 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 7350 3725 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stps0520z.pdf" H 7350 3725 50  0001 C CNN
+F 4 "STPS0520Z" H 7350 3725 50  0001 C CNN "manf#"
 	1    7350 3725
 	1    0    0    -1  
 $EndComp
@@ -325,6 +342,7 @@ F 0 "D2" H 7350 2791 50  0000 C CNN
 F 1 "STPS0520Z" H 7350 2700 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 7350 2575 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stps0520z.pdf" H 7350 2575 50  0001 C CNN
+F 4 "STPS0520Z" H 7350 2575 50  0001 C CNN "manf#"
 	1    7350 2575
 	1    0    0    -1  
 $EndComp
@@ -371,7 +389,8 @@ AR Path="/5E99427A/5EAD2879" Ref="C25"  Part="1"
 F 0 "C13" H 11140 2971 50  0000 L CNN
 F 1 "4.7uF" H 11140 2880 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 11063 2775 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 11025 2925 50  0001 C CNN
+F 3 "" H 11025 2925 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 11025 2925 50  0001 C CNN "manf#"
 	1    11025 2925
 	1    0    0    -1  
 $EndComp
@@ -445,6 +464,7 @@ F 0 "C11" H 8215 3771 50  0000 L CNN
 F 1 "100nF" H 8215 3680 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 8138 3575 50  0001 C CNN
 F 3 "~" H 8100 3725 50  0001 C CNN
+F 4 "1210PC104KAT1A" H 8100 3725 50  0001 C CNN "manf#"
 	1    8100 3725
 	1    0    0    -1  
 $EndComp
@@ -474,6 +494,7 @@ F 0 "L2" H 6075 6525 50  0000 R CNN
 F 1 "47uH" H 6175 6425 50  0000 R CNB
 F 2 "Footprints:WE-HCF-2013" H 6175 6575 50  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/7443634700.pdf" H 6175 6575 50  0001 C CNN
+F 4 "7443634700" H 6175 6575 50  0001 C CNN "manf#"
 	1    6175 6575
 	1    0    0    -1  
 $EndComp
@@ -485,6 +506,7 @@ F 0 "C24" H 5592 5921 50  0000 L CNN
 F 1 "100nF" H 5592 5830 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5500 5875 50  0001 C CNN
 F 3 "~" H 5500 5875 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 5500 5875 50  0001 C CNN "manf#"
 	1    5500 5875
 	1    0    0    1   
 $EndComp
@@ -496,6 +518,7 @@ F 0 "C22" H 4125 6025 50  0000 L CNN
 F 1 "1nF" H 4125 5925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4425 5925 50  0001 C CNN
 F 3 "~" H 4425 5925 50  0001 C CNN
+F 4 "885382207004" H 4425 5925 50  0001 C CNN "manf#"
 	1    4425 5925
 	1    0    0    1   
 $EndComp
@@ -532,6 +555,7 @@ F 0 "L1" H 6125 3325 50  0000 R CNN
 F 1 "47uH" H 6225 3225 50  0000 R CNB
 F 2 "Footprints:WE-HCF-2013" H 6275 3425 50  0001 C CNN
 F 3 "https://www.we-online.com/catalog/datasheet/7443634700.pdf" H 6275 3425 50  0001 C CNN
+F 4 "7443634700" H 6275 3425 50  0001 C CNN "manf#"
 	1    6275 3425
 	1    0    0    -1  
 $EndComp
@@ -569,6 +593,7 @@ F 0 "R4" V 7907 3725 50  0000 C CNN
 F 1 "0" V 7816 3725 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7630 3725 50  0001 C CNN
 F 3 "~" H 7700 3725 50  0001 C CNN
+F 4 "RC0805FR-070RL" H 7700 3725 50  0001 C CNN "manf#"
 	1    7700 3725
 	0    -1   -1   0   
 $EndComp
@@ -580,6 +605,7 @@ F 0 "R3" V 7907 2575 50  0000 C CNN
 F 1 "0" V 7816 2575 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7630 2575 50  0001 C CNN
 F 3 "~" H 7700 2575 50  0001 C CNN
+F 4 "RC0805FR-070RL" H 7700 2575 50  0001 C CNN "manf#"
 	1    7700 2575
 	0    -1   -1   0   
 $EndComp
@@ -597,6 +623,7 @@ F 0 "C1" H 4150 2675 50  0000 L CNN
 F 1 "1nF" H 4125 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4425 2725 50  0001 C CNN
 F 3 "~" H 4425 2725 50  0001 C CNN
+F 4 "885382207004" H 4425 2725 50  0001 C CNN "manf#"
 	1    4425 2725
 	1    0    0    1   
 $EndComp
@@ -610,6 +637,7 @@ F 0 "U4" V 4575 6450 50  0000 C CNN
 F 1 "ACS730xLCTR-20AB" V 4675 6775 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5175 6050 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en" H 4825 6150 50  0001 C CNN
+F 4 "ACS730KLCTR-20AB-T" H 4825 6150 50  0001 C CNN "manf#"
 	1    4825 6150
 	0    1    -1   0   
 $EndComp
@@ -624,6 +652,7 @@ F 0 "Rv1" H 2784 4221 50  0000 L CNN
 F 1 "150K" H 2784 4130 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2725 4175 50  0001 C CNN
 F 3 "~" H 2725 4175 50  0001 C CNN
+F 4 "PCF-W0805LF-03-1503-B-P-LT" H 2725 4175 50  0001 C CNN "manf#"
 	1    2725 4175
 	1    0    0    -1  
 $EndComp
@@ -641,6 +670,7 @@ F 0 "Rv3" H 2784 7371 50  0000 L CNN
 F 1 "150K" H 2784 7280 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2725 7325 50  0001 C CNN
 F 3 "~" H 2725 7325 50  0001 C CNN
+F 4 "PCF-W0805LF-03-1503-B-P-LT" H 2725 7325 50  0001 C CNN "manf#"
 	1    2725 7325
 	1    0    0    -1  
 $EndComp
@@ -652,6 +682,7 @@ F 0 "Rv4" H 2784 8046 50  0000 L CNN
 F 1 "470" H 2784 7955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2725 8000 50  0001 C CNN
 F 3 "~" H 2725 8000 50  0001 C CNN
+F 4 "TNPW0805470RDEEA" H 2725 8000 50  0001 C CNN "manf#"
 	1    2725 8000
 	1    0    0    -1  
 $EndComp
@@ -673,6 +704,7 @@ F 0 "Rv2" H 2784 4896 50  0000 L CNN
 F 1 "470" H 2784 4805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2725 4850 50  0001 C CNN
 F 3 "~" H 2725 4850 50  0001 C CNN
+F 4 "TNPW0805470RDEEA" H 2725 4850 50  0001 C CNN "manf#"
 	1    2725 4850
 	1    0    0    -1  
 $EndComp
@@ -695,7 +727,8 @@ P 14225 3975
 F 0 "Rv6" H 14284 4021 50  0000 L CNN
 F 1 "5.6K" H 14284 3930 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 14225 3975 50  0001 C CNN
-F 3 "~" H 14225 3975 50  0001 C CNN
+F 3 "" H 14225 3975 50  0001 C CNN
+F 4 "ERA-6AEB562V" H 14225 3975 50  0001 C CNN "manf#"
 	1    14225 3975
 	1    0    0    -1  
 $EndComp
@@ -711,6 +744,7 @@ F 0 "Rv5" H 14284 3021 50  0000 L CNN
 F 1 "330K" H 14284 2930 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 14225 2975 50  0001 C CNN
 F 3 "~" H 14225 2975 50  0001 C CNN
+F 4 "RG2012P-334-B-T5" H 14225 2975 50  0001 C CNN "manf#"
 	1    14225 2975
 	1    0    0    -1  
 $EndComp
@@ -752,6 +786,7 @@ F 0 "R33" V 8282 5725 50  0000 C CNN
 F 1 "0" V 8191 5725 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8005 5725 50  0001 C CNN
 F 3 "~" H 8075 5725 50  0001 C CNN
+F 4 "RC0805FR-070RL" H 8075 5725 50  0001 C CNN "manf#"
 	1    8075 5725
 	0    -1   -1   0   
 $EndComp
@@ -772,6 +807,7 @@ F 0 "R35" H 8450 6350 50  0000 R CNN
 F 1 "1k" H 8425 6425 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8155 6375 50  0001 C CNN
 F 3 "~" H 8225 6375 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 8225 6375 50  0001 C CNN "manf#"
 	1    8225 6375
 	-1   0    0    1   
 $EndComp
@@ -801,6 +837,7 @@ F 0 "C12" H 8590 6821 50  0000 L CNN
 F 1 "100nF" H 8590 6730 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 8513 6625 50  0001 C CNN
 F 3 "~" H 8475 6775 50  0001 C CNN
+F 4 "1210PC104KAT1A" H 8475 6775 50  0001 C CNN "manf#"
 	1    8475 6775
 	1    0    0    -1  
 $EndComp
@@ -816,6 +853,7 @@ F 0 "D4" H 7725 5941 50  0000 C CNN
 F 1 "STPS0520Z" H 7725 5850 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 7725 5725 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stps0520z.pdf" H 7725 5725 50  0001 C CNN
+F 4 "STPS0520Z" H 7725 5725 50  0001 C CNN "manf#"
 	1    7725 5725
 	1    0    0    -1  
 $EndComp
@@ -830,9 +868,10 @@ L Device:D_Schottky_AKA D_L2
 U 1 1 5F4613C3
 P 10625 7125
 F 0 "D_L2" V 10604 7266 50  0000 L CNN
-F 1 "STTH1002C" V 10695 7266 50  0000 L CNN
+F 1 "STTH1002CB" V 10695 7266 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 10625 7125 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stth1002c.pdf" H 10625 7125 50  0001 C CNN
+F 4 "STTH1002CB" H 10625 7125 50  0001 C CNN "manf#"
 	1    10625 7125
 	0    1    1    0   
 $EndComp
@@ -841,9 +880,10 @@ L Device:D_Schottky_AKA D_H2
 U 1 1 5F4613BD
 P 10625 6075
 F 0 "D_H2" V 10604 6216 50  0000 L CNN
-F 1 "STTH1002C" V 10695 6216 50  0000 L CNN
+F 1 "STTH1002CB" V 10695 6216 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 10625 6075 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stth1002c.pdf" H 10625 6075 50  0001 C CNN
+F 4 "STTH1002CB" H 10625 6075 50  0001 C CNN "manf#"
 	1    10625 6075
 	0    1    1    0   
 $EndComp
@@ -878,6 +918,8 @@ F 0 "Cs3" H 9967 6221 50  0000 L CNN
 F 1 "C_Small" H 9967 6130 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9875 6175 50  0001 C CNN
 F 3 "~" H 9875 6175 50  0001 C CNN
+F 4 "" H 9875 6175 50  0001 C CNN "manf#"
+F 5 "x" H 9875 6175 50  0001 C CNN "DNP"
 	1    9875 6175
 	1    0    0    -1  
 $EndComp
@@ -889,6 +931,8 @@ F 0 "Cs4" H 9967 7371 50  0000 L CNN
 F 1 "C_Small" H 9967 7280 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9875 7325 50  0001 C CNN
 F 3 "~" H 9875 7325 50  0001 C CNN
+F 4 "" H 9875 7325 50  0001 C CNN "manf#"
+F 5 "x" H 9875 7325 50  0001 C CNN "DNP"
 	1    9875 7325
 	1    0    0    -1  
 $EndComp
@@ -900,6 +944,7 @@ F 0 "Rs4" H 9934 7021 50  0000 L CNN
 F 1 "R_Small" H 9934 6930 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9875 6975 50  0001 C CNN
 F 3 "~" H 9875 6975 50  0001 C CNN
+F 4 "x" H 9875 6975 50  0001 C CNN "DNP"
 	1    9875 6975
 	1    0    0    -1  
 $EndComp
@@ -911,6 +956,7 @@ F 0 "Rs3" H 9934 5921 50  0000 L CNN
 F 1 "R_Small" H 9934 5830 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9875 5875 50  0001 C CNN
 F 3 "~" H 9875 5875 50  0001 C CNN
+F 4 "x" H 9875 5875 50  0001 C CNN "DNP"
 	1    9875 5875
 	1    0    0    -1  
 $EndComp
@@ -927,6 +973,7 @@ F 0 "R5" V 7932 6125 50  0000 C CNN
 F 1 "2,2" V 7841 6125 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7655 6125 50  0001 C CNN
 F 3 "~" H 7725 6125 50  0001 C CNN
+F 4 "CR0805AF/-2R20EAS" H 7725 6125 50  0001 C CNN "manf#"
 	1    7725 6125
 	0    -1   -1   0   
 $EndComp
@@ -941,7 +988,8 @@ AR Path="/5E99427A/5F46135E" Ref="Q5"  Part="1"
 F 0 "Q5" H 9230 7321 50  0000 L CNN
 F 1 "IPD200N15N3" H 9230 7230 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 9225 7200 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irfr4615pbf.pdf?fileId=5546d462533600a40153563231ce20f4" H 8825 7575 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD200N15N3%20G-DS-v02_07-EN.pdf?fileId=5546d4624fb7fef2014ff59238932dbf" H 8825 7575 50  0001 L CNN
+F 4 "IPD200N15N3GATMA1" H 9025 7275 50  0001 C CNN "manf#"
 	1    9025 7275
 	1    0    0    -1  
 $EndComp
@@ -995,7 +1043,8 @@ AR Path="/5E99427A/5F461336" Ref="Q4"  Part="1"
 F 0 "Q4" H 9230 6171 50  0000 L CNN
 F 1 "IPD200N15N3" H 9230 6080 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 9225 6050 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irfr4615pbf.pdf?fileId=5546d462533600a40153563231ce20f4" H 8825 6425 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD200N15N3%20G-DS-v02_07-EN.pdf?fileId=5546d4624fb7fef2014ff59238932dbf" H 8825 6425 50  0001 L CNN
+F 4 "IPD200N15N3GATMA1" H 9025 6125 50  0001 C CNN "manf#"
 	1    9025 6125
 	1    0    0    -1  
 $EndComp
@@ -1008,7 +1057,8 @@ P 1450 5000
 F 0 "J1" H 1250 5375 60  0000 L CNN
 F 1 "2604-1102" H 1578 4997 60  0001 L CNN
 F 2 "Footprints:WAGO-2604-1102" H 1450 4940 60  0001 C CNN
-F 3 "" H 1450 5000 60  0000 C CNN
+F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 1450 5000 60  0000 C CNN
+F 4 "2604-1102" H 1450 5000 50  0001 C CNN "manf#"
 	1    1450 5000
 	-1   0    0    -1  
 $EndComp
@@ -1024,7 +1074,8 @@ P 16450 2375
 F 0 "J4" H 16425 2750 60  0000 L CNN
 F 1 "2604-1102" H 16578 2372 60  0001 L CNN
 F 2 "Footprints:WAGO-2604-1102" H 16450 2315 60  0001 C CNN
-F 3 "" H 16450 2375 60  0000 C CNN
+F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 16450 2375 60  0000 C CNN
+F 4 "2604-1102" H 16450 2375 50  0001 C CNN "manf#"
 	1    16450 2375
 	1    0    0    -1  
 $EndComp
@@ -1077,6 +1128,7 @@ F 0 "Rbleed1" H 13684 2971 50  0000 L CNN
 F 1 "1M" H 13684 2880 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 13625 2925 50  0001 C CNN
 F 3 "~" H 13625 2925 50  0001 C CNN
+F 4 "CMP0805-FX-1004ELF" H 13625 2925 50  0001 C CNN "manf#"
 	1    13625 2925
 	1    0    0    -1  
 $EndComp
@@ -1088,6 +1140,7 @@ F 0 "Rbleed2" H 13684 4171 50  0000 L CNN
 F 1 "1M" H 13684 4080 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 13625 4125 50  0001 C CNN
 F 3 "~" H 13625 4125 50  0001 C CNN
+F 4 "CMP0805-FX-1004ELF" H 13625 4125 50  0001 C CNN "manf#"
 	1    13625 4125
 	1    0    0    -1  
 $EndComp
@@ -1129,6 +1182,7 @@ F 0 "R6" V 7932 7275 50  0000 C CNN
 F 1 "2,2" V 7841 7275 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7655 7275 50  0001 C CNN
 F 3 "~" H 7725 7275 50  0001 C CNN
+F 4 "CR0805AF/-2R20EAS" H 7725 7275 50  0001 C CNN "manf#"
 	1    7725 7275
 	0    -1   -1   0   
 $EndComp
@@ -1140,6 +1194,7 @@ F 0 "R36" H 8425 7550 50  0000 R CNN
 F 1 "1k" H 8425 7625 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8155 7575 50  0001 C CNN
 F 3 "~" H 8225 7575 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 8225 7575 50  0001 C CNN "manf#"
 	1    8225 7575
 	-1   0    0    1   
 $EndComp
@@ -1160,6 +1215,7 @@ F 0 "D5" H 7725 7091 50  0000 C CNN
 F 1 "STPS0520Z" H 7725 7000 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 7725 6875 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stps0520z.pdf" H 7725 6875 50  0001 C CNN
+F 4 "STPS0520Z" H 7725 6875 50  0001 C CNN "manf#"
 	1    7725 6875
 	1    0    0    -1  
 $EndComp
@@ -1183,6 +1239,7 @@ F 0 "R34" V 8282 6875 50  0000 C CNN
 F 1 "0" V 8191 6875 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8005 6875 50  0001 C CNN
 F 3 "~" H 8075 6875 50  0001 C CNN
+F 4 "RC0805FR-070RL" H 8075 6875 50  0001 C CNN "manf#"
 	1    8075 6875
 	0    -1   -1   0   
 $EndComp
@@ -1202,7 +1259,8 @@ AR Path="/5E99427A/5F6E9BF7" Ref="C?"  Part="1"
 F 0 "C15" H 11590 2971 50  0000 L CNN
 F 1 "4.7uF" H 11590 2880 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 11513 2775 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 11475 2925 50  0001 C CNN
+F 3 "" H 11475 2925 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 11475 2925 50  0001 C CNN "manf#"
 	1    11475 2925
 	1    0    0    -1  
 $EndComp
@@ -1217,7 +1275,8 @@ AR Path="/5E99427A/5F701CFC" Ref="C?"  Part="1"
 F 0 "C17" H 12040 2971 50  0000 L CNN
 F 1 "4.7uF" H 12040 2880 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 11963 2775 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 11925 2925 50  0001 C CNN
+F 3 "" H 11925 2925 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 11925 2925 50  0001 C CNN "manf#"
 	1    11925 2925
 	1    0    0    -1  
 $EndComp
@@ -1232,7 +1291,8 @@ AR Path="/5E99427A/5F719DF1" Ref="C?"  Part="1"
 F 0 "C19" H 12440 2971 50  0000 L CNN
 F 1 "4.7uF" H 12440 2880 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 12363 2775 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 12325 2925 50  0001 C CNN
+F 3 "" H 12325 2925 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 12325 2925 50  0001 C CNN "manf#"
 	1    12325 2925
 	1    0    0    -1  
 $EndComp
@@ -1247,7 +1307,8 @@ AR Path="/5E99427A/5F731F99" Ref="C?"  Part="1"
 F 0 "C21" H 12890 2971 50  0000 L CNN
 F 1 "4.7uF" H 12890 2880 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 12813 2775 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 12775 2925 50  0001 C CNN
+F 3 "" H 12775 2925 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 12775 2925 50  0001 C CNN "manf#"
 	1    12775 2925
 	1    0    0    -1  
 $EndComp
@@ -1262,7 +1323,8 @@ AR Path="/5E99427A/5F749FBA" Ref="C?"  Part="1"
 F 0 "C25" H 13340 2971 50  0000 L CNN
 F 1 "4.7uF" H 13340 2880 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 13263 2775 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 13225 2925 50  0001 C CNN
+F 3 "" H 13225 2925 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 13225 2925 50  0001 C CNN "manf#"
 	1    13225 2925
 	1    0    0    -1  
 $EndComp
@@ -1277,7 +1339,8 @@ AR Path="/5E99427A/5F798F0D" Ref="C?"  Part="1"
 F 0 "C14" H 11140 4171 50  0000 L CNN
 F 1 "4.7uF" H 11140 4080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 11063 3975 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 11025 4125 50  0001 C CNN
+F 3 "" H 11025 4125 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 11025 4125 50  0001 C CNN "manf#"
 	1    11025 4125
 	1    0    0    -1  
 $EndComp
@@ -1292,7 +1355,8 @@ AR Path="/5E99427A/5F7B0FF2" Ref="C?"  Part="1"
 F 0 "C16" H 11590 4171 50  0000 L CNN
 F 1 "4.7uF" H 11590 4080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 11513 3975 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 11475 4125 50  0001 C CNN
+F 3 "" H 11475 4125 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 11475 4125 50  0001 C CNN "manf#"
 	1    11475 4125
 	1    0    0    -1  
 $EndComp
@@ -1307,7 +1371,8 @@ AR Path="/5E99427A/5F7C90F5" Ref="C?"  Part="1"
 F 0 "C18" H 12040 4171 50  0000 L CNN
 F 1 "4.7uF" H 12040 4080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 11963 3975 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 11925 4125 50  0001 C CNN
+F 3 "" H 11925 4125 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 11925 4125 50  0001 C CNN "manf#"
 	1    11925 4125
 	1    0    0    -1  
 $EndComp
@@ -1322,7 +1387,8 @@ AR Path="/5E99427A/5F7E1128" Ref="C?"  Part="1"
 F 0 "C20" H 12440 4171 50  0000 L CNN
 F 1 "4.7uF" H 12440 4080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 12363 3975 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 12325 4125 50  0001 C CNN
+F 3 "" H 12325 4125 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 12325 4125 50  0001 C CNN "manf#"
 	1    12325 4125
 	1    0    0    -1  
 $EndComp
@@ -1337,7 +1403,8 @@ AR Path="/5E99427A/5F7F9272" Ref="C?"  Part="1"
 F 0 "C23" H 12890 4171 50  0000 L CNN
 F 1 "4.7uF" H 12890 4080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 12813 3975 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 12775 4125 50  0001 C CNN
+F 3 "" H 12775 4125 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 12775 4125 50  0001 C CNN "manf#"
 	1    12775 4125
 	1    0    0    -1  
 $EndComp
@@ -1352,7 +1419,8 @@ AR Path="/5E99427A/5F811350" Ref="C?"  Part="1"
 F 0 "C26" H 13340 4171 50  0000 L CNN
 F 1 "4.7uF" H 13340 4080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 13263 3975 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 13225 4125 50  0001 C CNN
+F 3 "" H 13225 4125 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 13225 4125 50  0001 C CNN "manf#"
 	1    13225 4125
 	1    0    0    -1  
 $EndComp
@@ -1367,7 +1435,8 @@ AR Path="/5E99427A/5F8805C4" Ref="C?"  Part="1"
 F 0 "C7" H 3840 4646 50  0000 L CNN
 F 1 "4.7uF" H 3840 4555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3763 4450 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 3725 4600 50  0001 C CNN
+F 3 "" H 3725 4600 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 3725 4600 50  0001 C CNN "manf#"
 	1    3725 4600
 	1    0    0    -1  
 $EndComp
@@ -1382,7 +1451,8 @@ AR Path="/5E99427A/5F8985C2" Ref="C?"  Part="1"
 F 0 "C9" H 4290 4646 50  0000 L CNN
 F 1 "4.7uF" H 4290 4555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4213 4450 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 4175 4600 50  0001 C CNN
+F 3 "" H 4175 4600 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 4175 4600 50  0001 C CNN "manf#"
 	1    4175 4600
 	1    0    0    -1  
 $EndComp
@@ -1399,7 +1469,8 @@ AR Path="/5E99427A/5F8E4CE5" Ref="C?"  Part="1"
 F 0 "C6" H 3540 7696 50  0000 L CNN
 F 1 "4.7uF" H 3540 7605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3463 7500 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 3425 7650 50  0001 C CNN
+F 3 "" H 3425 7650 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 3425 7650 50  0001 C CNN "manf#"
 	1    3425 7650
 	1    0    0    -1  
 $EndComp
@@ -1414,7 +1485,8 @@ AR Path="/5E99427A/5F8FC0CE" Ref="C?"  Part="1"
 F 0 "C8" H 3990 7696 50  0000 L CNN
 F 1 "4.7uF" H 3990 7605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3913 7500 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 3875 7650 50  0001 C CNN
+F 3 "" H 3875 7650 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 3875 7650 50  0001 C CNN "manf#"
 	1    3875 7650
 	1    0    0    -1  
 $EndComp
@@ -1429,7 +1501,8 @@ AR Path="/5E99427A/5F913455" Ref="C?"  Part="1"
 F 0 "C10" H 4440 7696 50  0000 L CNN
 F 1 "4.7uF" H 4440 7605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4363 7500 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 4325 7650 50  0001 C CNN
+F 3 "" H 4325 7650 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 4325 7650 50  0001 C CNN "manf#"
 	1    4325 7650
 	1    0    0    -1  
 $EndComp
@@ -1458,7 +1531,8 @@ AR Path="/5E99427A/5F8685F8" Ref="C?"  Part="1"
 F 0 "C3" H 3390 4646 50  0000 L CNN
 F 1 "4.7uF" H 3390 4555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3313 4450 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf" H 3275 4600 50  0001 C CNN
+F 3 "" H 3275 4600 50  0001 C CNN
+F 4 "12101C475K4Z2A" H 3275 4600 50  0001 C CNN "manf#"
 	1    3275 4600
 	1    0    0    -1  
 $EndComp
@@ -1478,6 +1552,7 @@ F 0 "U1" V 4625 2675 50  0000 C CNN
 F 1 "ACS730xLCTR-20AB" V 4700 2400 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5175 2925 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en" H 4825 3025 50  0001 C CNN
+F 4 "ACS730KLCTR-20AB-T" H 4825 3025 50  0001 C CNN "manf#"
 	1    4825 3025
 	0    1    -1   0   
 $EndComp
@@ -1489,6 +1564,7 @@ F 0 "R31" H 8050 3200 50  0000 R CNN
 F 1 "1k" H 8050 3275 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7780 3225 50  0001 C CNN
 F 3 "~" H 7850 3225 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 7850 3225 50  0001 C CNN "manf#"
 	1    7850 3225
 	-1   0    0    1   
 $EndComp
@@ -1500,6 +1576,7 @@ F 0 "HS1" V 21125 8250 50  0000 L CNN
 F 1 "Heatsink_Pad" V 21200 8250 50  0000 L CNN
 F 2 "Footprints:custom_heatsink" H 20862 8475 50  0001 C CNN
 F 3 "~" H 20862 8475 50  0001 C CNN
+F 4 "x" H 20850 8525 50  0001 C CNN "DNP"
 	1    20850 8525
 	0    1    1    0   
 $EndComp
@@ -1510,7 +1587,8 @@ P 19525 8200
 F 0 "JP1" H 19525 8293 50  0000 C CNN
 F 1 "THJP0612AST" H 19525 8294 50  0001 C CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8200 50  0001 C CNN
-F 3 "~" H 19525 8200 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8200 50  0001 C CNN
+F 4 "THJP0612AST1" H 19525 8200 50  0001 C CNN "manf#"
 	1    19525 8200
 	1    0    0    -1  
 $EndComp
@@ -1521,7 +1599,8 @@ P 19525 8800
 F 0 "JP3" H 19525 8893 50  0000 C CNN
 F 1 "THJP0612AST" H 19525 8894 50  0001 C CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8800 50  0001 C CNN
-F 3 "~" H 19525 8800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8800 50  0001 C CNN
+F 4 "THJP0612AST1" H 19525 8800 50  0001 C CNN "manf#"
 	1    19525 8800
 	1    0    0    -1  
 $EndComp
@@ -1537,7 +1616,8 @@ P 19525 9375
 F 0 "JP4" H 19525 9468 50  0000 C CNN
 F 1 "THJP0612AST" H 19525 9469 50  0001 C CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 9375 50  0001 C CNN
-F 3 "~" H 19525 9375 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 9375 50  0001 C CNN
+F 4 "THJP0612AST1" H 19525 9375 50  0001 C CNN "manf#"
 	1    19525 9375
 	1    0    0    -1  
 $EndComp
@@ -1554,7 +1634,8 @@ P 15125 14250
 F 0 "J6" H 15200 14150 50  0000 R CNN
 F 1 "Conn_01x01" V 14998 14162 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 15125 14250 50  0001 C CNN
-F 3 "~" H 15125 14250 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 15125 14250 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 15125 14250 50  0001 C CNN "manf#"
 	1    15125 14250
 	-1   0    0    1   
 $EndComp
@@ -1565,7 +1646,8 @@ P 15125 14975
 F 0 "J7" H 15200 14875 50  0000 R CNN
 F 1 "Conn_01x01" V 14998 14887 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 15125 14975 50  0001 C CNN
-F 3 "~" H 15125 14975 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 15125 14975 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 15125 14975 50  0001 C CNN "manf#"
 	1    15125 14975
 	-1   0    0    1   
 $EndComp
@@ -1576,7 +1658,8 @@ P 15125 14475
 F 0 "J8" H 15200 14375 50  0000 R CNN
 F 1 "Conn_01x01" V 14998 14387 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 15125 14475 50  0001 C CNN
-F 3 "~" H 15125 14475 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 15125 14475 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 15125 14475 50  0001 C CNN "manf#"
 	1    15125 14475
 	-1   0    0    1   
 $EndComp
@@ -1595,7 +1678,8 @@ P 9925 14875
 F 0 "J20" H 10000 14775 50  0000 R CNN
 F 1 "Conn_01x01" V 9798 14787 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 9925 14875 50  0001 C CNN
-F 3 "~" H 9925 14875 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 9925 14875 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 9925 14875 50  0001 C CNN "manf#"
 	1    9925 14875
 	1    0    0    -1  
 $EndComp
@@ -1606,7 +1690,8 @@ P 16025 14250
 F 0 "J21" H 16100 14150 50  0000 R CNN
 F 1 "Conn_01x01" V 15898 14162 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 16025 14250 50  0001 C CNN
-F 3 "~" H 16025 14250 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 16025 14250 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 16025 14250 50  0001 C CNN "manf#"
 	1    16025 14250
 	-1   0    0    1   
 $EndComp
@@ -1617,7 +1702,8 @@ P 16025 14975
 F 0 "J23" H 16100 14875 50  0000 R CNN
 F 1 "Conn_01x01" V 15898 14887 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 16025 14975 50  0001 C CNN
-F 3 "~" H 16025 14975 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 16025 14975 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 16025 14975 50  0001 C CNN "manf#"
 	1    16025 14975
 	-1   0    0    1   
 $EndComp
@@ -1628,7 +1714,8 @@ P 16025 14475
 F 0 "J22" H 16100 14375 50  0000 R CNN
 F 1 "Conn_01x01" V 15898 14387 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 16025 14475 50  0001 C CNN
-F 3 "~" H 16025 14475 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 16025 14475 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 16025 14475 50  0001 C CNN "manf#"
 	1    16025 14475
 	-1   0    0    1   
 $EndComp
@@ -1639,7 +1726,8 @@ P 16025 15175
 F 0 "J24" H 16100 15075 50  0000 R CNN
 F 1 "Conn_01x01" V 15898 15087 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 16025 15175 50  0001 C CNN
-F 3 "~" H 16025 15175 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 16025 15175 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 16025 15175 50  0001 C CNN "manf#"
 	1    16025 15175
 	-1   0    0    1   
 $EndComp
@@ -1650,7 +1738,8 @@ P 16950 14250
 F 0 "J25" H 17025 14150 50  0000 R CNN
 F 1 "Conn_01x01" V 16823 14162 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 16950 14250 50  0001 C CNN
-F 3 "~" H 16950 14250 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 16950 14250 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 16950 14250 50  0001 C CNN "manf#"
 	1    16950 14250
 	-1   0    0    1   
 $EndComp
@@ -1661,7 +1750,8 @@ P 16950 14475
 F 0 "J26" H 17025 14375 50  0000 R CNN
 F 1 "Conn_01x01" V 16823 14387 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 16950 14475 50  0001 C CNN
-F 3 "~" H 16950 14475 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 16950 14475 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 16950 14475 50  0001 C CNN "manf#"
 	1    16950 14475
 	-1   0    0    1   
 $EndComp
@@ -1734,7 +1824,8 @@ P 6725 11225
 F 0 "J9" H 6800 11125 50  0000 R CNN
 F 1 "Conn_01x01" V 6598 11137 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 6725 11225 50  0001 C CNN
-F 3 "~" H 6725 11225 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 6725 11225 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 6725 11225 50  0001 C CNN "manf#"
 	1    6725 11225
 	1    0    0    -1  
 $EndComp
@@ -1745,7 +1836,8 @@ P 6725 13000
 F 0 "J10" H 6800 12900 50  0000 R CNN
 F 1 "Conn_01x01" V 6598 12912 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 6725 13000 50  0001 C CNN
-F 3 "~" H 6725 13000 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 6725 13000 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 6725 13000 50  0001 C CNN "manf#"
 	1    6725 13000
 	1    0    0    -1  
 $EndComp
@@ -1756,7 +1848,8 @@ P 6725 14725
 F 0 "J11" H 6800 14625 50  0000 R CNN
 F 1 "Conn_01x01" V 6598 14637 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 6725 14725 50  0001 C CNN
-F 3 "~" H 6725 14725 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 6725 14725 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 6725 14725 50  0001 C CNN "manf#"
 	1    6725 14725
 	1    0    0    -1  
 $EndComp
@@ -1767,7 +1860,8 @@ P 6725 11525
 F 0 "J12" H 6800 11425 50  0000 R CNN
 F 1 "Conn_01x01" V 6598 11437 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 6725 11525 50  0001 C CNN
-F 3 "~" H 6725 11525 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 6725 11525 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 6725 11525 50  0001 C CNN "manf#"
 	1    6725 11525
 	1    0    0    -1  
 $EndComp
@@ -1780,7 +1874,8 @@ P 6725 13275
 F 0 "J13" H 6800 13175 50  0000 R CNN
 F 1 "Conn_01x01" V 6598 13187 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 6725 13275 50  0001 C CNN
-F 3 "~" H 6725 13275 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 6725 13275 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 6725 13275 50  0001 C CNN "manf#"
 	1    6725 13275
 	1    0    0    -1  
 $EndComp
@@ -1791,7 +1886,8 @@ P 6725 15000
 F 0 "J14" H 6800 14900 50  0000 R CNN
 F 1 "Conn_01x01" V 6598 14912 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 6725 15000 50  0001 C CNN
-F 3 "~" H 6725 15000 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 6725 15000 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 6725 15000 50  0001 C CNN "manf#"
 	1    6725 15000
 	1    0    0    -1  
 $EndComp
@@ -1806,7 +1902,8 @@ P 9950 11300
 F 0 "J15" H 10025 11200 50  0000 R CNN
 F 1 "Conn_01x01" V 9823 11212 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 9950 11300 50  0001 C CNN
-F 3 "~" H 9950 11300 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 9950 11300 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 9950 11300 50  0001 C CNN "manf#"
 	1    9950 11300
 	1    0    0    -1  
 $EndComp
@@ -1817,7 +1914,8 @@ P 9925 12975
 F 0 "J16" H 10000 12875 50  0000 R CNN
 F 1 "Conn_01x01" V 9798 12887 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 9925 12975 50  0001 C CNN
-F 3 "~" H 9925 12975 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 9925 12975 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 9925 12975 50  0001 C CNN "manf#"
 	1    9925 12975
 	1    0    0    -1  
 $EndComp
@@ -1828,7 +1926,8 @@ P 9925 14600
 F 0 "J17" H 10000 14500 50  0000 R CNN
 F 1 "Conn_01x01" V 9798 14512 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 9925 14600 50  0001 C CNN
-F 3 "~" H 9925 14600 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 9925 14600 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 9925 14600 50  0001 C CNN "manf#"
 	1    9925 14600
 	1    0    0    -1  
 $EndComp
@@ -1839,7 +1938,8 @@ P 9950 11575
 F 0 "J18" H 10025 11475 50  0000 R CNN
 F 1 "Conn_01x01" V 9823 11487 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 9950 11575 50  0001 C CNN
-F 3 "~" H 9950 11575 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 9950 11575 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 9950 11575 50  0001 C CNN "manf#"
 	1    9950 11575
 	1    0    0    -1  
 $EndComp
@@ -1854,7 +1954,8 @@ P 9925 13275
 F 0 "J19" H 10000 13400 50  0000 R CNN
 F 1 "Conn_01x01" V 9798 13187 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 9925 13275 50  0001 C CNN
-F 3 "~" H 9925 13275 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 9925 13275 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 9925 13275 50  0001 C CNN "manf#"
 	1    9925 13275
 	1    0    0    1   
 $EndComp
@@ -1865,7 +1966,8 @@ P 15125 15225
 F 0 "J31" H 15200 15125 50  0000 R CNN
 F 1 "Conn_01x01" V 14998 15137 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 15125 15225 50  0001 C CNN
-F 3 "~" H 15125 15225 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 15125 15225 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 15125 15225 50  0001 C CNN "manf#"
 	1    15125 15225
 	-1   0    0    1   
 $EndComp
@@ -1878,7 +1980,8 @@ P 10775 14900
 F 0 "J29" H 10850 14800 50  0000 R CNN
 F 1 "Conn_01x01" V 10648 14812 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 10775 14900 50  0001 C CNN
-F 3 "~" H 10775 14900 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 10775 14900 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 10775 14900 50  0001 C CNN "manf#"
 	1    10775 14900
 	-1   0    0    1   
 $EndComp
@@ -1893,7 +1996,8 @@ P 10775 14625
 F 0 "J28" H 10850 14525 50  0000 R CNN
 F 1 "Conn_01x01" V 10648 14537 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 10775 14625 50  0001 C CNN
-F 3 "~" H 10775 14625 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 10775 14625 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 10775 14625 50  0001 C CNN "manf#"
 	1    10775 14625
 	-1   0    0    1   
 $EndComp
@@ -1931,7 +2035,8 @@ P 19525 8025
 F 0 "JP5" H 19525 8118 50  0000 C CNN
 F 1 "THJP0612AST" H 19525 8119 50  0001 C CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8025 50  0001 C CNN
-F 3 "~" H 19525 8025 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8025 50  0001 C CNN
+F 4 "THJP0612AST1" H 19525 8025 50  0001 C CNN "manf#"
 	1    19525 8025
 	1    0    0    -1  
 $EndComp
@@ -1959,7 +2064,8 @@ P 19525 8425
 F 0 "JP2" H 19525 8518 50  0000 C CNN
 F 1 "THJP0612AST" H 19525 8519 50  0001 C CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8425 50  0001 C CNN
-F 3 "~" H 19525 8425 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8425 50  0001 C CNN
+F 4 "THJP0612AST1" H 19525 8425 50  0001 C CNN "manf#"
 	1    19525 8425
 	1    0    0    -1  
 $EndComp
@@ -1970,7 +2076,8 @@ P 19525 8625
 F 0 "JP6" H 19525 8718 50  0000 C CNN
 F 1 "THJP0612AST" H 19525 8719 50  0001 C CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8625 50  0001 C CNN
-F 3 "~" H 19525 8625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8625 50  0001 C CNN
+F 4 "THJP0612AST1" H 19525 8625 50  0001 C CNN "manf#"
 	1    19525 8625
 	1    0    0    -1  
 $EndComp
@@ -1990,7 +2097,8 @@ P 3375 13075
 F 0 "U6" H 2950 12625 50  0000 C CNN
 F 1 "AMC1100DUB" H 2975 12525 50  0000 C CNN
 F 2 "Footprints:SOP-8_6.62x9.15mm_P2.54mm" H 3375 12825 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/amc1100.pdf?ts=1597048467257&ref_url=https%253A%252F%252Fwww.google.com%252F" H 3375 12825 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/amc1100.pdf?ts=1622519237932&ref_url=https%253A%252F%252Fwww.google.com%252F" H 3375 12825 50  0001 C CNN
+F 4 "AMC1100DUB" H 3375 13075 50  0001 C CNN "manf#"
 	1    3375 13075
 	1    0    0    -1  
 $EndComp
@@ -2001,7 +2109,8 @@ P 3375 11300
 F 0 "U7" H 2950 10825 50  0000 C CNN
 F 1 "AMC1100DUB" H 2975 10750 50  0000 C CNN
 F 2 "Footprints:SOP-8_6.62x9.15mm_P2.54mm" H 3375 11050 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/amc1100.pdf?ts=1597048467257&ref_url=https%253A%252F%252Fwww.google.com%252F" H 3375 11050 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/amc1100.pdf?ts=1622519237932&ref_url=https%253A%252F%252Fwww.google.com%252F" H 3375 11050 50  0001 C CNN
+F 4 "AMC1100DUB" H 3375 11300 50  0001 C CNN "manf#"
 	1    3375 11300
 	1    0    0    -1  
 $EndComp
@@ -2013,6 +2122,7 @@ F 0 "R11" V 4550 11050 50  0000 L CNN
 F 1 "27k" V 4400 11050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4475 11125 50  0001 C CNN
 F 3 "~" H 4475 11125 50  0001 C CNN
+F 4 "RC0805FR-0727KL" H 4475 11125 50  0001 C CNN "manf#"
 	1    4475 11125
 	0    -1   -1   0   
 $EndComp
@@ -2024,6 +2134,7 @@ F 0 "R12" V 4375 11250 50  0000 L CNN
 F 1 "27k" V 4300 11250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4475 11325 50  0001 C CNN
 F 3 "~" H 4475 11325 50  0001 C CNN
+F 4 "RC0805FR-0727KL" H 4475 11325 50  0001 C CNN "manf#"
 	1    4475 11325
 	0    -1   -1   0   
 $EndComp
@@ -2042,9 +2153,10 @@ L Amplifier_Operational:TLV6001DCK U10
 U 1 1 6108D061
 P 5550 11225
 F 0 "U10" H 5750 11475 50  0000 L CNN
-F 1 "OPA316DCK" H 5750 11400 50  0000 L CNN
+F 1 "OPA316" H 5750 11400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 5750 11225 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv6001.pdf" H 5550 11225 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa316.pdf?ts=1622530692356&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA316" H 5550 11225 50  0001 C CNN
+F 4 "OPA316IDCKT" H 5550 11225 50  0001 C CNN "manf#"
 	1    5550 11225
 	1    0    0    -1  
 $EndComp
@@ -2070,6 +2182,7 @@ F 0 "R15" H 4825 10925 50  0000 L CNN
 F 1 "12k" H 4825 10850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5025 10900 50  0001 C CNN
 F 3 "~" H 5025 10900 50  0001 C CNN
+F 4 "RC0805FR-0712KL" H 5025 10900 50  0001 C CNN "manf#"
 	1    5025 10900
 	1    0    0    -1  
 $EndComp
@@ -2081,6 +2194,7 @@ F 0 "R18" V 5150 11625 50  0000 L CNN
 F 1 "12k" V 5075 11625 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5250 11700 50  0001 C CNN
 F 3 "~" H 5250 11700 50  0001 C CNN
+F 4 "RC0805FR-0712KL" H 5250 11700 50  0001 C CNN "manf#"
 	1    5250 11700
 	0    -1   -1   0   
 $EndComp
@@ -2118,6 +2232,7 @@ F 0 "R7" V 4550 14675 50  0000 L CNN
 F 1 "27k" V 4550 14450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4475 14625 50  0001 C CNN
 F 3 "~" H 4475 14625 50  0001 C CNN
+F 4 "RC0805FR-0727KL" H 4475 14625 50  0001 C CNN "manf#"
 	1    4475 14625
 	0    -1   -1   0   
 $EndComp
@@ -2129,6 +2244,7 @@ F 0 "R8" V 4550 14875 50  0000 L CNN
 F 1 "27k" V 4550 14650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4475 14825 50  0001 C CNN
 F 3 "~" H 4475 14825 50  0001 C CNN
+F 4 "RC0805FR-0727KL" H 4475 14825 50  0001 C CNN "manf#"
 	1    4475 14825
 	0    -1   -1   0   
 $EndComp
@@ -2147,9 +2263,10 @@ L Amplifier_Operational:TLV6001DCK U8
 U 1 1 618F274F
 P 5550 14725
 F 0 "U8" H 5750 14975 50  0000 L CNN
-F 1 "OPA316DCK" H 5750 14900 50  0000 L CNN
+F 1 "OPA316" H 5750 14900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 5750 14725 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv6001.pdf" H 5550 14725 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa316.pdf?ts=1622530692356&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA316" H 5550 14725 50  0001 C CNN
+F 4 "OPA316IDCKT" H 5550 14725 50  0001 C CNN "manf#"
 	1    5550 14725
 	1    0    0    -1  
 $EndComp
@@ -2175,6 +2292,7 @@ F 0 "R13" H 4825 14425 50  0000 L CNN
 F 1 "12k" H 4825 14350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5025 14400 50  0001 C CNN
 F 3 "~" H 5025 14400 50  0001 C CNN
+F 4 "RC0805FR-0712KL" H 5025 14400 50  0001 C CNN "manf#"
 	1    5025 14400
 	1    0    0    -1  
 $EndComp
@@ -2186,6 +2304,7 @@ F 0 "R16" V 5175 15125 50  0000 L CNN
 F 1 "12k" V 5100 15150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5250 15200 50  0001 C CNN
 F 3 "~" H 5250 15200 50  0001 C CNN
+F 4 "RC0805FR-0712KL" H 5250 15200 50  0001 C CNN "manf#"
 	1    5250 15200
 	0    -1   -1   0   
 $EndComp
@@ -2218,9 +2337,10 @@ L Device:C_Small C35
 U 1 1 619664B7
 P 4350 12425
 F 0 "C35" H 4442 12471 50  0000 L CNN
-F 1 "C_Small" H 4442 12380 50  0000 L CNN
+F 1 "100nF" H 4442 12380 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4350 12425 50  0001 C CNN
 F 3 "~" H 4350 12425 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 4350 12425 50  0001 C CNN "manf#"
 	1    4350 12425
 	1    0    0    -1  
 $EndComp
@@ -2232,6 +2352,7 @@ F 0 "R9" V 4550 12975 50  0000 L CNN
 F 1 "27k" V 4550 12750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4475 12900 50  0001 C CNN
 F 3 "~" H 4475 12900 50  0001 C CNN
+F 4 "RC0805FR-0727KL" H 4475 12900 50  0001 C CNN "manf#"
 	1    4475 12900
 	0    -1   -1   0   
 $EndComp
@@ -2243,6 +2364,7 @@ F 0 "R10" V 4550 13150 50  0000 L CNN
 F 1 "27k" V 4550 12950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4475 13100 50  0001 C CNN
 F 3 "~" H 4475 13100 50  0001 C CNN
+F 4 "RC0805FR-0727KL" H 4475 13100 50  0001 C CNN "manf#"
 	1    4475 13100
 	0    -1   -1   0   
 $EndComp
@@ -2261,9 +2383,10 @@ L Amplifier_Operational:TLV6001DCK U9
 U 1 1 619664CE
 P 5550 13000
 F 0 "U9" H 5725 13225 50  0000 L CNN
-F 1 "OPA316DCK" H 5725 13150 50  0000 L CNN
+F 1 "OPA316" H 5725 13150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 5750 13000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv6001.pdf" H 5550 13000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa316.pdf?ts=1622530692356&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA316" H 5550 13000 50  0001 C CNN
+F 4 "OPA316IDCKT" H 5550 13000 50  0001 C CNN "manf#"
 	1    5550 13000
 	1    0    0    -1  
 $EndComp
@@ -2291,6 +2414,7 @@ F 0 "R14" H 4825 12700 50  0000 L CNN
 F 1 "12k" H 4825 12625 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5025 12675 50  0001 C CNN
 F 3 "~" H 5025 12675 50  0001 C CNN
+F 4 "RC0805FR-0712KL" H 5025 12675 50  0001 C CNN "manf#"
 	1    5025 12675
 	1    0    0    -1  
 $EndComp
@@ -2302,6 +2426,7 @@ F 0 "R17" V 5350 13425 50  0000 L CNN
 F 1 "12k" V 5175 13375 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5250 13475 50  0001 C CNN
 F 3 "~" H 5250 13475 50  0001 C CNN
+F 4 "RC0805FR-0712KL" H 5250 13475 50  0001 C CNN "manf#"
 	1    5250 13475
 	0    -1   -1   0   
 $EndComp
@@ -2365,9 +2490,10 @@ L Device:C_Small C29
 U 1 1 61F0899C
 P 2075 10800
 F 0 "C29" H 2167 10846 50  0000 L CNN
-F 1 "C_Small" H 2167 10755 50  0000 L CNN
+F 1 "100nF" H 2167 10755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2075 10800 50  0001 C CNN
 F 3 "~" H 2075 10800 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 2075 10800 50  0001 C CNN "manf#"
 	1    2075 10800
 	1    0    0    -1  
 $EndComp
@@ -2459,9 +2585,10 @@ L Device:C_Small C27
 U 1 1 61F51032
 P 1925 14075
 F 0 "C27" H 2017 14121 50  0000 L CNN
-F 1 "C_Small" H 2017 14030 50  0000 L CNN
+F 1 "100nF" H 2017 14030 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1925 14075 50  0001 C CNN
 F 3 "~" H 1925 14075 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 1925 14075 50  0001 C CNN "manf#"
 	1    1925 14075
 	1    0    0    -1  
 $EndComp
@@ -2493,9 +2620,10 @@ L Device:C_Small C36
 U 1 1 6231868C
 P 4350 10675
 F 0 "C36" H 4442 10721 50  0000 L CNN
-F 1 "C_Small" H 4442 10630 50  0000 L CNN
+F 1 "100nF" H 4442 10630 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4350 10675 50  0001 C CNN
 F 3 "~" H 4350 10675 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 4350 10675 50  0001 C CNN "manf#"
 	1    4350 10675
 	1    0    0    -1  
 $EndComp
@@ -2512,9 +2640,10 @@ L Device:C_Small C37
 U 1 1 6236382A
 P 4350 14150
 F 0 "C37" H 4442 14196 50  0000 L CNN
-F 1 "C_Small" H 4442 14105 50  0000 L CNN
+F 1 "100nF" H 4442 14105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4350 14150 50  0001 C CNN
 F 3 "~" H 4350 14150 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 4350 14150 50  0001 C CNN "manf#"
 	1    4350 14150
 	1    0    0    -1  
 $EndComp
@@ -2541,7 +2670,8 @@ P 10775 14000
 F 0 "J32" H 10850 13900 50  0000 R CNN
 F 1 "Conn_01x01" V 10648 13912 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 10775 14000 50  0001 C CNN
-F 3 "~" H 10775 14000 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 10775 14000 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 10775 14000 50  0001 C CNN "manf#"
 	1    10775 14000
 	-1   0    0    1   
 $EndComp
@@ -2560,9 +2690,10 @@ L Amplifier_Operational:TLV6001DCK U11
 U 1 1 60E6582C
 P 8625 12975
 F 0 "U11" H 8825 13200 50  0000 L CNN
-F 1 "OPA316DCK" H 8825 13125 50  0000 L CNN
+F 1 "OPA316" H 8825 13125 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 8825 12975 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv6001.pdf" H 8625 12975 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa316.pdf?ts=1622530692356&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA316" H 8625 12975 50  0001 C CNN
+F 4 "OPA316IDCKT" H 8625 12975 50  0001 C CNN "manf#"
 	1    8625 12975
 	1    0    0    -1  
 $EndComp
@@ -2587,9 +2718,10 @@ L Amplifier_Operational:TLV6001DCK U13
 U 1 1 60F08D0E
 P 8600 14600
 F 0 "U13" H 8775 14825 50  0000 L CNN
-F 1 "OPA316DCK" H 8775 14750 50  0000 L CNN
+F 1 "OPA316" H 8775 14750 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 8800 14600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv6001.pdf" H 8600 14600 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa316.pdf?ts=1622530692356&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA316" H 8600 14600 50  0001 C CNN
+F 4 "OPA316IDCKT" H 8600 14600 50  0001 C CNN "manf#"
 	1    8600 14600
 	1    0    0    -1  
 $EndComp
@@ -2609,6 +2741,7 @@ F 0 "R24" V 7900 13175 50  0000 L CNN
 F 1 "200k" V 7900 12850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7975 13075 50  0001 C CNN
 F 3 "~" H 7975 13075 50  0001 C CNN
+F 4 "ERJ6RED2003V" H 7975 13075 50  0001 C CNN "manf#"
 	1    7975 13075
 	0    -1   -1   0   
 $EndComp
@@ -2632,6 +2765,7 @@ F 0 "R20" V 7850 11550 50  0000 L CNN
 F 1 "200k" V 7850 11175 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7950 11400 50  0001 C CNN
 F 3 "~" H 7950 11400 50  0001 C CNN
+F 4 "ERJ6RED2003V" H 7950 11400 50  0001 C CNN "manf#"
 	1    7950 11400
 	0    -1   -1   0   
 $EndComp
@@ -2645,6 +2779,7 @@ F 0 "R22" V 7800 14825 50  0000 L CNN
 F 1 "200k" V 7800 14450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7900 14700 50  0001 C CNN
 F 3 "~" H 7900 14700 50  0001 C CNN
+F 4 "ERJ6RED2003V" H 7900 14700 50  0001 C CNN "manf#"
 	1    7900 14700
 	0    -1   -1   0   
 $EndComp
@@ -2658,6 +2793,7 @@ F 0 "R28" V 8725 13575 50  0000 L CNN
 F 1 "82k" V 8550 13525 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8650 13625 50  0001 C CNN
 F 3 "~" H 8650 13625 50  0001 C CNN
+F 4 "CR0805-FX-8202ELF" H 8650 13625 50  0001 C CNN "manf#"
 	1    8650 13625
 	0    -1   -1   0   
 $EndComp
@@ -2669,6 +2805,7 @@ F 0 "R29" V 8775 11825 50  0000 L CNN
 F 1 "82k" V 8600 11825 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8700 11875 50  0001 C CNN
 F 3 "~" H 8700 11875 50  0001 C CNN
+F 4 "CR0805-FX-8202ELF" H 8700 11875 50  0001 C CNN "manf#"
 	1    8700 11875
 	0    -1   -1   0   
 $EndComp
@@ -2680,6 +2817,7 @@ F 0 "R30" V 8550 15075 50  0000 L CNN
 F 1 "82k" V 8475 15075 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8650 15150 50  0001 C CNN
 F 3 "~" H 8650 15150 50  0001 C CNN
+F 4 "CR0805-FX-8202ELF" H 8650 15150 50  0001 C CNN "manf#"
 	1    8650 15150
 	0    -1   -1   0   
 $EndComp
@@ -2742,9 +2880,10 @@ L Amplifier_Operational:TLV6001DCK U12
 U 1 1 60EB4C0B
 P 8625 11300
 F 0 "U12" H 8800 11525 50  0000 L CNN
-F 1 "OPA316DCK" H 8800 11450 50  0000 L CNN
+F 1 "OPA316" H 8800 11450 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 8825 11300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv6001.pdf" H 8625 11300 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa316.pdf?ts=1622530692356&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA316" H 8625 11300 50  0001 C CNN
+F 4 "OPA316IDCKT" H 8625 11300 50  0001 C CNN "manf#"
 	1    8625 11300
 	1    0    0    -1  
 $EndComp
@@ -2756,6 +2895,7 @@ F 0 "R19" V 7850 11350 50  0000 L CNN
 F 1 "200k" V 7850 10975 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7950 11200 50  0001 C CNN
 F 3 "~" H 7950 11200 50  0001 C CNN
+F 4 "ERJ6RED2003V" H 7950 11200 50  0001 C CNN "manf#"
 	1    7950 11200
 	0    -1   -1   0   
 $EndComp
@@ -2771,6 +2911,7 @@ F 0 "R27" H 8050 10925 50  0000 L CNN
 F 1 "82k" H 8050 11000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8250 10975 50  0001 C CNN
 F 3 "~" H 8250 10975 50  0001 C CNN
+F 4 "CR0805-FX-8202ELF" H 8250 10975 50  0001 C CNN "manf#"
 	1    8250 10975
 	-1   0    0    1   
 $EndComp
@@ -2791,6 +2932,7 @@ F 0 "R26" H 8050 12625 50  0000 L CNN
 F 1 "82k" H 8000 12700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8250 12650 50  0001 C CNN
 F 3 "~" H 8250 12650 50  0001 C CNN
+F 4 "CR0805-FX-8202ELF" H 8250 12650 50  0001 C CNN "manf#"
 	1    8250 12650
 	-1   0    0    1   
 $EndComp
@@ -2806,6 +2948,7 @@ F 0 "R25" H 7975 14225 50  0000 L CNN
 F 1 "82k" H 7925 14300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8175 14275 50  0001 C CNN
 F 3 "~" H 8175 14275 50  0001 C CNN
+F 4 "CR0805-FX-8202ELF" H 8175 14275 50  0001 C CNN "manf#"
 	1    8175 14275
 	-1   0    0    1   
 $EndComp
@@ -2825,6 +2968,7 @@ F 0 "R23" V 7900 12975 50  0000 L CNN
 F 1 "200k" V 7900 12650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7975 12875 50  0001 C CNN
 F 3 "~" H 7975 12875 50  0001 C CNN
+F 4 "ERJ6RED2003V" H 7975 12875 50  0001 C CNN "manf#"
 	1    7975 12875
 	0    -1   -1   0   
 $EndComp
@@ -2841,6 +2985,7 @@ F 0 "R21" V 7850 14625 50  0000 L CNN
 F 1 "200k" V 7825 14250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7900 14500 50  0001 C CNN
 F 3 "~" H 7900 14500 50  0001 C CNN
+F 4 "ERJ6RED2003V" H 7900 14500 50  0001 C CNN "manf#"
 	1    7900 14500
 	0    -1   -1   0   
 $EndComp
@@ -2856,7 +3001,8 @@ P 15150 2325
 F 0 "F1" V 14953 2325 50  0000 C CNN
 F 1 "Nano2 fuse holder" V 15044 2325 50  0000 C CNN
 F 2 "Footprints:Fuse_holder_omni_blok" V 15080 2325 50  0001 C CNN
-F 3 "~" H 15150 2325 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 15150 2325 50  0001 C CNN
+F 4 "0154008.DRL" H 15150 2325 50  0001 C CNN "manf#"
 	1    15150 2325
 	0    1    1    0   
 $EndComp
@@ -2867,7 +3013,8 @@ P 2300 3425
 F 0 "F2" V 2103 3425 50  0000 C CNN
 F 1 "Nano2 fuse holder" V 2194 3425 50  0000 C CNN
 F 2 "Footprints:Fuse_holder_omni_blok" V 2230 3425 50  0001 C CNN
-F 3 "~" H 2300 3425 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 2300 3425 50  0001 C CNN
+F 4 "0154008.DRL" H 2300 3425 50  0001 C CNN "manf#"
 	1    2300 3425
 	0    1    1    0   
 $EndComp
@@ -2878,7 +3025,8 @@ P 2250 6575
 F 0 "F3" V 2053 6575 50  0000 C CNN
 F 1 "Nano2 fuse holder" V 2144 6575 50  0000 C CNN
 F 2 "Footprints:Fuse_holder_omni_blok" V 2180 6575 50  0001 C CNN
-F 3 "~" H 2250 6575 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 2250 6575 50  0001 C CNN
+F 4 "0154008.DRL" H 2250 6575 50  0001 C CNN "manf#"
 	1    2250 6575
 	0    1    1    0   
 $EndComp
@@ -2893,7 +3041,8 @@ AR Path="/5E99427A/60834AE0" Ref="Q?"  Part="1"
 F 0 "Q3" H 6280 8221 50  0000 L CNN
 F 1 "IPD200N15N3" H 6280 8130 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 6275 8100 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irfr4615pbf.pdf?fileId=5546d462533600a40153563231ce20f4" H 5875 8475 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD200N15N3%20G-DS-v02_07-EN.pdf?fileId=5546d4624fb7fef2014ff59238932dbf" H 5875 8475 50  0001 L CNN
+F 4 "IPD200N15N3GATMA1" H 6075 8175 50  0001 C CNN "manf#"
 	1    6075 8175
 	1    0    0    -1  
 $EndComp
@@ -3060,9 +3209,10 @@ L Symbols:AMC1311 U5
 U 1 1 605D88D4
 P 3375 14800
 F 0 "U5" H 2950 14325 50  0000 C CNN
-F 1 "AMC1311DWV" H 2975 14225 50  0000 C CNN
+F 1 "AMC1311" H 2975 14225 50  0000 C CNN
 F 2 "Footprints:SOIC-8_7.5x5.85mm_P1.27mm" H 3375 14550 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/amc1311.pdf?ts=1597049043074&ref_url=https%253A%252F%252Fwww.google.com%252F" H 3375 14550 50  0001 C CNN
+F 3 "ti.com/lit/ds/symlink/amc1311.pdf?ts=1622554434410&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC1311%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-dc-null-prodfolderdynamic-cpc-pf-google-wwe%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC%2BSEARCH%2BADS%2526DCM%253Dyes%2526gclid%253DEAIaIQobChMIzb6uocb28AIVC853Ch3fZACGEAAYBCAAEgIhI_D_BwE%2526gclsrc%253Daw.ds" H 3375 14550 50  0001 C CNN
+F 4 "AMC1311DWVR" H 3375 14800 50  0001 C CNN "manf#"
 	1    3375 14800
 	1    0    0    -1  
 $EndComp
@@ -3127,9 +3277,10 @@ L Device:C_Small C28
 U 1 1 6075FB76
 P 2050 12500
 F 0 "C28" H 2142 12546 50  0000 L CNN
-F 1 "C_Small" H 2142 12455 50  0000 L CNN
+F 1 "100nF" H 2142 12455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2050 12500 50  0001 C CNN
 F 3 "~" H 2050 12500 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 2050 12500 50  0001 C CNN "manf#"
 	1    2050 12500
 	1    0    0    -1  
 $EndComp
@@ -3153,6 +3304,7 @@ F 0 "C4" H 15750 1600 50  0000 L CNN
 F 1 "100nF" H 15750 1700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 15625 1650 50  0001 C CNN
 F 3 "~" H 15625 1650 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 15625 1650 50  0001 C CNN "manf#"
 	1    15625 1650
 	-1   0    0    1   
 $EndComp
@@ -3202,7 +3354,8 @@ P 16425 4775
 F 0 "J5" H 16375 5150 60  0000 L CNN
 F 1 "2604-1102" H 16553 4772 60  0001 L CNN
 F 2 "Footprints:WAGO-2604-1102" H 16425 4715 60  0001 C CNN
-F 3 "" H 16425 4775 60  0000 C CNN
+F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 16425 4775 60  0000 C CNN
+F 4 "2604-1102" H 16425 4775 50  0001 C CNN "manf#"
 	1    16425 4775
 	1    0    0    -1  
 $EndComp
@@ -3320,7 +3473,8 @@ P 1425 8750
 F 0 "J2" H 1225 8475 60  0000 L CNN
 F 1 "2604-1102" H 1553 8747 60  0001 L CNN
 F 2 "Footprints:WAGO-2604-1102" H 1425 8690 60  0001 C CNN
-F 3 "" H 1425 8750 60  0000 C CNN
+F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 1425 8750 60  0000 C CNN
+F 4 "2604-1102" H 1425 8750 50  0001 C CNN "manf#"
 	1    1425 8750
 	-1   0    0    1   
 $EndComp
@@ -3424,7 +3578,8 @@ P 10775 14225
 F 0 "J27" H 10850 14125 50  0000 R CNN
 F 1 "Conn_01x01" V 10648 14137 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 10775 14225 50  0001 C CNN
-F 3 "~" H 10775 14225 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 10775 14225 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 10775 14225 50  0001 C CNN "manf#"
 	1    10775 14225
 	-1   0    0    1   
 $EndComp
@@ -3439,7 +3594,8 @@ P 16900 11525
 F 0 "J30" H 16975 11425 50  0000 R CNN
 F 1 "Conn_01x01" V 16773 11437 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 16900 11525 50  0001 C CNN
-F 3 "~" H 16900 11525 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 16900 11525 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 16900 11525 50  0001 C CNN "manf#"
 	1    16900 11525
 	-1   0    0    1   
 $EndComp
@@ -3452,7 +3608,8 @@ P 16900 11750
 F 0 "J33" H 16975 11650 50  0000 R CNN
 F 1 "Conn_01x01" V 16773 11662 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 16900 11750 50  0001 C CNN
-F 3 "~" H 16900 11750 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 16900 11750 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 16900 11750 50  0001 C CNN "manf#"
 	1    16900 11750
 	-1   0    0    1   
 $EndComp
@@ -3512,7 +3669,8 @@ P 10800 12300
 F 0 "J34" H 10875 12200 50  0000 R CNN
 F 1 "Conn_01x01" V 10673 12212 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 10800 12300 50  0001 C CNN
-F 3 "~" H 10800 12300 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 10800 12300 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 10800 12300 50  0001 C CNN "manf#"
 	1    10800 12300
 	-1   0    0    1   
 $EndComp
@@ -3527,7 +3685,8 @@ P 10800 12025
 F 0 "J3" H 10875 11925 50  0000 R CNN
 F 1 "Conn_01x01" V 10673 11937 50  0001 R CNN
 F 2 "Footprints:0906_millmax" H 10800 12025 50  0001 C CNN
-F 3 "~" H 10800 12025 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 10800 12025 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 10800 12025 50  0001 C CNN "manf#"
 	1    10800 12025
 	-1   0    0    1   
 $EndComp
@@ -3551,9 +3710,10 @@ L Device:C_Small C30
 U 1 1 6074AC28
 P 8925 10625
 F 0 "C30" H 9017 10671 50  0000 L CNN
-F 1 "C_Small" H 9017 10580 50  0000 L CNN
+F 1 "100nF" H 9017 10580 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8925 10625 50  0001 C CNN
 F 3 "~" H 8925 10625 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 8925 10625 50  0001 C CNN "manf#"
 	1    8925 10625
 	1    0    0    -1  
 $EndComp
@@ -3581,9 +3741,10 @@ L Device:C_Small C31
 U 1 1 6078FCF0
 P 9000 12400
 F 0 "C31" H 9092 12446 50  0000 L CNN
-F 1 "C_Small" H 9092 12355 50  0000 L CNN
+F 1 "100nF" H 9092 12355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9000 12400 50  0001 C CNN
 F 3 "~" H 9000 12400 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 9000 12400 50  0001 C CNN "manf#"
 	1    9000 12400
 	1    0    0    -1  
 $EndComp
@@ -3611,9 +3772,10 @@ L Device:C_Small C32
 U 1 1 607D5C95
 P 9100 14125
 F 0 "C32" H 9192 14171 50  0000 L CNN
-F 1 "C_Small" H 9192 14080 50  0000 L CNN
+F 1 "100nF" H 9192 14080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9100 14125 50  0001 C CNN
 F 3 "~" H 9100 14125 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 9100 14125 50  0001 C CNN "manf#"
 	1    9100 14125
 	1    0    0    -1  
 $EndComp
@@ -3644,6 +3806,7 @@ F 0 "H1" H 21025 9646 50  0000 L CNN
 F 1 "MountingHole" H 21025 9555 50  0000 L CNN
 F 2 "Footprints:mounting_holes" H 20925 9600 50  0001 C CNN
 F 3 "~" H 20925 9600 50  0001 C CNN
+F 4 "x" H 20925 9600 50  0001 C CNN "DNP"
 	1    20925 9600
 	1    0    0    -1  
 $EndComp
@@ -3654,7 +3817,8 @@ P 15150 2475
 F 0 "F4" V 15350 2475 50  0000 C CNN
 F 1 "Nano2 fuse holder" V 15250 2475 50  0000 C CNN
 F 2 "Footprints:Fuse_holder_omni_blok" V 15080 2475 50  0001 C CNN
-F 3 "~" H 15150 2475 50  0001 C CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf" H 15150 2475 50  0001 C CNN
+F 4 "0154008.DRL" H 15150 2475 50  0001 C CNN "manf#"
 	1    15150 2475
 	0    1    1    0   
 $EndComp
@@ -3677,9 +3841,10 @@ L Device:C_Small C33
 U 1 1 62044A82
 P 6025 10575
 F 0 "C33" H 6117 10621 50  0000 L CNN
-F 1 "C_Small" H 6117 10530 50  0000 L CNN
+F 1 "100nF" H 6117 10530 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6025 10575 50  0001 C CNN
 F 3 "~" H 6025 10575 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 6025 10575 50  0001 C CNN "manf#"
 	1    6025 10575
 	1    0    0    -1  
 $EndComp
@@ -3707,9 +3872,10 @@ L Device:C_Small C34
 U 1 1 6208D6A2
 P 6025 12375
 F 0 "C34" H 6117 12421 50  0000 L CNN
-F 1 "C_Small" H 6117 12330 50  0000 L CNN
+F 1 "100nF" H 6117 12330 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6025 12375 50  0001 C CNN
 F 3 "~" H 6025 12375 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 6025 12375 50  0001 C CNN "manf#"
 	1    6025 12375
 	1    0    0    -1  
 $EndComp
@@ -3737,9 +3903,10 @@ L Device:C_Small C38
 U 1 1 620D797C
 P 6075 14100
 F 0 "C38" H 6167 14146 50  0000 L CNN
-F 1 "C_Small" H 6167 14055 50  0000 L CNN
+F 1 "100nF" H 6167 14055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6075 14100 50  0001 C CNN
 F 3 "~" H 6075 14100 50  0001 C CNN
+F 4 "CC0805KRX7R9BB104" H 6075 14100 50  0001 C CNN "manf#"
 	1    6075 14100
 	1    0    0    -1  
 $EndComp
@@ -3784,7 +3951,8 @@ P 19525 7825
 F 0 "JP8" H 19525 7918 50  0000 C CNN
 F 1 "THJP0612AST" H 19525 7919 50  0001 C CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 7825 50  0001 C CNN
-F 3 "~" H 19525 7825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 7825 50  0001 C CNN
+F 4 "THJP0612AST1" H 19525 7825 50  0001 C CNN "manf#"
 	1    19525 7825
 	1    0    0    -1  
 $EndComp
@@ -3795,7 +3963,8 @@ P 19525 7650
 F 0 "JP7" H 19525 7743 50  0000 C CNN
 F 1 "THJP0612AST" H 19525 7744 50  0001 C CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 7650 50  0001 C CNN
-F 3 "~" H 19525 7650 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 7650 50  0001 C CNN
+F 4 "THJP0612AST1" H 19525 7650 50  0001 C CNN "manf#"
 	1    19525 7650
 	1    0    0    -1  
 $EndComp
@@ -3826,7 +3995,8 @@ P 19525 9175
 F 0 "JP10" H 19525 9268 50  0000 C CNN
 F 1 "THJP0612AST" H 19525 9269 50  0001 C CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 9175 50  0001 C CNN
-F 3 "~" H 19525 9175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 9175 50  0001 C CNN
+F 4 "THJP0612AST1" H 19525 9175 50  0001 C CNN "manf#"
 	1    19525 9175
 	1    0    0    -1  
 $EndComp
@@ -3843,7 +4013,8 @@ P 19525 8975
 F 0 "JP9" H 19525 9068 50  0000 C CNN
 F 1 "THJP0612AST" H 19525 9069 50  0001 C CNN
 F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8975 50  0001 C CNN
-F 3 "~" H 19525 8975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8975 50  0001 C CNN
+F 4 "THJP0612AST1" H 19525 8975 50  0001 C CNN "manf#"
 	1    19525 8975
 	1    0    0    -1  
 $EndComp
@@ -3868,6 +4039,7 @@ F 0 "H2" H 10925 10749 50  0000 L CNN
 F 1 "MountingHole_Pad" H 10925 10658 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 10825 10700 50  0001 C CNN
 F 3 "~" H 10825 10700 50  0001 C CNN
+F 4 "x" H 10825 10700 50  0001 C CNN "DNP"
 	1    10825 10700
 	1    0    0    -1  
 $EndComp
@@ -3879,6 +4051,7 @@ F 0 "H3" H 11225 10599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 11225 10508 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 11125 10550 50  0001 C CNN
 F 3 "~" H 11125 10550 50  0001 C CNN
+F 4 "x" H 11125 10550 50  0001 C CNN "DNP"
 	1    11125 10550
 	1    0    0    -1  
 $EndComp
@@ -3890,6 +4063,7 @@ F 0 "H4" H 11525 10449 50  0000 L CNN
 F 1 "MountingHole_Pad" H 11525 10358 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 11425 10400 50  0001 C CNN
 F 3 "~" H 11425 10400 50  0001 C CNN
+F 4 "x" H 11425 10400 50  0001 C CNN "DNP"
 	1    11425 10400
 	1    0    0    -1  
 $EndComp
