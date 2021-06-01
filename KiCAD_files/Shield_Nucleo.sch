@@ -3123,64 +3123,64 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x06_Female SWD1
 U 1 1 643AFACC
-P 7125 4350
-F 0 "SWD1" H 7175 4325 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 6600 3950 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7125 4350 50  0001 C CNN
-F 3 "~" H 7125 4350 50  0001 C CNN
-	1    7125 4350
+P 7325 4350
+F 0 "SWD1" H 7375 4325 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 6800 3950 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7325 4350 50  0001 C CNN
+F 3 "~" H 7325 4350 50  0001 C CNN
+	1    7325 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR038
 U 1 1 64438AFE
-P 6700 4075
-F 0 "#PWR038" H 6700 3925 50  0001 C CNN
-F 1 "+3.3V" H 6675 4225 50  0000 C CNN
-F 2 "" H 6700 4075 50  0001 C CNN
-F 3 "" H 6700 4075 50  0001 C CNN
-	1    6700 4075
+P 6900 4075
+F 0 "#PWR038" H 6900 3925 50  0001 C CNN
+F 1 "+3.3V" H 6875 4225 50  0000 C CNN
+F 2 "" H 6900 4075 50  0001 C CNN
+F 3 "" H 6900 4075 50  0001 C CNN
+	1    6900 4075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 4075 6700 4150
+	6900 4075 6900 4150
 Wire Wire Line
-	6700 4150 6925 4150
-Text Label 6700 4250 2    50   ~ 0
+	6900 4150 7125 4150
+Text Label 6900 4250 2    50   ~ 0
 SWCLK
 Wire Wire Line
-	6700 4250 6925 4250
+	6900 4250 7125 4250
 $Comp
 L power:GNDD #PWR036
 U 1 1 645B9E89
-P 6475 4350
-F 0 "#PWR036" H 6475 4100 50  0001 C CNN
-F 1 "GNDD" V 6475 4125 50  0000 C CNN
-F 2 "" H 6475 4350 50  0001 C CNN
-F 3 "" H 6475 4350 50  0001 C CNN
-	1    6475 4350
+P 6675 4350
+F 0 "#PWR036" H 6675 4100 50  0001 C CNN
+F 1 "GNDD" V 6675 4125 50  0000 C CNN
+F 2 "" H 6675 4350 50  0001 C CNN
+F 3 "" H 6675 4350 50  0001 C CNN
+	1    6675 4350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6925 4350 6475 4350
-Text Label 6700 4450 2    50   ~ 0
+	7125 4350 6675 4350
+Text Label 6900 4450 2    50   ~ 0
 SWDIO
 Wire Wire Line
-	6700 4450 6925 4450
-Text Label 6700 4550 2    50   ~ 0
+	6900 4450 7125 4450
+Text Label 6900 4550 2    50   ~ 0
 NRST
 Wire Wire Line
-	6925 4550 6700 4550
-Text Label 6700 4650 2    50   ~ 0
+	7125 4550 6900 4550
+Text Label 6900 4650 2    50   ~ 0
 SWO
 Wire Wire Line
-	6925 4650 6700 4650
-Text Notes 6875 3925 0    50   ~ 0
+	7125 4650 6900 4650
+Text Notes 7075 3925 0    50   ~ 0
 SWD connector\n
 Wire Notes Line
-	7500 4875 7500 3800
+	7700 4875 7700 3800
 Wire Notes Line
-	6125 3800 6125 4875
+	6275 3800 6275 4875
 Wire Wire Line
 	7200 3500 7200 3375
 Wire Wire Line
@@ -3209,13 +3209,13 @@ Wire Wire Line
 Wire Wire Line
 	6525 3275 6725 3275
 Wire Notes Line
-	6125 3675 8750 3675
+	6275 3675 8750 3675
 Wire Notes Line
 	8750 3675 8750 2000
 Wire Notes Line
-	8750 2000 6125 2000
+	8750 2000 6275 2000
 Wire Notes Line
-	6125 2000 6125 3675
+	6275 2000 6275 3675
 Text Notes 6350 2250 0    50   ~ 0
 STDC14 / ARM10 connector for debugger connection\nCompatible with STLINKV3\n
 $Comp
@@ -3988,53 +3988,12 @@ Wire Wire Line
 	4400 2775 5025 2775
 Text Label 5025 2775 2    50   ~ 0
 LED_BUILTIN
-Text Label 8200 3925 2    50   ~ 0
-LED_BUILTIN
-$Comp
-L Device:LED LED1
-U 1 1 61233B4F
-P 8200 4125
-F 0 "LED1" V 8239 4007 50  0000 R CNN
-F 1 "LED" V 8148 4007 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 8200 4125 50  0001 C CNN
-F 3 "~" H 8200 4125 50  0001 C CNN
-	1    8200 4125
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R28
-U 1 1 6129C61B
-P 8200 4475
-F 0 "R28" H 8270 4521 50  0000 L CNN
-F 1 "330" H 8270 4430 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8130 4475 50  0001 C CNN
-F 3 "~" H 8200 4475 50  0001 C CNN
-	1    8200 4475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 4275 8200 4325
-Wire Wire Line
-	8200 3925 8200 3975
-$Comp
-L power:GNDD #PWR041
-U 1 1 61392ABD
-P 8200 4675
-F 0 "#PWR041" H 8200 4425 50  0001 C CNN
-F 1 "GNDD" H 8204 4520 50  0000 C CNN
-F 2 "" H 8200 4675 50  0001 C CNN
-F 3 "" H 8200 4675 50  0001 C CNN
-	1    8200 4675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 4625 8200 4675
 Wire Notes Line
 	8750 3800 8750 4875
 Wire Notes Line
-	6125 4875 8750 4875
+	6275 4875 8750 4875
 Wire Notes Line
-	6125 3800 8750 3800
+	6275 3800 8750 3800
 $Comp
 L Symbols:RFM-0505s U8
 U 1 1 60E32218
@@ -4139,4 +4098,49 @@ Text Notes 875  5325 0    50   ~ 0
 C3 and C4 are choosen following \nthe rule of thumb : \nC3 = C4 = 2*CLoad - 2*CStray \nWhere CStray is the parasitic capacitance\nGuesstimated at 4pF.
 Text Notes 875  4900 0    50   ~ 0
 24Mhz HSE freq is choosen\nto match NucleoG474RE design. 
+Text Notes 850  4050 0    50   ~ 0
+I2 is tied to PC1 which is ADC1 CH7 or \nCOMP3 INP (in current mode)
+Text Notes 5075 2550 0    50   ~ 0
+I1 is tied to PC1 which is \nADC2 CH2 or \nCOMP1 INP (in current mode)
+Wire Wire Line
+	8400 4625 8400 4675
+$Comp
+L power:GNDD #PWR041
+U 1 1 61392ABD
+P 8400 4675
+F 0 "#PWR041" H 8400 4425 50  0001 C CNN
+F 1 "GNDD" H 8404 4520 50  0000 C CNN
+F 2 "" H 8400 4675 50  0001 C CNN
+F 3 "" H 8400 4675 50  0001 C CNN
+	1    8400 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3925 8400 3975
+Wire Wire Line
+	8400 4275 8400 4325
+$Comp
+L Device:R R28
+U 1 1 6129C61B
+P 8400 4475
+F 0 "R28" H 8470 4521 50  0000 L CNN
+F 1 "330" H 8470 4430 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8330 4475 50  0001 C CNN
+F 3 "~" H 8400 4475 50  0001 C CNN
+	1    8400 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED LED1
+U 1 1 61233B4F
+P 8400 4125
+F 0 "LED1" V 8439 4007 50  0000 R CNN
+F 1 "LED" V 8348 4007 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8400 4125 50  0001 C CNN
+F 3 "~" H 8400 4125 50  0001 C CNN
+	1    8400 4125
+	0    -1   -1   0   
+$EndComp
+Text Label 8400 3925 2    50   ~ 0
+LED_BUILTIN
 $EndSCHEMATC
