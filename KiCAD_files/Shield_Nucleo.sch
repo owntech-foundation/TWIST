@@ -3902,10 +3902,10 @@ L Symbols:RFM-0505s U9
 U 1 1 6145CAC6
 P 14600 9350
 F 0 "U9" H 14600 9815 50  0000 C CNN
-F 1 "RFM-0505s" H 14600 9724 50  0000 C CNN
+F 1 "CME0512S3C" H 14600 9724 50  0000 C CNN
 F 2 "Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxx3C_THT" H 14600 9700 50  0001 C CNN
-F 3 "https://recom-power.com/pdf/Econoline/ROE.pdf" H 14600 9700 50  0001 C CNN
-F 4 "ROE0505S" H 14600 9350 50  0001 C CNN "Manf#"
+F 3 "https://www.murata.com/products/productdata/8807029342238/kdc-cme.pdf?1614569448000" H 14600 9700 50  0001 C CNN
+F 4 "CME0512S3C" H 14600 9350 50  0001 C CNN "Manf#"
 	1    14600 9350
 	-1   0    0    -1  
 $EndComp
