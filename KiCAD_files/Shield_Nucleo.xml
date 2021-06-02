@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\amel-\OneDrive\Documents\stage\1-documentation\1leg\KiCAD_files\Shield_Nucleo.sch</source>
-    <date>01/06/2021 15:32:28</date>
+    <date>02/06/2021 11:23:48</date>
     <tool>Eeschema (5.1.7)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -67,6 +67,9 @@
       <value>Jumper</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">x</field>
+      </fields>
       <libsource lib="Device" part="Jumper" description="Jumper, normally closed"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6053C1CC</tstamp>
@@ -494,7 +497,7 @@
       <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
       <datasheet>https://my2.st.com/resource/en/datasheet/stm32g474re.pdf</datasheet>
       <fields>
-        <field name="Manf#">STM32G474RE</field>
+        <field name="Manf#">STM32G474RET6</field>
       </fields>
       <libsource lib="Symbols" part="STM32G474RE" description="ARM Cortex-M4 MCU, 256KB flash, 128KB RAM, 180MHz, 1.8-3.6V, 50 GPIO, LQFP-64"/>
       <sheetpath names="/" tstamps="/"/>
@@ -582,7 +585,6 @@
       <footprint>Footprints:PQDE6W-Q110-S5-D</footprint>
       <datasheet>https://www.cui.com/product/resource/pqde6w-q110-d.pdf</datasheet>
       <fields>
-        <field name="MANUFACTURER">CUI Inc.</field>
         <field name="MAXIMUM_PACKAGE_HEIGHT">3.5 mm</field>
         <field name="Manf#">PQDE6W-Q110-S5-D</field>
         <field name="PARTREV">1.0</field>
@@ -597,7 +599,6 @@
       <footprint>Footprints:CONV_VXO78012-500-M</footprint>
       <datasheet>https://www.cui.com/product/resource/vxo78-500-m.pdf</datasheet>
       <fields>
-        <field name="MANUFACTURER">CUI Inc.</field>
         <field name="MAXIMUM_PACKAGE_HEIGHT">3.5 mm</field>
         <field name="Manf#">VXO78012-500-M-TR</field>
         <field name="PARTREV">1.0</field>
@@ -1149,6 +1150,9 @@
     <comp ref="J7">
       <value>Power</value>
       <footprint>Footprints:3D_Footprint_Power</footprint>
+      <fields>
+        <field name="DNP">x</field>
+      </fields>
       <libsource lib="Symbols" part="Power" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>608B2F90</tstamp>
@@ -1223,6 +1227,9 @@
       <value>SolderJumper_2_Open</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">x</field>
+      </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60E55E7E</tstamp>
@@ -1231,6 +1238,9 @@
       <value>SolderJumper_2_Open</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">x</field>
+      </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61438E85</tstamp>
@@ -1247,11 +1257,11 @@
       <tstamp>60E32218</tstamp>
     </comp>
     <comp ref="U9">
-      <value>RFM-0505s</value>
+      <value>CME0512S3C</value>
       <footprint>Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxx3C_THT</footprint>
-      <datasheet>https://recom-power.com/pdf/Econoline/ROE.pdf</datasheet>
+      <datasheet>https://www.murata.com/products/productdata/8807029342238/kdc-cme.pdf?1614569448000</datasheet>
       <fields>
-        <field name="Manf#">ROE0505S</field>
+        <field name="Manf#">CME0512S3C</field>
       </fields>
       <libsource lib="Symbols" part="RFM-0505s" description=""/>
       <sheetpath names="/" tstamps="/"/>
