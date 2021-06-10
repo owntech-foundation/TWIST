@@ -4,14 +4,14 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Shield Nucleo Board Scheme"
+Date "2021-06-04"
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comp "https://gitlab.laas.fr/owntech/1leg/-/tree/V1.1.1/KiCAD_files"
+Comment1 "Alinei"
+Comment2 "Villa"
+Comment3 "Villa"
+Comment4 "GFE"
 $EndDescr
 $Comp
 L Device:Battery_Cell BT1

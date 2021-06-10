@@ -1,4 +1,4 @@
-update=ven. 21 mai 2021 12:19:54
+update=09/06/2021 17:00:38
 version=1
 last_client=kicad
 [general]
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=Title_block.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=Title_block.kicad_wks
@@ -250,3 +240,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=Title_block.kicad_wks
+PlotDirectoryName=C:/Users/amel-/OneDrive/Documents/stage/1-documentation/1leg/Definition_Package_Power/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

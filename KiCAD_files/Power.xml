@@ -2,19 +2,19 @@
 <export version="D">
   <design>
     <source>C:\Users\amel-\OneDrive\Documents\stage\1-documentation\1leg\KiCAD_files\Power.sch</source>
-    <date>02/06/2021 11:29:59</date>
+    <date>06/06/2021 20:01:49</date>
     <tool>Eeschema (5.1.7)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company>https://gitlab.laas.fr/owntech/1leg/-/tree/master</company>
+        <title>Power Board Scheme</title>
+        <company>https://gitlab.laas.fr/owntech/1leg/-/tree/V1.1.1/KiCAD_files</company>
         <rev/>
         <date>20/04/15</date>
         <source>Power.sch</source>
-        <comment number="1" value="ALINEI"/>
-        <comment number="2" value="VILLA"/>
-        <comment number="3" value="VILLA"/>
-        <comment number="4" value="PREL"/>
+        <comment number="1" value="Alinei"/>
+        <comment number="2" value="Villa"/>
+        <comment number="3" value="Villa"/>
+        <comment number="4" value="GFE"/>
       </title_block>
     </sheet>
   </design>

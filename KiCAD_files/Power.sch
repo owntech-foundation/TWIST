@@ -4,14 +4,14 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Power Board Scheme"
 Date "20/04/15"
 Rev ""
-Comp "https://gitlab.laas.fr/owntech/1leg/-/tree/master"
-Comment1 "ALINEI"
-Comment2 "VILLA"
-Comment3 "VILLA"
-Comment4 "PREL"
+Comp "https://gitlab.laas.fr/owntech/1leg/-/tree/V1.1.1/KiCAD_files"
+Comment1 "Alinei"
+Comment2 "Villa"
+Comment3 "Villa"
+Comment4 "GFE"
 $EndDescr
 $Comp
 L Transistor_FET:QM6006D Q1
@@ -1057,7 +1057,7 @@ P 1450 5000
 F 0 "J1" H 1250 5375 60  0000 L CNN
 F 1 "2604-1102" H 1578 4997 60  0001 L CNN
 F 2 "Footprints:WAGO-2604-1102" H 1450 4940 60  0001 C CNN
-F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 1450 5000 60  0000 C CNN
+F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 1450 5000 60  0001 C CNN
 F 4 "2604-1102" H 1450 5000 50  0001 C CNN "manf#"
 	1    1450 5000
 	-1   0    0    -1  
@@ -1074,7 +1074,7 @@ P 16450 2375
 F 0 "J4" H 16425 2750 60  0000 L CNN
 F 1 "2604-1102" H 16578 2372 60  0001 L CNN
 F 2 "Footprints:WAGO-2604-1102" H 16450 2315 60  0001 C CNN
-F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 16450 2375 60  0000 C CNN
+F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 16450 2375 60  0001 C CNN
 F 4 "2604-1102" H 16450 2375 50  0001 C CNN "manf#"
 	1    16450 2375
 	1    0    0    -1  
@@ -3354,7 +3354,7 @@ P 16425 4775
 F 0 "J5" H 16375 5150 60  0000 L CNN
 F 1 "2604-1102" H 16553 4772 60  0001 L CNN
 F 2 "Footprints:WAGO-2604-1102" H 16425 4715 60  0001 C CNN
-F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 16425 4775 60  0000 C CNN
+F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 16425 4775 60  0001 C CNN
 F 4 "2604-1102" H 16425 4775 50  0001 C CNN "manf#"
 	1    16425 4775
 	1    0    0    -1  
@@ -3473,7 +3473,7 @@ P 1425 8750
 F 0 "J2" H 1225 8475 60  0000 L CNN
 F 1 "2604-1102" H 1553 8747 60  0001 L CNN
 F 2 "Footprints:WAGO-2604-1102" H 1425 8690 60  0001 C CNN
-F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 1425 8750 60  0000 C CNN
+F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 1425 8750 60  0001 C CNN
 F 4 "2604-1102" H 1425 8750 50  0001 C CNN "manf#"
 	1    1425 8750
 	-1   0    0    1   

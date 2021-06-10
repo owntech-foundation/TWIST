@@ -1,6 +1,6 @@
-update=jeu. 15 avril 2021 17:56:37
+update=09/06/2021 17:26:18
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=Title_block.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=Title_block.kicad_wks
@@ -249,3 +239,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=Title_block.kicad_wks
+PlotDirectoryName=C:/Users/amel-/OneDrive/Documents/stage/1-documentation/1leg/Definition_Package_ShieldNucleo/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
