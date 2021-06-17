@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<section name="EXPORT_DIALOG">
-		<item key="Start" value="0x20"/>
-		<item key="End" value="0x20"/>
-		<item key="Initial address" value="0x20"/>
-	</section>
-</section>
