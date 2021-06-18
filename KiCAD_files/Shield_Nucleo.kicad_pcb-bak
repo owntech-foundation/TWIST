@@ -11,9 +11,8 @@
 
   (page A4)
   (title_block
-    (title "MCU Shield Board Layout V1.1.2")
+    (title "MCU Shield Board Layout")
     (date 2021-06-03)
-    (company https://gitlab.laas.fr/owntech/1leg/-/tree/V1.1.2/KiCAD_files)
     (comment 1 Alinei)
     (comment 2 Villa)
     (comment 3 Villa)

@@ -613,8 +613,6 @@ Wire Wire Line
 	7500 2575 7550 2575
 Wire Wire Line
 	7500 3725 7550 3725
-Wire Wire Line
-	4725 2475 4725 2725
 $Comp
 L Device:C_Small C1
 U 1 1 5E9DBC83
@@ -630,7 +628,7 @@ $EndComp
 Text Label 4700 2350 2    50   ~ 0
 IILow1
 $Comp
-L Power-rescue:ACS730xLCTR-20AB-Sensor_Current U4
+L Sensor_Current:ACS730xLCTR-20AB U4
 U 1 1 5F4905C0
 P 4825 6150
 F 0 "U4" V 4575 6450 50  0000 C CNN
@@ -641,8 +639,6 @@ F 4 "ACS730KLCTR-20AB-T" H 4825 6150 50  0001 C CNN "manf#"
 	1    4825 6150
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	4725 5850 4725 5650
 Connection ~ 13225 4725
 $Comp
 L Device:R_Small Rv1
@@ -1545,7 +1541,7 @@ Wire Wire Line
 Wire Wire Line
 	3275 5150 3725 5150
 $Comp
-L Power-rescue:ACS730xLCTR-20AB-Sensor_Current U1
+L Sensor_Current:ACS730xLCTR-20AB U1
 U 1 1 5F2DF71D
 P 4825 3025
 F 0 "U1" V 4625 2675 50  0000 C CNN
@@ -3510,7 +3506,7 @@ Wire Notes Line
 Wire Notes Line
 	950  9375 950  850 
 Wire Notes Line
-	1175 850  17275 850 
+	950  825  17050 825 
 Wire Notes Line
 	17050 850  17050 9375
 Wire Notes Line
@@ -4032,30 +4028,6 @@ Wire Wire Line
 Wire Wire Line
 	20075 8800 20075 8975
 $Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 6098CB23
-P 10825 10700
-F 0 "H2" H 10925 10749 50  0000 L CNN
-F 1 "MountingHole_Pad" H 10925 10658 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 10825 10700 50  0001 C CNN
-F 3 "~" H 10825 10700 50  0001 C CNN
-F 4 "x" H 10825 10700 50  0001 C CNN "DNP"
-	1    10825 10700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 609911D2
-P 11125 10550
-F 0 "H3" H 11225 10599 50  0000 L CNN
-F 1 "MountingHole_Pad" H 11225 10508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 11125 10550 50  0001 C CNN
-F 3 "~" H 11125 10550 50  0001 C CNN
-F 4 "x" H 11125 10550 50  0001 C CNN "DNP"
-	1    11125 10550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 609DD5CE
 P 11425 10400
@@ -4068,23 +4040,11 @@ F 4 "x" H 11425 10400 50  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10825 11050 11125 11050
-Wire Wire Line
-	11125 11050 11125 10650
-Wire Wire Line
 	11425 11050 11425 10500
-Connection ~ 11125 11050
-Wire Wire Line
-	11125 11050 11425 11050
-Wire Wire Line
-	10825 11050 10700 11050
 Text Label 10700 11050 2    50   ~ 0
 DGND
-Connection ~ 10825 11050
-Wire Wire Line
-	10825 10800 10825 11050
-Text Notes 10325 11200 0    50   ~ 0
-M2.5 pad Holes for EMI shield for measurements\n
+Text Notes 10375 11275 0    50   ~ 0
+M2.5 pass through holes for thermistor sensor\n\n
 Wire Notes Line
 	10275 10125 10275 11250
 Wire Notes Line
@@ -4106,13 +4066,76 @@ Text Notes 4550 10475 0    49   ~ 0
 Text Notes 4025 13550 0    49   ~ 0
 0.3 - 2,3V signal range \nfor VINP and VINN
 Text Notes 4575 12225 0    49   ~ 0
-1.048Vref coming from MCU \nor external ref. 
+1.024Vref coming from MCU \nor external ref. 
 Text Notes 3650 9925 0    49   ~ 0
 Measurements are thought for STM32G474RE with either internal reference set to 2.048V (from VREFBUF register) or equivalent external voltage reference. 
 Text Notes 4725 14025 0    49   ~ 0
 V_High has no offset \nas V_High is solely positive\n
 Text Notes 6225 12175 0    49   ~ 0
-VILow1_op and VILow2_op \nhave 2,048V amplitude \ncentered around 1,048V\n
+VILow1_op and VILow2_op \nhave 2,048V amplitude \ncentered around 1,024V\n
 Text Notes 6250 14525 0    49   ~ 0
 VI_High_op has a 2,048V \namplitude without offset
+$Comp
+L Connector_Generic:Conn_01x01 J35
+U 1 1 60D498DA
+P 1225 14075
+F 0 "J35" H 1300 13975 50  0000 R CNN
+F 1 "Conn_01x01" V 1098 13987 50  0001 R CNN
+F 2 "Footprints:0906_millmax" H 1225 14075 50  0001 C CNN
+F 3 "https://www.mill-max.com/products/pin/0906/0906-0-15-20-76-14-11-0?s_term=0906-0-15-20-76-14-11-0&s_type=Quick%2FProduct%2FPart+Number+Search" H 1225 14075 50  0001 C CNN
+F 4 "0906-0-15-20-76-14-11-0" H 1225 14075 50  0001 C CNN "manf#"
+	1    1225 14075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 13925 1550 14075
+Wire Wire Line
+	1550 14075 1425 14075
+$Comp
+L power:+5P #PWR07
+U 1 1 60DE6C64
+P 1550 13925
+F 0 "#PWR07" H 1550 13775 50  0001 C CNN
+F 1 "+5P" H 1565 14098 50  0000 C CNN
+F 2 "" H 1550 13925 50  0001 C CNN
+F 3 "" H 1550 13925 50  0001 C CNN
+	1    1550 13925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Symbols:V1.1.2 #REV1
+U 1 1 60E368CF
+P 1150 13750
+F 0 "#REV1" H 1145 13880 25  0001 C CNN
+F 1 "V1.1.2" H 1150 13700 25  0000 C CNN
+F 2 "" H 1150 13675 50  0001 C CNN
+F 3 "~" H 1180 13550 50  0001 C CNN
+F 4 "Y" H 1150 13750 50  0001 C CNN "DNP"
+F 5 "REV" H 1150 13750 25  0000 C CNN "REV"
+	1    1150 13750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11125 11050 11425 11050
+Connection ~ 11125 11050
+Wire Wire Line
+	10700 11050 11125 11050
+Wire Wire Line
+	11125 11050 11125 10650
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 609911D2
+P 11125 10550
+F 0 "H3" H 10925 10600 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10350 10500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 11125 10550 50  0001 C CNN
+F 3 "~" H 11125 10550 50  0001 C CNN
+F 4 "x" H 11125 10550 50  0001 C CNN "DNP"
+	1    11125 10550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 2625 4725 2475
+Wire Wire Line
+	4725 5650 4725 5750
 $EndSCHEMATC
