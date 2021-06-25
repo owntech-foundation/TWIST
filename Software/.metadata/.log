@@ -1,0 +1,21 @@
+!SESSION 2021-06-21 18:01:15.167 -----------------------------------------------
+eclipse.buildId=Version 1.4.0
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-06-21 18:01:22.763
+!MESSAGE Log4j initialized with config file /home/jal/Documents/OwnTech/1leg/Software/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-06-21 18:01:24.574
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-06-21 18:01:25.030
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-06-21 18:04:30.219
+!MESSAGE Indexed 'test_pinout' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-06-21 18:04:34.923
+!MESSAGE Indexed 'test_pinout' (20 sources, 26 headers) in 3.06 sec: 2,570 declarations; 15,662 references; 4 unresolved inclusions; 58 syntax errors; 1,527 unresolved names (7.7%)
