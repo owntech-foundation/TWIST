@@ -61,7 +61,7 @@
   (tbtext "Major revisions are to be described thoroughly when pushed with git push command" (name text33:Text) (pos 108.0022 92.50719999999998) (font (size 1.5 1.5)))
   (tbtext "Preliminary PREL, Good For Execution, GFE, As Built ASB" (name text34:Text) (pos 108.0022 95.50719999999998) (font (size 1.5 1.5)))
   (line (name segm24:Line) (start 2.002200000000016 102.5072) (end 110.0022 102.5072))
-  (tbtext "Source repository : https://gitlab.laas.fr/owntech/1leg/-/tree/V1.1.1/KiCAD_files" (name text35:Text) (pos 108.002 100.007) (font (size 1.5 1.5)))
+  (tbtext "Source repository : https://gitlab.laas.fr/owntech/1leg/-/tree/V1.1.2" (name text35:Text) (pos 108.002 100.007) (font (size 1.5 1.5)))
   (line (name segm25:Line) (start 45.50220000000002 14.00719999999998) (end 45.50220000000002 53.00719999999998))
   (bitmap (name bm1:Bitmap) (pos 24.00220000000002 40.00719999999998) (scale 0.4285714285714285)
   (pngdata

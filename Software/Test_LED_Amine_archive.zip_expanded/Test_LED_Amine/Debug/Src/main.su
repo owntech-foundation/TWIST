@@ -1,0 +1,12 @@
+core_cm4.h:1809:22:__NVIC_SetPriority	16	static
+core_cm4.h:2017:26:SysTick_Config	16	static
+main.c:89:5:main	24	static
+main.c:182:6:SystemClock_Config	168	static
+main.c:236:13:MX_ADC2_Init	40	static
+main.c:293:13:MX_DAC2_Init	56	static
+main.c:338:13:MX_HRTIM1_Init	240	static
+main.c:525:13:MX_TIM3_Init	88	static
+main.c:589:13:MX_DMA_Init	16	static
+main.c:608:13:MX_GPIO_Init	48	static
+main.c:652:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:675:6:Error_Handler	4	static,ignoring_inline_asm

@@ -1,0 +1,6 @@
+[ProjectFiles]
+HeaderPath=C:\Users\jlabaisse\Documents\owntech-matlab\V1_1_2\Test_LED_Amine\Drivers\CMSIS\Core\Include;C:\Users\jlabaisse\Documents\owntech-matlab\V1_1_2\Test_LED_Amine\Drivers\CMSIS\DSP\Include;C:\Users\jlabaisse\Documents\owntech-matlab\V1_1_2\Test_LED_Amine\Test_LED_Amine\Inc;C:\Program Files\MATLAB\R2020b\simulink\include;
+[Groups]
+MATLAB=C:\Users\jlabaisse\Documents\owntech-matlab\V1_1_2\Test_LED_Amine\Test_LED_Amine\Src\Test_LED_Amine.c;C:\Users\jlabaisse\Documents\owntech-matlab\V1_1_2\Test_LED_Amine\Test_LED_Amine\Src\Test_LED_Amine_ADC.c;C:\Users\jlabaisse\Documents\owntech-matlab\V1_1_2\Test_LED_Amine\Test_LED_Amine\Src\Test_LED_Amine_DAC.c;C:\Users\jlabaisse\Documents\owntech-matlab\V1_1_2\Test_LED_Amine\Test_LED_Amine\Src\Test_LED_Amine_HRTIM.c;C:\Users\jlabaisse\Documents\owntech-matlab\V1_1_2\Test_LED_Amine\Test_LED_Amine\Src\Test_LED_Amine_TIM.c;
+[Others]
+Define=MEM_UNIT_BYTES;ARM_MATH_CM4;MemUnit_T:uint8_T;MATLAB_PROJECT;

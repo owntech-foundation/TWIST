@@ -1,0 +1,10 @@
+13:21:58 **** Incremental Build of configuration Debug for project Test_LED_Amine ****
+make -j8 all 
+arm-none-eabi-size   Test_LED_Amine.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34976	    112	   2512	  37600	   92e0	Test_LED_Amine.elf
+Finished building: default.size.stdout
+ 
+
+13:21:58 Build Finished. 0 errors, 0 warnings. (took 298ms)
+
