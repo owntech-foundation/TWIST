@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;test_pinout/CM_exp_open_loop_1_1_2.ioc&apos; to &apos;test_pinout.ioc&apos;" description="Rename resource &apos;CM_exp_open_loop_1_1_2.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="CM_exp_open_loop_1_1_2.ioc" name="test_pinout.ioc" stamp="1626788315300" updateReferences="true"/>
-</session>

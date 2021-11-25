@@ -1,4 +1,4 @@
-19038280898300021
+19039928702555021
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50889,6 +50889,13 @@ Footprints
 0
 2
 1
+Footprints
+Arduino_Portenta_H7
+
+
+0
+30
+30
 Footprints
 CONV_VXO78012-500-M
 

@@ -1,2 +1,0 @@
-Test_LED_Amine_ADC.c:82:6:HAL_ADC_ConvCpltCallback	24	static
-Test_LED_Amine_ADC.c:122:6:HAL_ADC_ConvHalfCpltCallback	24	static

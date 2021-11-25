@@ -1,3 +1,0 @@
-config load "C:\Users\jlabaisse\Documents\owntech-matlab\V1_1_2\Test_LED_Amine\Test_LED_Amine.ioc"
-project generate ui
-exit wait

@@ -1,4 +1,4 @@
-update=09/06/2021 17:00:38
+update=mer. 17 nov. 2021 22:56:19
 version=1
 last_client=kicad
 [general]
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=Title_block.kicad_wks
+PlotDirectoryName=C:/Users/amel-/OneDrive/Documents/stage/1-documentation/1leg/Definition_Package_Power/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=Title_block.kicad_wks
-LastNetListRead=
+LastNetListRead=Power.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -61,7 +71,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -240,13 +250,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=Title_block.kicad_wks
-PlotDirectoryName=C:/Users/amel-/OneDrive/Documents/stage/1-documentation/1leg/Definition_Package_Power/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

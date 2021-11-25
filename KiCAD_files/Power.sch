@@ -70,22 +70,6 @@ Wire Wire Line
 	8600 3425 8600 3925
 Connection ~ 8600 4725
 $Comp
-L Transistor_FET:QM6006D Q2
-U 1 1 5E9DBBAD
-P 8500 4125
-AR Path="/5E9DBBAD" Ref="Q2"  Part="1" 
-AR Path="/5E91AAF4/5E9DBBAD" Ref="Q?"  Part="1" 
-AR Path="/5E86B783/5E9DBBAD" Ref="Q?"  Part="1" 
-AR Path="/5E99427A/5E9DBBAD" Ref="Q2"  Part="1" 
-F 0 "Q2" H 8705 4171 50  0000 L CNN
-F 1 "IPD200N15N3" H 8705 4080 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 8700 4050 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/Infineon-IPD200N15N3%20G-DS-v02_07-EN.pdf?fileId=5546d4624fb7fef2014ff59238932dbf" H 8300 4425 50  0001 L CNN
-F 4 "IPD200N15N3GATMA1" H 8500 4125 50  0001 C CNN "manf#"
-	1    8500 4125
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 5E9DBBB4
 P 7350 4125
@@ -223,7 +207,7 @@ U 1 1 5E9DBC26
 P 10125 2925
 F 0 "D_H1" V 10104 3066 50  0000 L CNN
 F 1 "STTH1002CB" V 10195 3066 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 10125 2925 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10125 2925 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stth1002c.pdf" H 10125 2925 50  0001 C CNN
 F 4 "STTH1002CB" H 10125 2925 50  0001 C CNN "manf#"
 	1    10125 2925
@@ -235,7 +219,7 @@ U 1 1 5E9DBC2D
 P 10125 3975
 F 0 "D_L1" V 10104 4116 50  0000 L CNN
 F 1 "STTH1002CB" V 10195 4116 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 10125 3975 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10125 3975 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stth1002c.pdf" H 10125 3975 50  0001 C CNN
 F 4 "STTH1002CB" H 10125 3975 50  0001 C CNN "manf#"
 	1    10125 3975
@@ -455,33 +439,23 @@ Wire Wire Line
 $Comp
 L Device:C C11
 U 1 1 5F2F867A
-P 8100 3725
+P 8100 1525
 AR Path="/5F2F867A" Ref="C11"  Part="1" 
 AR Path="/5E91AAF4/5F2F867A" Ref="C?"  Part="1" 
 AR Path="/5E86B783/5F2F867A" Ref="C?"  Part="1" 
 AR Path="/5E99427A/5F2F867A" Ref="C29"  Part="1" 
-F 0 "C11" H 8215 3771 50  0000 L CNN
-F 1 "100nF" H 8215 3680 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 8138 3575 50  0001 C CNN
-F 3 "~" H 8100 3725 50  0001 C CNN
-F 4 "1210PC104KAT1A" H 8100 3725 50  0001 C CNN "manf#"
-	1    8100 3725
+F 0 "C11" H 8215 1571 50  0000 L CNN
+F 1 "100nF" H 8215 1480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8138 1375 50  0001 C CNN
+F 3 "~" H 8100 1525 50  0001 C CNN
+F 4 "1210PC104KAT1A" H 8100 1525 50  0001 C CNN "manf#"
+	1    8100 1525
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7850 4575 7850 4725
 Wire Wire Line
 	7850 4725 8600 4725
-Wire Wire Line
-	8100 3875 8100 4325
-Wire Wire Line
-	8100 4325 8600 4325
-Connection ~ 8600 4325
-Wire Wire Line
-	8100 3575 8100 2775
-Wire Wire Line
-	8100 2775 8600 2775
-Connection ~ 8600 2775
 $Comp
 L pspice:INDUCTOR L2
 U 1 1 5F46133C
@@ -811,30 +785,20 @@ Wire Wire Line
 	8225 6525 8225 6575
 Text Label 9125 5475 0    98   ~ 0
 V_Out
-Connection ~ 9125 5925
-Wire Wire Line
-	8475 5925 9125 5925
-Wire Wire Line
-	8475 6625 8475 5925
-Connection ~ 9125 7475
-Wire Wire Line
-	8475 7475 9125 7475
-Wire Wire Line
-	8475 6925 8475 7475
 $Comp
 L Device:C C12
 U 1 1 5F46146C
-P 8475 6775
+P 8050 8700
 AR Path="/5F46146C" Ref="C12"  Part="1" 
 AR Path="/5E91AAF4/5F46146C" Ref="C?"  Part="1" 
 AR Path="/5E86B783/5F46146C" Ref="C?"  Part="1" 
 AR Path="/5E99427A/5F46146C" Ref="C30"  Part="1" 
-F 0 "C12" H 8590 6821 50  0000 L CNN
-F 1 "100nF" H 8590 6730 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 8513 6625 50  0001 C CNN
-F 3 "~" H 8475 6775 50  0001 C CNN
-F 4 "1210PC104KAT1A" H 8475 6775 50  0001 C CNN "manf#"
-	1    8475 6775
+F 0 "C12" H 8165 8746 50  0000 L CNN
+F 1 "100nF" H 8165 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8088 8550 50  0001 C CNN
+F 3 "~" H 8050 8700 50  0001 C CNN
+F 4 "1210PC104KAT1A" H 8050 8700 50  0001 C CNN "manf#"
+	1    8050 8700
 	1    0    0    -1  
 $EndComp
 Text Label 7075 6125 0    50   ~ 0
@@ -865,7 +829,7 @@ U 1 1 5F4613C3
 P 10625 7125
 F 0 "D_L2" V 10604 7266 50  0000 L CNN
 F 1 "STTH1002CB" V 10695 7266 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 10625 7125 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10625 7125 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stth1002c.pdf" H 10625 7125 50  0001 C CNN
 F 4 "STTH1002CB" H 10625 7125 50  0001 C CNN "manf#"
 	1    10625 7125
@@ -877,7 +841,7 @@ U 1 1 5F4613BD
 P 10625 6075
 F 0 "D_H2" V 10604 6216 50  0000 L CNN
 F 1 "STTH1002CB" V 10695 6216 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 10625 6075 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10625 6075 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stth1002c.pdf" H 10625 6075 50  0001 C CNN
 F 4 "STTH1002CB" H 10625 6075 50  0001 C CNN "manf#"
 	1    10625 6075
@@ -1044,25 +1008,18 @@ F 4 "IPD200N15N3GATMA1" H 9025 6125 50  0001 C CNN "manf#"
 	1    9025 6125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 3425 1850 4800
 $Comp
 L Symbols:2604-1102 J1
 U 1 1 5F36DFF1
-P 1450 5000
-F 0 "J1" H 1250 5375 60  0000 L CNN
-F 1 "2604-1102" H 1578 4997 60  0001 L CNN
-F 2 "Footprints:WAGO-2604-1102" H 1450 4940 60  0001 C CNN
-F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 1450 5000 60  0001 C CNN
-F 4 "2604-1102" H 1450 5000 50  0001 C CNN "manf#"
-	1    1450 5000
+P 1450 3625
+F 0 "J1" H 1250 4000 60  0000 L CNN
+F 1 "2604-1102" H 1578 3622 60  0001 L CNN
+F 2 "Footprints:WAGO-2604-1102" H 1450 3565 60  0001 C CNN
+F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 1450 3625 60  0001 C CNN
+F 4 "2604-1102" H 1450 3625 50  0001 C CNN "manf#"
+	1    1450 3625
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 4900 1850 4800
-Connection ~ 1850 4800
-Wire Wire Line
-	1850 5000 1850 5100
 $Comp
 L Symbols:2604-1102 J4
 U 1 1 5F3D5BD1
@@ -1567,62 +1524,15 @@ $EndComp
 $Comp
 L Mechanical:Heatsink_Pad HS1
 U 1 1 605D1ED1
-P 20850 8525
-F 0 "HS1" V 21125 8250 50  0000 L CNN
-F 1 "Heatsink_Pad" V 21200 8250 50  0000 L CNN
-F 2 "Footprints:custom_heatsink" H 20862 8475 50  0001 C CNN
-F 3 "~" H 20862 8475 50  0001 C CNN
-F 4 "x" H 20850 8525 50  0001 C CNN "DNP"
-	1    20850 8525
+P 20175 8450
+F 0 "HS1" V 20450 8175 50  0000 L CNN
+F 1 "Heatsink_Pad" V 20525 8175 50  0000 L CNN
+F 2 "Footprints:custom_heatsink" H 20187 8400 50  0001 C CNN
+F 3 "~" H 20187 8400 50  0001 C CNN
+F 4 "x" H 20175 8450 50  0001 C CNN "DNP"
+	1    20175 8450
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 605D310C
-P 19525 8200
-F 0 "JP1" H 19525 8293 50  0000 C CNN
-F 1 "THJP0612AST" H 19525 8294 50  0001 C CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8200 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8200 50  0001 C CNN
-F 4 "THJP0612AST1" H 19525 8200 50  0001 C CNN "manf#"
-	1    19525 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP3
-U 1 1 605ECE98
-P 19525 8800
-F 0 "JP3" H 19525 8893 50  0000 C CNN
-F 1 "THJP0612AST" H 19525 8894 50  0001 C CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8800 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8800 50  0001 C CNN
-F 4 "THJP0612AST1" H 19525 8800 50  0001 C CNN "manf#"
-	1    19525 8800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20075 8200 19625 8200
-Connection ~ 20075 8200
-Wire Wire Line
-	20075 8800 19625 8800
-$Comp
-L Device:Jumper_NO_Small JP4
-U 1 1 606A81B1
-P 19525 9375
-F 0 "JP4" H 19525 9468 50  0000 C CNN
-F 1 "THJP0612AST" H 19525 9469 50  0001 C CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 9375 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 9375 50  0001 C CNN
-F 4 "THJP0612AST1" H 19525 9375 50  0001 C CNN "manf#"
-	1    19525 9375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19625 9375 20075 9375
-Wire Wire Line
-	20075 9375 20075 9175
-Wire Wire Line
-	20075 8025 20075 8200
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 607CF92A
@@ -2012,80 +1922,6 @@ Wire Wire Line
 	11100 14600 11100 14625
 Wire Wire Line
 	11100 14625 10975 14625
-Text Label 18825 9375 0    50   ~ 0
-SW_Node1
-Wire Wire Line
-	18825 9375 19425 9375
-Text Label 18825 8800 0    50   ~ 0
-SW_Node2
-Wire Wire Line
-	18825 8800 19425 8800
-Text Label 18825 8325 0    50   ~ 0
-V_Out
-Wire Wire Line
-	18825 8325 19200 8325
-$Comp
-L Device:Jumper_NO_Small JP5
-U 1 1 6139CFC4
-P 19525 8025
-F 0 "JP5" H 19525 8118 50  0000 C CNN
-F 1 "THJP0612AST" H 19525 8119 50  0001 C CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8025 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8025 50  0001 C CNN
-F 4 "THJP0612AST1" H 19525 8025 50  0001 C CNN "manf#"
-	1    19525 8025
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20075 8025 19625 8025
-Wire Wire Line
-	19425 8025 19200 8025
-Wire Wire Line
-	19200 8025 19200 8200
-Wire Wire Line
-	19425 8200 19200 8200
-Connection ~ 19200 8200
-Connection ~ 19200 8425
-Connection ~ 20075 8425
-Wire Wire Line
-	20075 8200 20075 8425
-Wire Wire Line
-	19200 8425 19425 8425
-Wire Wire Line
-	20075 8425 19625 8425
-$Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 605D42A3
-P 19525 8425
-F 0 "JP2" H 19525 8518 50  0000 C CNN
-F 1 "THJP0612AST" H 19525 8519 50  0001 C CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8425 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8425 50  0001 C CNN
-F 4 "THJP0612AST1" H 19525 8425 50  0001 C CNN "manf#"
-	1    19525 8425
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP6
-U 1 1 614BDA47
-P 19525 8625
-F 0 "JP6" H 19525 8718 50  0000 C CNN
-F 1 "THJP0612AST" H 19525 8719 50  0001 C CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8625 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8625 50  0001 C CNN
-F 4 "THJP0612AST1" H 19525 8625 50  0001 C CNN "manf#"
-	1    19525 8625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19200 8425 19200 8625
-Wire Wire Line
-	19200 8625 19425 8625
-Wire Wire Line
-	19625 8625 20075 8625
-Connection ~ 20075 8625
-Wire Wire Line
-	20075 8625 20075 8800
 $Comp
 L Symbols:AMC1100 U6
 U 1 1 605D63F7
@@ -3412,9 +3248,6 @@ Wire Wire Line
 	4725 6550 4725 6575
 Wire Wire Line
 	3875 6575 4725 6575
-Connection ~ 1850 5100
-Wire Wire Line
-	1850 5100 1850 6575
 Text Label 4325 3025 2    50   ~ 0
 DGND
 Wire Wire Line
@@ -3529,18 +3362,6 @@ Wire Wire Line
 	6025 13000 6525 13000
 Wire Wire Line
 	6025 14725 6525 14725
-Connection ~ 19200 8325
-Wire Wire Line
-	19200 8325 19200 8425
-Wire Wire Line
-	19200 8200 19200 8325
-Wire Wire Line
-	20075 8525 20750 8525
-Connection ~ 20075 8525
-Wire Wire Line
-	20075 8525 20075 8625
-Wire Wire Line
-	20075 8425 20075 8525
 Wire Wire Line
 	9725 13275 9600 13275
 Text Label 9600 13275 2    50   ~ 0
@@ -3559,12 +3380,12 @@ Wire Wire Line
 	2400 6575 2725 6575
 Connection ~ 2725 6575
 Wire Wire Line
-	2100 6575 1850 6575
+	2100 6575 1900 6575
 Wire Wire Line
 	2450 3425 2725 3425
 Connection ~ 2725 3425
 Wire Wire Line
-	2150 3425 1850 3425
+	2150 3425 1925 3425
 Wire Wire Line
 	15300 2325 15450 2325
 $Comp
@@ -3941,93 +3762,6 @@ F 3 "" H 15450 15225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP8
-U 1 1 623B4FC0
-P 19525 7825
-F 0 "JP8" H 19525 7918 50  0000 C CNN
-F 1 "THJP0612AST" H 19525 7919 50  0001 C CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 7825 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 7825 50  0001 C CNN
-F 4 "THJP0612AST1" H 19525 7825 50  0001 C CNN "manf#"
-	1    19525 7825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP7
-U 1 1 623B4FC6
-P 19525 7650
-F 0 "JP7" H 19525 7743 50  0000 C CNN
-F 1 "THJP0612AST" H 19525 7744 50  0001 C CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 7650 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 7650 50  0001 C CNN
-F 4 "THJP0612AST1" H 19525 7650 50  0001 C CNN "manf#"
-	1    19525 7650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19425 7825 19200 7825
-Wire Wire Line
-	19200 7825 19200 8025
-Connection ~ 19200 8025
-Wire Wire Line
-	19425 7650 19200 7650
-Wire Wire Line
-	19200 7650 19200 7825
-Connection ~ 19200 7825
-Wire Wire Line
-	19625 7825 20075 7825
-Wire Wire Line
-	20075 7825 20075 8025
-Connection ~ 20075 8025
-Wire Wire Line
-	19625 7650 20075 7650
-Wire Wire Line
-	20075 7650 20075 7825
-Connection ~ 20075 7825
-$Comp
-L Device:Jumper_NO_Small JP10
-U 1 1 608DCDA1
-P 19525 9175
-F 0 "JP10" H 19525 9268 50  0000 C CNN
-F 1 "THJP0612AST" H 19525 9269 50  0001 C CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 9175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 9175 50  0001 C CNN
-F 4 "THJP0612AST1" H 19525 9175 50  0001 C CNN "manf#"
-	1    19525 9175
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19625 9175 20075 9175
-Text Label 18825 9175 0    50   ~ 0
-SW_Node1
-Wire Wire Line
-	18825 9175 19425 9175
-$Comp
-L Device:Jumper_NO_Small JP9
-U 1 1 60929ADE
-P 19525 8975
-F 0 "JP9" H 19525 9068 50  0000 C CNN
-F 1 "THJP0612AST" H 19525 9069 50  0001 C CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 19525 8975 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60157/thjp.pdf" H 19525 8975 50  0001 C CNN
-F 4 "THJP0612AST1" H 19525 8975 50  0001 C CNN "manf#"
-	1    19525 8975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20075 8975 19625 8975
-Text Label 18825 8975 0    50   ~ 0
-SW_Node2
-Wire Wire Line
-	18825 8975 19425 8975
-Connection ~ 20075 8800
-Connection ~ 20075 9175
-Connection ~ 20075 8975
-Wire Wire Line
-	20075 8975 20075 9175
-Wire Wire Line
-	20075 8800 20075 8975
-$Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 609DD5CE
 P 11425 10400
@@ -4138,4 +3872,233 @@ Wire Wire Line
 	4725 2625 4725 2475
 Wire Wire Line
 	4725 5650 4725 5750
+$Comp
+L Device:C C40
+U 1 1 6199A2E5
+P 8550 1525
+AR Path="/6199A2E5" Ref="C40"  Part="1" 
+AR Path="/5E91AAF4/6199A2E5" Ref="C?"  Part="1" 
+AR Path="/5E86B783/6199A2E5" Ref="C?"  Part="1" 
+AR Path="/5E99427A/6199A2E5" Ref="C?"  Part="1" 
+F 0 "C40" H 8665 1571 50  0000 L CNN
+F 1 "100nF" H 8665 1480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8588 1375 50  0001 C CNN
+F 3 "~" H 8550 1525 50  0001 C CNN
+F 4 "1210PC104KAT1A" H 8550 1525 50  0001 C CNN "manf#"
+	1    8550 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:QM6006D Q2
+U 1 1 5E9DBBAD
+P 8500 4125
+AR Path="/5E9DBBAD" Ref="Q2"  Part="1" 
+AR Path="/5E91AAF4/5E9DBBAD" Ref="Q?"  Part="1" 
+AR Path="/5E86B783/5E9DBBAD" Ref="Q?"  Part="1" 
+AR Path="/5E99427A/5E9DBBAD" Ref="Q2"  Part="1" 
+F 0 "Q2" H 8705 4171 50  0000 L CNN
+F 1 "IPD200N15N3" H 8705 4080 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 8700 4050 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD200N15N3%20G-DS-v02_07-EN.pdf?fileId=5546d4624fb7fef2014ff59238932dbf" H 8300 4425 50  0001 L CNN
+F 4 "IPD200N15N3GATMA1" H 8500 4125 50  0001 C CNN "manf#"
+	1    8500 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C39
+U 1 1 61C27FAC
+P 8525 8700
+AR Path="/61C27FAC" Ref="C39"  Part="1" 
+AR Path="/5E91AAF4/61C27FAC" Ref="C?"  Part="1" 
+AR Path="/5E86B783/61C27FAC" Ref="C?"  Part="1" 
+AR Path="/5E99427A/61C27FAC" Ref="C?"  Part="1" 
+F 0 "C39" H 8640 8746 50  0000 L CNN
+F 1 "100nF" H 8640 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8563 8550 50  0001 C CNN
+F 3 "~" H 8525 8700 50  0001 C CNN
+F 4 "1210PC104KAT1A" H 8525 8700 50  0001 C CNN "manf#"
+	1    8525 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C41
+U 1 1 61C6A5D1
+P 9000 8700
+AR Path="/61C6A5D1" Ref="C41"  Part="1" 
+AR Path="/5E91AAF4/61C6A5D1" Ref="C?"  Part="1" 
+AR Path="/5E86B783/61C6A5D1" Ref="C?"  Part="1" 
+AR Path="/5E99427A/61C6A5D1" Ref="C?"  Part="1" 
+F 0 "C41" H 9115 8746 50  0000 L CNN
+F 1 "100nF" H 9115 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9038 8550 50  0001 C CNN
+F 3 "~" H 9000 8700 50  0001 C CNN
+F 4 "1210PC104KAT1A" H 9000 8700 50  0001 C CNN "manf#"
+	1    9000 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C42
+U 1 1 61CF44DC
+P 9025 1525
+AR Path="/61CF44DC" Ref="C42"  Part="1" 
+AR Path="/5E91AAF4/61CF44DC" Ref="C?"  Part="1" 
+AR Path="/5E86B783/61CF44DC" Ref="C?"  Part="1" 
+AR Path="/5E99427A/61CF44DC" Ref="C?"  Part="1" 
+F 0 "C42" H 9140 1571 50  0000 L CNN
+F 1 "100nF" H 9140 1480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9063 1375 50  0001 C CNN
+F 3 "~" H 9025 1525 50  0001 C CNN
+F 4 "1210PC104KAT1A" H 9025 1525 50  0001 C CNN "manf#"
+	1    9025 1525
+	1    0    0    -1  
+$EndComp
+Text Label 8050 8225 0    98   ~ 0
+V_Out
+$Comp
+L power:GNDREF #PWR?
+U 1 1 61E55BDA
+P 8050 9075
+AR Path="/5E91AAF4/61E55BDA" Ref="#PWR?"  Part="1" 
+AR Path="/5E86B783/61E55BDA" Ref="#PWR?"  Part="1" 
+AR Path="/5E99427A/61E55BDA" Ref="#PWR?"  Part="1" 
+AR Path="/61E55BDA" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 8050 8825 50  0001 C CNN
+F 1 "GNDREF" H 8055 8902 98  0000 C CNN
+F 2 "" H 8050 9075 50  0001 C CNN
+F 3 "" H 8050 9075 50  0001 C CNN
+	1    8050 9075
+	1    0    0    -1  
+$EndComp
+Text Label 8100 1075 0    98   ~ 0
+V_Out
+$Comp
+L power:GNDREF #PWR?
+U 1 1 61F2ACBD
+P 8100 1950
+AR Path="/5E91AAF4/61F2ACBD" Ref="#PWR?"  Part="1" 
+AR Path="/5E86B783/61F2ACBD" Ref="#PWR?"  Part="1" 
+AR Path="/5E99427A/61F2ACBD" Ref="#PWR?"  Part="1" 
+AR Path="/61F2ACBD" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 8100 1700 50  0001 C CNN
+F 1 "GNDREF" H 8105 1777 98  0000 C CNN
+F 2 "" H 8100 1950 50  0001 C CNN
+F 3 "" H 8100 1950 50  0001 C CNN
+	1    8100 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 1075 8100 1225
+Connection ~ 8100 1225
+Wire Wire Line
+	8100 1225 8100 1375
+Wire Wire Line
+	8550 1375 8550 1225
+Connection ~ 8550 1225
+Wire Wire Line
+	8550 1225 8100 1225
+Wire Wire Line
+	9025 1375 9025 1225
+Wire Wire Line
+	9025 1225 8550 1225
+Wire Wire Line
+	8100 1900 8100 1950
+Wire Wire Line
+	8100 1675 8100 1900
+Connection ~ 8100 1900
+Wire Wire Line
+	8550 1675 8550 1900
+Connection ~ 8550 1900
+Wire Wire Line
+	8550 1900 8100 1900
+Wire Wire Line
+	9025 1675 9025 1900
+Wire Wire Line
+	9025 1900 8550 1900
+Wire Wire Line
+	8050 8225 8050 8375
+Connection ~ 8050 8375
+Wire Wire Line
+	8050 8375 8050 8550
+Wire Wire Line
+	9000 8550 9000 8375
+Wire Wire Line
+	8525 8550 8525 8375
+Wire Wire Line
+	8050 8375 8525 8375
+Connection ~ 8525 8375
+Wire Wire Line
+	8525 8375 9000 8375
+Wire Wire Line
+	8050 8850 8050 9000
+Wire Wire Line
+	8525 8850 8525 9000
+Wire Wire Line
+	8525 9000 8050 9000
+Connection ~ 8050 9000
+Wire Wire Line
+	8050 9000 8050 9075
+Wire Wire Line
+	8525 9000 9000 9000
+Wire Wire Line
+	9000 9000 9000 8850
+Connection ~ 8525 9000
+Wire Wire Line
+	1850 3725 1925 3725
+Wire Wire Line
+	1925 3725 1925 3625
+Connection ~ 1925 3425
+Wire Wire Line
+	1925 3425 1850 3425
+Wire Wire Line
+	1850 3525 1925 3525
+Connection ~ 1925 3525
+Wire Wire Line
+	1925 3525 1925 3425
+Wire Wire Line
+	1850 3625 1925 3625
+Connection ~ 1925 3625
+Wire Wire Line
+	1925 3625 1925 3525
+$Comp
+L Symbols:2604-1102 J36
+U 1 1 61B2174D
+P 1450 6775
+F 0 "J36" H 1250 7150 60  0000 L CNN
+F 1 "2604-1102" H 1578 6772 60  0001 L CNN
+F 2 "Footprints:WAGO-2604-1102" H 1450 6715 60  0001 C CNN
+F 3 "https://www.wago.com/fr/connexion-de-circuits-imprim%C3%A9s/borne-pour-circuits-imprim%C3%A9s/p/2604-1102" H 1450 6775 60  0001 C CNN
+F 4 "2604-1102" H 1450 6775 50  0001 C CNN "manf#"
+	1    1450 6775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6575 1900 6675
+Wire Wire Line
+	1900 6875 1850 6875
+Connection ~ 1900 6575
+Wire Wire Line
+	1900 6575 1850 6575
+Wire Wire Line
+	1850 6775 1900 6775
+Connection ~ 1900 6775
+Wire Wire Line
+	1900 6775 1900 6875
+Wire Wire Line
+	1850 6675 1900 6675
+Connection ~ 1900 6675
+Wire Wire Line
+	1900 6675 1900 6775
+Wire Wire Line
+	20075 8450 19775 8450
+$Comp
+L power:Earth_Protective #PWR?
+U 1 1 61FEF4F6
+P 19775 8450
+F 0 "#PWR?" H 20025 8200 50  0001 C CNN
+F 1 "Earth_Protective" H 20225 8300 50  0001 C CNN
+F 2 "" H 19775 8350 50  0001 C CNN
+F 3 "~" H 19775 8350 50  0001 C CNN
+	1    19775 8450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
