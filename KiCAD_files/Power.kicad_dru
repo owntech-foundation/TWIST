@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "clearance-to-1mm-cutout"
+    (constraint clearance (min 0.8mm))
+    (condition "A.Layer=='Edge.Cuts' && A.Thickness == 1.0mm"))
+
