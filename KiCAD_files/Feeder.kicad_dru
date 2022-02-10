@@ -1,0 +1,14 @@
+(version 1)
+
+
+(rule HA
+   (constraint clearance (min 1.5mm))
+   (condition "A.NetClass == 'MOSD' && B.Type == 'Zone'"))
+
+(rule HV
+   (constraint clearance (min 1mm))
+   (condition "A.NetClass == 'VIN' && B.Type == 'Zone'"))
+
+(rule THICK
+   (constraint track_width (min 0.5mm) (opt 1mm))
+   (condition "A.NetClass == 'VIN'"))
