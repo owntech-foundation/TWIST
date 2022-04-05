@@ -389,7 +389,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "libs/footprints.pretty/footprints.3dshapes/microcontroller_mini.step",
       "vrml": ""
     },
     "page_layout_descr_file": "Title_block.kicad_wks"
