@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.75
         }
       },
       "diff_pair_dimensions": [
@@ -438,7 +438,7 @@
       "Power Leg 1"
     ],
     [
-      "fb2a6dc8-c34d-4aee-9ddb-1f58ee3a460f",
+      "4a11142e-1c8b-45f6-8828-f013379f9fc1",
       "Power Leg 2"
     ]
   ],
