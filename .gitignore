@@ -1,6 +1,9 @@
 **/*.bak
 **/*.sch-bak
 **/*.err
+**/*.kicad_sch-bak
+**/*.kicad_pcb-bak
+**/*.kicad_prl
 /KiCAD_files/fp-info-cache
 /KiCAD_files/Power-backups
 /KiCAD_files/Feeder-backups
