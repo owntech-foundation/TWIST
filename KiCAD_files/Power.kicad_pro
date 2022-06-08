@@ -385,7 +385,7 @@
       "idf": "",
       "netlist": "Power.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "libs/footprints.pretty/footprints.3dshapes/Power1_1_3.step",
       "vrml": ""
     },
     "page_layout_descr_file": "Title_block.kicad_wks"
@@ -440,6 +440,14 @@
     [
       "4a11142e-1c8b-45f6-8828-f013379f9fc1",
       "Power Leg 2"
+    ],
+    [
+      "122c01f4-f23e-4db0-9503-7261d96dc78b",
+      "Bottom side"
+    ],
+    [
+      "bce1534c-362e-45ed-a9dd-a44d6954485a",
+      "Feeder"
     ]
   ],
   "text_variables": {}

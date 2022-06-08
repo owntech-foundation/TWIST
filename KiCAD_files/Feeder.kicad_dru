@@ -12,3 +12,9 @@
 (rule THICK
    (constraint track_width (min 0.5mm) (opt 1mm))
    (condition "A.NetClass == 'VIN'"))
+
+(rule "Via Hole to Zone in.2 Clearance"  
+    (constraint hole_clearance (min 2mm))
+    (condition "A.Type =='Via' && B.Type =='Zone' && B.Layer =='In2.Cu'"))
+
+

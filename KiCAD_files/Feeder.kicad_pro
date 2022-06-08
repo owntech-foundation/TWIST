@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 4.3,
+          "height": 7.5,
+          "width": 7.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -378,9 +378,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "MOSD",
-        "nets": [
-          "MOSD"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -416,9 +414,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "VIN",
-        "nets": [
-          "VIN"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -438,13 +434,13 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "libs/footprints.pretty/footprints.3dshapes/Feeder.step",
+      "step": "libs/footprints.pretty/footprints.3dshapes/Feeder2.step",
       "vrml": ""
     },
     "page_layout_descr_file": "Title_block.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 500,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
