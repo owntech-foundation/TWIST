@@ -2724,7 +2724,7 @@
 
   (footprint "Connector_USB:USB_Micro-B_Molex_47346-0001" (layer "F.Cu")
     (tedit 5D8620A7) (tstamp fd317b92-af78-4add-b944-2fe1a974a74a)
-    (at 95.560978 52.01 180)
+    (at 95.560978 51.2 180)
     (descr "Micro USB B receptable with flange, bottom-mount, SMD, right-angle (http://www.molex.com/pdm_docs/sd/473460001_sd.pdf)")
     (tags "Micro B USB SMD")
     (property "Sheetfile" "microcontroller_mini.kicad_sch")

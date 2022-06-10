@@ -3169,70 +3169,6 @@
         )
       )
     )
-    (symbol "power:Earth_Protective" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 6.35 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "Earth_Protective" (id 1) (at 11.43 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "" (id 2) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag ground gnd clean" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"Earth_Protective\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Earth_Protective_0_1"
-        (circle (center 0 -3.81) (radius 2.54)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 -4.445)
-            (xy 0.635 -4.445)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.127 -5.08)
-            (xy 0.127 -5.08)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -3.81)
-            (xy 0 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -3.81)
-            (xy -1.27 -3.81)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "Earth_Protective_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "Earth_Protective" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -5398,24 +5334,6 @@
     (pin "1" (uuid c78f65fa-a030-469f-965a-f81d8f3afba6))
   )
 
-  (symbol (lib_id "power:Earth_Protective") (at 118.745 268.605 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061fef4f6)
-    (property "Reference" "#PWR0108" (id 0) (at 125.095 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth_Protective" (id 1) (at 130.175 272.415 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 118.745 271.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 118.745 271.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 16ea365c-d7f5-4c44-b4c6-7d8ef461a0ca))
-  )
-
   (symbol (lib_id "power:GND") (at 61.595 202.565 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ffad1e)
@@ -5653,7 +5571,7 @@
     (property "Value" "MountingHole" (id 1) (at 59.69 273.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 57.15 271.78 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 57.15 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 57.15 271.78 0)
@@ -5689,7 +5607,7 @@
     (property "Value" "MountingHole" (id 1) (at 59.69 266.0649 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 57.15 264.795 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 57.15 264.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 57.15 264.795 0)
@@ -5728,7 +5646,7 @@
     (property "Value" "MountingHole" (id 1) (at 96.52 273.6849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 93.98 272.415 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 93.98 272.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 93.98 272.415 0)
@@ -5863,10 +5781,27 @@
     (property "Value" "MountingHole" (id 1) (at 78.105 265.4299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 75.565 264.16 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 75.565 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 75.565 264.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 113.03 263.525 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 7349219b-45b9-475f-b628-10263de59dfc)
+    (property "Reference" "H109" (id 0) (at 115.57 262.2549 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 115.57 264.7949 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 113.03 263.525 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 113.03 263.525 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5902,7 +5837,7 @@
     (property "Value" "MountingHole" (id 1) (at 96.52 265.4299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 93.98 264.16 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 93.98 264.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 93.98 264.16 0)
@@ -6007,7 +5942,7 @@
     (property "Value" "MountingHole" (id 1) (at 41.275 273.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 38.735 271.78 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 38.735 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 38.735 271.78 0)
@@ -6121,7 +6056,7 @@
     (property "Value" "MountingHole" (id 1) (at 78.105 273.6849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 75.565 272.415 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 75.565 272.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 75.565 272.415 0)
@@ -6138,7 +6073,7 @@
     (property "Value" "MountingHole" (id 1) (at 41.275 266.0649 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 38.735 264.795 0)
+    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (id 2) (at 38.735 264.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 38.735 264.795 0)
@@ -6488,7 +6423,7 @@
     (path "/61a2e178-63bc-42c3-adcb-67657d8fec5e"
       (reference "#PWR0107") (unit 1) (value "DGND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061fef4f6"
+    (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/90678511-4529-4c3a-bf03-575911ad1bac"
       (reference "#PWR0108") (unit 1) (value "Earth_Protective") (footprint "")
     )
     (path "/f1062b9d-ce51-45fd-82a3-bd1df8513d35"
@@ -6547,6 +6482,12 @@
     )
     (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/95f1c592-e591-4cd3-ad00-0bc57ce37f22"
       (reference "#PWR0127") (unit 1) (value "DGND") (footprint "")
+    )
+    (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/edd21376-8459-45b4-9a58-0a8491306bae"
+      (reference "#PWR0128") (unit 1) (value "DGND") (footprint "")
+    )
+    (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/432f4d1b-b3a1-47fd-83bf-c9e800d25a6e"
+      (reference "#PWR0129") (unit 1) (value "Earth_Protective") (footprint "")
     )
     (path "/b9592210-62fd-48e0-8447-67f645d7d247/44457cf5-1c19-4277-9bae-1a0529e9ddd8"
       (reference "#PWR0201") (unit 1) (value "NGND") (footprint "")
@@ -7260,13 +7201,13 @@
       (reference "C518") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/c4789625-151d-4665-9a06-366f4cc9d1d4"
-      (reference "C519") (unit 1) (value "470nF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+      (reference "C519") (unit 1) (value "470nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/dc760799-0eb5-425a-9276-d1f9d272c94a"
-      (reference "C520") (unit 1) (value "470nF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+      (reference "C520") (unit 1) (value "470nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/8140d103-934b-4677-82ce-bd60f0b69219"
-      (reference "C521") (unit 1) (value "C_Polarized_Small") (footprint "Capacitor_SMD:CP_Elec_10x10.5")
+      (reference "C521") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
     )
     (path "/b9592210-62fd-48e0-8447-67f645d7d247/7db2a4b9-f872-48cc-a2a7-1f09e20dda1e"
       (reference "D201") (unit 1) (value "STTH4R02U") (footprint "Diode_SMD:D_SMB")
@@ -7335,37 +7276,40 @@
       (reference "F103") (unit 1) (value "8A") (footprint "Footprints:Fuse_holder_omni_blok")
     )
     (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/00000000-0000-0000-0000-00006072210f"
-      (reference "F401") (unit 1) (value "0ZCJ0050AF2E") (footprint "Fuse:Fuse_1812_4532Metric")
+      (reference "F401") (unit 1) (value "0ZCJ0050AF2E") (footprint "Fuse:Fuse_0805_2012Metric")
     )
     (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/00000000-0000-0000-0000-000060722be6"
-      (reference "F402") (unit 1) (value "0ZCJ0050AF2E") (footprint "Fuse:Fuse_1812_4532Metric")
+      (reference "F402") (unit 1) (value "0ZCJ0050AF2E") (footprint "Fuse:Fuse_0805_2012Metric")
     )
     (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/41d85610-1eb3-49a3-ada3-7fb79e82dd14"
       (reference "GND501") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
     (path "/cefe2b25-c132-4a9d-862f-6dd88da4c699"
-      (reference "H101") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H101") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/aae2d2c1-1b14-453c-bc8b-fb279ea76c78"
-      (reference "H102") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H102") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/2ecd162f-1885-48e5-b9bd-b4fee3231db3"
-      (reference "H103") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H103") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/2c570618-7fcc-4d36-99b3-4aca8e6cb2ec"
-      (reference "H104") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H104") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/661e63a6-57d4-4bd6-8435-e9e47baf2ef9"
-      (reference "H105") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H105") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/ce82fbda-e06d-49cc-a744-32ea5e870665"
-      (reference "H106") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H106") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/8b353f3b-d551-4621-9d55-57916af604b2"
-      (reference "H107") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H107") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/3f996ac3-594f-4e77-8f6c-6ec9cf4dda69"
-      (reference "H108") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H108") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
+    )
+    (path "/7349219b-45b9-475f-b628-10263de59dfc"
+      (reference "H109") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/b9183c90-b7f8-4d45-863a-9a0c6c751230"
       (reference "J101") (unit 1) (value "2604-1102") (footprint "Footprints:WAGO-2604-1102")
@@ -7406,6 +7350,9 @@
     (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/a1829870-35f9-42a4-85e5-1fc46eb765ad"
       (reference "J504") (unit 1) (value "Conn_01x01") (footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad")
     )
+    (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/ca03e037-e3ed-4e30-a2a7-f3aaf6cedd7d"
+      (reference "J505") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
     (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/00000000-0000-0000-0000-00006053c1cc"
       (reference "JP401") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
@@ -7418,8 +7365,8 @@
     (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/2e0ff3bd-a390-4d8d-99b9-1c30a0f82a0a"
       (reference "JP404") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/a031fa4d-af41-4f97-96ec-784a8126bded"
-      (reference "JP501") (unit 1) (value "Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/1ef65a79-d292-417f-81da-dbb3be827964"
+      (reference "JP501") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
     )
     (path "/b9592210-62fd-48e0-8447-67f645d7d247/1e73c20c-5640-4395-9839-e6b19afb1273"
       (reference "L201") (unit 1) (value "33uH") (footprint "Footprints:SRP1510CA-330M")
@@ -7431,7 +7378,7 @@
       (reference "L501") (unit 1) (value "100uH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/9ddf2f31-c80b-4406-95a7-525f60c81c9f"
-      (reference "L502") (unit 1) (value "L") (footprint "")
+      (reference "L502") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_1210_3225Metric")
     )
     (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/4a824da0-f9ae-4473-ac1b-26c1a66c28a2"
       (reference "NTC501") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -7697,6 +7644,9 @@
     (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/fe1f9800-0452-41e8-bce3-b2c5c1c99eeb"
       (reference "R407") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/34ff309b-931b-4584-b260-bd734a452389"
+      (reference "R408") (unit 1) (value "1R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/bce1534c-362e-45ed-a9dd-a44d6954485a/24b2177a-2298-4a94-b124-f181e7275b66"
       (reference "R501") (unit 1) (value "348K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -7759,12 +7709,6 @@
     )
     (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/94168de8-b862-48aa-b09e-4e149cedfb3e"
       (reference "TH402") (unit 1) (value "NXFT15XH103FA2B100 ") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal")
-    )
-    (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/00000000-0000-0000-0000-00006075afb6"
-      (reference "TP401") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/122c01f4-f23e-4db0-9503-7261d96dc78b/00000000-0000-0000-0000-000060765c2e"
-      (reference "TP402") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
     (path "/00000000-0000-0000-0000-0000605d88d4"
       (reference "U101") (unit 1) (value "AMC1311") (footprint "Footprints:SOIC-8_7.5x5.85mm_P1.27mm")
