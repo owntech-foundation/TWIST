@@ -2976,7 +2976,7 @@
     (property "Value" "Jumper_2_Bridged" (id 1) (at 26.035 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" (id 2) (at 28.575 47.625 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" (id 2) (at 28.575 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 28.575 47.625 0)
