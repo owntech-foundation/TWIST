@@ -1,0 +1,6 @@
+(version 1)
+
+# only vias of the net "GND_C" are allowed in this area
+(rule "keepout crystal area via"
+   (constraint disallow zone)
+   (condition "A.insideArea('xtalkeepout') && A.NetName != '/xtalgnd'"))
