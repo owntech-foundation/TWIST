@@ -470,7 +470,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "libs/footprints.pretty/footprints.3dshapes/owntech_mini.step",
+      "step": "libs/footprints.pretty/footprints.3dshapes/owntech_SPIN.step",
       "vrml": ""
     },
     "page_layout_descr_file": "Title_block.kicad_wks"
