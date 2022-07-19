@@ -1,0 +1,46 @@
+{
+    "type": "InteractiveHtmlBom settings",
+    "version": 1,
+    "pcbmetadata": {
+        "title": "microcontroller_mini",
+        "revision": "",
+        "company": "",
+        "date": "2022-07-18 12:52:05"
+    },
+    "settings": {
+        "canvaslayout": "F",
+        "bomlayout": "left-right",
+        "bommode": "grouped",
+        "checkboxes": [
+            "Sourced",
+            "Placed"
+        ],
+        "checkboxStoredRefs": {
+            "Sourced": "7,11,39,26,21,20,33,31,23,14,24,17,34,4,10,0,12,19,5,2,9,35,13,22,29,15,41,3,8,37,25,27",
+            "Placed": ""
+        },
+        "darkMode": true,
+        "highlightpin1": true,
+        "redrawOnDrag": true,
+        "boardRotation": 0,
+        "renderPads": true,
+        "renderReferences": true,
+        "renderValues": true,
+        "renderSilkscreen": true,
+        "renderFabrication": true,
+        "renderDnpOutline": false,
+        "renderTracks": false,
+        "renderZones": false,
+        "columnOrder": [
+            "checkboxes",
+            "References",
+            "Value",
+            "Footprint-BOM",
+            "Manf#",
+            "Footprint",
+            "Quantity"
+        ],
+        "hiddenColumns": [],
+        "markWhenChecked": ""
+    }
+}
