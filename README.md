@@ -9,6 +9,8 @@ The power channels can be used independently,
 yielding two output voltages or combined to double
 the current.
 
+![](Images/hands_on_TWIST.JPG)
+
 A reasonable power rating is 300W. 
 The converter is meant to operate at 200kHz with interleaving control. 
 
@@ -30,6 +32,7 @@ The repository has the following organization
 
 * Documentation
    * Components_Datasheets Contains main components datasheets.
+* Images Contains README images.
 * KiCAD_files	Contains the KiCAD project, including the schematic and the routing files. 
 * libs  
    * footprints.pretty Contains the project specific footprints
