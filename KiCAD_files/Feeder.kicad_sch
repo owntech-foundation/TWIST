@@ -5,10 +5,10 @@
   (paper "A3")
 
   (title_block
-    (title "Ultra wide input Feeder")
+    (title "TWIST V1.2")
     (date "2022-02-09")
     (comment 1 "ALINEI")
-    (comment 2 "VILLA")
+    (comment 2 "Villa")
     (comment 3 "VILLA")
     (comment 4 "PREL")
   )

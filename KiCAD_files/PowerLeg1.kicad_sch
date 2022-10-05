@@ -4,6 +4,11 @@
 
   (paper "A3")
 
+  (title_block
+    (title "TWIST V1.2")
+    (comment 2 "Villa")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:TLV6001DCK" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 7.62 2.54 0)

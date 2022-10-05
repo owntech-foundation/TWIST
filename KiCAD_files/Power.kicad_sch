@@ -5,8 +5,8 @@
   (paper "A3")
 
   (title_block
-    (title "Power Board Scheme")
-    (date "2022-06-10")
+    (title "TWIST V1.2")
+    (date "2022-10-05")
     (company "https://gitlab.laas.fr/owntech/1leg/-/tree/V1.1.1/KiCAD_files")
     (comment 1 "Alinei")
     (comment 2 "Villa")
