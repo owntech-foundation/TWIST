@@ -9,7 +9,7 @@ The power channels can be used independently,
 yielding two output voltages or combined to double
 the current.
 
-![](Images/hands_on_TWIST.JPG)
+![Hands On TWIST](Images/hands_on_TWIST.JPG)
 
 A reasonable power rating is 300W. 
 The converter is meant to operate at 200kHz with interleaving control. 
@@ -23,6 +23,8 @@ available for auto-generating the code.
 OwnTech's TWIST Reprogrammable power converter has a dedicated SPIN control board
 composed of a STM32G474RE microcontroller connected to power drivers and a
 series of peripherals. This board is electrically isolated from the power side.
+
+[SPIN Repo](https://github.com/owntech-foundation/SPIN)
 
 
 # Repository architecture 
@@ -48,6 +50,16 @@ The repository has the following organization
 All files are available in this centralized repository. 
 Manufacturing files, including gerbers and BOM are placed in Manufacturing files folder.
 Editable design files are placed in Kicad Files folder. 
+
+More documentation is available at [docs.owntech.org](http://docs.owntech.org/) 
+
+# Contribute 
+
+You are very welcome as a contributor ! You can contribute by : 
+- Opening issues if you find some 
+- Propose enhancements and new features 
+- Join our [Discord](https://discord.gg/KAM8ukUYF5) channel
+- Submit Pull Request (Please get in touch first so that we can coordinate as GIT and hardware is a bit tricky!)
 
 # License 
 
