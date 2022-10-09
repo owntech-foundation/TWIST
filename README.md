@@ -20,15 +20,18 @@ modular programming approach.
 A MATLAB® suit for code generation is also
 available for auto-generating the code.
 
+
 OwnTech's TWIST Reprogrammable power converter has a dedicated SPIN control board
 composed of a STM32G474RE microcontroller connected to power drivers and a
 series of peripherals. This board is electrically isolated from the power side.
 
 [SPIN Repo](https://github.com/owntech-foundation/SPIN)
 
+# TWIST pinout 
+
+![TWIST Pinout](Images/TWIST_1.2_pinout_bg.png)
 
 # Repository architecture 
-
 
 The repository has the following organization 
 
