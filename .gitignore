@@ -1,3 +1,5 @@
+.vscode
+.vscode/*
 **/*.bak
 **/*.sch-bak
 **/*.err
