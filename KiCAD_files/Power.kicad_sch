@@ -4247,7 +4247,7 @@
     (effects (font (size 2.4892 2.4892)) (justify left bottom))
     (uuid 6a25c4e1-7129-430c-892b-6eecb6ffdb47)
   )
-  (text "V_{SHIFTED} = ((R109 + R107)*R106 / (R106 + R108)*R107) * I_{IHigh} - (R109/R107)* 5V_{Digital}"
+  (text "V_{SHIFTED} = ((R116 + R111)*R115 / (R115 + R110)*R111) * I_{IHigh} - (R116/R111)* 5V_{Digital}"
     (at 203.835 262.89 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 73e22a16-09e4-4aeb-a78a-b0aded8507bf)
@@ -4309,7 +4309,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 40487139-0857-45df-ac78-7214f46031de)
   )
-  (label "V_{IHigh-" (at 285.75 124.46 0) (fields_autoplaced)
+  (label "V_{IHigh-}" (at 285.75 124.46 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 40962e92-90b6-487d-b0dc-0a6c42b5ebc2)
   )

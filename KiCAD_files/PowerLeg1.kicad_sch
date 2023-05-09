@@ -3053,7 +3053,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 899eba56-f64c-46a0-b678-d1180a1ff3aa)
   )
-  (text "V_{SHIFTED} = ((R217 + R220)*R218 / (R218 + R216)*R217) * I_{ILow} - (R217/R216)* 5V_{Digital}"
+  (text "V_{SHIFTED} = ((R223 + R218)*R222 / (R222 + R217)*R218) * I_{ILow} - (R223/R218)* 5V_{Digital}"
     (at 208.915 273.685 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8fd1d2dd-6a35-4070-8362-7ec8898c9ae5)
