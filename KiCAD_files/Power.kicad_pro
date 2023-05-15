@@ -1,6 +1,45 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "power_terminal_view",
+        "ww": 1.0,
+        "wx": -4.58566951751709,
+        "wy": 2.484921196810319e-06,
+        "wz": -21.0841121673584,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": 0.0,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 4.887620548288396e-07,
+        "yz": -1.0,
+        "zw": 0.0,
+        "zx": 0.0,
+        "zy": 1.0,
+        "zz": 4.887620548288396e-07
+      },
+      {
+        "name": "side_view",
+        "ww": 1.0,
+        "wx": -7.638952255249023,
+        "wy": -2.241300535388291e-06,
+        "wz": -0.723088264465332,
+        "xw": 0.0,
+        "xx": 3.1391647326017846e-07,
+        "xy": 4.887620548288396e-07,
+        "xz": -1.0,
+        "yw": 0.0,
+        "yx": -1.0,
+        "yy": 1.5343046386347148e-13,
+        "yz": -3.1391647326017846e-07,
+        "zw": 0.0,
+        "zx": 0.0,
+        "zy": 1.0,
+        "zz": 4.887620548288396e-07
+      }
+    ],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.049999999999999996,
@@ -46,7 +85,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.75
         }
       },
       "diff_pair_dimensions": [
@@ -440,7 +479,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "NGND": "rgb(0, 37, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
