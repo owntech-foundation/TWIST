@@ -3579,8 +3579,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a2f848ec-dd8d-46bc-a7ec-30cabb279260)
   )
-  (text "UVLO is the feeder\nstart-up threshold. \nConfigured for 9V\nstart-up."
-    (at 54.61 117.475 0)
+  (text "UVLO is the feeder\nstart-up threshold. \nConfigured for 9,7V\nstart-up.\n\nOnce started it will\noperate for any VIN\nhigher than 8,9V"
+    (at 57.15 129.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b1fe4c9f-4256-4748-9fd3-8cf3f4ec1cd9)
   )
@@ -4233,7 +4233,7 @@
     (property "Reference" "R501" (at 78.74 66.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "348k" (at 78.74 68.5799 0)
+    (property "Value" "147K" (at 78.74 68.5799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Footprints:R_0805_2012Metric" (at 74.422 67.31 90)
@@ -6662,7 +6662,7 @@
     (property "Reference" "R502" (at 78.74 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "27k" (at 78.74 93.9799 0)
+    (property "Value" "14,7K" (at 78.74 93.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Footprints:R_0805_2012Metric" (at 74.422 92.71 90)
