@@ -42,6 +42,12 @@
 - A3 only paper size
 - Corrected formulas for the voltage shifting circuitry. (owntech/boards/TWIST#9)
 - Switched to absolute path for libraries (owntech/boards/TWIST#14)
+- Cleaned unused or unproper components fields
+- Added field for interactive documentation
+
+## PCB 
+
+- Added board stack-up description
 
 ## Software 
 
