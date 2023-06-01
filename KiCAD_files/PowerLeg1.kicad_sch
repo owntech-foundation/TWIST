@@ -3889,7 +3889,7 @@
     (property "DNP" "" (at 110.49 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 110.49 245.11 0)
+    (property "Functional Block" "Measurement" (at 110.49 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "NiCr" (at 110.49 245.11 0)
@@ -4231,7 +4231,7 @@
     (property "DNP" "" (at 124.46 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 124.46 234.95 0)
+    (property "Functional Block" "Measurement" (at 124.46 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "NiCr" (at 124.46 234.95 0)
@@ -4479,7 +4479,7 @@
     (property "DNP" "" (at 55.88 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 55.88 220.98 0)
+    (property "Functional Block" "Measurement" (at 55.88 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "BaTiO3" (at 55.88 220.98 0)
@@ -4523,7 +4523,7 @@
     (property "DNP" "" (at 99.695 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 99.695 30.48 0)
+    (property "Functional Block" "Measurement" (at 99.695 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "BaTiO3" (at 99.695 30.48 0)
@@ -4751,7 +4751,7 @@
     (property "DNP" "" (at 137.16 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 137.16 259.08 0)
+    (property "Functional Block" "Measurement" (at 137.16 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "NiCr" (at 137.16 259.08 0)
@@ -4833,7 +4833,7 @@
   (symbol (lib_name "C_11") (lib_id "Device:C") (at 281.305 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f27a139-0c1f-48b6-b3ae-0fd58355bbad)
-    (property "Reference" "C105" (at 284.226 71.2216 0)
+    (property "Reference" "C?" (at 284.226 71.2216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 284.226 73.533 0)
@@ -4865,7 +4865,7 @@
     (instances
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C105") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C225") (unit 1)
@@ -4954,7 +4954,7 @@
     (property "DNP" "" (at 200.66 242.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Driver" (at 200.66 242.57 0)
+    (property "Functional Block" "Measurement" (at 200.66 242.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "NiCr" (at 200.66 242.57 0)
@@ -4998,7 +4998,7 @@
     (property "DNP" "" (at 137.16 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 137.16 269.24 0)
+    (property "Functional Block" "Measurement" (at 137.16 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "BaTiO3" (at 137.16 269.24 0)
@@ -5217,7 +5217,7 @@
     (property "DNP" "" (at 207.01 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 207.01 212.09 0)
+    (property "Functional Block" "Measurement" (at 207.01 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "BaTiO3" (at 207.01 212.09 0)
@@ -5261,7 +5261,7 @@
     (property "DNP" "" (at 130.175 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 130.175 30.48 0)
+    (property "Functional Block" "Measurement" (at 130.175 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "BaTiO3" (at 130.175 30.48 0)
@@ -5477,7 +5477,7 @@
     (property "DNP" "" (at 82.55 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 82.55 245.11 0)
+    (property "Functional Block" "Measurement" (at 82.55 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "" (at 82.55 245.11 0)
@@ -5593,7 +5593,7 @@
   (symbol (lib_name "R_Small_4") (lib_id "Device:R_Small") (at 314.325 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7545decf-687e-4fde-93ba-b83e031b0a41)
-    (property "Reference" "R108" (at 315.8236 40.7416 0)
+    (property "Reference" "R?" (at 315.8236 40.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 315.8236 43.053 0)
@@ -5622,7 +5622,7 @@
     (instances
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "R108") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "R201") (unit 1)
@@ -5815,7 +5815,7 @@
     (property "DNP" "" (at 117.475 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 117.475 44.45 0)
+    (property "Functional Block" "Measurement" (at 117.475 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "" (at 117.475 44.45 0)
@@ -6036,7 +6036,7 @@
     (property "DNP" "" (at 128.27 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 128.27 220.98 0)
+    (property "Functional Block" "Measurement" (at 128.27 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "BaTiO3" (at 128.27 220.98 0)
@@ -6181,7 +6181,7 @@
   (symbol (lib_name "R_Small_7") (lib_id "Device:R_Small") (at 314.325 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94c43d18-b009-4459-bb9e-84bdb3085f49)
-    (property "Reference" "R109" (at 315.8236 71.2216 0)
+    (property "Reference" "R?" (at 315.8236 71.2216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 315.8236 73.533 0)
@@ -6210,7 +6210,7 @@
     (instances
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "R109") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "R206") (unit 1)
@@ -6271,7 +6271,7 @@
     (property "DNP" "" (at 61.595 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 61.595 64.77 0)
+    (property "Functional Block" "Measurement" (at 61.595 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "NiCr" (at 61.595 64.77 0)
@@ -6421,7 +6421,7 @@
   (symbol (lib_name "C_5") (lib_id "Device:C") (at 292.735 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1151135-f92a-4155-99a2-f783af3edf52)
-    (property "Reference" "C107" (at 295.656 40.7416 0)
+    (property "Reference" "C?" (at 295.656 40.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 295.656 43.053 0)
@@ -6453,7 +6453,7 @@
     (instances
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C107") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C226") (unit 1)
@@ -6533,7 +6533,7 @@
     (property "DNP" "" (at 137.16 242.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 137.16 242.57 0)
+    (property "Functional Block" "Measurement" (at 137.16 242.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "" (at 137.16 242.57 0)
@@ -6562,7 +6562,7 @@
   (symbol (lib_name "C_7") (lib_id "Device:C") (at 304.165 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a87fee29-7896-4a11-9040-5c0a300ed86b)
-    (property "Reference" "C109" (at 307.086 40.7416 0)
+    (property "Reference" "C?" (at 307.086 40.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 307.086 43.053 0)
@@ -6594,7 +6594,7 @@
     (instances
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C109") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C228") (unit 1)
@@ -6727,7 +6727,7 @@
     (property "DNP" "" (at 61.595 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 61.595 81.28 0)
+    (property "Functional Block" "Measurement" (at 61.595 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "NiCr" (at 61.595 81.28 0)
@@ -6771,7 +6771,7 @@
     (property "DNP" "" (at 218.44 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 218.44 240.03 0)
+    (property "Functional Block" "Measurement" (at 218.44 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "" (at 218.44 240.03 0)
@@ -7047,7 +7047,7 @@
     (property "DNP" "" (at 110.49 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 110.49 240.03 0)
+    (property "Functional Block" "Measurement" (at 110.49 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "NiCr" (at 110.49 240.03 0)
@@ -7136,7 +7136,7 @@
     (property "DNP" "" (at 208.28 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 208.28 232.41 0)
+    (property "Functional Block" "Measurement" (at 208.28 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "NiCr" (at 208.28 232.41 0)
@@ -7271,7 +7271,7 @@
     (property "DNP" "" (at 218.44 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 218.44 256.54 0)
+    (property "Functional Block" "Measurement" (at 218.44 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "NiCr" (at 218.44 256.54 0)
@@ -7359,7 +7359,7 @@
     (property "DNP" "" (at 218.44 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 218.44 262.89 0)
+    (property "Functional Block" "Measurement" (at 218.44 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "BaTiO3" (at 218.44 262.89 0)
@@ -7385,7 +7385,7 @@
   (symbol (lib_name "C_2") (lib_id "Device:C") (at 304.165 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2e5dd45-e542-49b3-b6bd-9dc92d9be6b4)
-    (property "Reference" "C110" (at 307.086 71.2216 0)
+    (property "Reference" "C?" (at 307.086 71.2216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 307.086 73.533 0)
@@ -7417,7 +7417,7 @@
     (instances
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C110") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C229") (unit 1)
@@ -7450,7 +7450,7 @@
     (property "DNP" "" (at 200.66 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Driver" (at 200.66 237.49 0)
+    (property "Functional Block" "Measurement" (at 200.66 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "NiCr" (at 200.66 237.49 0)
@@ -7572,7 +7572,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 342.9 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbd307c5-55d8-4083-a3c2-4b6f7f5bbda9)
-    (property "Reference" "C120" (at 346.202 55.245 0)
+    (property "Reference" "C?" (at 346.202 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33uF" (at 346.202 57.15 0)
@@ -7604,7 +7604,7 @@
     (instances
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C120") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C231") (unit 1)
@@ -8048,7 +8048,7 @@
   (symbol (lib_id "Device:C") (at 281.305 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed861eec-29f4-4448-a236-785a2b4406b8)
-    (property "Reference" "C104" (at 284.226 40.7416 0)
+    (property "Reference" "C?" (at 284.226 40.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 284.226 43.053 0)
@@ -8080,7 +8080,7 @@
     (instances
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C104") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C224") (unit 1)
@@ -8169,7 +8169,7 @@
     (property "DNP" "" (at 87.63 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Functional Block" "Measurment" (at 87.63 219.71 0)
+    (property "Functional Block" "Measurement" (at 87.63 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Metal content" "BaTiO3" (at 87.63 219.71 0)
@@ -8195,7 +8195,7 @@
   (symbol (lib_name "C_1") (lib_id "Device:C") (at 292.735 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f21f12f1-29ee-4bfc-b6e3-e0e948450f57)
-    (property "Reference" "C108" (at 295.656 71.2216 0)
+    (property "Reference" "C?" (at 295.656 71.2216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 295.656 73.533 0)
@@ -8227,7 +8227,7 @@
     (instances
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C108") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C227") (unit 1)
@@ -8534,7 +8534,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 327.66 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbeb719a-33b0-4e48-a372-1a9bcb54fe07)
-    (property "Reference" "C118" (at 331.089 55.372 0)
+    (property "Reference" "C?" (at 331.089 55.372 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33uF" (at 331.089 57.277 0)
@@ -8566,7 +8566,7 @@
     (instances
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C118") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C230") (unit 1)
