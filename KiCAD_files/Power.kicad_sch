@@ -7568,7 +7568,7 @@
     (property "Reference" "C123" (at 222.25 224.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1nF" (at 222.25 226.695 0)
+    (property "Value" "100nF" (at 222.25 226.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Footprints:C_0805_2012Metric" (at 224.79 226.06 0)
