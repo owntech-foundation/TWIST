@@ -4836,8 +4836,8 @@
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 51f5536d-48d2-4807-be44-93f427952b0e)
   )
-  (text "Circuit can be seen as non inverting opamp\nwith gain : g = 1+(RC/RD) and an input of VOUTP \nwith voltage divider of ratio RB/(RA+RB)"
-    (at 123.19 248.92 0)
+  (text "Circuit can be seen as non inverting opamp\nwith gain : G = 1+(RC/RD) and a potential on non-inverting\ninput equal to V+=(VOUTP-VOUTN) multiplied by the\nratio of voltage divider equal to : r = RB/(RA+RB)"
+    (at 115.57 251.46 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 52c075e9-4147-4c8c-80e5-3d468640c6c3)
   )
