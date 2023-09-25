@@ -2,7 +2,7 @@
 
 OwnTech's TWIST reprogrammable power converter is
 a bi-directional 300W power converter. It features a
-dual 12V to 72V low side and a single 40V to 100V
+dual 12V to 72V low side and a single 10V to 100V
 high side. Its maximum current value is 8A per
 power channel.
 The power channels can be used independently,
