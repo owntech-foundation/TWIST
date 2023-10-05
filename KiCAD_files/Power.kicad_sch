@@ -4881,8 +4881,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2c106666-a2cd-43de-99ea-31d69b95d51f)
   )
-  (text "High side current sensor" (at 207.01 29.21 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (text "High side current sensor" (at 209.55 27.94 0)
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 34c7e508-eb74-4c26-9a63-3cbb7601a38f)
   )
   (text "V_High has no offset \nas V_High is solely positive\n"
@@ -4907,8 +4907,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 52c075e9-4147-4c8c-80e5-3d468640c6c3)
   )
-  (text "BW_SEL to VCC for 20kHz BW\nBW_SEL to PGND for 80kHz BW"
-    (at 248.92 45.72 0)
+  (text "BW_SEL (PIN 6) to +5V_DGND for 20kHz BW (low noise)\nBW_SEL (PIN 6) to PGND for 80kHz BW (high BW)"
+    (at 201.93 34.29 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 534da9bb-45b5-411b-aeb0-91d2feb53f3f)
   )
