@@ -200,6 +200,8 @@
   },
   "erc": {
     "erc_exclusions": [
+      "multiple_net_names|584200|876300|2b8036c5-8e66-4ae3-896e-5155a9a54bbf|f0de5510-9dba-436d-a7fc-163532e842b6|||",
+      "multiple_net_names|736600|1841500|0d3c8b1d-71bc-4310-a501-39517f4b311c|fecb8a53-0d72-4a18-8ca2-eb445cfcfa6d|||",
       "pin_to_pin|1473200|2082800|a6e0def8-4f4c-4324-b688-07d61c9eec31|6c6716bc-5306-4e66-b226-ef70fe6d7cb7|/8d0c1d66-35ef-4a53-a28f-436a11b54f42|/8d0c1d66-35ef-4a53-a28f-436a11b54f42|/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b",
       "pin_to_pin|1511300|2082800|a6e0def8-4f4c-4324-b688-07d61c9eec31|6c6716bc-5306-4e66-b226-ef70fe6d7cb7|/8d0c1d66-35ef-4a53-a28f-436a11b54f42|/8d0c1d66-35ef-4a53-a28f-436a11b54f42|/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b",
       "pin_to_pin|1606550|2425700|28fc75e7-3abf-46be-b96b-11cfc9c17b4a|b2d3fe38-0b2d-4956-9b71-f84ec81233e6|/8d0c1d66-35ef-4a53-a28f-436a11b54f42/4a11142e-1c8b-45f6-8828-f013379f9fc1|/8d0c1d66-35ef-4a53-a28f-436a11b54f42/4a11142e-1c8b-45f6-8828-f013379f9fc1|/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b",
@@ -401,7 +403,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "ignore",
+      "lib_symbol_issues": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -551,11 +553,15 @@
     ],
     [
       "122c01f4-f23e-4db0-9503-7261d96dc78b",
-      "Digital"
+      "MCU"
     ],
     [
       "bce1534c-362e-45ed-a9dd-a44d6954485a",
       "Feeder"
+    ],
+    [
+      "e045b567-5361-4b1d-a1af-a53fa67ecaba",
+      "High_side"
     ]
   ],
   "text_variables": {}
