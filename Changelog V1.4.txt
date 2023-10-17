@@ -1,5 +1,6 @@
 - Schematic (visual): functionnal block for HIGH side measurements
-- Removed NGND MOS and associated drive circuit (optocoupler)
+- Removed NGND MOS and associated drive circuit (optocoupler), replaced by smaller MOS to control low side
+electrolytic capacitor connexion to ground
 - Removed TEA 1-0505 as we don't have NGND anymore
-- MCP1799T-5002H/TT (U504) : 5V LDO for 5V_PGND generation replaced by MCP1799T-5002H/TT for better thermal dissipation
-- Added MOS in serial of low side electrolitic cap and its drive circuit (optocoupler)
+- MCP1799T-5002H/TT (U504) : 5V LDO for 5V_PGND generation replaced by MCP1799T-5002H/DB for better thermal dissipation
+- TBA 1-0512 replaced by SMU02L-12 (Meanwell) (2W)
