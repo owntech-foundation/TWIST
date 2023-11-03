@@ -1587,11 +1587,11 @@
       )
     )
   )
-  (symbol "DMN10H220L" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "DMN10H220L-7" (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "Q" (at 5.08 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DMN10H220L" (at 11.43 10.16 0)
+    (property "Value" "DMN10H220L-7" (at 11.43 10.16 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Footprints:SOT-23" (at 15.24 13.97 0)
@@ -1600,7 +1600,7 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN10H220L.pdf" (at 2.54 16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "DMN10H220L" (at -5.08 6.35 0)
+    (property "manf#" "DMN10H220L-7" (at -6.35 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "ki_keywords" "100V Nchannel 250mohm" (at 0 0 0)
@@ -1609,7 +1609,7 @@
     (property "ki_description" "N-MOSFET transistor, drain/source/gate" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "DMN10H220L_0_1"
+    (symbol "DMN10H220L-7_0_1"
       (polyline
         (pts
           (xy 0.254 0)
@@ -1720,7 +1720,7 @@
         (fill (type outline))
       )
     )
-    (symbol "DMN10H220L_1_1"
+    (symbol "DMN10H220L-7_1_1"
       (pin input line (at -5.08 0 0) (length 2.54)
         (name "G" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -2631,12 +2631,12 @@
       )
     )
   )
-  (symbol "NCP12700" (in_bom yes) (on_board yes)
+  (symbol "NCP12700ADNR2G" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "NCP12700" (at 1.905 -15.24 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "NCP12700ADNR2G" (at 1.905 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm" (at -0.635 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2644,13 +2644,16 @@
     (property "Datasheet" "" (at 0 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "NCP12700_0_1"
+    (property "manf#" "NCP12700ADNR2G" (at -19.05 7.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (symbol "NCP12700ADNR2G_0_1"
       (rectangle (start -8.89 7.62) (end 7.62 -41.91)
         (stroke (width 0) (type default))
         (fill (type background))
       )
     )
-    (symbol "NCP12700_1_1"
+    (symbol "NCP12700ADNR2G_1_1"
       (pin input line (at -11.43 2.54 0) (length 2.54)
         (name "UVLO" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
