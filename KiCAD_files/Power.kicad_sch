@@ -3042,7 +3042,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c8cd8b0-d89a-4547-96a4-5e6b4db0090d)
   )
-  (text "All resistor are thick film 1/8Watt unless specified"
+  (text "All resistor are 0805 thick film 1/8Watt unless specified"
     (at 302.26 168.91 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 29c1b9f3-37bb-4cf3-8824-e8c2121327ab)
@@ -3080,7 +3080,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 995d6a49-bf08-4b18-9961-98808dbd5da5)
   )
-  (text "All ceramic capacitor are X7R 50V unless specified"
+  (text "All ceramic capacitor are 0805 X7R 50V unless specified"
     (at 302.26 166.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a0e096de-facc-4964-ad40-8c3bc69059fd)
@@ -3263,7 +3263,7 @@
     (uuid f5cbaf57-b4d4-4929-b349-67644ee8147f)
   )
 
-  (global_label "Vref_DGND" (shape input) (at 241.3 163.83 0) (fields_autoplaced)
+  (global_label "Vref_DGND" (shape output) (at 241.3 163.83 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d8795f1b-0077-4027-b2e1-3947c9c2ce7a)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 253.3488 163.83 0)
