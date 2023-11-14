@@ -708,7 +708,6 @@
     )
   )
 
-
   (junction (at 104.14 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 010c689a-0527-41a7-8a90-caebad0d4ed3)
   )
@@ -1456,6 +1455,14 @@
   (hierarchical_label "V_{IHighOutFused_PGND}" (shape bidirectional) (at 138.43 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9bde79e0-cc23-4a49-a2e6-0ab424b4eeea)
+  )
+
+  (netclass_flag "" (length 2.54) (shape round) (at 129.54 93.98 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9b0f1558-602f-40a0-a912-326228f0ff9f)
+    (property "Netclass" "High_voltage" (at 125.73 88.9 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
   )
 
   (symbol (lib_id "Symbols:+5V_PGND") (at 45.72 167.64 0) (unit 1)
