@@ -3824,7 +3824,7 @@
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 94161788-5727-428d-b09d-3560cfa322ca)
   )
-  (text "V_{SHIFTED} = ((RE + RF)*RH / (RH + RG)*RF) * I_{IHigh} - (RE/RF)* 5V_{Digital}\nV_{SHIFTED} = ((5.9k + 20k)*20k / (20k + 5.9k)*20k) * I_{IHigh} - (5.9k/20k)* 5V_{Digital}\nV_{SHIFTED} = I_{IHigh} - (5.9k/20k)* 5V_{Digital}\nV_{SHIFTED} = I_{IHigh} - 1.5V\n** If RH = RF and RE = RG, gain is unitary\n"
+  (text "V_{SHIFTED} = ((RE + RF)*RH / (RH + RG)*RF) * I_{IHigh} - (RE/RF)* 5V_{Digital}\nV_{SHIFTED} = ((5.9k + 20k)*20k / (20k + 5.9k)*20k) * I_{IHigh} - (5.9k/20k)* 5V_{Digital}\nV_{SHIFTED} = I_{Low} - (5.9k/20k)* 5V_{Digital}\nV_{SHIFTED} = I_{Low} - 1.5V\n** If RH = RF and RE = RG, gain is unitary\n"
     (at 199.39 280.035 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a09aae3d-d586-4986-9f1a-6d196a4b6a15)
