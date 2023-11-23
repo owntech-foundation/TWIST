@@ -1,4 +1,4 @@
-21694669530002917
+21696370178030555
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53850,6 +53850,13 @@ MeanWell dc-dc transformer
 0
 4
 4
+Footprints
+SOD-323HE
+
+
+0
+0
+0
 Footprints
 SOIC-8_3.9x4.9mm_P1.27mm
 SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
