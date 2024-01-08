@@ -478,7 +478,6 @@
     "net_colors": null,
     "netclass_assignments": {
       "/Feeder/input": "High_voltage",
-      "/High_side/V_{IHighOutFused_PGND}": "High_voltage",
       "/V_High_PGND": "High_voltage"
     },
     "netclass_patterns": [
