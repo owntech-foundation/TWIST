@@ -3580,9 +3580,6 @@
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR023") (unit 1)
         )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/e045b567-5361-4b1d-a1af-a53fa67ecaba"
-          (reference "#PWR03") (unit 1)
-        )
       )
     )
   )
@@ -3608,9 +3605,6 @@
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#FLG02") (unit 1)
         )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "#FLG0502") (unit 1)
-        )
       )
     )
   )
@@ -3635,9 +3629,6 @@
       (project "Power"
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR051") (unit 1)
-        )
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/e045b567-5361-4b1d-a1af-a53fa67ecaba"
-          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -4681,9 +4672,6 @@
     (pin "1" (uuid 90918437-3e91-4b70-9b51-4a09b37db015))
     (instances
       (project "Power"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
           (reference "#PWR018") (unit 1)
         )

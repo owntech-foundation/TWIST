@@ -4609,7 +4609,7 @@
   (symbol (lib_id "Symbols:+5V_PGND") (at 57.15 205.74 0) (unit 1)
     (in_bom no) (on_board no) (dnp no)
     (uuid 19d471a8-6ce7-42fd-8853-b522160c6c95)
-    (property "Reference" "#PWR?" (at 57.15 209.55 0)
+    (property "Reference" "#PWR0201" (at 57.15 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_PGND" (at 57.531 201.3458 0)
@@ -4624,9 +4624,6 @@
     (pin "1" (uuid b9ec840a-bc76-4854-94f9-2cdb071bb6a2))
     (instances
       (project "Power"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "#PWR0201") (unit 1)
         )
@@ -6097,7 +6094,7 @@
   (symbol (lib_id "Device:C") (at 257.81 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 726ba6e2-9d4c-44b0-b807-004815e4485b)
-    (property "Reference" "C514" (at 265.43 52.07 0)
+    (property "Reference" "C222" (at 265.43 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF " (at 265.43 54.61 0)
@@ -6140,9 +6137,6 @@
     (pin "2" (uuid ac664a9c-0385-4405-8ca1-e0d585c6ab8e))
     (instances
       (project "Power"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/bce1534c-362e-45ed-a9dd-a44d6954485a"
-          (reference "C514") (unit 1)
-        )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C222") (unit 1)
         )
@@ -6240,7 +6234,7 @@
   (symbol (lib_name "R_Small_4") (lib_id "Device:R_Small") (at 314.96 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7545decf-687e-4fde-93ba-b83e031b0a41)
-    (property "Reference" "R?" (at 316.4586 40.7416 0)
+    (property "Reference" "R201" (at 316.4586 40.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 316.4586 43.053 0)
@@ -6274,9 +6268,6 @@
     (pin "2" (uuid 4791ba45-f0d1-4c48-af63-ca8ecd1cdd42))
     (instances
       (project "Power"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "R?") (unit 1)
-        )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "R201") (unit 1)
         )
@@ -7143,7 +7134,7 @@
   (symbol (lib_name "R_Small_7") (lib_id "Device:R_Small") (at 314.96 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94c43d18-b009-4459-bb9e-84bdb3085f49)
-    (property "Reference" "R?" (at 316.4586 71.2216 0)
+    (property "Reference" "R206" (at 316.4586 71.2216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 316.4586 73.533 0)
@@ -7177,9 +7168,6 @@
     (pin "2" (uuid 85171a86-2233-4c16-a263-e7735e148fce))
     (instances
       (project "Power"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "R?") (unit 1)
-        )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "R206") (unit 1)
         )
@@ -8457,7 +8445,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 342.9 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbd307c5-55d8-4083-a3c2-4b6f7f5bbda9)
-    (property "Reference" "C?" (at 346.202 57.785 0)
+    (property "Reference" "C231" (at 346.202 57.785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33uF" (at 346.202 59.69 0)
@@ -8500,9 +8488,6 @@
     (pin "2" (uuid a2b8d7b9-1686-4dee-b9d9-7a84947335cc))
     (instances
       (project "Power"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C?") (unit 1)
-        )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C231") (unit 1)
         )
@@ -8987,7 +8972,7 @@
   (symbol (lib_id "Device:R") (at 194.31 81.28 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7c04137-d772-46d9-81f8-228fc85a2854)
-    (property "Reference" "R403" (at 187.96 80.01 0)
+    (property "Reference" "R220" (at 187.96 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 187.96 82.55 0)
@@ -9024,9 +9009,6 @@
     (pin "2" (uuid 65d85305-efd5-4d69-8561-5ff5dc7ef74e))
     (instances
       (project "Power"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R403") (unit 1)
-        )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "R220") (unit 1)
         )
@@ -9343,7 +9325,7 @@
   (symbol (lib_id "Device:R") (at 194.31 50.8 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f602bdab-b374-4c5e-97db-5ef50d15e3f1)
-    (property "Reference" "R403" (at 187.96 49.53 0)
+    (property "Reference" "R219" (at 187.96 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 187.96 52.07 0)
@@ -9380,9 +9362,6 @@
     (pin "2" (uuid faea725c-0249-4b75-9f9a-ea1c0613beb8))
     (instances
       (project "Power"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-          (reference "R403") (unit 1)
-        )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "R219") (unit 1)
         )
@@ -9538,7 +9517,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 327.66 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbeb719a-33b0-4e48-a372-1a9bcb54fe07)
-    (property "Reference" "C?" (at 331.089 57.912 0)
+    (property "Reference" "C230" (at 331.089 57.912 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33uF" (at 331.089 59.817 0)
@@ -9581,9 +9560,6 @@
     (pin "2" (uuid e6893037-0ba4-4e8b-9d84-d75bc99cd7d6))
     (instances
       (project "Power"
-        (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-          (reference "C?") (unit 1)
-        )
         (path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/b9592210-62fd-48e0-8447-67f645d7d247"
           (reference "C230") (unit 1)
         )
