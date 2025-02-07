@@ -189,8 +189,8 @@ The Twist Board implements full observability on all **low-side** and **high-sid
 | iILow2 | Low-side current | Isolated Hall effect sensor | 1000 | ±20 A | ±10 | A |
 | VIHigh | High-side voltage | Voltage divider & isolation amplifier | 100 | +2 V | 120 | V |
 | iIHigh | High-side current | Isolated Hall effect sensor | 1000 | ±20 A | ±20 | A |
-| Temp1 | LEG1 Temperature | Thermistor |  |  | -40 to +110  | $\degree C$ |
-| Temp2 | LEG2 Temperature | Thermistor |  |  | ±20 | A |
+| Temp1 | LEG1 Temperature | NTC Thermistor |  |  | -40 to +110  | $\degree C$ |
+| Temp2 | LEG2 Temperature | NTC Thermistor |  |  | -40 to +110  | $\degree C$ |
 
 Schematic showing where the measurements are performed on the circuit.
 
