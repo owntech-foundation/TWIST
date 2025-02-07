@@ -30,7 +30,7 @@ The Twist Board is **fully open-source**, compatible with either the **SPIN boar
     - **CAN-bus and RS-485 communication compatible**
     - **Fully open-source**
     - **Voltage and current mode libraries available**
-    - [GitLab Source Code](https://gitlab.laas.fr/owntech/boards/TWIST/-/tree/dev_1.4?ref_type=heads)
+    - [Github Repository](https://github.com/owntech-foundation/TWIST)
 
 
 ---
@@ -40,15 +40,15 @@ The TWIST converter pinout is shown in the image below.
 
 ![Twist board pinout overview](images/Circuit_datasheet.drawio){ align=center style="border-radius: 5px;" loading=lazy}
 
-!!!info Converter pins
-    !!!danger Power Pins
+!!! info "Converter pins"
+    !!!danger "Power Pins or feeder pins"
         - **Vhigh** is the high side voltage
         - **Vlow** is the low side voltage. There are two channels 1 and 2.
         - **GND** is the power GND 
         - **Feeder 6V** is the 6V output of the embedded feeder
-        - **D6V** is the input of the digital 6V. You can feed it from an outside source.
-        - **DGND** is the digital ground
-    !!!success Data Pins
+        - **D6V** is the input of the digital +6V. You can feed it from an outside source.
+        - **DGND** When feeding from an outside source, connect your ground on the pin next to D6V
+    !!!success "Data Pins"
         - **CAN1 and CAN2** the two pins of the CANBus
         - **RS485 +/-** the two pins of the RS485 bus.
         - **Analog +/-** the two pins of the analog bus. 
@@ -61,12 +61,12 @@ The TWIST converter pinout is shown in the image below.
 ## Electrical Specifications
 
 ### Absolute Maximum Ratings
-!!!warning Absolute Maximum Ratings
+!!! warning "Absolute Maximum Ratings"
     | Parameter                             | Min | Typ | Max | Unit |
     |-----------                            |-----|-----|-----|------|
     | _Low-Side Voltage_                    | - | - | 90 | VDC |
-    | _High-Side Voltage_                   | 8 | - | 120 | VDC |
-    | _Low-Side Peak Current per Channel_   | - | - | 8 | A |
+    | _High-Side Voltage_                   | 8 | - | 110 | VDC |
+    | _Low-Side Peak Current per Channel_   | - | - | 10 | A |
     | _Power Output_                        | - | - | 300 | W |
 
 ### Low-Side Ratings
@@ -197,7 +197,7 @@ Schematic showing where the measurements are performed on the circuit.
 ![Schematic with measurement instruments](images/Twist_schematic_v1.drawio)
 
 
-!!!info Measurements location and output convention
+!!! info "Measurements location and output convention"
     - **Voltage sensors** - they are connected at the input/output of the TWIST board
     - **Low-side Current sensors** - they are connected right next to the inductor and measure inductor current. 
         Their output is *positive* when the converter is in **BUCK mode (current going OUT of the low side)**. 
@@ -209,7 +209,7 @@ Image showing where the measurements can be accessed on the board.
 
 ![Board with measurement points](images/measurement_on_board.drawio)
 
-!!!note Measurement pins
+!!! note "Measurement pins"
     All measurements have pins which can be easily accessed with a probe (oscilloscope or multimeter) as shown below.
 
     !!!warning Use ground springs for noise reduction
