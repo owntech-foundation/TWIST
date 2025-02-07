@@ -38,7 +38,7 @@ The Twist Board is **fully open-source**, compatible with either the **SPIN boar
 
 The TWIST converter pinout is shown in the image below.
 
-![Twist board pinout overview](images/Circuit_datasheet.svg){ align=center style="border-radius: 5px;" loading=lazy}
+![Twist board pinout overview](images/Circuit_datasheet.drawio){ align=center style="border-radius: 5px;" loading=lazy}
 
 !!!info Converter pins
     !!!danger Power Pins
@@ -194,7 +194,7 @@ The Twist Board implements full observability on all **low-side** and **high-sid
 
 Schematic showing where the measurements are performed on the circuit.
 
-![Schematic with measurement instruments](images/Twist_schematic_v1.svg)
+![Schematic with measurement instruments](images/Twist_schematic_v1.drawio)
 
 
 !!!info Measurements location and output convention
@@ -207,7 +207,7 @@ Schematic showing where the measurements are performed on the circuit.
 
 Image showing where the measurements can be accessed on the board. 
 
-![Board with measurement points](images/measurement_on_board.svg)
+![Board with measurement points](images/measurement_on_board.drawio)
 
 !!!note Measurement pins
     All measurements have pins which can be easily accessed with a probe (oscilloscope or multimeter) as shown below.
@@ -264,27 +264,27 @@ By default all TWIST boards can be calibrated using the following parameters.
 
 
 ### Example wiring diagram and schematic of the Twist board in Buck mode 
-![TWIST converter in Buck Mode](images/wiring_diagram_buck.svg)
-![TWIST converter in Buck Mode](images/circuit_diagram_buck.svg)
+![TWIST converter in Buck Mode](images/wiring_diagram_buck.drawio)
+![TWIST converter in Buck Mode](images/circuit_diagram_buck.drawio)
 
 ### Example wiring diagram and schematic of the Twist board in Independent mode 
-![TWIST converter in Independent Mode](images/wiring_diagram_buck_independent.svg)
-![TWIST converter in Independent Mode](images/circuit_diagram_buck_independent.svg)
+![TWIST converter in Independent Mode](images/wiring_diagram_buck_independent.drawio)
+![TWIST converter in Independent Mode](images/circuit_diagram_buck_independent.drawio)
 
 ### Example wiring diagram and schematic of the Twist board in Boost mode 
-![TWIST converter in Boost Mode](images/wiring_diagram_boost.svg)
-![TWIST converter in Boost Mode](images/circuit_diagram_boost.svg)
+![TWIST converter in Boost Mode](images/wiring_diagram_boost.drawio)
+![TWIST converter in Boost Mode](images/circuit_diagram_boost.drawio)
 
 ### Example wiring diagram and schematic of the Twist board in Boost mode 
-![TWIST converter in Inverter Mode](images/wiring_diagram_inverter.svg)
-![TWIST converter in Inverter Mode](images/circuit_diagram_inverter.svg)
+![TWIST converter in Inverter Mode](images/wiring_diagram_inverter.drawio)
+![TWIST converter in Inverter Mode](images/circuit_diagram_inverter.drawio)
 
 ### Example wiring diagram and schematic of the Twist board in PFC mode
 
 !!!warning The AC source shown below must be low-voltage (below 90V peak)
 
-![TWIST converter in PFC Mode](images/wiring_diagram_PFC.svg)
-![TWIST converter in PFC Mode](images/circuit_diagram_PFC.svg)
+![TWIST converter in PFC Mode](images/wiring_diagram_PFC.drawio)
+![TWIST converter in PFC Mode](images/circuit_diagram_PFC.drawio)
 
 ---
 
