@@ -197,12 +197,12 @@ Schematic showing where the measurements are performed on the circuit.
 ![Schematic with measurement instruments](../Images/Twist_schematic_v1.svg)
 
 
-!!!info Measurements location and convention
+!!!info Measurements location and output convention
     - **Voltage sensors** - they are connected at the input/output of the TWIST board
     - **Low-side Current sensors** - they are connected right next to the inductor and measure inductor current. 
-        Their convention is positive when the converter is in **BUCK mode (current going OUT of the low side)**. 
-    - **High-side Current sensors** - they are connected right next to the inductor and measure inductor current
-        Their convention is positive when the converter is in **BUCK mode (current going IN of the high side)**. 
+        Their output is *positive* when the converter is in **BUCK mode (current going OUT of the low side)**. 
+    - **High-side Current sensor** - it is connected right next to the high side connector.
+        Its output is *positive* when the converter is in **BUCK mode (current going IN of the high side)**. 
 
 
 Image showing where the measurements can be accessed on the board. 
