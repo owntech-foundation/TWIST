@@ -5,6 +5,9 @@
 **/*.kicad_pcb-bak
 **/*.kicad_prl
 /KiCAD_files/fp-info-cache
+/KiCAD_files/fp-lib-table
+/KiCAD_files/Symbol.dcm
+/KiCAD_files/Power-cache.lib
 /KiCAD_files/Power-backups
 /KiCAD_files/Feeder-backups
 /KiCAD_files/microcontroller_mini-backups
