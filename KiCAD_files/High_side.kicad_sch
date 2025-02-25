@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "0a3829cd-21f7-4695-937b-8046566adc7d")
 	(paper "A3")
 	(title_block
@@ -194,34 +194,16 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 -3.81 180)
+					(at 13.97 7.62 180)
 					(length 2.54)
-					(name "GND2"
+					(name "VDD2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 13.97 0 180)
-					(length 2.54)
-					(name "VOUTN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -247,17 +229,35 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 13.97 7.62 180)
+				(pin output line
+					(at 13.97 0 180)
 					(length 2.54)
-					(name "VDD2"
+					(name "VOUTN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -3.81 180)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -266,11 +266,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -368,11 +373,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -442,10 +452,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -454,10 +464,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -503,11 +513,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -625,10 +640,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -694,30 +712,6 @@
 				)
 			)
 			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -730,6 +724,54 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0.254 1.016) (xy 0.254 -1.016)
@@ -740,30 +782,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -805,11 +823,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "R_Small_14"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -927,11 +950,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "R_Small_5"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1049,11 +1077,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "R_Small_6"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1171,6 +1204,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Symbols:+5V_DGND"
 			(power)
@@ -1236,7 +1270,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1248,7 +1282,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1262,7 +1296,8 @@
 			(symbol "+5V_DGND_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V_DGND"
 						(effects
 							(font
@@ -1279,6 +1314,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Symbols:+5V_PGND"
 			(power)
@@ -1344,7 +1380,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1356,7 +1392,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1370,7 +1406,8 @@
 			(symbol "+5V_PGND_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V_PGND"
 						(effects
 							(font
@@ -1387,6 +1424,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Symbols:ACS712ELCTR-20A-T"
 			(exclude_from_sim no)
@@ -1479,14 +1517,6 @@
 						(type none)
 					)
 				)
-				(text "HALL"
-					(at 5.08 -7.62 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(text "Imeas"
 					(at 0 -12.7 0)
 					(effects
@@ -1495,8 +1525,28 @@
 						)
 					)
 				)
+				(text "HALL"
+					(at 5.08 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 			)
 			(symbol "ACS712ELCTR-20A-T_0_1"
+				(polyline
+					(pts
+						(xy -7.62 -11.43) (xy -7.62 -8.89) (xy 6.35 -8.89) (xy 6.35 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -5.08 -11.43) (xy -5.08 -8.89)
@@ -1521,20 +1571,44 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -7.62 -11.43) (xy -7.62 -8.89) (xy 6.35 -8.89) (xy 6.35 -11.43)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "ACS712ELCTR-20A-T_1_1"
+				(pin power_in line
+					(at -11.43 6.35 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -7.62 -17.78 90)
 					(length 2.54)
@@ -1607,17 +1681,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -11.43 -3.81 0)
+				(pin output line
+					(at 10.16 6.35 180)
 					(length 2.54)
-					(name "GND"
+					(name "VIOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1643,43 +1717,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 6.35 180)
-					(length 2.54)
-					(name "VIOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -11.43 6.35 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Symbols:DGND"
 			(power)
@@ -1769,7 +1808,8 @@
 			(symbol "DGND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "DGND"
 						(effects
 							(font
@@ -1786,6 +1826,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Symbols:MCP6486UT-E/LT "
 			(pin_names
@@ -1803,7 +1844,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP6486UT-E/LT "
+			(property "Value" "MCP6486UT-E/LT"
 				(at 3.81 5.08 0)
 				(effects
 					(font
@@ -1935,24 +1976,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 -2.54 0)
 					(length 2.54)
@@ -1964,24 +1987,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2007,7 +2012,44 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Symbols:PGND"
 			(power)
@@ -2097,7 +2139,8 @@
 			(symbol "PGND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "PGND"
 						(effects
 							(font
@@ -2114,7 +2157,342 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 17.78 148.59)
+		(end 179.07 247.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 50400a46-f231-4664-afe0-7287cb40eee2)
+	)
+	(rectangle
+		(start 182.88 148.59)
+		(end 293.37 247.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5455300b-a93c-420b-8616-0180fbe8e5a4)
+	)
+	(rectangle
+		(start 17.78 24.13)
+		(end 179.07 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8e9b5715-8b86-4e9c-be9e-5c70a8798ca4)
+	)
+	(text "At 0 ampere IHigh is equal to 0.5xVCC = 2.5V\nso V_{SHIFTED} = 1V (amplitude: 0 to 2048 mV)"
+		(exclude_from_sim no)
+		(at 184.15 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00c2a661-75cf-4975-a966-1009104caf71")
+	)
+	(text "RD"
+		(exclude_from_sim no)
+		(at 87.63 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b34f853-d597-469b-b65d-7b401a823cdd")
+	)
+	(text "ACS723 is pin to pin compatible\nwith ACS712. If ACS723 is used,\ndisconnect CA and tie pin 6\nto either +5V or GND for wanted BW"
+		(exclude_from_sim no)
+		(at 140.97 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e9c7b63-3ae0-4702-af7e-a5a93cc2057a")
+	)
+	(text "V_{SHIFTED} = G*V+\nV_{SHIFTED} = [1+(RC/RD)]*0.5*V_{Diff}\nV_{SHIFTED} = [1+(27k/27k)]*0.5*V_{Diff}\nV_{SHIFTED} = 2*0.5*V_{Diff}\nV_{SHIFTED} = V_{Diff}"
+		(exclude_from_sim no)
+		(at 143.51 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30d4a7d3-0af0-4867-895c-cf10374fad95")
+	)
+	(text "ACS712 direct equivalence:\nACS724"
+		(exclude_from_sim no)
+		(at 147.32 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c678ffd-8bd1-4634-88a5-b7e47aa25ca8")
+	)
+	(text "Circuit can be seen as non inverting opamp\nwith gain : G = 1+(RC/RD) and a potential on non-inverting\ninput equal to :\n\nV+ =(VOUTP-VOUTN)*(RA/(RA+RB))\n\nV_{Diff} = (VOUTP-VOUTN)\n\nV+ = V_{Diff}*(RA/(RA+RB))\nV+ = V_{Diff}*(27k/(27k+27k))\nV+ = V_{Diff}*0.5"
+		(exclude_from_sim no)
+		(at 63.5 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43009bbf-3d7e-4e7b-b16a-a76bf8e4ac8f")
+	)
+	(text "RA"
+		(exclude_from_sim no)
+		(at 104.14 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44b73263-b36e-4bd6-ad83-59e27017cab2")
+	)
+	(text "V_{SHIFTED} = [((RE + RF)*RH) / ((RH + RG)*RF)] * I_{High} - [(RE/RF)* 5V_{Digital}]\nV_{SHIFTED} = [((5.9k + 20k)*20k) / ((20k + 5.9k)*20k)] * I_{High} - [(5.9k/20k)* 5]\n** If RH = RF and RE = RG, gain is unity\nV_{SHIFTED} = I_{High} - (5.9k/20k)* 5\nV_{SHIFTED} = I_{High} - 1.5V"
+		(exclude_from_sim no)
+		(at 184.15 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4decc164-9288-4e1a-ade6-4356c88537b3")
+	)
+	(text "RH"
+		(exclude_from_sim no)
+		(at 222.25 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59af67ae-193e-4068-a6e9-35b05027af7c")
+	)
+	(text "Simulation available\nhttps://tinyurl.com/ym6es7vl\n\n"
+		(exclude_from_sim no)
+		(at 262.89 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c77fc6e-4ce9-455b-82b6-ceb98fc2431f")
+	)
+	(text "ACS723 pin 6 BW_SELECT :\n- tie to ground for 80kHz BW.\n- tie to VCC for 20kHz bandwidth."
+		(exclude_from_sim no)
+		(at 140.97 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61a76191-322f-47f3-a1c8-0da2b709a458")
+	)
+	(text "IHigh and VHigh sense\n"
+		(exclude_from_sim no)
+		(at 125.73 30.48 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.54 2.54)
+				(thickness 0.4978)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "6259e7bb-641d-448f-86ee-fd41509a0967")
+	)
+	(text "VI_High_op has a 2,048V \namplitude without offset"
+		(exclude_from_sim no)
+		(at 193.04 173.99 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "74b9dfa7-2fc9-4c8f-b442-1783ca580d01")
+	)
+	(text "POWER AREA\n"
+		(exclude_from_sim no)
+		(at 48.26 156.21 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fe0ed47-fa5b-4776-a7fa-14426b7431b8")
+	)
+	(text "RF"
+		(exclude_from_sim no)
+		(at 213.36 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80cf86f9-5db1-4adb-8bd7-04f0e4ab2275")
+	)
+	(text "DIGITAL AREA\n"
+		(exclude_from_sim no)
+		(at 69.85 49.53 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "835772be-6da5-40fc-81d1-e117d36400e6")
+	)
+	(text "RG"
+		(exclude_from_sim no)
+		(at 215.9 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e3c3dc3-e130-4ada-915d-2c04f128344f")
+	)
+	(text "DIGITAL AREA\n"
+		(exclude_from_sim no)
+		(at 62.23 156.21 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99a00dae-dc75-451a-b5f1-3578266282b2")
+	)
+	(text "RC"
+		(exclude_from_sim no)
+		(at 118.11 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a194c383-7b78-47bd-838c-2c86b11af306")
+	)
+	(text "RB"
+		(exclude_from_sim no)
+		(at 87.63 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab9de9fb-dbef-4d38-900f-e3227bf13d53")
+	)
+	(text "High side voltage conditioning"
+		(exclude_from_sim no)
+		(at 82.55 154.94 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b52013e6-c3a3-47d3-91e5-ca9eb2c082c8")
+	)
+	(text "PIN 6 (Filter) of ACS712 is designed to connect\na capacitor to ground to form low pass RC\nfilter with an internal capacitor of 1.7kOhm\n\nAccording to formula theoretical \ncutoff frequency is calculted like so :\n\nfc = 1/(2*pi*R*C)\n\nHere we have some examples\nof cutoff frequency for \ndifferent values of capacitor\n _________________\n C (nF)   | fc (kHz) \n------------\n   1	|  93.6  \n------------\n   10	|  9.36  \n------------\n   100	|  0.936  \n------------\n\nBut in datasheet it is written 80kHz (-3dB)\nfor 1nF..."
+		(exclude_from_sim no)
+		(at 20.32 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c08f203b-f993-45cd-9051-64466d55df96")
+	)
+	(text "High side current conditioning"
+		(exclude_from_sim no)
+		(at 208.28 154.94 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4e54368-9cbe-4992-981a-62c46912c3bb")
+	)
+	(text "RE"
+		(exclude_from_sim no)
+		(at 238.76 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d38badf4-870a-461b-8dcc-07f0249c977c")
+	)
+	(text "POWER AREA\n"
+		(exclude_from_sim no)
+		(at 69.85 46.99 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df760351-e728-42fe-aa10-661b7509b9fb")
+	)
+	(text "Simulation available\nhttps://tinyurl.com/yodepbhp\n\n"
+		(exclude_from_sim no)
+		(at 148.59 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbe9a817-fe29-49b0-beed-6ba43fe0434e")
 	)
 	(junction
 		(at 104.14 196.85)
@@ -3588,343 +3966,8 @@
 		)
 		(uuid "fcb186fb-965d-4ee3-b878-1933a3b27386")
 	)
-	(rectangle
-		(start 17.78 148.59)
-		(end 179.07 247.65)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 50400a46-f231-4664-afe0-7287cb40eee2)
-	)
-	(rectangle
-		(start 182.88 148.59)
-		(end 293.37 247.65)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5455300b-a93c-420b-8616-0180fbe8e5a4)
-	)
-	(rectangle
-		(start 17.78 24.13)
-		(end 179.07 146.05)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8e9b5715-8b86-4e9c-be9e-5c70a8798ca4)
-	)
-	(text "At 0 ampere IHigh is equal to 0.5xVCC = 2.5V\nso V_{SHIFTED} = 1V (amplitude: 0 to 2048 mV)"
-		(exclude_from_sim no)
-		(at 184.15 246.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00c2a661-75cf-4975-a966-1009104caf71")
-	)
-	(text "RD"
-		(exclude_from_sim no)
-		(at 87.63 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b34f853-d597-469b-b65d-7b401a823cdd")
-	)
-	(text "ACS723 is pin to pin compatible\nwith ACS712. If ACS723 is used,\ndisconnect CA and tie pin 6\nto either +5V or GND for wanted BW"
-		(exclude_from_sim no)
-		(at 140.97 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e9c7b63-3ae0-4702-af7e-a5a93cc2057a")
-	)
-	(text "V_{SHIFTED} = G*V+\nV_{SHIFTED} = [1+(RC/RD)]*0.5*V_{Diff}\nV_{SHIFTED} = [1+(27k/27k)]*0.5*V_{Diff}\nV_{SHIFTED} = 2*0.5*V_{Diff}\nV_{SHIFTED} = V_{Diff}"
-		(exclude_from_sim no)
-		(at 143.51 246.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30d4a7d3-0af0-4867-895c-cf10374fad95")
-	)
-	(text "ACS712 direct equivalence:\nACS724"
-		(exclude_from_sim no)
-		(at 147.32 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c678ffd-8bd1-4634-88a5-b7e47aa25ca8")
-	)
-	(text "Circuit can be seen as non inverting opamp\nwith gain : G = 1+(RC/RD) and a potential on non-inverting\ninput equal to :\n\nV+ =(VOUTP-VOUTN)*(RA/(RA+RB))\n\nV_{Diff} = (VOUTP-VOUTN)\n\nV+ = V_{Diff}*(RA/(RA+RB))\nV+ = V_{Diff}*(27k/(27k+27k))\nV+ = V_{Diff}*0.5"
-		(exclude_from_sim no)
-		(at 63.5 246.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43009bbf-3d7e-4e7b-b16a-a76bf8e4ac8f")
-	)
-	(text "RA"
-		(exclude_from_sim no)
-		(at 104.14 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44b73263-b36e-4bd6-ad83-59e27017cab2")
-	)
-	(text "V_{SHIFTED} = [((RE + RF)*RH) / ((RH + RG)*RF)] * I_{High} - [(RE/RF)* 5V_{Digital}]\nV_{SHIFTED} = [((5.9k + 20k)*20k) / ((20k + 5.9k)*20k)] * I_{High} - [(5.9k/20k)* 5]\n** If RH = RF and RE = RG, gain is unity\nV_{SHIFTED} = I_{High} - (5.9k/20k)* 5\nV_{SHIFTED} = I_{High} - 1.5V"
-		(exclude_from_sim no)
-		(at 184.15 238.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4decc164-9288-4e1a-ade6-4356c88537b3")
-	)
-	(text "RH"
-		(exclude_from_sim no)
-		(at 222.25 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59af67ae-193e-4068-a6e9-35b05027af7c")
-	)
-	(text "Simulation available\nhttps://tinyurl.com/ym6es7vl\n\n"
-		(exclude_from_sim no)
-		(at 262.89 247.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c77fc6e-4ce9-455b-82b6-ceb98fc2431f")
-	)
-	(text "ACS723 pin 6 BW_SELECT :\n- tie to ground for 80kHz BW.\n- tie to VCC for 20kHz bandwidth."
-		(exclude_from_sim no)
-		(at 140.97 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61a76191-322f-47f3-a1c8-0da2b709a458")
-	)
-	(text "IHigh and VHigh sense\n"
-		(exclude_from_sim no)
-		(at 125.73 30.48 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.54 2.54)
-				(thickness 0.4978)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "6259e7bb-641d-448f-86ee-fd41509a0967")
-	)
-	(text "VI_High_op has a 2,048V \namplitude without offset"
-		(exclude_from_sim no)
-		(at 193.04 173.99 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "74b9dfa7-2fc9-4c8f-b442-1783ca580d01")
-	)
-	(text "POWER AREA\n"
-		(exclude_from_sim no)
-		(at 48.26 156.21 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fe0ed47-fa5b-4776-a7fa-14426b7431b8")
-	)
-	(text "RF"
-		(exclude_from_sim no)
-		(at 213.36 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80cf86f9-5db1-4adb-8bd7-04f0e4ab2275")
-	)
-	(text "DIGITAL AREA\n"
-		(exclude_from_sim no)
-		(at 69.85 49.53 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "835772be-6da5-40fc-81d1-e117d36400e6")
-	)
-	(text "RG"
-		(exclude_from_sim no)
-		(at 215.9 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e3c3dc3-e130-4ada-915d-2c04f128344f")
-	)
-	(text "DIGITAL AREA\n"
-		(exclude_from_sim no)
-		(at 62.23 156.21 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99a00dae-dc75-451a-b5f1-3578266282b2")
-	)
-	(text "RC"
-		(exclude_from_sim no)
-		(at 118.11 214.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a194c383-7b78-47bd-838c-2c86b11af306")
-	)
-	(text "RB"
-		(exclude_from_sim no)
-		(at 87.63 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab9de9fb-dbef-4d38-900f-e3227bf13d53")
-	)
-	(text "High side voltage conditioning"
-		(exclude_from_sim no)
-		(at 82.55 154.94 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.5)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b52013e6-c3a3-47d3-91e5-ca9eb2c082c8")
-	)
-	(text "PIN 6 (Filter) of ACS712 is designed to connect\na capacitor to ground to form low pass RC\nfilter with an internal capacitor of 1.7kOhm\n\nAccording to formula theoretical \ncutoff frequency is calculted like so :\n\nfc = 1/(2*pi*R*C)\n\nHere we have some examples\nof cutoff frequency for \ndifferent values of capacitor\n _________________\n C (nF)   | fc (kHz) \n------------\n   1	|  93.6  \n------------\n   10	|  9.36  \n------------\n   100	|  0.936  \n------------\n\nBut in datasheet it is written 80kHz (-3dB)\nfor 1nF..."
-		(exclude_from_sim no)
-		(at 20.32 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c08f203b-f993-45cd-9051-64466d55df96")
-	)
-	(text "High side current conditioning"
-		(exclude_from_sim no)
-		(at 208.28 154.94 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.5)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4e54368-9cbe-4992-981a-62c46912c3bb")
-	)
-	(text "RE"
-		(exclude_from_sim no)
-		(at 238.76 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d38badf4-870a-461b-8dcc-07f0249c977c")
-	)
-	(text "POWER AREA\n"
-		(exclude_from_sim no)
-		(at 69.85 46.99 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df760351-e728-42fe-aa10-661b7509b9fb")
-	)
-	(text "Simulation available\nhttps://tinyurl.com/yodepbhp\n\n"
-		(exclude_from_sim no)
-		(at 148.59 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbe9a817-fe29-49b0-beed-6ba43fe0434e")
-	)
 	(label "I_{IHighHall_DGND}"
 		(at 100.33 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3935,7 +3978,6 @@
 	)
 	(label "V_{IHigh+_PGND}"
 		(at 36.83 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3946,7 +3988,6 @@
 	)
 	(label "V_{IHigh+_PGND}"
 		(at 109.22 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3957,7 +3998,6 @@
 	)
 	(label "V_{IHigh-_PGND}"
 		(at 36.83 201.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3968,7 +4008,6 @@
 	)
 	(label "V_{IHigh-_PGND}"
 		(at 109.22 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3979,7 +4018,6 @@
 	)
 	(label "I_{IHighHall_DGND}"
 		(at 207.01 186.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3991,7 +4029,6 @@
 	(hierarchical_label "V_{IHigh_PGND}"
 		(shape bidirectional)
 		(at 78.74 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4003,7 +4040,6 @@
 	(hierarchical_label "V_{IHigh_sense_DGND}"
 		(shape output)
 		(at 140.97 194.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4015,7 +4051,6 @@
 	(hierarchical_label "I_{IHigh_sense_DGND}"
 		(shape output)
 		(at 267.97 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4027,7 +4062,6 @@
 	(hierarchical_label "V_{IHighOutFused_PGND}"
 		(shape bidirectional)
 		(at 138.43 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4451,7 +4485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "102cc325-a8c6-49bd-b177-e298411fb4f2")
-		(property "Reference" "C?"
+		(property "Reference" "C603"
 			(at 82.55 173.99 0)
 			(effects
 				(font
@@ -5113,7 +5147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20ca16be-5fc5-4ebd-b6a8-78fd65368e53")
-		(property "Reference" "R?"
+		(property "Reference" "R609"
 			(at 232.41 178.435 0)
 			(effects
 				(font
@@ -5627,7 +5661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40d9e38f-6123-456c-a7e4-929db7806cdb")
-		(property "Reference" "C?"
+		(property "Reference" "C608"
 			(at 243.84 177.8 90)
 			(effects
 				(font
@@ -6495,7 +6529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "802947ac-4b02-4789-8141-9024d3d127c9")
-		(property "Reference" "C?"
+		(property "Reference" "C604"
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -7953,7 +7987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5243389-54ca-469c-b200-a1c3f2ba230d")
-		(property "Reference" "R?"
+		(property "Reference" "R607"
 			(at 212.09 190.5 90)
 			(effects
 				(font
@@ -8082,7 +8116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8d00c9b-05b5-4f27-abcf-c61a9d830801")
-		(property "Reference" "C?"
+		(property "Reference" "C602"
 			(at 80.01 67.31 0)
 			(effects
 				(font
@@ -8217,7 +8251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db13f2a5-a1e2-41e2-9e19-3734f0c9f79a")
-		(property "Reference" "C?"
+		(property "Reference" "C601"
 			(at 39.37 173.99 0)
 			(effects
 				(font
@@ -8681,7 +8715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f54b6baa-4a00-4435-89d0-d30f18ddfe09")
-		(property "Reference" "C?"
+		(property "Reference" "C606"
 			(at 124.46 177.8 90)
 			(effects
 				(font
