@@ -1,5 +1,76 @@
 (version 1)
 
+#############################
+# Functional isolation rule #
+#############################
+
+(rule VIHigh_DGND
+   # Set clearance for IBus tracks to digital
+   (constraint clearance (min 1mm))
+   (condition "A.NetClass == 'IBUS' && B.NetClass == 'DGND'"))
+
+(rule SW1_DGND
+   # Set clearance for SW1 tracks to digital 
+   (constraint clearance (min 1mm))
+   (condition "A.NetClass == 'SWN1' && B.NetClass == 'DGND'"))
+
+(rule SW2_DGND
+   # Set clearance for SW2 tracks to digital
+   (constraint clearance (min 1mm))
+   (condition "A.NetClass == 'SWN2' && B.NetClass == 'DGND'"))
+
+(rule PGND_DGND
+   # Set clearance for PGND tracks to digital
+   (constraint clearance (min 1mm))
+   (condition "A.NetClass == 'PGND' && B.NetClass == 'DGND'"))
+
+
+##################
+# Netclass rules # 
+##################
+
+########################
+## BUSES to GND rules ##
+########################
+
+(rule IBUS_GND
+   # Set clearance for IBus tracks to ground
+   (layer outer)
+   (constraint clearance (min 0.75mm))
+   (condition "A.NetClass == 'IBUS' && B.NetClass == 'PGND'"))
+
+####################################
+## BUSES to SWITCHING nodes rules ##
+####################################
+
+(rule SWN1_IBUS
+   # Set clearance for SWN1 tracks to IBUS
+   (layer outer)
+   (constraint clearance (min 0.75mm))
+   (condition "A.NetClass == 'SWN1' && B.NetClass == 'IBUS"))
+
+(rule SWN2_IBUS
+   # Set clearance for SWN2 tracks to IBUS
+   (layer outer)
+   (constraint clearance (min 0.75mm))
+   (condition "A.NetClass == 'SWN2' && B.NetClass == 'IBUS"))
+
+##################################
+## SWITCHING nodes to GND rules ##
+##################################
+
+(rule SWN1_GND
+   # Set clearance for SWN1 tracks to ground
+   (layer outer)
+   (constraint clearance (min 0.75mm))
+   (condition "A.NetClass == 'SWN1' && B.NetClass == 'PGND'"))
+
+(rule SWN2_GND
+   # Set clearance for SWN2 tracks to ground
+   (layer outer)
+   (constraint clearance (min 0.75mm))
+   (condition "A.NetClass == 'SWN2' && B.NetClass == 'PGND'"))
+
 (rule "clearance-to-1mm-cutout"
     (constraint clearance (min 0.8mm))
     (condition "A.Layer=='Edge.Cuts' && A.Thickness == 1.0mm"))

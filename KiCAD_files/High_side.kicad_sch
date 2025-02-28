@@ -5,10 +5,10 @@
 	(uuid "0a3829cd-21f7-4695-937b-8046566adc7d")
 	(paper "A3")
 	(title_block
-		(title "TWIST 1.4")
-		(date "2023-10-11")
-		(company "https://gitlab.laas.fr/owntech/boards/TWIST")
-		(comment 1 "WALTER")
+		(title "TWIST 1.4.2")
+		(date "2025-02-28")
+		(company "https://github.com/owntech-foundation/twist")
+		(comment 1 "ALINEI")
 	)
 	(lib_symbols
 		(symbol "AMC1311DBW_1"
@@ -1206,7 +1206,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:+5V_DGND"
+		(symbol "Symbols:+5V"
 			(power)
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1220,7 +1220,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V_DGND"
+			(property "Value" "+5V"
 				(at -0.127 3.81 0)
 				(effects
 					(font
@@ -1246,7 +1246,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V_DGND\" , power supply"
+			(property "Description" "Power symbol creates a global label with name \"+5V\" , power supply"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1255,7 +1255,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_DGND_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1293,122 +1293,12 @@
 					)
 				)
 			)
-			(symbol "+5V_DGND_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
 					(hide yes)
-					(name "+5V_DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:+5V_PGND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#PWR"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V_PGND"
-				(at -0.127 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.175 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V_PGND\" , power supply"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_PGND_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_PGND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+5V_PGND"
+					(name "+5V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2160,47 +2050,12 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 17.78 148.59)
-		(end 179.07 247.65)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 50400a46-f231-4664-afe0-7287cb40eee2)
-	)
-	(rectangle
-		(start 182.88 148.59)
-		(end 293.37 247.65)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5455300b-a93c-420b-8616-0180fbe8e5a4)
-	)
-	(rectangle
-		(start 17.78 24.13)
-		(end 179.07 146.05)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8e9b5715-8b86-4e9c-be9e-5c70a8798ca4)
-	)
 	(text "At 0 ampere IHigh is equal to 0.5xVCC = 2.5V\nso V_{SHIFTED} = 1V (amplitude: 0 to 2048 mV)"
 		(exclude_from_sim no)
-		(at 184.15 246.38 0)
+		(at 186.944 243.078 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2209,9 +2064,10 @@
 	)
 	(text "RD"
 		(exclude_from_sim no)
-		(at 87.63 203.2 0)
+		(at 86.868 199.898 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2220,9 +2076,10 @@
 	)
 	(text "ACS723 is pin to pin compatible\nwith ACS712. If ACS723 is used,\ndisconnect CA and tie pin 6\nto either +5V or GND for wanted BW"
 		(exclude_from_sim no)
-		(at 140.97 34.29 0)
+		(at 147.32 56.896 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2231,9 +2088,10 @@
 	)
 	(text "V_{SHIFTED} = G*V+\nV_{SHIFTED} = [1+(RC/RD)]*0.5*V_{Diff}\nV_{SHIFTED} = [1+(27k/27k)]*0.5*V_{Diff}\nV_{SHIFTED} = 2*0.5*V_{Diff}\nV_{SHIFTED} = V_{Diff}"
 		(exclude_from_sim no)
-		(at 143.51 246.38 0)
+		(at 135.128 237.49 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2242,9 +2100,10 @@
 	)
 	(text "ACS712 direct equivalence:\nACS724"
 		(exclude_from_sim no)
-		(at 147.32 50.8 0)
+		(at 147.32 71.374 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2253,9 +2112,10 @@
 	)
 	(text "Circuit can be seen as non inverting opamp\nwith gain : G = 1+(RC/RD) and a potential on non-inverting\ninput equal to :\n\nV+ =(VOUTP-VOUTN)*(RA/(RA+RB))\n\nV_{Diff} = (VOUTP-VOUTN)\n\nV+ = V_{Diff}*(RA/(RA+RB))\nV+ = V_{Diff}*(27k/(27k+27k))\nV+ = V_{Diff}*0.5"
 		(exclude_from_sim no)
-		(at 63.5 246.38 0)
+		(at 64.77 242.824 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2264,9 +2124,10 @@
 	)
 	(text "RA"
 		(exclude_from_sim no)
-		(at 104.14 190.5 0)
+		(at 104.648 186.436 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2275,9 +2136,10 @@
 	)
 	(text "V_{SHIFTED} = [((RE + RF)*RH) / ((RH + RG)*RF)] * I_{High} - [(RE/RF)* 5V_{Digital}]\nV_{SHIFTED} = [((5.9k + 20k)*20k) / ((20k + 5.9k)*20k)] * I_{High} - [(5.9k/20k)* 5]\n** If RH = RF and RE = RG, gain is unity\nV_{SHIFTED} = I_{High} - (5.9k/20k)* 5\nV_{SHIFTED} = I_{High} - 1.5V"
 		(exclude_from_sim no)
-		(at 184.15 238.76 0)
+		(at 186.944 237.49 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2286,9 +2148,10 @@
 	)
 	(text "RH"
 		(exclude_from_sim no)
-		(at 222.25 181.61 0)
+		(at 227.838 179.578 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2297,9 +2160,10 @@
 	)
 	(text "Simulation available\nhttps://tinyurl.com/ym6es7vl\n\n"
 		(exclude_from_sim no)
-		(at 262.89 247.65 0)
+		(at 252.476 244.602 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2308,9 +2172,10 @@
 	)
 	(text "ACS723 pin 6 BW_SELECT :\n- tie to ground for 80kHz BW.\n- tie to VCC for 20kHz bandwidth."
 		(exclude_from_sim no)
-		(at 140.97 43.18 0)
+		(at 147.32 65.786 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2319,7 +2184,7 @@
 	)
 	(text "IHigh and VHigh sense\n"
 		(exclude_from_sim no)
-		(at 125.73 30.48 0)
+		(at 126.238 43.434 0)
 		(effects
 			(font
 				(face "Arial")
@@ -2343,69 +2208,36 @@
 		)
 		(uuid "74b9dfa7-2fc9-4c8f-b442-1783ca580d01")
 	)
-	(text "POWER AREA\n"
+	(text "RF"
 		(exclude_from_sim no)
-		(at 48.26 156.21 0)
+		(at 212.852 195.072 0)
 		(effects
 			(font
 				(face "Arial")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fe0ed47-fa5b-4776-a7fa-14426b7431b8")
-	)
-	(text "RF"
-		(exclude_from_sim no)
-		(at 213.36 194.31 0)
-		(effects
-			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "80cf86f9-5db1-4adb-8bd7-04f0e4ab2275")
 	)
-	(text "DIGITAL AREA\n"
+	(text "RG"
 		(exclude_from_sim no)
-		(at 69.85 49.53 0)
+		(at 214.63 181.864 0)
 		(effects
 			(font
 				(face "Arial")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "835772be-6da5-40fc-81d1-e117d36400e6")
-	)
-	(text "RG"
-		(exclude_from_sim no)
-		(at 215.9 189.23 0)
-		(effects
-			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "8e3c3dc3-e130-4ada-915d-2c04f128344f")
 	)
-	(text "DIGITAL AREA\n"
+	(text "RC"
 		(exclude_from_sim no)
-		(at 62.23 156.21 0)
+		(at 110.744 207.264 0)
 		(effects
 			(font
 				(face "Arial")
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99a00dae-dc75-451a-b5f1-3578266282b2")
-	)
-	(text "RC"
-		(exclude_from_sim no)
-		(at 118.11 214.63 0)
-		(effects
-			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2414,9 +2246,10 @@
 	)
 	(text "RB"
 		(exclude_from_sim no)
-		(at 87.63 187.96 0)
+		(at 86.868 187.198 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2425,9 +2258,10 @@
 	)
 	(text "High side voltage conditioning"
 		(exclude_from_sim no)
-		(at 82.55 154.94 0)
+		(at 83.058 160.02 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 2.54 2.54)
 				(thickness 0.5)
 				(bold yes)
@@ -2438,9 +2272,10 @@
 	)
 	(text "PIN 6 (Filter) of ACS712 is designed to connect\na capacitor to ground to form low pass RC\nfilter with an internal capacitor of 1.7kOhm\n\nAccording to formula theoretical \ncutoff frequency is calculted like so :\n\nfc = 1/(2*pi*R*C)\n\nHere we have some examples\nof cutoff frequency for \ndifferent values of capacitor\n _________________\n C (nF)   | fc (kHz) \n------------\n   1	|  93.6  \n------------\n   10	|  9.36  \n------------\n   100	|  0.936  \n------------\n\nBut in datasheet it is written 80kHz (-3dB)\nfor 1nF..."
 		(exclude_from_sim no)
-		(at 20.32 76.2 0)
+		(at 38.1 91.186 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2449,9 +2284,10 @@
 	)
 	(text "High side current conditioning"
 		(exclude_from_sim no)
-		(at 208.28 154.94 0)
+		(at 208.534 161.798 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 2.54 2.54)
 				(thickness 0.5)
 				(bold yes)
@@ -2462,18 +2298,7 @@
 	)
 	(text "RE"
 		(exclude_from_sim no)
-		(at 238.76 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d38badf4-870a-461b-8dcc-07f0249c977c")
-	)
-	(text "POWER AREA\n"
-		(exclude_from_sim no)
-		(at 69.85 46.99 0)
+		(at 232.664 203.962 0)
 		(effects
 			(font
 				(face "Arial")
@@ -2481,13 +2306,14 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "df760351-e728-42fe-aa10-661b7509b9fb")
+		(uuid "d38badf4-870a-461b-8dcc-07f0249c977c")
 	)
 	(text "Simulation available\nhttps://tinyurl.com/yodepbhp\n\n"
 		(exclude_from_sim no)
-		(at 148.59 157.48 0)
+		(at 142.748 165.354 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -2666,16 +2492,6 @@
 		)
 		(uuid "02f9bf98-f13d-4add-a08d-aa58601cb363")
 	)
-	(polyline
-		(pts
-			(xy 144.78 80.01) (xy 144.78 46.99)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "0375fca3-6190-4f71-b6d0-adb7f49972fd")
-	)
 	(wire
 		(pts
 			(xy 81.28 191.77) (xy 81.28 193.04)
@@ -2825,16 +2641,6 @@
 			(type dash)
 		)
 		(uuid "16e15fda-0785-4f52-8eea-918b79439187")
-	)
-	(polyline
-		(pts
-			(xy 123.19 80.01) (xy 124.46 80.01)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "17db1c87-f85d-4a74-a2e5-d54533c0db06")
 	)
 	(wire
 		(pts
@@ -3386,16 +3192,6 @@
 		)
 		(uuid "88ec6775-f06a-44dc-bc3f-32948509ac4e")
 	)
-	(polyline
-		(pts
-			(xy 124.46 80.01) (xy 143.51 80.01)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "89794030-17d8-44d6-b270-8203948df3f8")
-	)
 	(wire
 		(pts
 			(xy 104.14 210.82) (xy 114.3 210.82)
@@ -3576,16 +3372,6 @@
 		)
 		(uuid "b7506a68-42ef-446e-9078-3635b9ee2772")
 	)
-	(polyline
-		(pts
-			(xy 60.96 247.65) (xy 60.96 148.59)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "b9447a1e-824a-4cbf-b4bd-e4d86c0fe328")
-	)
 	(wire
 		(pts
 			(xy 254 208.28) (xy 254 214.63)
@@ -3615,16 +3401,6 @@
 			(type default)
 		)
 		(uuid "bd0125f3-5b29-418c-b0a9-6ba64e37ccb4")
-	)
-	(polyline
-		(pts
-			(xy 68.58 80.01) (xy 101.6 80.01)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "bee61b19-ca30-4c94-ab34-7ef72ad03d09")
 	)
 	(wire
 		(pts
@@ -3676,16 +3452,6 @@
 		)
 		(uuid "ca36bfb9-6249-4d99-b90a-a14df0649ef7")
 	)
-	(polyline
-		(pts
-			(xy 144.78 46.99) (xy 68.58 46.99)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "ca5ad07f-527e-4eaf-ad8e-36a2d682b24a")
-	)
 	(wire
 		(pts
 			(xy 129.54 69.85) (xy 129.54 72.39)
@@ -3716,16 +3482,6 @@
 		)
 		(uuid "d055093f-0d54-44d4-a616-9e14db71d54f")
 	)
-	(polyline
-		(pts
-			(xy 123.19 73.66) (xy 123.19 80.01)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "d08db938-25d6-43bd-8c9e-93fbb45745a4")
-	)
 	(wire
 		(pts
 			(xy 76.2 170.18) (xy 76.2 189.23)
@@ -3745,16 +3501,6 @@
 			(type default)
 		)
 		(uuid "d8140b5c-c759-46d0-a7a0-8c843c52a5c7")
-	)
-	(polyline
-		(pts
-			(xy 101.6 80.01) (xy 101.6 73.66)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "da3c505b-717b-4c76-8ceb-4c005dc93ba7")
 	)
 	(wire
 		(pts
@@ -3876,16 +3622,6 @@
 		)
 		(uuid "e7ccf112-c0fc-40d6-94c9-c6de41ef7ab2")
 	)
-	(polyline
-		(pts
-			(xy 68.58 46.99) (xy 68.58 80.01)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "eab4ab26-be5d-4852-84bc-9fbb3edaab86")
-	)
 	(wire
 		(pts
 			(xy 45.72 200.66) (xy 46.99 200.66)
@@ -3946,16 +3682,6 @@
 		)
 		(uuid "f9a39c7f-cd88-496a-9551-83bd19ac6627")
 	)
-	(polyline
-		(pts
-			(xy 123.19 73.66) (xy 101.6 73.66)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "fb68205c-eabf-4a12-8b4d-6469582942fc")
-	)
 	(wire
 		(pts
 			(xy 129.54 54.61) (xy 129.54 62.23)
@@ -3966,134 +3692,363 @@
 		)
 		(uuid "fcb186fb-965d-4ee3-b878-1933a3b27386")
 	)
-	(label "I_{IHighHall_DGND}"
+	(label "I_{IHighHall}"
 		(at 100.33 62.23 180)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
 		(uuid "1ea1dbba-0066-4036-b5d1-6663f208e452")
 	)
-	(label "V_{IHigh+_PGND}"
+	(label "V_{IHigh+}"
 		(at 36.83 190.5 180)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
 		(uuid "44660114-b70c-441a-a0f9-da9d5348c9ce")
 	)
-	(label "V_{IHigh+_PGND}"
+	(label "V_{IHigh+}"
 		(at 109.22 111.76 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "bca56840-7557-4909-bb58-127dc1e6bcdd")
 	)
-	(label "V_{IHigh-_PGND}"
+	(label "V_{IHigh-}"
 		(at 36.83 201.93 180)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
 		(uuid "c5e8f9ea-57ee-42db-9f8c-320725b1b976")
 	)
-	(label "V_{IHigh-_PGND}"
+	(label "V_{IHigh-}"
 		(at 109.22 127 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "cf23a2da-5af2-4076-8566-7fa0991db6c0")
 	)
-	(label "I_{IHighHall_DGND}"
+	(label "I_{IHighHall}"
 		(at 207.01 186.69 180)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
 		(uuid "f96b7033-5918-49be-92ac-8759d51043e4")
 	)
-	(hierarchical_label "V_{IHigh_PGND}"
+	(hierarchical_label "V_{IHigh}"
 		(shape bidirectional)
 		(at 78.74 93.98 180)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
 		(uuid "21a92e8a-6835-474c-b4ca-76e815fa2989")
 	)
-	(hierarchical_label "V_{IHigh_sense_DGND}"
+	(hierarchical_label "V_{IHigh_sense}"
 		(shape output)
 		(at 140.97 194.31 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "51839ca5-3b58-446b-95a9-dccefa4eb814")
 	)
-	(hierarchical_label "I_{IHigh_sense_DGND}"
+	(hierarchical_label "I_{IHigh_sense}"
 		(shape output)
 		(at 267.97 189.23 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "99627755-0212-4550-a776-6d0e5a62ac0e")
 	)
-	(hierarchical_label "V_{IHighOutFused_PGND}"
+	(hierarchical_label "V_{IHighOutFused}"
 		(shape bidirectional)
 		(at 138.43 93.98 0)
 		(effects
 			(font
+				(face "Arial")
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "9bde79e0-cc23-4a49-a2e6-0ab424b4eeea")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 59.69 243.84) (xy 59.69 154.94) (xy 27.94 154.94) (xy 27.94 243.84)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 0 255 1)
+			)
+			(fill
+				(type color)
+				(color 0 0 255 0.05)
+			)
+			(uuid 09541c14-845d-4149-b7ab-f19d84d17999)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 185.42 154.94) (xy 275.59 154.94) (xy 275.59 243.84) (xy 185.42 243.84)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 255 0 1)
+			)
+			(fill
+				(type color)
+				(color 0 255 0 0.05)
+			)
+			(uuid 4727e948-1242-419e-9b29-7569726f70bf)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 63.5 243.84) (xy 63.5 154.94) (xy 181.61 154.94) (xy 181.61 243.84)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 255 0 1)
+			)
+			(fill
+				(type color)
+				(color 0 255 0 0.05)
+			)
+			(uuid c5d37182-0594-4177-9a8a-6b974b98c995)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 77.47 80.01) (xy 77.47 46.99) (xy 144.78 46.99) (xy 144.78 80.01) (xy 123.19 80.01) (xy 123.19 73.66)
+				(xy 101.6 73.66) (xy 101.6 80.01)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 255 0 1)
+			)
+			(fill
+				(type color)
+				(color 0 255 0 0.05)
+			)
+			(uuid f6f20519-2010-42af-8985-572c2a1dfe96)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 117.475 140.97) (xy 117.475 105.41) (xy 85.725 105.41) (xy 85.725 140.97)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 0 255 1)
+			)
+			(fill
+				(type color)
+				(color 0 0 255 0.05)
+			)
+			(uuid fbe10d1d-ea8b-45f9-bed8-029c30d4cb24)
+		)
+	)
 	(netclass_flag ""
-		(length 2.54)
+		(length 1.27)
 		(shape round)
-		(at 129.54 93.98 0)
+		(at 49.53 243.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "9b0f1558-602f-40a0-a912-326228f0ff9f")
-		(property "Netclass" "High_voltage"
-			(at 125.73 88.9 0)
+		(uuid "02f4b624-c0a1-4d14-a5ee-ca3780e5c1dc")
+		(property "Netclass" "PGND"
+			(at 50.1396 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -233.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 123.19 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24e682ef-dfdc-493e-8009-dadd3ca85049")
+		(property "Netclass" "DGND"
+			(at 123.7996 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 227.33 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "568bc0de-6bad-4427-b16c-6d07d2974cfa")
+		(property "Netclass" "DGND"
+			(at 227.9396 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 138.43 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5b6ef56-b372-4f0b-9048-a31a245f2799")
+		(property "Netclass" "DGND"
+			(at 139.0396 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -144.78 -77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 100.33 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6047d32-ca05-4cea-947d-beb040f23b8e")
+		(property "Netclass" "PGND"
+			(at 100.9396 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -182.88 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+5V_PGND")
+		(lib_id "Symbols:+5V")
 		(at 45.72 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4105,15 +4060,17 @@
 			(at 45.72 171.45 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_PGND"
+		(property "Value" "+5VP"
 			(at 46.101 163.2458 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -4122,6 +4079,7 @@
 			(at 48.895 165.1 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4131,6 +4089,7 @@
 			(at 48.895 165.1 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4140,6 +4099,7 @@
 			(at 45.72 167.64 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4171,6 +4131,7 @@
 			(at 252.73 184.15 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4180,6 +4141,7 @@
 			(at 252.73 181.61 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -4188,6 +4150,7 @@
 			(at 252.73 177.8 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4197,6 +4160,7 @@
 			(at 252.73 177.8 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4206,6 +4170,7 @@
 			(at 252.73 177.8 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4236,6 +4201,7 @@
 			(at 97.79 190.5 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4245,6 +4211,7 @@
 			(at 97.79 187.96 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -4253,6 +4220,7 @@
 			(at 97.79 184.15 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4262,6 +4230,7 @@
 			(at 97.79 184.15 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4271,6 +4240,7 @@
 			(at 97.79 184.15 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4298,18 +4268,20 @@
 		(dnp no)
 		(uuid "059b6800-0f94-497a-abeb-6b6d518d9b83")
 		(property "Reference" "C607"
-			(at 238.76 213.36 90)
+			(at 242.062 217.678 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "20pF"
-			(at 246.38 213.36 90)
+			(at 241.808 219.71 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -4319,6 +4291,7 @@
 			(at 240.03 214.63 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4328,6 +4301,7 @@
 			(at 240.03 214.63 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4337,6 +4311,7 @@
 			(at 240.03 214.63 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4346,15 +4321,7 @@
 			(at 240.03 214.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 240.03 214.63 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4364,29 +4331,23 @@
 			(at 236.22 215.9 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 240.03 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 240.03 214.63 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Reserved1" "269e10abb8e08bedf6fe59138f738c816916bbb2d9"
+			(at 240.03 214.63 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage_Rating" "50V"
 			(at 240.03 214.63 0)
 			(effects
 				(font
@@ -4411,7 +4372,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+5V_DGND")
+		(lib_id "Symbols:+5V")
 		(at 80.01 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4423,15 +4384,17 @@
 			(at 80.01 171.45 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_DGND"
+		(property "Value" "+5V"
 			(at 80.391 163.2458 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -4440,6 +4403,7 @@
 			(at 83.185 165.1 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4449,6 +4413,7 @@
 			(at 83.185 165.1 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4458,6 +4423,7 @@
 			(at 80.01 167.64 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4489,6 +4455,7 @@
 			(at 82.55 173.99 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -4498,6 +4465,7 @@
 			(at 82.55 176.53 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -4507,6 +4475,7 @@
 			(at 80.01 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4516,6 +4485,7 @@
 			(at 80.01 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4525,6 +4495,7 @@
 			(at 80.01 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4534,41 +4505,17 @@
 			(at 80.01 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 80.01 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 78.74 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "1206"
-			(at 85.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Functional Block" "Measurement"
 			(at 80.01 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4578,6 +4525,7 @@
 			(at 80.01 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4587,6 +4535,7 @@
 			(at 80.01 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4596,21 +4545,23 @@
 			(at 80.01 175.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 80.01 175.26 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Reserved1" "bd09595a5e7ca1766022111bddfe0f5a6e4908a36b93"
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage_Rating" "50V"
 			(at 80.01 175.26 0)
 			(effects
 				(font
@@ -4654,6 +4605,7 @@
 			(at 41.91 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4663,6 +4615,7 @@
 			(at 41.91 184.15 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -4671,6 +4624,7 @@
 			(at 41.91 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4680,6 +4634,7 @@
 			(at 41.91 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4689,6 +4644,7 @@
 			(at 41.91 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4720,6 +4676,7 @@
 			(at 106.68 55.88 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -4728,6 +4685,7 @@
 			(at 113.665 55.88 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4737,6 +4695,7 @@
 			(at 113.03 58.42 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4746,6 +4705,7 @@
 			(at 113.03 68.58 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4755,6 +4715,7 @@
 			(at 113.03 68.58 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4764,6 +4725,7 @@
 			(at 113.665 58.42 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -4772,6 +4734,7 @@
 			(at 113.03 68.58 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4824,6 +4787,7 @@
 			(at 81.153 59.69 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -4832,6 +4796,7 @@
 			(at 72.39 62.23 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4841,6 +4806,7 @@
 			(at 86.36 59.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4850,6 +4816,7 @@
 			(at 86.36 59.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4859,15 +4826,7 @@
 			(at 86.36 59.69 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
-			(at 86.36 59.69 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4877,6 +4836,7 @@
 			(at 86.36 59.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4886,6 +4846,7 @@
 			(at 86.36 59.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4895,15 +4856,7 @@
 			(at 86.36 59.69 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 86.36 59.69 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4913,6 +4866,7 @@
 			(at 86.36 59.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4946,6 +4900,7 @@
 			(at 121.92 187.96 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -4954,6 +4909,7 @@
 			(at 120.65 189.23 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -4964,6 +4920,7 @@
 			(at 121.92 200.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4973,6 +4930,7 @@
 			(at 118.11 200.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -4982,15 +4940,7 @@
 			(at 116.84 194.31 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 116.84 194.31 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5000,6 +4950,7 @@
 			(at 127 190.5 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -5008,6 +4959,7 @@
 			(at 109.22 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5017,6 +4969,7 @@
 			(at 116.84 194.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5026,15 +4979,7 @@
 			(at 127 198.12 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 116.84 194.31 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5044,6 +4989,7 @@
 			(at 116.84 194.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5086,6 +5032,7 @@
 			(at 80.01 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5095,6 +5042,7 @@
 			(at 80.01 184.15 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -5103,6 +5051,7 @@
 			(at 80.01 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5112,6 +5061,7 @@
 			(at 80.01 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5121,6 +5071,7 @@
 			(at 80.01 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5148,18 +5099,20 @@
 		(dnp no)
 		(uuid "20ca16be-5fc5-4ebd-b6a8-78fd65368e53")
 		(property "Reference" "R609"
-			(at 232.41 178.435 0)
+			(at 232.156 180.213 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "20k"
-			(at 231.14 180.34 0)
+			(at 230.886 182.118 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -5169,6 +5122,7 @@
 			(at 226.06 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5178,6 +5132,7 @@
 			(at 226.06 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5187,6 +5142,7 @@
 			(at 226.06 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5196,24 +5152,7 @@
 			(at 226.06 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 226.06 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 227.33 185.42 90)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5223,23 +5162,17 @@
 			(at 227.33 173.99 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Technology" "Thin film"
-			(at 231.775 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Reserved1" "4e62068438486240cd804b758ba9b5cf82f9e4c51a"
 			(at 226.06 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5277,18 +5210,20 @@
 		(dnp no)
 		(uuid "27658fb3-a694-4944-aee9-96c8dfbdb30a")
 		(property "Reference" "R604"
-			(at 87.63 194.945 90)
+			(at 91.186 200.406 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "27k"
-			(at 93.345 194.945 90)
+			(at 89.916 202.184 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -5298,6 +5233,7 @@
 			(at 88.9 196.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5307,6 +5243,7 @@
 			(at 88.9 196.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5316,6 +5253,7 @@
 			(at 88.9 196.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5325,32 +5263,17 @@
 			(at 88.9 196.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 88.9 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Thin film"
-			(at 88.9 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Reserved1" "c13f1324e4589c70b04383b2cc819b3b2aa93ba236a3"
 			(at 88.9 196.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5381,18 +5304,20 @@
 		(dnp no)
 		(uuid "2779aa31-27bb-4309-9942-07fa1e7595db")
 		(property "Reference" "R610"
-			(at 238.76 205.74 90)
+			(at 236.982 204.47 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "5.9k"
-			(at 244.475 205.74 90)
+			(at 236.22 206.502 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -5402,6 +5327,7 @@
 			(at 240.03 208.28 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5411,6 +5337,7 @@
 			(at 240.03 208.28 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5420,6 +5347,7 @@
 			(at 240.03 208.28 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5429,15 +5357,7 @@
 			(at 240.03 208.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 240.03 208.28 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5447,6 +5367,7 @@
 			(at 240.03 208.28 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5456,6 +5377,7 @@
 			(at 240.03 208.28 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5465,32 +5387,17 @@
 			(at 240.03 208.28 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 240.03 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Thin film"
-			(at 246.38 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Reserved1" "ed585694ae6eb04ca3ae177c490503548b02c4354fb4"
 			(at 240.03 208.28 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5521,18 +5428,20 @@
 		(dnp no)
 		(uuid "3d525045-d5a4-4ffe-902b-f014febeb68c")
 		(property "Reference" "R608"
-			(at 215.9 184.15 90)
+			(at 218.948 182.372 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "5.9k"
-			(at 221.615 184.15 90)
+			(at 218.186 184.15 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -5542,6 +5451,7 @@
 			(at 217.17 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5551,6 +5461,7 @@
 			(at 217.17 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5560,6 +5471,7 @@
 			(at 217.17 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5569,15 +5481,7 @@
 			(at 217.17 186.69 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 217.17 186.69 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5587,6 +5491,7 @@
 			(at 217.17 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5596,6 +5501,7 @@
 			(at 217.17 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5605,32 +5511,17 @@
 			(at 217.17 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 217.17 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Thin film"
-			(at 223.52 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Reserved1" "ed585694ae6eb04ca3ae177c490503548b02c4354fb4"
 			(at 217.17 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5662,18 +5553,20 @@
 		(dnp no)
 		(uuid "40d9e38f-6123-456c-a7e4-929db7806cdb")
 		(property "Reference" "C608"
-			(at 243.84 177.8 90)
+			(at 245.872 169.926 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 240.03 173.99 90)
+			(at 245.618 171.958 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -5683,6 +5576,7 @@
 			(at 247.65 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5692,6 +5586,7 @@
 			(at 247.65 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5701,6 +5596,7 @@
 			(at 247.65 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5710,33 +5606,7 @@
 			(at 247.65 175.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 247.65 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 243.84 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "1206"
-			(at 243.84 172.72 90)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5746,21 +5616,23 @@
 			(at 247.65 175.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 247.65 175.26 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Reserved1" "bd09595a5e7ca1766022111bddfe0f5a6e4908a36b93"
+			(at 247.65 175.26 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage_Rating" "50V"
 			(at 247.65 175.26 0)
 			(effects
 				(font
@@ -5803,6 +5675,7 @@
 			(at 217.17 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5812,6 +5685,7 @@
 			(at 217.17 177.8 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -5820,6 +5694,7 @@
 			(at 217.17 173.99 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5829,6 +5704,7 @@
 			(at 217.17 173.99 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5838,6 +5714,7 @@
 			(at 217.17 173.99 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5868,6 +5745,7 @@
 			(at 129.54 80.01 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5877,6 +5755,7 @@
 			(at 129.54 77.47 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -5885,6 +5764,7 @@
 			(at 129.54 73.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5894,6 +5774,7 @@
 			(at 129.54 73.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5903,6 +5784,7 @@
 			(at 129.54 73.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5930,18 +5812,20 @@
 		(dnp no)
 		(uuid "49ec96ae-871d-47bf-a578-8f0cb890f15d")
 		(property "Reference" "C605"
-			(at 115.57 217.17 90)
+			(at 115.316 214.63 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "20pF"
-			(at 123.19 217.17 90)
+			(at 115.062 216.408 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -5951,6 +5835,7 @@
 			(at 116.84 218.44 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5960,6 +5845,7 @@
 			(at 116.84 218.44 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5969,6 +5855,7 @@
 			(at 116.84 218.44 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -5978,47 +5865,33 @@
 			(at 116.84 218.44 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 116.84 218.44 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Dielectric" "NP0"
-			(at 113.03 219.71 90)
+			(at 117.602 214.63 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 116.84 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 116.84 218.44 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Reserved1" "269e10abb8e08bedf6fe59138f738c816916bbb2d9"
+			(at 116.84 218.44 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage_Rating" "50V"
 			(at 116.84 218.44 0)
 			(effects
 				(font
@@ -6056,6 +5929,7 @@
 			(at 142.24 146.05 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6065,6 +5939,7 @@
 			(at 142.24 143.51 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -6073,6 +5948,7 @@
 			(at 142.24 139.7 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6082,6 +5958,7 @@
 			(at 142.24 139.7 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6091,6 +5968,7 @@
 			(at 142.24 139.7 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6118,18 +5996,20 @@
 		(dnp no)
 		(uuid "546cba90-ef2a-43b3-b37e-e0512fb25e0d")
 		(property "Reference" "R606"
-			(at 114.3 209.55 90)
+			(at 114.808 207.772 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "27k"
-			(at 123.19 209.55 90)
+			(at 113.538 209.55 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -6139,6 +6019,7 @@
 			(at 116.84 210.82 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6148,6 +6029,7 @@
 			(at 116.84 210.82 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6157,6 +6039,7 @@
 			(at 116.84 210.82 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6166,32 +6049,17 @@
 			(at 116.84 210.82 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 116.84 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Thin film"
-			(at 111.76 213.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Reserved1" "c13f1324e4589c70b04383b2cc819b3b2aa93ba236a3"
 			(at 116.84 210.82 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6225,6 +6093,7 @@
 			(at 134.62 187.96 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -6234,6 +6103,7 @@
 			(at 139.065 191.0079 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -6244,6 +6114,7 @@
 			(at 142.24 193.04 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6253,6 +6124,7 @@
 			(at 142.24 193.04 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6262,15 +6134,7 @@
 			(at 137.16 193.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
-			(at 137.16 193.04 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6280,6 +6144,7 @@
 			(at 137.16 193.04 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6289,6 +6154,7 @@
 			(at 137.16 193.04 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6298,15 +6164,7 @@
 			(at 137.16 193.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 137.16 193.04 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6316,6 +6174,7 @@
 			(at 137.16 193.04 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6346,6 +6205,7 @@
 			(at 137.16 212.09 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6355,6 +6215,7 @@
 			(at 137.16 209.55 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -6363,6 +6224,7 @@
 			(at 137.16 205.74 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6372,6 +6234,7 @@
 			(at 137.16 205.74 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6381,6 +6244,7 @@
 			(at 137.16 205.74 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6411,6 +6275,7 @@
 			(at 134.62 199.39 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -6420,6 +6285,7 @@
 			(at 139.065 202.4379 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -6430,6 +6296,7 @@
 			(at 142.24 204.47 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6439,6 +6306,7 @@
 			(at 142.24 204.47 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6448,15 +6316,7 @@
 			(at 137.16 204.47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
-			(at 137.16 204.47 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6466,6 +6326,7 @@
 			(at 137.16 204.47 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6475,6 +6336,7 @@
 			(at 137.16 204.47 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6484,15 +6346,7 @@
 			(at 137.16 204.47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 137.16 204.47 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6502,6 +6356,7 @@
 			(at 137.16 204.47 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6533,6 +6388,7 @@
 			(at 132.08 66.04 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -6542,6 +6398,7 @@
 			(at 132.08 68.58 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -6551,6 +6408,7 @@
 			(at 129.54 67.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6560,6 +6418,7 @@
 			(at 129.54 67.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6569,6 +6428,7 @@
 			(at 129.54 67.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6578,41 +6438,17 @@
 			(at 129.54 67.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 129.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 128.27 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "1206"
-			(at 134.62 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Functional Block" "Measurement"
 			(at 129.54 67.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6622,6 +6458,7 @@
 			(at 129.54 67.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6631,6 +6468,7 @@
 			(at 129.54 67.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6640,21 +6478,23 @@
 			(at 129.54 67.31 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 129.54 67.31 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Reserved1" "bd09595a5e7ca1766022111bddfe0f5a6e4908a36b93"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage_Rating" "50V"
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -6697,6 +6537,7 @@
 			(at 130.81 189.23 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6706,6 +6547,7 @@
 			(at 130.81 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -6714,6 +6556,7 @@
 			(at 130.81 182.88 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6723,6 +6566,7 @@
 			(at 130.81 182.88 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6732,6 +6576,7 @@
 			(at 130.81 182.88 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6750,7 +6595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+5V_DGND")
+		(lib_id "Symbols:+5V")
 		(at 238.76 170.18 0)
 		(mirror y)
 		(unit 1)
@@ -6763,15 +6608,17 @@
 			(at 238.76 173.99 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_DGND"
+		(property "Value" "+5V"
 			(at 238.379 165.7858 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -6780,6 +6627,7 @@
 			(at 235.585 167.64 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6789,6 +6637,7 @@
 			(at 235.585 167.64 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6798,6 +6647,7 @@
 			(at 238.76 170.18 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6826,18 +6676,20 @@
 		(dnp no)
 		(uuid "8ce651f6-774f-4ebb-b427-06aee31b8bbe")
 		(property "Reference" "R605"
-			(at 109.22 185.42 0)
+			(at 108.966 186.944 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "27k"
-			(at 107.95 182.88 0)
+			(at 107.696 188.722 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -6847,6 +6699,7 @@
 			(at 102.87 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6856,6 +6709,7 @@
 			(at 102.87 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6865,6 +6719,7 @@
 			(at 102.87 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6874,32 +6729,17 @@
 			(at 102.87 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 102.87 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Thin film"
-			(at 109.22 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Reserved1" "c13f1324e4589c70b04383b2cc819b3b2aa93ba236a3"
 			(at 102.87 186.69 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6921,7 +6761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+5V_DGND")
+		(lib_id "Symbols:+5V")
 		(at 129.54 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6933,15 +6773,17 @@
 			(at 129.54 58.42 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_DGND"
+		(property "Value" "+5V"
 			(at 129.921 50.2158 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -6950,6 +6792,7 @@
 			(at 132.715 52.07 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6959,6 +6802,7 @@
 			(at 132.715 52.07 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6968,6 +6812,7 @@
 			(at 129.54 54.61 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -6998,6 +6843,7 @@
 			(at 261.62 194.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -7007,6 +6853,7 @@
 			(at 266.065 197.3579 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -7017,6 +6864,7 @@
 			(at 269.24 199.39 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7026,6 +6874,7 @@
 			(at 269.24 199.39 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7035,15 +6884,7 @@
 			(at 264.16 199.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
-			(at 264.16 199.39 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7053,6 +6894,7 @@
 			(at 264.16 199.39 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7062,6 +6904,7 @@
 			(at 264.16 199.39 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7071,15 +6914,7 @@
 			(at 264.16 199.39 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 264.16 199.39 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7089,6 +6924,7 @@
 			(at 264.16 199.39 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7119,6 +6955,7 @@
 			(at 78.74 213.36 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7128,6 +6965,7 @@
 			(at 78.74 210.82 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -7136,6 +6974,7 @@
 			(at 78.74 207.01 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7145,6 +6984,7 @@
 			(at 78.74 207.01 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7154,6 +6994,7 @@
 			(at 78.74 207.01 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7185,6 +7026,7 @@
 			(at 77.47 146.05 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7194,6 +7036,7 @@
 			(at 77.47 143.51 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -7202,6 +7045,7 @@
 			(at 77.47 139.7 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7211,6 +7055,7 @@
 			(at 77.47 139.7 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7220,6 +7065,7 @@
 			(at 77.47 139.7 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7248,18 +7094,20 @@
 		(dnp no)
 		(uuid "b36f9bae-b547-42f6-827e-2c299e76a421")
 		(property "Reference" "R603"
-			(at 87.63 189.865 90)
+			(at 91.186 187.706 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "27k"
-			(at 93.345 189.865 90)
+			(at 89.662 189.738 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -7269,6 +7117,7 @@
 			(at 88.9 191.77 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7278,6 +7127,7 @@
 			(at 88.9 191.77 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7287,6 +7137,7 @@
 			(at 88.9 191.77 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7296,32 +7147,17 @@
 			(at 88.9 191.77 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 88.9 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Thin film"
-			(at 96.52 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Reserved1" "c13f1324e4589c70b04383b2cc819b3b2aa93ba236a3"
 			(at 88.9 191.77 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7343,7 +7179,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+5V_DGND")
+		(lib_id "Symbols:+5V")
 		(at 194.31 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7355,15 +7191,17 @@
 			(at 194.31 187.96 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_DGND"
+		(property "Value" "+5V"
 			(at 194.691 179.7558 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -7372,6 +7210,7 @@
 			(at 197.485 181.61 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7381,6 +7220,7 @@
 			(at 197.485 181.61 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7390,6 +7230,7 @@
 			(at 194.31 184.15 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7420,6 +7261,7 @@
 			(at 264.16 207.01 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7429,6 +7271,7 @@
 			(at 264.16 204.47 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -7437,6 +7280,7 @@
 			(at 264.16 200.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7446,6 +7290,7 @@
 			(at 264.16 200.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7455,6 +7300,7 @@
 			(at 264.16 200.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7485,15 +7331,17 @@
 			(at 238.76 205.74 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "DGND"
-			(at 238.76 203.2 0)
+			(at 243.586 201.168 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -7502,6 +7350,7 @@
 			(at 238.76 199.39 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7511,6 +7360,7 @@
 			(at 238.76 199.39 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7520,6 +7370,7 @@
 			(at 238.76 199.39 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7538,7 +7389,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+5V_DGND")
+		(lib_id "Symbols:+5V")
 		(at 86.36 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7550,15 +7401,17 @@
 			(at 86.36 58.42 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_DGND"
+		(property "Value" "+5V"
 			(at 86.741 50.2158 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -7567,6 +7420,7 @@
 			(at 89.535 52.07 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7576,6 +7430,7 @@
 			(at 89.535 52.07 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7585,6 +7440,7 @@
 			(at 86.36 54.61 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7615,6 +7471,7 @@
 			(at 43.18 213.36 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7624,6 +7481,7 @@
 			(at 43.18 210.82 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -7632,6 +7490,7 @@
 			(at 43.18 207.01 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7641,6 +7500,7 @@
 			(at 43.18 207.01 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7650,6 +7510,7 @@
 			(at 43.18 207.01 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7680,6 +7541,7 @@
 			(at 86.36 80.01 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7689,6 +7551,7 @@
 			(at 86.36 77.47 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -7697,6 +7560,7 @@
 			(at 86.36 73.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7706,6 +7570,7 @@
 			(at 86.36 73.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7715,6 +7580,7 @@
 			(at 86.36 73.66 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7746,6 +7612,7 @@
 			(at 101.8286 100.4316 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -7755,6 +7622,7 @@
 			(at 101.8286 102.743 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -7764,6 +7632,7 @@
 			(at 100.33 101.6 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7773,6 +7642,7 @@
 			(at 100.33 101.6 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7782,6 +7652,7 @@
 			(at 100.33 101.6 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7791,24 +7662,7 @@
 			(at 100.33 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 100.33 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Thick film"
-			(at 100.33 101.6 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7818,6 +7672,7 @@
 			(at 100.33 101.6 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7851,6 +7706,7 @@
 			(at 243.84 182.88 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -7859,6 +7715,7 @@
 			(at 242.57 184.15 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -7869,6 +7726,7 @@
 			(at 243.84 195.58 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7878,6 +7736,7 @@
 			(at 240.03 195.58 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7887,15 +7746,7 @@
 			(at 238.76 189.23 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 238.76 189.23 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7905,6 +7756,7 @@
 			(at 248.92 185.42 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -7913,6 +7765,7 @@
 			(at 231.14 181.61 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7922,6 +7775,7 @@
 			(at 238.76 189.23 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7931,15 +7785,7 @@
 			(at 248.92 193.04 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 238.76 189.23 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7949,6 +7795,7 @@
 			(at 238.76 189.23 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7988,18 +7835,20 @@
 		(dnp no)
 		(uuid "d5243389-54ca-469c-b200-a1c3f2ba230d")
 		(property "Reference" "R607"
-			(at 212.09 190.5 90)
+			(at 217.17 195.58 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "20k"
-			(at 220.98 190.5 90)
+			(at 215.9 197.358 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -8009,6 +7858,7 @@
 			(at 214.63 191.77 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8018,6 +7868,7 @@
 			(at 214.63 191.77 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8027,6 +7878,7 @@
 			(at 214.63 191.77 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8036,24 +7888,7 @@
 			(at 214.63 191.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 214.63 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 209.55 193.04 90)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8063,23 +7898,17 @@
 			(at 220.98 193.04 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Technology" "Thin film"
-			(at 207.01 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Reserved1" "4e62068438486240cd804b758ba9b5cf82f9e4c51a"
 			(at 214.63 191.77 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8120,6 +7949,7 @@
 			(at 80.01 67.31 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -8129,6 +7959,7 @@
 			(at 80.01 69.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -8138,6 +7969,7 @@
 			(at 86.36 69.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8147,6 +7979,7 @@
 			(at 86.36 69.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8156,63 +7989,42 @@
 			(at 86.36 69.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 81.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 81.28 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "manf#" "CL21C102JCFNNNE"
 			(at 86.36 69.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 90.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Dielectric" "C0G"
 			(at 81.28 74.93 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Technology" ""
+		(property "Reserved1" "36d65648c9f9763ce523fbb2fa348ea74e1ffbece389"
 			(at 86.36 69.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "36d65648c9f9763ce523fbb2fa348ea74e1ffbece389"
+		(property "Voltage_Rating" "100V"
 			(at 86.36 69.85 0)
 			(effects
 				(font
@@ -8255,6 +8067,7 @@
 			(at 39.37 173.99 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -8264,6 +8077,7 @@
 			(at 39.37 176.53 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -8273,6 +8087,7 @@
 			(at 41.91 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8282,6 +8097,7 @@
 			(at 41.91 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8291,6 +8107,7 @@
 			(at 41.91 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8300,41 +8117,17 @@
 			(at 41.91 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 41.91 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 43.18 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "1206"
-			(at 36.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Functional Block" "Measurement"
 			(at 41.91 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8344,6 +8137,7 @@
 			(at 41.91 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8353,6 +8147,7 @@
 			(at 41.91 175.26 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8362,21 +8157,23 @@
 			(at 41.91 175.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 41.91 175.26 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Reserved1" "bd09595a5e7ca1766022111bddfe0f5a6e4908a36b93"
+			(at 41.91 175.26 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage_Rating" "50V"
 			(at 41.91 175.26 0)
 			(effects
 				(font
@@ -8420,15 +8217,17 @@
 			(at 50.8 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 					(bold yes)
 				)
 			)
 		)
 		(property "Value" "AMC1311BDWVR"
-			(at 53.34 182.88 0)
+			(at 55.88 182.88 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -8437,6 +8236,7 @@
 			(at 63.5 173.99 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8446,6 +8246,7 @@
 			(at 90.17 176.53 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8455,6 +8256,7 @@
 			(at 60.96 196.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8464,15 +8266,7 @@
 			(at 52.07 208.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 60.96 196.85 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8482,6 +8276,7 @@
 			(at 60.96 196.85 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8533,15 +8328,17 @@
 			(at 116.84 209.55 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "DGND"
-			(at 116.84 207.01 0)
+			(at 121.412 205.232 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -8550,6 +8347,7 @@
 			(at 116.84 203.2 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8559,6 +8357,7 @@
 			(at 116.84 203.2 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8568,6 +8367,7 @@
 			(at 116.84 203.2 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8598,6 +8398,7 @@
 			(at 261.62 182.88 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -8607,6 +8408,7 @@
 			(at 266.065 185.9279 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -8617,6 +8419,7 @@
 			(at 269.24 187.96 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8626,6 +8429,7 @@
 			(at 269.24 187.96 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8635,15 +8439,7 @@
 			(at 264.16 187.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "x"
-			(at 264.16 187.96 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8653,6 +8449,7 @@
 			(at 264.16 187.96 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8662,6 +8459,7 @@
 			(at 264.16 187.96 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8671,15 +8469,7 @@
 			(at 264.16 187.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 264.16 187.96 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8689,6 +8479,7 @@
 			(at 264.16 187.96 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8716,18 +8507,20 @@
 		(dnp no)
 		(uuid "f54b6baa-4a00-4435-89d0-d30f18ddfe09")
 		(property "Reference" "C606"
-			(at 124.46 177.8 90)
+			(at 124.46 174.752 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 124.46 182.88 90)
+			(at 125.222 176.784 90)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -8737,6 +8530,7 @@
 			(at 123.19 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8746,6 +8540,7 @@
 			(at 123.19 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8755,6 +8550,7 @@
 			(at 123.19 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8764,33 +8560,7 @@
 			(at 123.19 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 123.19 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 127 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "1206"
-			(at 127 177.8 90)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8800,21 +8570,23 @@
 			(at 123.19 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" ""
-			(at 123.19 180.34 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Reserved1" "bd09595a5e7ca1766022111bddfe0f5a6e4908a36b93"
+			(at 123.19 180.34 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage_Rating" "50V"
 			(at 123.19 180.34 0)
 			(effects
 				(font
@@ -8845,7 +8617,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:+5V_DGND")
+		(lib_id "Symbols:+5V")
 		(at 116.84 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8857,15 +8629,17 @@
 			(at 116.84 180.34 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_DGND"
+		(property "Value" "+5V"
 			(at 117.221 172.1358 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 			)
@@ -8874,6 +8648,7 @@
 			(at 120.015 173.99 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8883,6 +8658,7 @@
 			(at 120.015 173.99 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8892,6 +8668,7 @@
 			(at 116.84 176.53 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8923,6 +8700,7 @@
 			(at 101.8286 116.9416 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -8932,6 +8710,7 @@
 			(at 101.8286 119.253 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -8941,6 +8720,7 @@
 			(at 100.33 118.11 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8950,6 +8730,7 @@
 			(at 100.33 118.11 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8959,6 +8740,7 @@
 			(at 100.33 118.11 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8968,24 +8750,7 @@
 			(at 100.33 118.11 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 100.33 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "Thick film"
-			(at 100.33 118.11 0)
-			(effects
-				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8995,6 +8760,7 @@
 			(at 100.33 118.11 0)
 			(effects
 				(font
+					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(hide yes)
