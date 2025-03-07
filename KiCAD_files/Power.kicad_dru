@@ -1,32 +1,76 @@
 (version 1)
 
-#############################
-# Functional isolation rule #
-#############################
+###############################
+#IEC 60664-1 OVC II PD2 MIIIa #
+#    Reinforced Isolation     #
+###############################
 
 (rule VIHigh_DGND
    # Set clearance for IBus tracks to digital
-   (constraint clearance (min 1mm))
-   (condition "A.NetClass == 'IBUS' && B.NetClass == 'DGND'"))
+   (constraint clearance (min 0,5mm))
+   (condition "A.hasNetClass('IBUS') && B.hasNetClass('DGND')"))
 
 (rule SW1_DGND
    # Set clearance for SW1 tracks to digital 
-   (constraint clearance (min 1mm))
-   (condition "A.NetClass == 'SWN1' && B.NetClass == 'DGND'"))
+   (constraint clearance (min 0,5mm))
+   (condition "A.hasNetClass('SWN1') && B.hasNetClass('DGND')"))
 
 (rule SW2_DGND
    # Set clearance for SW2 tracks to digital
-   (constraint clearance (min 1mm))
-   (condition "A.NetClass == 'SWN2' && B.NetClass == 'DGND'"))
+   (constraint clearance (min 0,5mm))
+   (condition "A.hasNetClass('SWN2') && B.hasNetClass('DGND')"))
 
 (rule PGND_DGND
    # Set clearance for PGND tracks to digital
-   (constraint clearance (min 1mm))
-   (condition "A.NetClass == 'PGND' && B.NetClass == 'DGND'"))
+   (constraint clearance (min 0,5mm))
+   (condition "A.hasNetClass('PGND') && B.hasNetClass('DGND')"))
 
+(rule VIHigh_DGND_outer
+   # Set clearance for IBus tracks to digital
+   (layer outer)
+   (constraint clearance (min 2.8mm))
+   (condition "A.hasNetClass('IBUS') && B.hasNetClass('DGND')"))
+
+(rule SW1_DGND_outer
+   # Set clearance for SW1 tracks to digital 
+   (layer outer)
+   (constraint clearance (min 2.8mm))
+   (condition "A.hasNetClass('SWN1') && B.hasNetClass('DGND')"))
+
+(rule SW2_DGND_outer
+   # Set clearance for SW2 tracks to digital
+   (layer outer)
+   (constraint clearance (min 2.8mm))
+   (condition "A.hasNetClass('SWN2') && B.hasNetClass('DGND')"))
+
+(rule PGND_DGND_outer
+   # Set clearance for PGND tracks to digital
+   (layer outer)
+   (constraint clearance (min 2.8mm))
+   (condition "A.hasNetClass('PGND') && B.hasNetClass('DGND')"))
+
+(rule VIHigh_DGND_creep
+   # Set creepage for IBus tracks to digital
+   (constraint creepage (min 2.8mm))
+   (condition "A.hasNetClass('IBUS') && B.hasNetClass('DGND')"))
+
+(rule SW1_DGND_creep
+   # Set creepage for SW1 tracks to digital 
+   (constraint creepage (min 2.8mm))
+   (condition "A.hasNetClass('SWN1') && B.hasNetClass('DGND')"))
+
+(rule SW2_DGND_creep
+   # Set creepage for SW2 tracks to digital
+   (constraint creepage (min 2.8mm))
+   (condition "A.hasNetClass('SWN2') && B.hasNetClass('DGND')"))
+
+(rule PGND_DGND_creep
+   # Set creepage for PGND tracks to digital
+   (constraint creepage (min 2.8mm))
+   (condition "A.hasNetClass('PGND') && B.hasNetClass('DGND')"))
 
 ##################
-# Netclass rules # 
+# NetClass rules # 
 ##################
 
 ########################
@@ -37,7 +81,12 @@
    # Set clearance for IBus tracks to ground
    (layer outer)
    (constraint clearance (min 0.75mm))
-   (condition "A.NetClass == 'IBUS' && B.NetClass == 'PGND'"))
+   (condition "A.hasNetClass('IBUS') && !A.enclosedByArea('Exception_NCP12700') && B.hasNetClass('PGND')"))
+
+(rule IBUS_GND
+   # Set clearance for IBus tracks to ground
+   (constraint clearance (min 0.5mm))
+   (condition "A.hasNetClass('IBUS') && !A.enclosedByArea('Exception_NCP12700') && B.hasNetClass('PGND')"))
 
 ####################################
 ## BUSES to SWITCHING nodes rules ##
@@ -47,13 +96,23 @@
    # Set clearance for SWN1 tracks to IBUS
    (layer outer)
    (constraint clearance (min 0.75mm))
-   (condition "A.NetClass == 'SWN1' && B.NetClass == 'IBUS"))
+   (condition "A.hasNetClass('SWN1') && B.hasNetClass('IBUS')"))
 
 (rule SWN2_IBUS
    # Set clearance for SWN2 tracks to IBUS
    (layer outer)
    (constraint clearance (min 0.75mm))
-   (condition "A.NetClass == 'SWN2' && B.NetClass == 'IBUS"))
+   (condition "A.hasNetClass('SWN2') && B.hasNetClass('IBUS')"))
+
+(rule SWN1_IBUS
+   # Set clearance for SWN1 tracks to IBUS
+   (constraint clearance (min 0.5mm))
+   (condition "A.hasNetClass('SWN1') && B.hasNetClass('IBUS')"))
+
+(rule SWN2_IBUS
+   # Set clearance for SWN2 tracks to IBUS
+   (constraint clearance (min 0.5mm))
+   (condition "A.hasNetClass('SWN2') && B.hasNetClass('IBUS')"))
 
 ##################################
 ## SWITCHING nodes to GND rules ##
@@ -63,13 +122,23 @@
    # Set clearance for SWN1 tracks to ground
    (layer outer)
    (constraint clearance (min 0.75mm))
-   (condition "A.NetClass == 'SWN1' && B.NetClass == 'PGND'"))
+   (condition "A.hasNetClass('SWN1') && B.hasNetClass('PGND')"))
 
 (rule SWN2_GND
    # Set clearance for SWN2 tracks to ground
    (layer outer)
    (constraint clearance (min 0.75mm))
-   (condition "A.NetClass == 'SWN2' && B.NetClass == 'PGND'"))
+   (condition "A.hasNetClass('SWN2') && B.hasNetClass('PGND')"))
+
+(rule SWN1_GND
+   # Set clearance for SWN1 tracks to ground
+   (constraint clearance (min 0.5mm))
+   (condition "A.hasNetClass('SWN1') && B.hasNetClass('PGND')"))
+
+(rule SWN2_GND
+   # Set clearance for SWN2 tracks to ground
+   (constraint clearance (min 0.5mm))
+   (condition "A.hasNetClass('SWN2') && B.hasNetClass('PGND')"))
 
 (rule "clearance-to-1mm-cutout"
     (constraint clearance (min 0.8mm))

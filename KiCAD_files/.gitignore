@@ -18,6 +18,8 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 sym-lib-table
+fabrication-toolkit-options.json
+production/*
 
 # Netlist files (exported from Eeschema)
 *.net

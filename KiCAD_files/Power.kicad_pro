@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.65,
+          "width": 1.225
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.75
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|55035000|22405000|5e0a1f9f-957c-4011-9c68-22f1c22aaf8b|6adc4383-cfe2-48b9-aa8c-af38346902bb",
+          "Tested and enough space"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -88,7 +93,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -102,7 +107,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "warning",
@@ -138,7 +143,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -223,6 +228,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -234,8 +243,187 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
-    "layer_presets": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 4,
+        "enabled": true,
+        "name": "prepreg top",
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 8,
+        "enabled": true,
+        "name": "middle",
+        "topLayer": 6
+      },
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "name": "prepreg bot",
+        "topLayer": 10
+      }
+    ],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "layers": [
+          6,
+          8,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62
+        ],
+        "name": "middle",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "layers": [
+          2,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62
+        ],
+        "name": "prepreg bot",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "layers": [
+          0,
+          4,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62
+        ],
+        "name": "prepreg top",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],
@@ -892,6 +1080,9 @@
       "Net-(Q304-G)": [
         "PGND"
       ],
+      "Net-(Q5002-G)": [
+        "PGND"
+      ],
       "Net-(R212-Pad1)": [
         "DGND"
       ],
@@ -1067,6 +1258,30 @@
       {
         "netclass": "SWN2",
         "pattern": "/Power Leg 2/PWM_H"
+      },
+      {
+        "netclass": "IBUS",
+        "pattern": "/V_{1_Low_unfused}"
+      },
+      {
+        "netclass": "IBUS",
+        "pattern": "/V_{1_Low}"
+      },
+      {
+        "netclass": "IBUS",
+        "pattern": "/V_{2_Low}"
+      },
+      {
+        "netclass": "IBUS",
+        "pattern": "/V_{2_Low_unfused}"
+      },
+      {
+        "netclass": "IBUS",
+        "pattern": "/V_{IHighOut_unfused}"
+      },
+      {
+        "netclass": "IBUS",
+        "pattern": "/V_{IHighOut}"
       }
     ]
   },
@@ -1082,7 +1297,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://Title_block.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,

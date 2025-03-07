@@ -9330,6 +9330,10 @@
 		(uuid "3aaee4c4-dbf7-49a5-a620-9465d8cc3ae7")
 	)
 	(no_connect
+		(at 359.41 121.92)
+		(uuid "75656bdc-c5ef-446e-8554-d4ab6cd03690")
+	)
+	(no_connect
 		(at 55.88 237.49)
 		(uuid "80e6c1fe-3749-4a4d-9196-a09f06e633d0")
 	)
@@ -9352,6 +9356,10 @@
 	(no_connect
 		(at 132.08 109.22)
 		(uuid "86194cfa-24eb-4f22-b443-fc05faaf08af")
+	)
+	(no_connect
+		(at 374.65 121.92)
+		(uuid "a44f4010-0673-47fd-8898-0b0bed93ac63")
 	)
 	(no_connect
 		(at 132.08 111.76)
@@ -11304,16 +11312,6 @@
 			(type default)
 		)
 		(uuid "8f63855c-155b-4b48-b58f-ba2342f8e1e9")
-	)
-	(wire
-		(pts
-			(xy 359.41 121.92) (xy 359.41 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f76ecb6-b9eb-4071-a088-8788ded28108")
 	)
 	(wire
 		(pts
@@ -14082,7 +14080,7 @@
 			(fill
 				(type none)
 			)
-			(uuid fed4bd2a-ab7c-4815-a5de-97653c56894d)
+			(uuid 3f1c18d8-16a2-42b5-a1ee-0645b581025d)
 		)
 	)
 	(netclass_flag ""
@@ -14624,7 +14622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" ""
+		(property "Reserved1" "153e59dc015c51f332f350ceb17784c8ac5d786b9e437b"
 			(at 96.52 228.6 0)
 			(effects
 				(font
@@ -16829,77 +16827,6 @@
 			(project "Power"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:DGND")
-		(at 359.41 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25399eed-bca0-4858-afde-a2ca926048d6")
-		(property "Reference" "#PWR061"
-			(at 359.41 129.54 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "DGND"
-			(at 359.41 127.635 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 359.41 123.19 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 359.41 123.19 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 359.41 123.19 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "006861f3-019a-48fd-8cce-1a80ba11ef91")
-		)
-		(instances
-			(project "Power"
-				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42/122c01f4-f23e-4db0-9503-7261d96dc78b"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -20658,7 +20585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" ""
+		(property "Reserved1" "153e59dc015c51f332f350ceb17784c8ac5d786b9e437b"
 			(at 163.83 76.2 0)
 			(effects
 				(font
@@ -21416,7 +21343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" ""
+		(property "Reserved1" "153e59dc015c51f332f350ceb17784c8ac5d786b9e437b"
 			(at 264.16 151.13 0)
 			(effects
 				(font

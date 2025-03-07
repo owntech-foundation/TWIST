@@ -553,33 +553,33 @@
 		(solder_mask_margin 0.102)
 		(uuid "f31da0ab-fba6-469c-b322-3bb5eef5fe38")
 	)
-	(pad "SH1" smd rect
-		(at -10 1.4)
-		(size 1.1 1.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "186dc842-bbf6-4e04-8091-290ee96b9277")
-	)
-	(pad "SH2" smd rect
+	(pad "MP" smd rect
 		(at -10 -1.4)
 		(size 1.1 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "ca951443-010b-4517-8217-ea4b3e6ed02b")
 	)
-	(pad "SH3" smd rect
-		(at 10 1.4)
+	(pad "MP" smd rect
+		(at -10 1.4)
 		(size 1.1 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "818fe7f4-79eb-4f1e-bcb5-da736b8c1d66")
+		(uuid "186dc842-bbf6-4e04-8091-290ee96b9277")
 	)
-	(pad "SH4" smd rect
+	(pad "MP" smd rect
 		(at 10 -1.4)
 		(size 1.1 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "52ede9bc-1ebf-4494-9e8a-d414e11c6af0")
+	)
+	(pad "MP" smd rect
+		(at 10 1.4)
+		(size 1.1 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "818fe7f4-79eb-4f1e-bcb5-da736b8c1d66")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/F314-1A7H1-11036--3DModel-STEP-455599.STEP"
