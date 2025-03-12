@@ -6624,7 +6624,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 247.65 220.98) (xy 167.64 220.98) (xy 167.64 195.58) (xy 247.65 195.58)
+				(xy 147.32 220.98) (xy 60.96 220.98) (xy 60.96 187.96) (xy 147.32 187.96)
 			)
 			(stroke
 				(width 0)
@@ -6635,7 +6635,7 @@
 				(type color)
 				(color 0 255 0 0.05098039216)
 			)
-			(uuid 05648b3a-3bf9-4525-8dfd-3e207e2b9561)
+			(uuid 219ed6f7-b839-400d-ba27-97aa7ad73bff)
 		)
 	)
 	(rule_area
@@ -6652,13 +6652,13 @@
 				(type color)
 				(color 0 255 0 0.05098039216)
 			)
-			(uuid 1549f462-54c0-4aa8-a16b-e254f90b747a)
+			(uuid 3b8ec5cc-0f3b-4fd2-99eb-6296f6713fe1)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 290.83 29.21) (xy 290.83 104.14) (xy 398.78 104.14) (xy 398.78 29.21)
+				(xy 247.65 220.98) (xy 167.64 220.98) (xy 167.64 195.58) (xy 247.65 195.58)
 			)
 			(stroke
 				(width 0)
@@ -6669,24 +6669,7 @@
 				(type color)
 				(color 0 255 0 0.05098039216)
 			)
-			(uuid 2a233065-7423-46eb-b7e3-5d342e69f13c)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 147.32 220.98) (xy 60.96 220.98) (xy 60.96 187.96) (xy 147.32 187.96)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-				(color 0 255 0 1)
-			)
-			(fill
-				(type color)
-				(color 0 255 0 0.05098039216)
-			)
-			(uuid 9136be29-86aa-4bf2-a561-6993062cbda2)
+			(uuid 69b3b1dd-1066-4348-9de6-319324b8f9d0)
 		)
 	)
 	(rule_area
@@ -6703,7 +6686,24 @@
 				(type color)
 				(color 0 255 0 0.05098039216)
 			)
-			(uuid e34cae95-f559-4dc7-a51f-e63529b253ec)
+			(uuid ac134a2a-5439-4454-afa0-ffa92b54b519)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 290.83 29.21) (xy 290.83 104.14) (xy 398.78 104.14) (xy 398.78 29.21)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 0 255 0 1)
+			)
+			(fill
+				(type color)
+				(color 0 255 0 0.05098039216)
+			)
+			(uuid b8e30f94-fbc6-4632-907d-edc9b30109fb)
 		)
 	)
 	(rule_area
@@ -6720,7 +6720,7 @@
 				(type color)
 				(color 0 0 255 0.05)
 			)
-			(uuid eb9e33eb-61c2-4216-8bdd-97936b0760ad)
+			(uuid f7f8907f-7aca-4bc7-84f8-4f2c201722b7)
 		)
 	)
 	(netclass_flag ""

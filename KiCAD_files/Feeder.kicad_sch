@@ -6596,9 +6596,9 @@
 		)
 		(uuid "96e01335-21d9-4ccc-8358-628effdf7df5")
 	)
-	(text "D5001 is the \novervoltage \nprotection \nthat sense \nthe Aux voltage\nNTC1 is the over\ntemperature \nprotection \n\nDo not populate\nthese parts for\ninitial testing.\nAs Fault pin is\nnot necessary at\nfirst"
+	(text "D5001 is the \novervoltage \nprotection \nthat sense \nthe Aux voltage\nNTC1 is the over\ntemperature \nprotection \n\nDo not populate\nthese parts for\ninitial testing.\nAs Fault pin is\nnot necessary at\nfirst\n\nSimulation available \nhttps://tinyurl.com/29w34mh5"
 		(exclude_from_sim no)
-		(at 76.2 191.77 0)
+		(at 76.454 198.12 0)
 		(effects
 			(font
 				(face "Arial")
@@ -10225,7 +10225,7 @@
 				(type color)
 				(color 0 0 255 0.05)
 			)
-			(uuid bf82c853-d1b1-4979-b8da-92fc1de5328e)
+			(uuid 2058f74f-c5f2-43da-8c23-8557ac312bb6)
 		)
 	)
 	(rule_area
@@ -10243,7 +10243,7 @@
 				(type color)
 				(color 0 255 0 0.05)
 			)
-			(uuid d888794e-d5de-4d33-bfba-1cb70f2083cc)
+			(uuid cd2cc56f-edc1-4fcb-b8f5-c28a3bdb5b33)
 		)
 	)
 	(netclass_flag ""
@@ -15216,7 +15216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "22018d7878e0aa9515c55bf75eb6619a1959842689c556"
+		(property "Reserved1" "c3fdb9215873a19f94588183d3d9c9e0eeeaa64e40a2"
 			(at 86.36 121.92 0)
 			(effects
 				(font
@@ -17402,7 +17402,7 @@
 			)
 		)
 		(property "Dielectric" "Alu"
-			(at 313.69 82.55 0)
+			(at 312.674 77.216 0)
 			(effects
 				(font
 					(face "Arial")
@@ -17410,7 +17410,7 @@
 				)
 			)
 		)
-		(property "Reserved1" "211aed83686a5e099b816a0f0726949a92edc3bb2f0846"
+		(property "Reserved1" "ba8b3955ec0d4472235f4937cb0cb5f3e55737845a"
 			(at 308.61 73.66 0)
 			(effects
 				(font
@@ -23690,7 +23690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reserved1" "e59c9b46a37fce83b7f08d729bbef356c455fcfd6c205e591c"
+		(property "Reserved1" "1bd7324c3a79430ba28feb050d8453c79f6e1a2de7f15300"
 			(at 227.33 228.6 0)
 			(effects
 				(font
