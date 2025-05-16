@@ -6,7 +6,7 @@ The **Twist Board** is a reprogrammable, bi-directional **300W power converter**
 
 The Twist Board is **fully open-source**, compatible with either the **SPIN board** or other programming systems. It supports communication via **CAN-bus** or **RS-485**.
 
-!!!check At a Glance
+!!! check "At a Glance"
     - **Rated Power:** 300W
     - **Number of Low-Side Channels:** 
         - Dual Low side
@@ -19,7 +19,7 @@ The Twist Board is **fully open-source**, compatible with either the **SPIN boar
         - 12V to 100V high-side
 
 
-!!!attention Special Features
+!!! attention "Special Features"
     - **2-phase design**
     - **Dual or Single power channel configuration**
     - **Up to 97% efficiency**
@@ -96,7 +96,7 @@ The TWIST converter pinout is shown in the image below.
 |-----------|-----|-----|-----|------|
 | *Operating Temperature* | -20 | - | +60 | °C |
 | *Cooling Principle* | - | Natural Convection | - | - |
-| *Dimensions (L x W x H)* | 100 x 100 x 35 | - | - | mm |
+| *Dimensions (L x W x H)* | - | 160 x 100 x 35 | - | mm |
 
 ### Protection Features
 | Parameter | Min | Typ | Max | Unit |
@@ -111,7 +111,7 @@ The TWIST converter pinout is shown in the image below.
 | Type | Parameter | Min | Typ | Max | Unit |
 | ------ |-----------|-----|-----|-----|------|
 | *CAN-FD* |  Baudrate | 500 | 500 | - | kBauds |
-| *Halh Duplex RS485* | Baudrate | 10 | 20 | - | MBauds |
+| *Half Duplex RS485* | Baudrate | 10 | 20 | - | MBauds |
 | *SPI* | Baudrate | 0.5 | - | 20 | MBauds |
 | *USART* | Baudrate | - | 115200 | - | Bauds |
 
@@ -119,7 +119,7 @@ The TWIST converter pinout is shown in the image below.
 ---
 ## Synchronization
 
-Two Twist Boards can be synchronized via **PWM sinc IN/OUT**. Using a 15cm RJ45 cable, the delay and jitter between the server and the client PWM are measured as follows:
+Two Twist Boards can be synchronized via **PWM sinc IN/OUT**. Using a S-FTP RJ45 cable, the delay and jitter between the server and the client PWM are measured as follows:
 
 | Parameter | Symbol | Min | Typ | Max | Unit |
 |-----------|--------|-----|-----|-----|------|
@@ -127,8 +127,9 @@ Two Twist Boards can be synchronized via **PWM sinc IN/OUT**. Using a 15cm RJ45 
 | *Delay Between Server and Client* | td | - | 24.2 | - | ns |
 | *Jitter of PWM Client* | tj | - | 4.8 | - | ns |
 
-![Synchronization experiment results](images/sync_experimental_result.png)
+Data obtained with a 15cm S-FTP cable.
 
+![Synchronization experiment results](images/sync_experimental_result.png)
 
 ---
 ## Analog Communication
@@ -144,7 +145,7 @@ Analog communication between boards allows voltage and current measurement with 
 | *Step Response Time to ±5%* | Δt5% | - | 1.7 | - | µs |
 | *Steady-State Value* | Vfinal | - | 1.25 | - | V |
 | *±5% Steady-State Interval* | ΔV | - | 0.125 | - | V |
-| *Bandwidth* | $$fc = \dfrac{3}{2\cdot \pi \cdot \Delta t_{5\%}}$$ | - | 281 | - | kHz |
+| *Bandwidth* | $fc = \dfrac{3}{2\cdot \pi \cdot \Delta t_{5\%}}$ | - | 281 | - | kHz |
 
 
 ![Measurement resolution results](images/step_response_analog.png)
