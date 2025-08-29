@@ -30,7 +30,8 @@ The Twist Board is **fully open-source**, compatible with either the **SPIN boar
     - **CAN-bus and RS-485 communication compatible**
     - **Fully open-source**
     - **Voltage and current mode libraries available**
-    - [Github Repository](https://github.com/owntech-foundation/TWIST)
+    - [![Github Repository](https://img.shields.io/badge/GitHub_Repository-V1.4.X-00694C?style=for-the-badge)](https://github.com/owntech-foundation/TWIST)
+    - [![kicanvas.org](https://img.shields.io/badge/Schematics-KICANVAS.ORG-8864CB?style=for-the-badge)](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fowntech-foundation%2FTWIST%2Fblob%2FTWIST-V1.4.X%2FKiCAD_files%2FPower.kicad_pro)
 
 
 ---
