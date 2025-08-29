@@ -9,6 +9,9 @@ The power channels can be used independently,
 yielding two output voltages or combined to double
 the current.
 
+You can check out the Schematics and PCB Layout on [![kicanvas.org](https://img.shields.io/badge/kicanvas.org-8864CB)](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fowntech-foundation%2FTWIST%2Fblob%2FTWIST-V1.4.X%2FKiCAD_files%2FPower.kicad_pro)
+
+
 ![](Images/hands_on_TWIST.JPG)
 
 A reasonable power rating is 300W. 
