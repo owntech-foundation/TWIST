@@ -5127,10 +5127,11 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "T501"
-				(at 7.62 -14.605 0)
+			(property "Reference" "T5001"
+				(at 2.54 24.13 0)
 				(effects
 					(font
+						(face "Arial")
 						(size 1.27 1.27)
 					)
 				)
@@ -5139,6 +5140,7 @@
 				(at 10.16 -17.145 0)
 				(effects
 					(font
+						(face "Arial")
 						(size 1.27 1.27)
 					)
 					(hide yes)
@@ -5148,24 +5150,27 @@
 				(at 0 0 0)
 				(effects
 					(font
+						(face "Arial")
 						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/pa2467nlt"
+			(property "Datasheet" "${KIPRJMOD}\\datasheet\\P675-2903965.pdf"
 				(at -7.62 0 0)
 				(effects
 					(font
+						(face "Arial")
 						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "High Frequency Wire Wound Transformers EP13 Platform"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
+						(face "Arial")
 						(size 1.27 1.27)
 					)
 					(hide yes)
@@ -5175,15 +5180,17 @@
 				(at 0 0 0)
 				(effects
 					(font
+						(face "Arial")
 						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
 			(property "manf#" "PA2467NL"
-				(at 0 0 0)
+				(at 8.89 -17.78 0)
 				(effects
 					(font
+						(face "Arial")
 						(size 1.27 1.27)
 					)
 				)
@@ -5192,6 +5199,7 @@
 				(at 0 0 0)
 				(effects
 					(font
+						(face "Arial")
 						(size 1.27 1.27)
 					)
 					(hide yes)
@@ -5201,6 +5209,17 @@
 				(at 0 0 0)
 				(effects
 					(font
+						(face "Arial")
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reserved1" "7ca527c62d907ed9413ef5a3bcc63350f749d74cf012f6ed"
+				(at 0 0 0)
+				(effects
+					(font
+						(face "Arial")
 						(size 1.27 1.27)
 					)
 					(hide yes)
@@ -5570,6 +5589,24 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -5.08 -33.02 0)
 					(length 2.54)
@@ -5635,24 +5672,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -33.02 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7801,6 +7820,16 @@
 			(type default)
 		)
 		(uuid "3a514e79-3fa3-4973-9354-e87d14737846")
+	)
+	(wire
+		(pts
+			(xy 209.55 88.9) (xy 214.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4cb3e3-a552-4540-b48a-f7ee75c6d4f8")
 	)
 	(wire
 		(pts
@@ -10244,6 +10273,38 @@
 				(color 0 255 0 0.05)
 			)
 			(uuid cd2cc56f-edc1-4fcb-b8f5-c28a3bdb5b33)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 209.55 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10a7334e-722d-43ef-b7c2-a88f722da07b")
+		(property "Netclass" "IBUS"
+			(at 208.9404 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 328.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
 		)
 	)
 	(netclass_flag ""
@@ -23654,7 +23715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprints:DCDC_0512S_THT"
+		(property "Footprint" "Footprints:PWRM-TH_BXXXXS-2WR3"
 			(at 227.33 227.33 0)
 			(effects
 				(font

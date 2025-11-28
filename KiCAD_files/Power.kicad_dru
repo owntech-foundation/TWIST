@@ -49,25 +49,25 @@
    (constraint clearance (min 2.8mm))
    (condition "A.hasNetClass('PGND') && B.hasNetClass('DGND')"))
 
-(rule VIHigh_DGND_creep
-   # Set creepage for IBus tracks to digital
-   (constraint creepage (min 2.8mm))
-   (condition "A.hasNetClass('IBUS') && B.hasNetClass('DGND')"))
-
-(rule SW1_DGND_creep
-   # Set creepage for SW1 tracks to digital 
-   (constraint creepage (min 2.8mm))
-   (condition "A.hasNetClass('SWN1') && B.hasNetClass('DGND')"))
-
-(rule SW2_DGND_creep
-   # Set creepage for SW2 tracks to digital
-   (constraint creepage (min 2.8mm))
-   (condition "A.hasNetClass('SWN2') && B.hasNetClass('DGND')"))
-
-(rule PGND_DGND_creep
-   # Set creepage for PGND tracks to digital
-   (constraint creepage (min 2.8mm))
-   (condition "A.hasNetClass('PGND') && B.hasNetClass('DGND')"))
+#(rule VIHigh_DGND_creep
+#   # Set creepage for IBus tracks to digital
+#   (constraint creepage (min 2.8mm))
+#   (condition "A.hasNetClass('IBUS') && B.hasNetClass('DGND')"))
+#
+#(rule SW1_DGND_creep
+#   # Set creepage for SW1 tracks to digital 
+#   (constraint creepage (min 2.8mm))
+#   (condition "A.hasNetClass('SWN1') && B.hasNetClass('DGND')"))
+#
+#(rule SW2_DGND_creep
+#   # Set creepage for SW2 tracks to digital
+#   (constraint creepage (min 2.8mm))
+#   (condition "A.hasNetClass('SWN2') && B.hasNetClass('DGND')"))
+#
+#(rule PGND_DGND_creep
+#   # Set creepage for PGND tracks to digital
+#   (constraint creepage (min 2.8mm))
+#   (condition "A.hasNetClass('PGND') && B.hasNetClass('DGND')"))
 
 ##################
 # NetClass rules # 
